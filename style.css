@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+  --bg: #07060d;
+  --ink: #6f6a86;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: var(--bg);
+  color: var(--ink);
+  font: 13px/1.5 ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+
+#stage {
+  position: relative;
+  line-height: 0;
+}
+
+#game {
+  display: block;
+  /* pixel art: nada de interpolação ao escalar */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #0a0913;
+  border: 1px solid #1c1830;
+}
+
+#debug {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: 0;
+  padding: 8px 10px;
+  max-width: 46ch;
+  background: rgba(7, 6, 13, 0.82);
+  border: 1px solid #2a2440;
+  border-radius: 4px;
+  color: #b9b3d0;
+  font: 12px/1.45 ui-monospace, Consolas, monospace;
+  white-space: pre;
+  pointer-events: none;
+}
+
+#controles {
+  margin: 0;
+  text-align: center;
+}
+
+#controles b { color: #a79ec6; font-weight: 600; }

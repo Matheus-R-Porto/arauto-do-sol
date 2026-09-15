@@ -1,0 +1,11 @@
+{
+  "name": "arauto-do-sol",
+  "version": "0.0.1",
+  "description": "Metroidvania 2D em Canvas 2D puro (nome provisorio)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node serve.js",
+    "test": "node tests/fisica.test.mjs"
+  }
+}

@@ -98,6 +98,7 @@ export const ENERGY = {
     wallSlide: 2,    // por segundo
     glide: 6,        // por segundo
     attackLight: 9,  // combo de 5 hits ~= 45 (bate com o GDD)
+    attackM2: 9,     // mesmo custo do M1 por enquanto — so o dano que dobra
     attackHeavy: 22,
   },
 };
@@ -126,28 +127,44 @@ export const AUDIO = {
 };
 
 // =============================================================================
-// COMBATE — primeiro corte, so o basico do M1 (GDD secao 7.3).
+// COMBATE — primeiro corte, M1 e M2 (GDD 7.3). As duas so tem UM combo cada
+// (nao alternam entre si ainda — isso e coisa de empunhadura dupla de
+// verdade, que ainda nao existe). Por enquanto sao dois ataques paralelos
+// e independentes, mesma mecanica de combo, so o dano do M2 e o dobro.
 // =============================================================================
+
+const KNOCKBACK_PADRAO = { vx: 60, vy: -30 };            // hits 1-4: so um empurraozinho (hitstun)
+const FINISHER_KNOCKBACK_PADRAO = { vx: 260, vy: -170 }; // 5o hit: o combo "joga pra tras" de verdade
 
 export const COMBAT = {
   attackLight: {
     comboHits: 5,        // depois do 5o hit, o combo reinicia do 1o
     comboWindow: 0.6,    // segundos pra emendar o proximo hit antes do combo resetar
     swingDuration: 0.25, // tempo minimo entre dois hits (nao da pra spammar mais rapido)
-    reach: 18,            // alcance a partir da frente do jogador (altura = a do proprio jogador)
+    reach: 18,           // alcance a partir da frente do jogador (altura = a do proprio jogador)
     damage: 1,
-    knockback: { vx: 60, vy: -30 },            // hits 1-4: so um empurraozinho (hitstun)
-    finisherKnockback: { vx: 260, vy: -170 },  // 5o hit: o combo "joga pra tras" de verdade
+    knockback: KNOCKBACK_PADRAO,
+    finisherKnockback: FINISHER_KNOCKBACK_PADRAO,
+  },
+  attackM2: {
+    // "mesma coisa" do M1 — so o dano que e diferente (o dobro, por enquanto).
+    comboHits: 5,
+    comboWindow: 0.6,
+    swingDuration: 0.25,
+    reach: 18,
+    damage: 2,
+    knockback: KNOCKBACK_PADRAO,
+    finisherKnockback: FINISHER_KNOCKBACK_PADRAO,
   },
 };
 
 // Inimigo de teste — sem IA nem ataque proprio ainda. So um alvo com vida,
-// gravidade e knockback, pra validar o combo de M1 antes de desenhar
+// gravidade e knockback, pra validar o combo de M1/M2 antes de desenhar
 // comportamento de inimigo de verdade.
 export const ZOMBIE = {
   width: 14,
   height: 24,
-  maxHealth: 6,          // 6 hits de M1 (dano 1 cada) matam
+  maxHealth: 12,         // 12 hits de M1 (dano 1 cada) ou 6 de M2 (dano 2 cada) matam
   gravity: 1400,
   maxFallSpeed: 500,
   knockbackDrag: 900,    // desaceleracao horizontal do empurrao

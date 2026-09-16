@@ -10,20 +10,24 @@ export const BINDINGS = {
   jump:        ['Space', 'KeyK'],
   dash:        ['ShiftLeft', 'ShiftRight', 'KeyL'],   // tocar = dash, segurar = correr
   attackLight: [],       // M1 vem do mouse (ver MOUSE_BUTTONS), nao do teclado
+  attackM2:    [],       // M2 idem, botao direito
   attackHeavy: ['KeyI'],
   interact:    ['KeyE'],
 };
 
-// Botao esquerdo do mouse = M1 (ataque leve), como na maioria dos jogos de acao.
+// M1 = botao esquerdo, M2 = botao direito — como na maioria dos jogos de acao.
 const MOUSE_BUTTONS = {
   0: 'attackLight', // MouseEvent.button: 0 = esquerdo, 1 = meio, 2 = direito
+  2: 'attackM2',
 };
 
-// Botoes de gamepad no layout padrao (Xbox): A=0, B=1, X=2, Y=3, LB=4, RB=5.
+// Botoes de gamepad no layout padrao (Xbox): A=0, B=1, X=2, Y=3, LB=4, RB=5,
+// LT=6, RT=7 (analogicos, mas tambem chegam como booleano em .pressed).
 const PAD_BUTTONS = {
   jump: [0],
   dash: [1, 5],
   attackLight: [2],
+  attackM2: [7],
   attackHeavy: [3],
   interact: [4],
   left: [14],

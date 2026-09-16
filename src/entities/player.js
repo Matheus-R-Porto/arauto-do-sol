@@ -38,11 +38,19 @@ export class Player {
     this.airJumpsLeft = 0;   // so > 0 quando abilities.doubleJump estiver ligada
     this.squash = 1;         // feedback visual de pulo/pouso
 
-    // --- combate (M1 basico, GDD 7.3) ---
-    this.comboStep = 0;          // 0..4 = hit 1..5 do combo
-    this.comboWindowTimer = 0;   // tempo restante pra emendar o proximo hit
-    this.attackCooldownTimer = 0;
-    this.attackFlashTimer = 0;   // so pro feedback visual do golpe (placeholder de arma)
+    // --- combate (M1/M2 basicos, GDD 7.3) ---
+    // Cada ataque tem seu proprio combo, independente do outro — ainda nao
+    // existe empunhadura dupla de verdade (que alternaria os dois).
+    const estadoDeAtaqueVazio = () => ({
+      comboStep: 0,        // 0..4 = hit 1..5 do combo
+      comboWindowTimer: 0, // tempo restante pra emendar o proximo hit
+      cooldownTimer: 0,
+      flashTimer: 0,       // so pro feedback visual do golpe (placeholder de arma)
+    });
+    this.attacks = {
+      light: estadoDeAtaqueVazio(),
+      m2: estadoDeAtaqueVazio(),
+    };
 
     // Gating de metroidvania: tudo comeca desligado no jogo real.
     // Na sala de teste o main.js liga dash e wallClimb.
@@ -373,27 +381,32 @@ export class Player {
   }
 
   // --------------------------------------------------------------- combate --
-  // Primeiro corte do combo de M1 (GDD 7.3): ate 5 hits em sequencia, cada
-  // um com uma pequena janela pra emendar o proximo antes do combo resetar.
-  // O 5o hit (finisher) da um knockback bem maior — "joga pra tras" de
-  // verdade — e o combo reinicia do 1o hit em seguida (nao precisa esperar).
+  // Primeiro corte do combo de M1/M2 (GDD 7.3): ate 5 hits em sequencia,
+  // cada um com uma pequena janela pra emendar o proximo antes do combo
+  // resetar. O 5o hit (finisher) da um knockback bem maior — "joga pra
+  // tras" de verdade — e o combo reinicia do 1o hit em seguida (nao
+  // precisa esperar). M1 e M2 tem combos independentes entre si.
   //
   // Chamado separado de update() (nao dentro dele) porque precisa da lista
   // de inimigos, que as fisicas de movimento nao usam.
   updateAttack(dt, input, energy, enemies) {
-    this.attackCooldownTimer = Math.max(0, this.attackCooldownTimer - dt);
-    this.comboWindowTimer = Math.max(0, this.comboWindowTimer - dt);
-    this.attackFlashTimer = Math.max(0, this.attackFlashTimer - dt);
+    this._updateOneAttack(dt, input.pressed.attackLight, energy, 'attackLight', COMBAT.attackLight, this.attacks.light, enemies);
+    this._updateOneAttack(dt, input.pressed.attackM2, energy, 'attackM2', COMBAT.attackM2, this.attacks.m2, enemies);
+  }
 
-    if (this.comboWindowTimer <= 0) this.comboStep = 0; // combo expirou, recomeca do hit 1
+  _updateOneAttack(dt, pressed, energy, energyAction, cfg, state, enemies) {
+    state.cooldownTimer = Math.max(0, state.cooldownTimer - dt);
+    state.comboWindowTimer = Math.max(0, state.comboWindowTimer - dt);
+    state.flashTimer = Math.max(0, state.flashTimer - dt);
 
-    if (!input.pressed.attackLight) return;
-    if (this.attackCooldownTimer > 0) return;
-    if (!energy.spend('attackLight')) return;
+    if (state.comboWindowTimer <= 0) state.comboStep = 0; // combo expirou, recomeca do hit 1
 
-    const cfg = COMBAT.attackLight;
-    const isFinisher = this.comboStep === cfg.comboHits - 1;
-    const box = this._attackHitbox();
+    if (!pressed) return;
+    if (state.cooldownTimer > 0) return;
+    if (!energy.spend(energyAction)) return;
+
+    const isFinisher = state.comboStep === cfg.comboHits - 1;
+    const box = this._attackHitbox(cfg.reach);
 
     for (const enemy of enemies) {
       if (enemy.dead) continue;
@@ -402,15 +415,14 @@ export class Player {
       if (enemy.takeHit(cfg.damage, this.facing * kb.vx, kb.vy)) energy.markCombat();
     }
 
-    this.attackCooldownTimer = cfg.swingDuration;
-    this.comboWindowTimer = cfg.comboWindow;
-    this.comboStep = (this.comboStep + 1) % cfg.comboHits;
-    this.attackFlashTimer = 0.12;
+    state.cooldownTimer = cfg.swingDuration;
+    state.comboWindowTimer = cfg.comboWindow;
+    state.comboStep = (state.comboStep + 1) % cfg.comboHits;
+    state.flashTimer = 0.12;
   }
 
   /** Caixa do golpe: um retangulo na frente do jogador, mesma altura do corpo. */
-  _attackHitbox() {
-    const reach = COMBAT.attackLight.reach;
+  _attackHitbox(reach) {
     const left = this.facing > 0 ? this.right : this.left - reach;
     return { left, top: this.top, w: reach, h: this.h };
   }
@@ -464,13 +476,18 @@ export class Player {
 
     ctx.restore();
 
-    // Golpe de M1: so um flash branco na caixa de ataque por enquanto —
-    // sem arma de verdade ainda, isso e placeholder de feedback.
-    if (this.attackFlashTimer > 0) {
-      const box = this._attackHitbox();
-      const t = this.attackFlashTimer / 0.12;
-      ctx.fillStyle = `rgba(255,255,255,${(0.55 * t).toFixed(2)})`;
-      ctx.fillRect(Math.round(box.left), Math.round(box.top), box.w, box.h);
-    }
+    // Golpe de M1/M2: so um flash colorido na caixa de ataque por enquanto —
+    // sem arma de verdade ainda, isso e placeholder de feedback. Cores
+    // diferentes so pra distinguir qual mao golpeou no debug visual.
+    this._drawAttackFlash(ctx, this.attacks.light, COMBAT.attackLight.reach, '255,255,255');
+    this._drawAttackFlash(ctx, this.attacks.m2, COMBAT.attackM2.reach, '255,170,60');
+  }
+
+  _drawAttackFlash(ctx, state, reach, rgb) {
+    if (state.flashTimer <= 0) return;
+    const box = this._attackHitbox(reach);
+    const t = state.flashTimer / 0.12;
+    ctx.fillStyle = `rgba(${rgb},${(0.55 * t).toFixed(2)})`;
+    ctx.fillRect(Math.round(box.left), Math.round(box.top), box.w, box.h);
   }
 }

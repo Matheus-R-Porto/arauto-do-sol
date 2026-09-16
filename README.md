@@ -38,6 +38,7 @@ os testes de combate (combo de M1 contra o zumbi de teste).
 | Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
 | Planar | `Espaço` segurado, depois do ápice | A segurado, depois do ápice |
 | M1 (combo básico) | Clique esquerdo do mouse | X |
+| M2 (combo básico, dobro de dano) | Clique direito do mouse | RT |
 
 Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
 `M` liga/desliga som · `6` spawna um zumbi de teste na frente do jogador ·
@@ -114,15 +115,18 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Batimento cardíaco que acelera com a vida baixa e some em fade out (~1.4s)
   ao sair de combate, em vez de cortar seco
 - Gating de habilidades (`player.abilities`) — a espinha do metroidvania
-- **Combate — primeiro corte (GDD 7.3)**: combo básico de M1, até 5 hits em
-  sequência. Hits 1-4 dão um empurrãozinho (hitstun); o 5º (finisher) dá um
+- **Combate — primeiro corte (GDD 7.3)**: combo de M1 (clique esquerdo) e M2
+  (clique direito), até 5 hits em sequência cada — **independentes entre si**
+  (ainda não alternam como na empunhadura dupla de verdade, que não existe
+  ainda). Hits 1-4 dão um empurrãozinho (hitstun); o 5º (finisher) dá um
   knockback grande de verdade e o combo reinicia do 1º hit em seguida (não
-  precisa esperar pra encadear outro). Cada hit custa energia
-  (`ENERGY.costs.attackLight`) e entra em modo combate ao acertar.
-- Zumbi de teste (`entities/zombie.js`): alvo com vida (6 hits de M1 matam),
-  gravidade, colisão e knockback — ainda **sem IA nem ataque próprio**,
-  serve só pra validar o combo antes de desenhar inimigo de verdade. Tecla
-  `6` spawna um na frente do jogador, virado pra ele.
+  precisa esperar pra encadear outro). M2 causa o dobro de dano do M1 (2 vs 1,
+  por enquanto). Cada hit custa energia (`ENERGY.costs.attackLight`/`attackM2`)
+  e entra em modo combate ao acertar.
+- Zumbi de teste (`entities/zombie.js`): alvo com vida (12 hits de M1, ou 6 de
+  M2, matam), gravidade, colisão e knockback — ainda **sem IA nem ataque
+  próprio**, serve só pra validar o combo antes de desenhar inimigo de
+  verdade. Tecla `6` spawna um na frente do jogador, virado pra ele.
 
 ## Decisões que precisam de playtest
 

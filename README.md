@@ -78,6 +78,9 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Momentum preservado no ar — pulo correndo alcança mais que pulo parado
 - Velocidade dedicada para fora do chão (`airSpeed`), mais rápida que andar —
   pular não pode ser mais lento que caminhar
+- Trocar de direção **no ar** é instantâneo — vai direto pra velocidade máxima
+  do ar na nova direção, sem frear até 0 pra só depois acelerar de novo (no
+  chão continua gradual, de propósito — feels diferentes por design)
 - Dash (com cooldown, dash aéreo, e intangibilidade como upgrade separado)
 - Correr segurando o mesmo botão do dash, como no GDD
 - Wall slide + wall jump (o wall jump devolve o dash aéreo). Empuxo horizontal
@@ -117,12 +120,11 @@ px/s². A gravidade é derivada disso em `player.js`.
    do perigo, atravessa ileso. É o comportamento clássico de i-frames de dash
    (Hollow Knight tem o mesmo problema), mas decide se quer um pequeno buffer
    extra de intangibilidade após o fim do dash para suavizar isso.
-5. **`airSpeed` não afeta a escalada de parede, só `wallJumpX` afeta.** Isso foi
-   verificado isolando as duas variáveis: subir `airSpeed` sozinho não muda em
-   nada a escalada (o retorno à parede depende de `airDecel`, não do teto de
-   velocidade); subir `wallJumpX` além de ~95 já impede reconectar. Por isso dá
-   pra deixar o ar mais rápido sem se preocupar em quebrar esse mecanismo — mas
-   se decidir aumentar `wallJumpX` de novo no futuro, teste a escalada de novo.
+5. ~~`airSpeed` não afeta a escalada de parede, só `wallJumpX` afeta~~ — isso
+   valia com a troca de direção gradual no ar. Desde que virou instantânea,
+   `wallJumpX` deixou de ser sensível: testado até 220 sem quebrar nem a
+   escalada de parede única nem a travessia do poço de duas paredes, e o
+   ganho de altura por ciclo só melhora com um empuxo maior. Ficou em 120.
 
 ## Próximos passos sugeridos
 

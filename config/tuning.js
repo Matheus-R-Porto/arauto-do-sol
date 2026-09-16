@@ -24,11 +24,13 @@ export const PLAYER = {
   // --- ar ---
   // airSpeed e o teto horizontal so pra quando NAO esta no chao (pulando ou
   // caindo) — deliberadamente mais rapido que o walkSpeed, senao pular fica
-  // mais lento que andar, o que e estranho. Nao afeta a escalada de parede
-  // (o retorno a parede usa airDecel pra desacelerar, nao o teto de veloci-
-  // dade), entao pode subir esse valor livremente por "feel".
+  // mais lento que andar, o que e estranho.
   airSpeed: 130,
-  airAccel: 620,
+  // airAccel: taxa pra ACELERAR ate o airSpeed (saindo do zero ou mantendo
+  // a mesma direcao). Trocar de direcao no ar NAO usa isso — e instantaneo
+  // (ver player.js _updateHorizontal), pra dar retorno rapido a parede ao
+  // tentar escalar. airDecel so entra quando solta a direcao (freia ate 0).
+  airAccel: 1100,
   airDecel: 420,
 
   // --- pulo -----------------------------------------------------------------
@@ -50,20 +52,19 @@ export const PLAYER = {
   airDashes: 1,           // dashes disponiveis no ar ate tocar o chao
 
   // --- parede ---------------------------------------------------------------
-  // wallJumpX precisa ser fraco o suficiente pra, segurando o pulo e apertando
-  // de volta em direcao a parede, o jogador conseguir REGARRAR A MESMA parede
-  // mais alto — isso e o que permite escalar uma parede unica (nao so pular
-  // entre duas paredes de frente, tipo poco). O que importa aqui e a relacao
-  // com airDecel (a desaceleracao no retorno), NAO com airSpeed — por isso
-  // da pra subir airSpeed sem afetar a escalada. Valores testados (bot
-  // segurando pulo enquanto sobe, depois voltando pra parede): a partir de
-  // ~95 para de reconectar; 85 ainda escala de forma sustentavel (~13px por
-  // ciclo, mais lento que os ~24px/ciclo de um valor mais baixo tipo 75, mas
-  // com um afastamento da parede bem mais visivel).
+  // wallJumpX e a distancia que o wall jump te chuta pra longe da parede.
+  // Antes de trocar de direcao no ar virar instantanea (ver player.js
+  // _updateHorizontal), esse valor era bem sensivel: acima de ~95 o jogador
+  // nao conseguia mais voltar a tempo pra REGARRAR A MESMA parede (o que e
+  // o que permite escalar uma parede unica, nao so pular entre duas de
+  // frente tipo poco). Com a troca instantanea, isso deixou de ser um
+  // problema — testado ate 220 sem quebrar nem a escalada nem a travessia
+  // do poco de duas paredes, e o ganho de altura por ciclo so melhora com
+  // um empuxo maior. 120 da um afastamento bem visivel sem exagerar.
   wallSlideSpeed: 52,
-  wallJumpX: 85,
+  wallJumpX: 120,
   wallJumpY: 275,
-  wallJumpLockTime: 0.08, // curto o bastante pra retomar o controle a tempo de voltar
+  wallJumpLockTime: 0.09, // curto o bastante pra retomar o controle a tempo de voltar
 
   // --- double jump (temporario: prototipo usa "apertar 2x") --------------
   // O double jump de verdade do GDD (secao 12) e outra coisa — o torso se

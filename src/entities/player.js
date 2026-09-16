@@ -183,7 +183,17 @@ export class Player {
     // assim que decolasse — matando dash-jump e vaos longos.
     if (!this.onGround && sameWay && Math.abs(this.vx) > maxSpeed) return;
 
-    // Trocar de direcao usa a desaceleracao (mais forte): vira mais rapido.
+    // Trocar de direcao NO AR e instantaneo: vai direto pra velocidade
+    // maxima do ar na nova direcao, sem frear e reacelerar. Isso e o que
+    // permite voltar rapido pra parede ao tentar escala-la (aperta pra la,
+    // o personagem ja inverte na hora em vez de derrapar).
+    if (!this.onGround && sign(this.vx) !== 0 && !sameWay) {
+      this.vx = dir * PLAYER.airSpeed;
+      return;
+    }
+
+    // No chao, trocar de direcao so usa a desaceleracao (mais forte): vira
+    // mais rapido que simplesmente acelerar do zero, mas ainda e gradual.
     const turning = sign(this.vx) !== 0 && !sameWay;
     this.vx = approach(this.vx, dir * maxSpeed, (turning ? decel : accel) * dt);
   }

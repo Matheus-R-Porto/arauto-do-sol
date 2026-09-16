@@ -316,6 +316,40 @@ check('escala uma parede unica por varios ciclos sem pousar (>= 6 tiles)',
   !pousouNaParedeUnica && alturaMaximaParede >= 6 * 16,
   `pousou=${pousouNaParedeUnica}, altura maxima=${alturaMaximaParede.toFixed(1)}px (${(alturaMaximaParede / 16).toFixed(1)} tiles)`);
 
+// --------------------------------------------------------------- teste 11 --
+// Trocar de direcao NO AR e instantanea e vai direto pra velocidade maxima
+// do ar (nao freia ate 0 pra so depois acelerar de volta).
+const p7 = new Player(map.spawn.x, chaoY - 40); // no ar, longe do chao
+const e8 = new Energy();
+const input7 = fakeInput();
+
+input7.held.right = true;
+p7.update(DT, input7, map, e8); // ganha velocidade pra direita no ar
+const vxAntesDaTroca = p7.vx;
+
+input7.held.right = false;
+input7.held.left = true;
+p7.update(DT, input7, map, e8); // troca de direcao no MESMO frame seguinte
+
+check('troca de direcao no ar e instantanea (direto no airSpeed, sem frear)',
+  vxAntesDaTroca > 0 && p7.vx === -PLAYER.airSpeed,
+  `vx antes=${vxAntesDaTroca.toFixed(1)}, vx logo apos trocar=${p7.vx.toFixed(1)} (esperado -${PLAYER.airSpeed})`);
+
+// No chao, a mesma troca continua sendo GRADUAL (nao instantanea) — feel
+// diferente de proposito entre chao e ar.
+const p8 = new Player(map.spawn.x, chaoY);
+const e9 = new Energy();
+const input8 = fakeInput();
+input8.held.right = true;
+for (let i = 0; i < 20; i++) { p8.update(DT, input8, map, e9); e9.update(DT); }
+const vxNoChaoAntes = p8.vx;
+input8.held.right = false;
+input8.held.left = true;
+p8.update(DT, input8, map, e9);
+check('no chao, trocar de direcao continua sendo gradual (nao instantanea)',
+  vxNoChaoAntes > 0 && p8.vx > 0 && p8.vx < vxNoChaoAntes,
+  `vx antes=${vxNoChaoAntes.toFixed(1)}, vx 1 frame apos trocar=${p8.vx.toFixed(1)} (ainda positivo e decaindo, nao pulou direto pra -${PLAYER.walkSpeed})`);
+
 // ------------------------------------------------------------------ saida --
 let falhas = 0;
 for (const r of results) {

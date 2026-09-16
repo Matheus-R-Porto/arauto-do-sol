@@ -21,7 +21,8 @@ npm test
 ```
 
 Roda os testes de física em Node (sem navegador): altura de pulo, pouso,
-travessia de vãos, wall jump, custos e regeneração de energia.
+travessia de vãos, wall jump, custos e regeneração de energia; e os testes
+de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio).
 
 ## Controles
 
@@ -59,6 +60,7 @@ src/
   ui/hud.js               caveiras + barra de energia
   audio/heartbeat.js      batimento cardíaco diegético (WebAudio)
 tests/fisica.test.mjs
+tests/audio.test.mjs
 ```
 
 ### Regra do projeto
@@ -96,7 +98,8 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Double jump provisório: apertar pulo 2x no ar (o double jump *de verdade* do
   GDD é outra mecânica — o torso se ejeta das pernas; isso aqui é só o padrão
   clássico de plataforma para validar movimento aéreo antes de desenhar aquilo)
-- Batimento cardíaco que acelera com a vida baixa e silencia fora de combate
+- Batimento cardíaco que acelera com a vida baixa e some em fade out (~1.4s)
+  ao sair de combate, em vez de cortar seco
 - Gating de habilidades (`player.abilities`) — a espinha do metroidvania
 
 ## Decisões que precisam de playtest
@@ -124,7 +127,10 @@ px/s². A gravidade é derivada disso em `player.js`.
    valia com a troca de direção gradual no ar. Desde que virou instantânea,
    `wallJumpX` deixou de ser sensível: testado até 220 sem quebrar nem a
    escalada de parede única nem a travessia do poço de duas paredes, e o
-   ganho de altura por ciclo só melhora com um empuxo maior. Ficou em 120.
+   ganho de altura por ciclo só melhora com um empuxo maior. Ficou em 185,
+   calibrado pra pular da parede **sem segurar direção nenhuma** e ainda
+   assim se afastar uns 50px antes de parar (ex.: sair de x=21 e parar perto
+   de x=71).
 
 ## Próximos passos sugeridos
 

@@ -60,9 +60,11 @@ export const PLAYER = {
   // frente tipo poco). Com a troca instantanea, isso deixou de ser um
   // problema — testado ate 220 sem quebrar nem a escalada nem a travessia
   // do poco de duas paredes, e o ganho de altura por ciclo so melhora com
-  // um empuxo maior. 120 da um afastamento bem visivel sem exagerar.
+  // um empuxo maior. 185 e calibrado pra, pulando da parede SEM segurar
+  // nenhuma direcao, o personagem se afastar uns 50px antes de parar
+  // horizontalmente (ex.: sai de x=21 e para por volta de x=71).
   wallSlideSpeed: 52,
-  wallJumpX: 120,
+  wallJumpX: 185,
   wallJumpY: 275,
   wallJumpLockTime: 0.09, // curto o bastante pra retomar o controle a tempo de voltar
 
@@ -111,5 +113,6 @@ export const AUDIO = {
     bpmFull: 68,    // vida cheia
     bpmEmpty: 165,  // 1 caveira
     volume: 0.35,
+    fadeOutTime: 1.4, // segundos pra sumir de vez ao sair de combate (nao corta seco)
   },
 };

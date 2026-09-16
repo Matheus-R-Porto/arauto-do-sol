@@ -9,6 +9,10 @@ import { clamp, lerp } from '../core/math.js';
  *
  * Sintetizado com WebAudio (sem arquivo de audio): dois "thumps" graves
  * com queda de tom, no ritmo lub-dub.
+ *
+ * Ao sair de combate nao corta seco: os batimentos continuam tocando (no
+ * bpm/intensidade atuais) enquanto um ganho de fade cai ate 0 ao longo de
+ * AUDIO.heartbeat.fadeOutTime. Voltar a combate cancela o fade na hora.
  */
 export class Heartbeat {
   constructor() {
@@ -16,6 +20,7 @@ export class Heartbeat {
     this.master = null;
     this.enabled = AUDIO.heartbeat.enabled;
     this.timer = 0;
+    this.fadeGain = 0; // 0 = silencioso (estado inicial, fora de combate)
   }
 
   /** Precisa ser chamado dentro de um gesto do usuario (regra dos navegadores). */
@@ -46,7 +51,19 @@ export class Heartbeat {
    * @param {{ healthRatio: number, active: boolean }} estado
    */
   update(dt, { healthRatio, active }) {
-    if (!this.enabled || !this.ctx || !active) {
+    if (!this.enabled || !this.ctx) {
+      this.timer = 0;
+      this.fadeGain = 0;
+      return;
+    }
+
+    if (active) {
+      this.fadeGain = 1; // volta pro combate: som cheio na hora, sem fade-in
+    } else {
+      this.fadeGain = Math.max(0, this.fadeGain - dt / AUDIO.heartbeat.fadeOutTime);
+    }
+
+    if (this.fadeGain <= 0) {
       this.timer = 0;
       return;
     }
@@ -60,7 +77,9 @@ export class Heartbeat {
     this.timer = interval;
 
     // Perto da morte o coracao bate mais forte, nao so mais rapido.
-    const intensity = lerp(1.0, 0.55, t);
+    // fadeGain multiplica tudo: enquanto desaparece, os batimentos
+    // continuam no ritmo certo, so cada vez mais fracos.
+    const intensity = lerp(1.0, 0.55, t) * this.fadeGain;
     const now = this.ctx.currentTime + 0.01;
     this._thump(now, 0.9 * intensity);
     this._thump(now + Math.min(0.16, interval * 0.35), 0.6 * intensity);

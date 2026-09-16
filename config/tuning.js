@@ -44,10 +44,17 @@ export const PLAYER = {
   airDashes: 1,           // dashes disponiveis no ar ate tocar o chao
 
   // --- parede ---------------------------------------------------------------
+  // wallJumpX precisa ser fraco o suficiente pra, segurando o pulo e apertando
+  // de volta em direcao a parede, o jogador conseguir REGARRAR A MESMA parede
+  // mais alto — isso e o que permite escalar uma parede unica (nao so pular
+  // entre duas paredes de frente, tipo poco). Valores testados (bot segurando
+  // pulo enquanto sobe, depois voltando pra parede): 175 nunca reconecta (o
+  // jogador sempre pousa no chao antes); 90 reconecta as vezes mas nao sustenta;
+  // a partir de ~75 a escalada fica ritmica e sustentavel (~1.5 tile por ciclo).
   wallSlideSpeed: 52,
-  wallJumpX: 175,
+  wallJumpX: 75,
   wallJumpY: 275,
-  wallJumpLockTime: 0.16, // tempo sem controle horizontal apos o wall jump
+  wallJumpLockTime: 0.08, // curto o bastante pra retomar o controle a tempo de voltar
 
   // --- double jump (temporario: prototipo usa "apertar 2x") --------------
   // O double jump de verdade do GDD (secao 12) e outra coisa — o torso se

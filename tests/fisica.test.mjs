@@ -257,6 +257,65 @@ check('dash COM intangibilidade atravessa o hazard ileso',
   !tomouDano2 && h2.skulls === h2.maxSkulls,
   `dano tomado=${tomouDano2}, vida=${h2.skulls}/${h2.maxSkulls}`);
 
+// --------------------------------------------------------------- teste 10 --
+// Escalar uma parede UNICA (sem parede oposta por perto): o jogador precisa
+// conseguir regarrar a MESMA parede mais alto depois de cada wall jump,
+// segurando o pulo (pra ganhar altura) e apertando de volta em direcao a
+// parede — nao so pular de uma parede pra outra num poco estreito.
+// Sala isolada: uma unica coluna solida, sem nada do outro lado por muitos
+// tiles, entao so da pra subir se a MESMA parede puder ser regarrada.
+function paredeUnica(cols, rows, wallCol) {
+  const floorRow = rows - 2;
+  const linhas = [];
+  for (let r = 0; r < rows; r++) {
+    let linha = '';
+    for (let c = 0; c < cols; c++) {
+      if (r === 0 || r === rows - 1 || c === 0 || c === cols - 1) linha += '#';
+      else if (r === floorRow) linha += '#';
+      else if (c === wallCol && r >= 2 && r < floorRow) linha += '#';
+      else linha += '.';
+    }
+    linhas.push(linha);
+  }
+  return { rows: linhas, tileSize: 16 };
+}
+
+const mapParedeUnica = new TileMap(paredeUnica(30, 40, 5));
+const startXParede = 5 * 16 + 16 + PLAYER.width / 2 + 1;
+const startYParede = mapParedeUnica.height - 2 * 16;
+const p6 = new Player(startXParede, startYParede);
+p6.abilities.wallClimb = true;
+const e7 = new Energy();
+const input6 = fakeInput();
+input6.held.left = true;   // sempre tentando voltar pra parede
+input6.pressed.jump = true;
+input6.held.jump = true;
+
+let wallSlidingAntes = false;
+let pousouNaParedeUnica = false;
+let alturaMaximaParede = 0;
+
+for (let frame = 0; frame < 60 * 8; frame++) {
+  input6.held.jump = p6.vy < 0; // segura enquanto sobe, solta ao comecar a cair
+  p6.update(DT, input6, mapParedeUnica, e7);
+  e7.update(DT);
+  input6.clearPressed();
+
+  alturaMaximaParede = Math.max(alturaMaximaParede, startYParede - p6.y);
+
+  if (p6.wallSliding && !wallSlidingAntes) {
+    input6.pressed.jump = true;
+    input6.held.jump = true;
+  }
+  wallSlidingAntes = p6.wallSliding;
+
+  if (p6.onGround && frame > 2) { pousouNaParedeUnica = true; break; }
+}
+
+check('escala uma parede unica por varios ciclos sem pousar (>= 6 tiles)',
+  !pousouNaParedeUnica && alturaMaximaParede >= 6 * 16,
+  `pousou=${pousouNaParedeUnica}, altura maxima=${alturaMaximaParede.toFixed(1)}px (${(alturaMaximaParede / 16).toFixed(1)} tiles)`);
+
 // ------------------------------------------------------------------ saida --
 let falhas = 0;
 for (const r of results) {

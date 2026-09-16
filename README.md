@@ -78,7 +78,10 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Momentum preservado no ar — pulo correndo alcança mais que pulo parado
 - Dash (com cooldown, dash aéreo, e intangibilidade como upgrade separado)
 - Correr segurando o mesmo botão do dash, como no GDD
-- Wall slide + wall jump (o wall jump devolve o dash aéreo)
+- Wall slide + wall jump (o wall jump devolve o dash aéreo). Empuxo horizontal
+  calibrado pra dar pra **escalar uma parede única**, sem precisar de uma parede
+  oposta — segure o pulo pra ganhar altura e aperte de volta em direção à parede
+  para regarrá-la mais alto (ver nota de tuning abaixo)
 - Plataformas de uma via, com descida por `↓ + Espaço`
 - Colisão por tilemap com encaixe exato na face do tile
 - Barra de energia única com modos combate (custo cheio) e exploração (metade)
@@ -102,6 +105,9 @@ px/s². A gravidade é derivada disso em `player.js`.
    corrida ou dash, e um de 2 tiles se passa andando. Esse é o vocabulário de
    level design; mudar `runSpeed` reescreve o mapa inteiro.
 3. **Wall slide consome energia por segundo.** Pode tornar poços altos cansativos.
+   Escalar uma parede única bem alta drena uma quantidade previsível por ciclo
+   (~2.5 de energia por wall jump + o dreno contínuo do slide) — dá pra escalar
+   umas boas dezenas de tiles com a barra cheia, mas não é de graça.
 4. **Intangibilidade do dash dura exatamente o tempo do dash, não um pouco a mais.**
    Se você começa o dash longe do perigo, o momentum residual (não-intangível)
    pode carregar você para dentro do retângulo depois que o dash já acabou —

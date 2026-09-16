@@ -47,7 +47,7 @@ const server = createServer(async (req, res) => {
     const data = await readFile(filePath);
     res.writeHead(200, {
       'Content-Type': MIME[extname(filePath).toLowerCase()] ?? 'application/octet-stream',
-      'Cache-Control': 'no-cache',
+      'Cache-Control': 'no-store', // 'no-cache' ainda deixa o navegador cachear sem validador
     });
     res.end(data);
   } catch {

@@ -168,6 +168,13 @@ export const ZOMBIE = {
   gravity: 1400,
   maxFallSpeed: 500,
   knockbackDrag: 900,    // desaceleracao horizontal do empurrao
-  hurtInvuln: 0.15,      // curto — bem menor que swingDuration, nao atrapalha o combo do jogador
+  // hurtInvuln e so uma trava de "nao registrar 2 hits no MESMO instante"
+  // (ex.: dano duplicado por bug), nao uma janela de reacao de verdade —
+  // cada golpe ja e um hit-check unico por definicao (ver Player.
+  // _updateOneAttack). Por isso e tao curto: precisa ser MENOR que 1 frame
+  // (1/60s ~= 0.0167s) pra nao atrapalhar intercalar M1/M2 rapido (o 2o
+  // golpe pode chegar ja no frame seguinte ao 1o).
+  hurtInvuln: 0.01,
+  hurtFlashTime: 0.15,   // duracao do pisca-pisca visual ao levar dano (desacoplado do invuln)
   deathFadeTime: 0.4,    // segundos ate sumir de vez depois de morrer
 };

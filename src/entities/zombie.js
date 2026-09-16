@@ -38,7 +38,7 @@ export class Zombie {
 
     this.health = Math.max(0, this.health - damage);
     this.hurtTimer = ZOMBIE.hurtInvuln;
-    this.flashTimer = ZOMBIE.hurtInvuln;
+    this.flashTimer = ZOMBIE.hurtFlashTime;
     this.vx = knockbackVx;
     this.vy = knockbackVy;
     if (knockbackVx !== 0) this.facing = Math.sign(knockbackVx);

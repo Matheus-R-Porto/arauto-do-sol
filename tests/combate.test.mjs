@@ -1,8 +1,9 @@
 // Testa o combo basico de M1 e M2 (GDD 7.3) contra o zumbi de teste: dano
 // por hit, o 5o hit (finisher) com knockback grande, o combo reiniciando
 // depois dele, cooldown entre golpes, janela do combo expirando, alcance,
-// custo de energia, as i-frames do proprio zumbi, e que M1/M2 tem combos
-// independentes um do outro.
+// custo de energia, as i-frames do proprio zumbi, e que o combo e
+// COMPARTILHADO entre M1 e M2 (intercalar as duas maos conta pro mesmo
+// combo, e o 5o hit finisher pode ser de qualquer uma das duas).
 import { TileMap } from '../src/world/tilemap.js';
 import { salaDeTeste } from '../src/world/rooms/sala-de-teste.js';
 import { Player } from '../src/entities/player.js';
@@ -26,8 +27,6 @@ const map = new TileMap(salaDeTeste);
 const results = [];
 const check = (nome, ok, detalhe) => results.push({ nome, ok, detalhe });
 
-/** Estado do combo (M1 ou M2) dentro do player — os dois sao independentes. */
-const estadoDe = (player, acao) => (acao === 'attackM2' ? player.attacks.m2 : player.attacks.light);
 const cfgDe = (acao) => (acao === 'attackM2' ? COMBAT.attackM2 : COMBAT.attackLight);
 
 /** So o frame do golpe em si — pra poder checar o knockback antes dele decair. */
@@ -111,8 +110,8 @@ for (const acao of ['attackLight', 'attackM2']) {
       Math.abs(zumbi.vx) === cfg.finisherKnockback.vx,
       `vx do zumbi logo apos o 5o hit=${zumbi.vx} (esperado ${cfg.finisherKnockback.vx})`);
     check(`${rotulo}: combo reinicia do zero depois do finisher`,
-      estadoDe(player, acao).comboStep === 0,
-      `comboStep apos o 5o hit=${estadoDe(player, acao).comboStep}`);
+      player.combo.step === 0,
+      `combo.step apos o 5o hit=${player.combo.step}`);
     avancaFrames(player, input, energy, [zumbi]);
     check(`${rotulo}: depois de 5 hits em combo, vida = ${ZOMBIE.maxHealth - 5 * cfg.damage}`,
       zumbi.health === ZOMBIE.maxHealth - 5 * cfg.damage && !zumbi.dead,
@@ -155,8 +154,8 @@ for (const acao of ['attackLight', 'attackM2']) {
     const framesFolga = Math.ceil(cfg.comboWindow / DT) + 5;
     for (let i = 0; i < framesFolga; i++) { player.updateAttack(DT, input, energy, [zumbi]); energy.update(DT); }
     check(`${rotulo}: combo reseta sozinho depois da janela expirar`,
-      estadoDe(player, acao).comboStep === 0,
-      `comboStep apos esperar sem atacar=${estadoDe(player, acao).comboStep}`);
+      player.combo.step === 0,
+      `combo.step apos esperar sem atacar=${player.combo.step}`);
   }
 
   // -------------------------------------------------------------- alcance --
@@ -216,28 +215,63 @@ check('M2 causa o dobro de dano do M1',
   `M1=${COMBAT.attackLight.damage}, M2=${COMBAT.attackM2.damage}`);
 
 // --------------------------------------------------------------- extra 2 --
-// M1 e M2 tem combos INDEPENDENTES: bater com um nao avanca nem reseta o
-// combo do outro.
+// Intercalar M1 e M2 conta pro MESMO combo (GDD: "combos alternados entre
+// as duas armas"). Sequencia M1,M2,M1,M2,M1 — 5 hits alternados terminando
+// em M1 — o 5o (M1) deve ser o finisher.
 {
   const { player, zumbi, energy, input } = novoDuo();
-  golpeia(player, input, energy, [zumbi], 'attackLight');
-  golpeia(player, input, energy, [zumbi], 'attackLight');
-  check('golpear com M1 nao mexe no combo do M2',
-    player.attacks.light.comboStep === 2 && player.attacks.m2.comboStep === 0,
-    `comboStep M1=${player.attacks.light.comboStep}, M2=${player.attacks.m2.comboStep}`);
-
-  // So o frame do golpe (nao golpeia() inteiro): queremos ver o instante
-  // logo apos o hit de M2, sem deixar tempo suficiente passar pra janela
-  // do combo de M1 expirar sozinha (isso e esperado e testado a parte —
-  // "independente" significa que M2 nao MEXE no contador do M1, nao que
-  // o tempo para de passar pro M1 enquanto se usa o M2).
-  disparaGolpe(player, input, energy, [zumbi], 'attackM2');
-  check('golpear com M2 avanca so o combo do M2, M1 continua onde estava',
-    player.attacks.light.comboStep === 2 && player.attacks.m2.comboStep === 1,
-    `comboStep M1=${player.attacks.light.comboStep}, M2=${player.attacks.m2.comboStep}`);
+  const sequencia = ['attackLight', 'attackM2', 'attackLight', 'attackM2', 'attackLight'];
+  for (let i = 0; i < sequencia.length - 1; i++) golpeia(player, input, energy, [zumbi], sequencia[i]);
+  disparaGolpe(player, input, energy, [zumbi], sequencia[4]); // 5o hit (M1) — checa antes do knockback decair
+  check('intercalando M1/M2, o 5o hit (M1 nesse caso) e o finisher',
+    Math.abs(zumbi.vx) === COMBAT.attackLight.finisherKnockback.vx,
+    `vx do zumbi logo apos o 5o hit=${zumbi.vx} (esperado ${COMBAT.attackLight.finisherKnockback.vx})`);
+  check('combo compartilhado reinicia do zero depois do finisher intercalado',
+    player.combo.step === 0,
+    `combo.step apos o 5o hit=${player.combo.step}`);
 }
 
 // --------------------------------------------------------------- extra 3 --
+// Mesma coisa, mas terminando em M2 — o finisher (com o dano E o knockback
+// do M2) precisa disparar mesmo o combo tendo comecado com M1.
+{
+  const { player, zumbi, energy, input } = novoDuo();
+  const sequencia = ['attackM2', 'attackLight', 'attackM2', 'attackLight', 'attackM2'];
+  for (let i = 0; i < sequencia.length - 1; i++) golpeia(player, input, energy, [zumbi], sequencia[i]);
+  const vidaAntesDoFinisher = zumbi.health;
+  disparaGolpe(player, input, energy, [zumbi], sequencia[4]); // 5o hit (M2)
+  check('intercalando M1/M2, o 5o hit (M2 nesse caso) e o finisher',
+    Math.abs(zumbi.vx) === COMBAT.attackM2.finisherKnockback.vx,
+    `vx do zumbi logo apos o 5o hit=${zumbi.vx} (esperado ${COMBAT.attackM2.finisherKnockback.vx})`);
+  check('o finisher intercalado ainda causa o dano da arma que bateu (M2 = 2)',
+    vidaAntesDoFinisher - zumbi.health === COMBAT.attackM2.damage,
+    `vida antes=${vidaAntesDoFinisher}, depois=${zumbi.health}`);
+}
+
+// --------------------------------------------------------------- extra 4 --
+// Cada arma tem seu PROPRIO cooldown de swing — da pra bater M1 e, ja no
+// frame seguinte (sem esperar o cooldown do M1), encaixar um M2. E o ganho
+// de DPS de intercalar. Simula a ordem real de um frame do jogo (main.js):
+// updateAttack() e DEPOIS zumbi.update() a cada frame.
+{
+  const { player, zumbi, energy, input } = novoDuo();
+  input.pressed.attackLight = true;
+  player.updateAttack(DT, input, energy, [zumbi]); // frame N: M1 — cooldown do M1 comeca a contar
+  input.clearPressed();
+  zumbi.update(DT, map); // fim do frame N
+
+  input.pressed.attackM2 = true; // frame N+1: M2, sem esperar o cooldown do M1
+  player.updateAttack(DT, input, energy, [zumbi]);
+  input.clearPressed();
+  check('M2 acerta no frame seguinte ao M1, mesmo com o cooldown do M1 ainda ativo',
+    zumbi.health === ZOMBIE.maxHealth - COMBAT.attackLight.damage - COMBAT.attackM2.damage,
+    `vida=${zumbi.health} (esperado ${ZOMBIE.maxHealth - COMBAT.attackLight.damage - COMBAT.attackM2.damage}, os 2 hits deveriam ter valido)`);
+  check('os 2 hits intercalados avancaram o MESMO combo (2 hits = passo 2)',
+    player.combo.step === 2,
+    `combo.step apos M1 seguido de M2=${player.combo.step}`);
+}
+
+// --------------------------------------------------------------- extra 5 --
 // I-frames do proprio zumbi: um segundo takeHit() bem em cima do primeiro
 // (antes do hurtInvuln acabar) nao aplica dano nem troca o knockback.
 {

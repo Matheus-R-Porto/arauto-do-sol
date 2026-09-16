@@ -39,17 +39,24 @@ export class Player {
     this.squash = 1;         // feedback visual de pulo/pouso
 
     // --- combate (M1/M2 basicos, GDD 7.3) ---
-    // Cada ataque tem seu proprio combo, independente do outro — ainda nao
-    // existe empunhadura dupla de verdade (que alternaria os dois).
-    const estadoDeAtaqueVazio = () => ({
-      comboStep: 0,        // 0..4 = hit 1..5 do combo
-      comboWindowTimer: 0, // tempo restante pra emendar o proximo hit
+    // O combo e COMPARTILHADO entre M1 e M2 — alternar entre as duas maos
+    // conta pro mesmo combo de 5 hits, e o 5o (o finisher, com knockback
+    // grande) pode ser tanto M1 quanto M2, dependendo de qual encerrar a
+    // sequencia. Isso e o "combo alternado entre as duas armas" do GDD.
+    // Cada arma so mantem seu PROPRIO cooldown de swing — e o que permite
+    // intercalar rapido (bater M1, e antes do cooldown dele acabar ja
+    // poder bater M2) sem esperar o cooldown da mesma arma duas vezes.
+    this.combo = {
+      step: 0,        // 0..4 = hit 1..5 do combo, seja de qual arma for
+      windowTimer: 0, // tempo restante pra emendar o proximo hit (de qualquer arma)
+    };
+    const estadoDeArmaVazio = () => ({
       cooldownTimer: 0,
-      flashTimer: 0,       // so pro feedback visual do golpe (placeholder de arma)
+      flashTimer: 0, // so pro feedback visual do golpe (placeholder de arma)
     });
     this.attacks = {
-      light: estadoDeAtaqueVazio(),
-      m2: estadoDeAtaqueVazio(),
+      light: estadoDeArmaVazio(),
+      m2: estadoDeArmaVazio(),
     };
 
     // Gating de metroidvania: tudo comeca desligado no jogo real.
@@ -383,29 +390,31 @@ export class Player {
   // --------------------------------------------------------------- combate --
   // Primeiro corte do combo de M1/M2 (GDD 7.3): ate 5 hits em sequencia,
   // cada um com uma pequena janela pra emendar o proximo antes do combo
-  // resetar. O 5o hit (finisher) da um knockback bem maior — "joga pra
-  // tras" de verdade — e o combo reinicia do 1o hit em seguida (nao
-  // precisa esperar). M1 e M2 tem combos independentes entre si.
+  // resetar. O combo e COMPARTILHADO entre M1 e M2 — pode intercalar as
+  // duas maos, e o 5o hit (finisher, com o knockback grande) e de quem
+  // quer que encerre a sequencia, M1 ou M2. So o cooldown de swing e por
+  // arma, entao da pra bater M1 e, antes do cooldown dele acabar, ja
+  // encaixar um M2 — e o que da o ganho de DPS de alternar as maos.
   //
   // Chamado separado de update() (nao dentro dele) porque precisa da lista
   // de inimigos, que as fisicas de movimento nao usam.
   updateAttack(dt, input, energy, enemies) {
+    this.combo.windowTimer = Math.max(0, this.combo.windowTimer - dt);
+    if (this.combo.windowTimer <= 0) this.combo.step = 0; // combo expirou, recomeca do hit 1
+
     this._updateOneAttack(dt, input.pressed.attackLight, energy, 'attackLight', COMBAT.attackLight, this.attacks.light, enemies);
     this._updateOneAttack(dt, input.pressed.attackM2, energy, 'attackM2', COMBAT.attackM2, this.attacks.m2, enemies);
   }
 
-  _updateOneAttack(dt, pressed, energy, energyAction, cfg, state, enemies) {
-    state.cooldownTimer = Math.max(0, state.cooldownTimer - dt);
-    state.comboWindowTimer = Math.max(0, state.comboWindowTimer - dt);
-    state.flashTimer = Math.max(0, state.flashTimer - dt);
-
-    if (state.comboWindowTimer <= 0) state.comboStep = 0; // combo expirou, recomeca do hit 1
+  _updateOneAttack(dt, pressed, energy, energyAction, cfg, weaponState, enemies) {
+    weaponState.cooldownTimer = Math.max(0, weaponState.cooldownTimer - dt);
+    weaponState.flashTimer = Math.max(0, weaponState.flashTimer - dt);
 
     if (!pressed) return;
-    if (state.cooldownTimer > 0) return;
+    if (weaponState.cooldownTimer > 0) return;
     if (!energy.spend(energyAction)) return;
 
-    const isFinisher = state.comboStep === cfg.comboHits - 1;
+    const isFinisher = this.combo.step === cfg.comboHits - 1;
     const box = this._attackHitbox(cfg.reach);
 
     for (const enemy of enemies) {
@@ -415,10 +424,11 @@ export class Player {
       if (enemy.takeHit(cfg.damage, this.facing * kb.vx, kb.vy)) energy.markCombat();
     }
 
-    state.cooldownTimer = cfg.swingDuration;
-    state.comboWindowTimer = cfg.comboWindow;
-    state.comboStep = (state.comboStep + 1) % cfg.comboHits;
-    state.flashTimer = 0.12;
+    weaponState.cooldownTimer = cfg.swingDuration;
+    weaponState.flashTimer = 0.12;
+
+    this.combo.windowTimer = cfg.comboWindow;
+    this.combo.step = (this.combo.step + 1) % cfg.comboHits;
   }
 
   /** Caixa do golpe: um retangulo na frente do jogador, mesma altura do corpo. */

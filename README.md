@@ -76,6 +76,8 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Movimento de plataforma com aceleração, *coyote time* (0.10s) e *jump buffer* (0.12s)
 - Pulo de altura variável (soltar o botão corta o pulo)
 - Momentum preservado no ar — pulo correndo alcança mais que pulo parado
+- Velocidade dedicada para fora do chão (`airSpeed`), mais rápida que andar —
+  pular não pode ser mais lento que caminhar
 - Dash (com cooldown, dash aéreo, e intangibilidade como upgrade separado)
 - Correr segurando o mesmo botão do dash, como no GDD
 - Wall slide + wall jump (o wall jump devolve o dash aéreo). Empuxo horizontal
@@ -115,6 +117,12 @@ px/s². A gravidade é derivada disso em `player.js`.
    do perigo, atravessa ileso. É o comportamento clássico de i-frames de dash
    (Hollow Knight tem o mesmo problema), mas decide se quer um pequeno buffer
    extra de intangibilidade após o fim do dash para suavizar isso.
+5. **`airSpeed` não afeta a escalada de parede, só `wallJumpX` afeta.** Isso foi
+   verificado isolando as duas variáveis: subir `airSpeed` sozinho não muda em
+   nada a escalada (o retorno à parede depende de `airDecel`, não do teto de
+   velocidade); subir `wallJumpX` além de ~95 já impede reconectar. Por isso dá
+   pra deixar o ar mais rápido sem se preocupar em quebrar esse mecanismo — mas
+   se decidir aumentar `wallJumpX` de novo no futuro, teste a escalada de novo.
 
 ## Próximos passos sugeridos
 

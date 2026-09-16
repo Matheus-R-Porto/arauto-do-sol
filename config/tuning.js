@@ -22,6 +22,12 @@ export const PLAYER = {
   groundDecel: 1400,
 
   // --- ar ---
+  // airSpeed e o teto horizontal so pra quando NAO esta no chao (pulando ou
+  // caindo) — deliberadamente mais rapido que o walkSpeed, senao pular fica
+  // mais lento que andar, o que e estranho. Nao afeta a escalada de parede
+  // (o retorno a parede usa airDecel pra desacelerar, nao o teto de veloci-
+  // dade), entao pode subir esse valor livremente por "feel".
+  airSpeed: 130,
   airAccel: 620,
   airDecel: 420,
 
@@ -47,12 +53,15 @@ export const PLAYER = {
   // wallJumpX precisa ser fraco o suficiente pra, segurando o pulo e apertando
   // de volta em direcao a parede, o jogador conseguir REGARRAR A MESMA parede
   // mais alto — isso e o que permite escalar uma parede unica (nao so pular
-  // entre duas paredes de frente, tipo poco). Valores testados (bot segurando
-  // pulo enquanto sobe, depois voltando pra parede): 175 nunca reconecta (o
-  // jogador sempre pousa no chao antes); 90 reconecta as vezes mas nao sustenta;
-  // a partir de ~75 a escalada fica ritmica e sustentavel (~1.5 tile por ciclo).
+  // entre duas paredes de frente, tipo poco). O que importa aqui e a relacao
+  // com airDecel (a desaceleracao no retorno), NAO com airSpeed — por isso
+  // da pra subir airSpeed sem afetar a escalada. Valores testados (bot
+  // segurando pulo enquanto sobe, depois voltando pra parede): a partir de
+  // ~95 para de reconectar; 85 ainda escala de forma sustentavel (~13px por
+  // ciclo, mais lento que os ~24px/ciclo de um valor mais baixo tipo 75, mas
+  // com um afastamento da parede bem mais visivel).
   wallSlideSpeed: 52,
-  wallJumpX: 75,
+  wallJumpX: 85,
   wallJumpY: 275,
   wallJumpLockTime: 0.08, // curto o bastante pra retomar o controle a tempo de voltar
 

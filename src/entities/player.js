@@ -164,7 +164,10 @@ export class Player {
 
     if (dir !== 0) this.facing = dir;
 
-    const maxSpeed = this.running ? PLAYER.runSpeed : PLAYER.walkSpeed;
+    // No ar o teto e o airSpeed (mais rapido que andar — pular nao pode ser
+    // mais lento que caminhar), independente de estar "correndo" (running so
+    // existe no chao, ver wantsRun acima).
+    const maxSpeed = this.onGround ? (this.running ? PLAYER.runSpeed : PLAYER.walkSpeed) : PLAYER.airSpeed;
     const accel = this.onGround ? PLAYER.groundAccel : PLAYER.airAccel;
     const decel = this.onGround ? PLAYER.groundDecel : PLAYER.airDecel;
 
@@ -175,10 +178,9 @@ export class Player {
 
     const sameWay = sign(this.vx) === dir;
 
-    // No ar, o impulso ja conquistado e PRESERVADO. Sem isso o jogador perde
-    // a velocidade de corrida no instante em que sai do chao (porque no ar
-    // maxSpeed volta a ser walkSpeed) e um pulo com corrida nao alcanca mais
-    // que um pulo parado — matando dash-jump e vaos longos.
+    // No ar, o impulso ja conquistado e PRESERVADO. Sem isso um pulo saindo
+    // de uma corrida (vx=runSpeed=158) desaceleraria de volta ao teto do ar
+    // assim que decolasse — matando dash-jump e vaos longos.
     if (!this.onGround && sameWay && Math.abs(this.vx) > maxSpeed) return;
 
     // Trocar de direcao usa a desaceleracao (mais forte): vira mais rapido.

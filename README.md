@@ -28,7 +28,7 @@ os testes de combate (combo de M1 contra o zumbi de teste).
 
 ## Controles
 
-| Ação | Teclado | Gamepad |
+| Ação | Teclado/Mouse | Gamepad |
 |---|---|---|
 | Mover | `A`/`D` ou setas | analógico / d-pad |
 | Pular | `Espaço` ou `K` | A |
@@ -37,7 +37,7 @@ os testes de combate (combo de M1 contra o zumbi de teste).
 | Descer plataforma | `↓` + `Espaço` | ↓ + A |
 | Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
 | Planar | `Espaço` segurado, depois do ápice | A segurado, depois do ápice |
-| M1 (combo básico) | `J` | X |
+| M1 (combo básico) | Clique esquerdo do mouse | X |
 
 Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
 `M` liga/desliga som · `6` spawna um zumbi de teste na frente do jogador ·

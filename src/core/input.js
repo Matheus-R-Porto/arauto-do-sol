@@ -9,9 +9,14 @@ export const BINDINGS = {
   down:        ['ArrowDown', 'KeyS'],
   jump:        ['Space', 'KeyK'],
   dash:        ['ShiftLeft', 'ShiftRight', 'KeyL'],   // tocar = dash, segurar = correr
-  attackLight: ['KeyJ'],
+  attackLight: [],       // M1 vem do mouse (ver MOUSE_BUTTONS), nao do teclado
   attackHeavy: ['KeyI'],
   interact:    ['KeyE'],
+};
+
+// Botao esquerdo do mouse = M1 (ataque leve), como na maioria dos jogos de acao.
+const MOUSE_BUTTONS = {
+  0: 'attackLight', // MouseEvent.button: 0 = esquerdo, 1 = meio, 2 = direito
 };
 
 // Botoes de gamepad no layout padrao (Xbox): A=0, B=1, X=2, Y=3, LB=4, RB=5.
@@ -56,6 +61,11 @@ export class Input {
 
     window.addEventListener('keydown', (e) => this._onKey(e, true));
     window.addEventListener('keyup', (e) => this._onKey(e, false));
+    window.addEventListener('mousedown', (e) => this._onMouse(e, true));
+    window.addEventListener('mouseup', (e) => this._onMouse(e, false));
+    // Botao direito nao faz nada no jogo ainda, mas o menu de contexto
+    // atrapalharia cliques rapidos repetidos.
+    window.addEventListener('contextmenu', (e) => e.preventDefault());
     window.addEventListener('blur', () => this._releaseAll());
   }
 
@@ -74,6 +84,20 @@ export class Input {
       if (isDown) this._downQueue.add(action);
       else if (!stillDown) this._upQueue.add(action);
     }
+
+    if (isDown && !this._gotFirstInput) {
+      this._gotFirstInput = true;
+      this.onFirstInput?.();
+    }
+  }
+
+  _onMouse(e, isDown) {
+    const action = MOUSE_BUTTONS[e.button];
+    if (!action) return;
+    e.preventDefault();
+
+    if (isDown) this._downQueue.add(action);
+    else this._upQueue.add(action);
 
     if (isDown && !this._gotFirstInput) {
       this._gotFirstInput = true;

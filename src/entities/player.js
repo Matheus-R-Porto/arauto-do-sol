@@ -5,6 +5,7 @@ import { approach, sign } from '../core/math.js';
 // v = 2h/t   |   g = 2h/t^2   (movimento uniformemente acelerado)
 const GRAVITY = (2 * PLAYER.jumpHeight) / (PLAYER.jumpTimeToApex ** 2);
 const JUMP_VELOCITY = (2 * PLAYER.jumpHeight) / PLAYER.jumpTimeToApex;
+const DOUBLE_JUMP_VELOCITY = JUMP_VELOCITY * PLAYER.doubleJumpHeightMult;
 
 export class Player {
   constructor(x, y) {
@@ -33,6 +34,7 @@ export class Player {
     this.dashCooldownTimer = 0;
     this.wallJumpLockTimer = 0;
     this.airDashesLeft = PLAYER.airDashes;
+    this.airJumpsLeft = 0;   // so > 0 quando abilities.doubleJump estiver ligada
     this.squash = 1;         // feedback visual de pulo/pouso
 
     // Gating de metroidvania: tudo comeca desligado no jogo real.
@@ -191,6 +193,11 @@ export class Player {
 
     const canGroundJump = this.onGround || this.coyoteTimer > 0;
     const canWallJump = this.abilities.wallClimb && !this.onGround && this.wallDir !== 0;
+    // "Apertar 2 vezes": so libera o pulo extra quando ja se saiu do chao
+    // SEM usar coyote/wall jump nesse instante — senao um pulo normal
+    // "gastaria" o double jump por engano.
+    const canAirJump =
+      !canGroundJump && !canWallJump && this.abilities.doubleJump && this.airJumpsLeft > 0;
 
     if (canGroundJump) {
       if (!energy.spend('jump')) return;
@@ -207,7 +214,14 @@ export class Player {
       this.wallJumpLockTimer = PLAYER.wallJumpLockTime;
       this.jumpBufferTimer = 0;
       this.airDashesLeft = PLAYER.airDashes; // wall jump devolve o dash aereo
+      this.airJumpsLeft = this.abilities.doubleJump ? 1 : 0;
       this.squash = 0.8;
+    } else if (canAirJump) {
+      if (!energy.spend('jump')) return;
+      this.airJumpsLeft--;
+      this.vy = -DOUBLE_JUMP_VELOCITY;
+      this.jumpBufferTimer = 0;
+      this.squash = 0.85;
     }
   }
 
@@ -305,6 +319,7 @@ export class Player {
     if (this.onGround) {
       this.coyoteTimer = PLAYER.coyoteTime;
       this.airDashesLeft = PLAYER.airDashes;
+      this.airJumpsLeft = this.abilities.doubleJump ? 1 : 0;
       if (!this.wasOnGround) this.squash = 1.22; // achata ao aterrissar
     }
   }
@@ -321,7 +336,7 @@ export class Player {
   // Placeholder proposital: bonequinho de ossos desenhado com retangulos.
   // Vai ser substituido por spritesheet quando houver arte.
 
-  draw(ctx) {
+  draw(ctx, invulnTimer = 0) {
     const sq = this.squash;
     const px = Math.round(this.x);
     const py = Math.round(this.y);
@@ -329,6 +344,10 @@ export class Player {
     // Sombra: ajuda a ler a altura no ar.
     ctx.fillStyle = 'rgba(0,0,0,0.25)';
     ctx.fillRect(px - 5, py - 1, 10, 2);
+
+    // Pisca durante a invulnerabilidade pos-dano (feedback de "acabei de ser
+    // atingido"). O esqueleto some por metade dos frames, sombra continua.
+    if (invulnTimer > 0 && Math.floor(invulnTimer * 18) % 2 === 0) return;
 
     ctx.save();
     ctx.translate(px, py);

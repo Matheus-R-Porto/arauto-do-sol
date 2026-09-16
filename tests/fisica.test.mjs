@@ -2,6 +2,7 @@ import { TileMap } from '../src/world/tilemap.js';
 import { salaDeTeste } from '../src/world/rooms/sala-de-teste.js';
 import { Player } from '../src/entities/player.js';
 import { Energy } from '../src/systems/energy.js';
+import { Health } from '../src/systems/health.js';
 import { PLAYER } from '../config/tuning.js';
 
 const DT = 1 / 60;
@@ -158,6 +159,103 @@ for (let i = 0; i < 900; i++) {
 }
 check('wall jump sobe o poco ate a saida (linha 6 => y<=112)', alturaPoco <= 6 * 16,
   `subiu ate y=${alturaPoco.toFixed(0)} (chao era ${chaoY})`);
+
+// ---------------------------------------------------------------- teste 8 --
+// Double jump: SO libera o segundo pulo com a habilidade ligada, e apenas
+// um pulo extra por salto (nao vira pulo infinito).
+const p3 = new Player(map.spawn.x, chaoY);
+const e4 = new Energy();
+const input3 = fakeInput();
+
+function pular(p, inp, e) {
+  inp.pressed.jump = true;
+  inp.held.jump = true;
+  p.update(DT, inp, map, e);
+  e.update(DT);
+  inp.clearPressed();
+  inp.held.jump = false;
+}
+
+// sem a habilidade: o segundo toque no ar nao deve fazer nada
+p3.abilities.doubleJump = false;
+pular(p3, input3, e4);                 // 1o pulo (do chao)
+for (let i = 0; i < 10; i++) { p3.update(DT, input3, map, e4); e4.update(DT); } // sobe um pouco
+const vyAntes = p3.vy;
+pular(p3, input3, e4);                 // tenta pulo extra no ar
+const vyDepoisSemHabilidade = p3.vy;
+const semHabilidade = vyDepoisSemHabilidade >= vyAntes; // nao deve impulsionar pra cima
+
+p3.reset(map.spawn.x, chaoY);
+p3.abilities.doubleJump = true;
+e4.refill();
+pular(p3, input3, e4);                 // 1o pulo (do chao)
+for (let i = 0; i < 15; i++) { p3.update(DT, input3, map, e4); e4.update(DT); } // sobe e comeca a cair
+const vyAntesSegundo = p3.vy;
+pular(p3, input3, e4);                 // 2o pulo (double jump)
+const vyDepoisSegundo = p3.vy;
+const subiuNoSegundo = vyDepoisSegundo < vyAntesSegundo - 50; // impulso pra cima nitido
+const pulosRestantes = p3.airJumpsLeft;
+pular(p3, input3, e4);                 // tenta um 3o pulo no ar: nao pode ter efeito
+const vyDepoisTerceiro = p3.vy;
+const naoVirouInfinito = vyDepoisTerceiro >= vyDepoisSegundo; // gravidade, nao outro impulso
+for (let i = 0; i < 3; i++) { p3.update(DT, input3, map, e4); e4.update(DT); }
+
+check('sem doubleJump, 2o toque no ar nao impulsiona',
+  semHabilidade, `vy antes=${vyAntes.toFixed(1)}, depois=${vyDepoisSemHabilidade.toFixed(1)}`);
+check('com doubleJump, 2o toque no ar impulsiona pra cima',
+  subiuNoSegundo, `vy antes=${vyAntesSegundo.toFixed(1)}, apos pulo=${vyDepoisSegundo.toFixed(1)}`);
+check('depois de usar, um 3o toque no ar nao impulsiona de novo',
+  naoVirouInfinito, `vy apos 2o pulo=${vyDepoisSegundo.toFixed(1)}, apos tentar 3o=${vyDepoisTerceiro.toFixed(1)}`);
+check('double jump consome o unico pulo aereo disponivel (nao e infinito)',
+  pulosRestantes === 0, `airJumpsLeft apos usar = ${pulosRestantes}`);
+
+// ---------------------------------------------------------------- teste 9 --
+// Tile de perigo: nao bloqueia, mas machuca — exceto durante dash intangivel.
+// Retangulo de perigo da sala de teste fica em x=[240,272), y=[272,304)
+// (colunas 15-16, linhas 17-18).
+const p4 = new Player(238, 288);
+p4.abilities.dash = true;
+p4.abilities.dashIntangible = false;
+const e5 = new Energy();
+const h1 = new Health();
+const input4 = fakeInput();
+
+input4.held.right = true;
+input4.pressed.dash = true;
+let tomouDano = false;
+for (let i = 0; i < 30; i++) {
+  p4.update(DT, input4, map, e5);
+  e5.update(DT);
+  input4.clearPressed();
+  if (!p4.intangible && map.overlapsHazard(p4.left, p4.top, p4.w, p4.h)) {
+    if (h1.damage(1)) tomouDano = true;
+  }
+}
+check('dash SEM intangibilidade atravessa o hazard tomando dano',
+  tomouDano && h1.skulls === h1.maxSkulls - 1,
+  `dano tomado=${tomouDano}, vida=${h1.skulls}/${h1.maxSkulls}`);
+
+const p5 = new Player(238, 288);
+p5.abilities.dash = true;
+p5.abilities.dashIntangible = true; // upgrade do dash ligado
+const e6 = new Energy();
+const h2 = new Health();
+const input5 = fakeInput();
+
+input5.held.right = true;
+input5.pressed.dash = true;
+let tomouDano2 = false;
+for (let i = 0; i < 30; i++) {
+  p5.update(DT, input5, map, e6);
+  e6.update(DT);
+  input5.clearPressed();
+  if (!p5.intangible && map.overlapsHazard(p5.left, p5.top, p5.w, p5.h)) {
+    if (h2.damage(1)) tomouDano2 = true;
+  }
+}
+check('dash COM intangibilidade atravessa o hazard ileso',
+  !tomouDano2 && h2.skulls === h2.maxSkulls,
+  `dano tomado=${tomouDano2}, vida=${h2.skulls}/${h2.maxSkulls}`);
 
 // ------------------------------------------------------------------ saida --
 let falhas = 0;

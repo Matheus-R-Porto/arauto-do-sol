@@ -102,6 +102,14 @@ function update(dt) {
   player.update(dt, input, map, energy);
   energy.update(dt);
   health.update(dt);
+
+  // Tile de perigo: nao bloqueia o movimento, so machuca. Dash SEM
+  // intangibilidade atravessa o retangulo tomando dano; dash (ou qualquer
+  // contato) COM intangibilidade passa ileso.
+  if (!player.intangible && map.overlapsHazard(player.left, player.top, player.w, player.h)) {
+    if (health.damage(1)) energy.markCombat();
+  }
+
   camera.update(dt, player, map);
   heartbeat.update(dt, {
     healthRatio: health.ratio,
@@ -124,7 +132,7 @@ function render() {
   ctx.save();
   ctx.translate(-camera.ox, -camera.oy);
   map.draw(ctx, camera, RENDER.width, RENDER.height);
-  player.draw(ctx);
+  player.draw(ctx, health.invulnTimer);
 
   if (debug.hitboxes) {
     ctx.strokeStyle = 'rgba(0,255,170,0.9)';
@@ -150,7 +158,7 @@ function updateDebugPanel() {
     `vel        ${player.vx.toFixed(1)}, ${player.vy.toFixed(1)}`,
     `chao       ${player.onGround}   parede ${player.wallDir}`,
     `coyote     ${player.coyoteTimer.toFixed(3)}  buffer ${player.jumpBufferTimer.toFixed(3)}`,
-    `dash cd    ${player.dashCooldownTimer.toFixed(2)}  aereos ${player.airDashesLeft}`,
+    `dash cd    ${player.dashCooldownTimer.toFixed(2)}  aereos ${player.airDashesLeft}  pulos-ar ${player.airJumpsLeft}`,
     '',
     `energia    ${energy.current.toFixed(1)} / ${energy.max}  (${energy.mode}, x${energy.multiplier})`,
     `regen      ${energy.regenerating ? 'ativa' : 'aguardando'}`,

@@ -2,6 +2,7 @@ export const TILE = {
   EMPTY: 0,
   SOLID: 1,
   ONEWAY: 2, // plataforma atravessavel por baixo
+  HAZARD: 3, // nao bloqueia — causa dano ao encostar, exceto se intangivel
 };
 
 const CHAR_TO_TILE = {
@@ -10,6 +11,7 @@ const CHAR_TO_TILE = {
   '@': TILE.EMPTY, // marcador de spawn, vira vazio
   '#': TILE.SOLID,
   '=': TILE.ONEWAY,
+  '^': TILE.HAZARD,
 };
 
 export class TileMap {
@@ -75,6 +77,18 @@ export class TileMap {
     return false;
   }
 
+  /** Retangulo encosta em algum tile de perigo? (nao bloqueia, so machuca) */
+  overlapsHazard(left, top, w, h) {
+    const [c0, c1] = this._span(left, w);
+    const [r0, r1] = this._span(top, h);
+    for (let r = r0; r <= r1; r++) {
+      for (let c = c0; c <= c1; c++) {
+        if (this.at(c, r) === TILE.HAZARD) return true;
+      }
+    }
+    return false;
+  }
+
   /**
    * Plataformas de uma via: so bloqueiam quando os pes CRUZAM o topo do tile
    * de cima para baixo. Retorna o Y onde parar, ou null se nao bloqueia.
@@ -114,13 +128,41 @@ export class TileMap {
             ctx.fillStyle = '#3b3352';
             ctx.fillRect(x, y, ts, 2);
           }
-        } else {
+        } else if (tile === TILE.ONEWAY) {
           ctx.fillStyle = '#4a3f63';
           ctx.fillRect(x, y, ts, 3);
           ctx.fillStyle = '#6d5e8c';
           ctx.fillRect(x, y, ts, 1);
+        } else if (tile === TILE.HAZARD) {
+          this._drawHazard(ctx, x, y, ts);
         }
       }
+    }
+  }
+
+  // Espinhos vermelhos: leitura universal de "isso machuca" sem precisar
+  // de texto. Nao sao solidos — o jogador atravessa e leva dano (ou nao,
+  // se estiver intangivel).
+  _drawHazard(ctx, x, y, ts) {
+    ctx.fillStyle = '#3a1018';
+    ctx.fillRect(x, y, ts, ts);
+
+    const teeth = 4;
+    const step = ts / teeth;
+    ctx.fillStyle = '#d43a4a';
+    for (let i = 0; i < teeth; i++) {
+      const cx = x + i * step + step / 2;
+      ctx.beginPath();
+      ctx.moveTo(cx - step / 2, y + ts);
+      ctx.lineTo(cx, y + ts * 0.15);
+      ctx.lineTo(cx + step / 2, y + ts);
+      ctx.closePath();
+      ctx.fill();
+    }
+    ctx.fillStyle = '#f2828f';
+    for (let i = 0; i < teeth; i++) {
+      const cx = x + i * step + step / 2;
+      ctx.fillRect(cx - 0.5, y + ts * 0.15, 1, ts * 0.35);
     }
   }
 }

@@ -32,6 +32,7 @@ travessia de vãos, wall jump, custos e regeneração de energia.
 | Dash | `Shift` (tocar) | B / RB |
 | Correr | `Shift` (segurar) | B / RB |
 | Descer plataforma | `↓` + `Espaço` | ↓ + A |
+| Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
 
 Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
 `M` liga/desliga som · `1`–`5` ligam/desligam habilidades.
@@ -82,6 +83,11 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Colisão por tilemap com encaixe exato na face do tile
 - Barra de energia única com modos combate (custo cheio) e exploração (metade)
 - Vida em caveiras + fragmentos
+- Tile de perigo (`^`) na sala de teste: não bloqueia, machuca ao encostar —
+  atravessa ileso apenas durante um dash com a habilidade `dashIntangible` ligada
+- Double jump provisório: apertar pulo 2x no ar (o double jump *de verdade* do
+  GDD é outra mecânica — o torso se ejeta das pernas; isso aqui é só o padrão
+  clássico de plataforma para validar movimento aéreo antes de desenhar aquilo)
 - Batimento cardíaco que acelera com a vida baixa e silencia fora de combate
 - Gating de habilidades (`player.abilities`) — a espinha do metroidvania
 
@@ -96,6 +102,13 @@ px/s². A gravidade é derivada disso em `player.js`.
    corrida ou dash, e um de 2 tiles se passa andando. Esse é o vocabulário de
    level design; mudar `runSpeed` reescreve o mapa inteiro.
 3. **Wall slide consome energia por segundo.** Pode tornar poços altos cansativos.
+4. **Intangibilidade do dash dura exatamente o tempo do dash, não um pouco a mais.**
+   Se você começa o dash longe do perigo, o momentum residual (não-intangível)
+   pode carregar você para dentro do retângulo depois que o dash já acabou —
+   e aí toma dano mesmo com a habilidade ligada. Dashando bem colado na borda
+   do perigo, atravessa ileso. É o comportamento clássico de i-frames de dash
+   (Hollow Knight tem o mesmo problema), mas decide se quer um pequeno buffer
+   extra de intangibilidade após o fim do dash para suavizar isso.
 
 ## Próximos passos sugeridos
 

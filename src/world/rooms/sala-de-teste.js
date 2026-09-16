@@ -2,9 +2,12 @@ import { RENDER } from '../../../config/tuning.js';
 
 // =============================================================================
 // SALA DE TESTE — ginasio de movimento, nao e conteudo do jogo.
-// Serve para sentir: andar, correr, pular vaos, dash, wall jump e queda.
+// Serve para sentir: andar, correr, pular vaos, dash, wall jump, queda e o
+// tile de perigo (dash sem intangibilidade machuca, com intangibilidade
+// atravessa ileso).
 //
-// Legenda:  '#' solido   '=' plataforma de uma via   '.' vazio   '@' spawn
+// Legenda:  '#' solido   '=' plataforma de uma via   '^' perigo (dano)
+//           '.' vazio    '@' spawn
 //
 // Todas as linhas PRECISAM ter o mesmo numero de colunas (o parser reclama).
 //          0         10        20        30        40        50        
@@ -27,8 +30,8 @@ const ROWS = [
   '#.........................#...#.............#######........#', // 14
   '#.........................#...#............................#', // 15
   '#.....=====...............#...#..........=====.............#', // 16
-  '#..........................................................#', // 17
-  '#...@......................................................#', // 18
+  '#..............^^..........................................#', // 17
+  '#...@..........^^..........................................#', // 18
   '####################..############.....#####################', // 19
   '####################..############.....#####################', // 20
   '############################################################', // 21

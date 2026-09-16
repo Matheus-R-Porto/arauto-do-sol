@@ -48,6 +48,12 @@ export const PLAYER = {
   wallJumpX: 175,
   wallJumpY: 275,
   wallJumpLockTime: 0.16, // tempo sem controle horizontal apos o wall jump
+
+  // --- double jump (temporario: prototipo usa "apertar 2x") --------------
+  // O double jump de verdade do GDD (secao 12) e outra coisa — o torso se
+  // ejeta das pernas. Aqui e so o padrao classico de plataforma para testar
+  // movimento aereo; a implementacao definitiva substitui isso depois.
+  doubleJumpHeightMult: 0.82, // segundo pulo levemente mais fraco que o primeiro
 };
 
 export const ENERGY = {

@@ -6,6 +6,6 @@
   "private": true,
   "scripts": {
     "dev": "node serve.js",
-    "test": "node tests/fisica.test.mjs && node tests/audio.test.mjs"
+    "test": "node tests/fisica.test.mjs && node tests/audio.test.mjs && node tests/combate.test.mjs"
   }
 }

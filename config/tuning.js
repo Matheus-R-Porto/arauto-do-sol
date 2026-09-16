@@ -124,3 +124,33 @@ export const AUDIO = {
     fadeOutTime: 1.4, // segundos pra sumir de vez ao sair de combate (nao corta seco)
   },
 };
+
+// =============================================================================
+// COMBATE — primeiro corte, so o basico do M1 (GDD secao 7.3).
+// =============================================================================
+
+export const COMBAT = {
+  attackLight: {
+    comboHits: 5,        // depois do 5o hit, o combo reinicia do 1o
+    comboWindow: 0.6,    // segundos pra emendar o proximo hit antes do combo resetar
+    swingDuration: 0.25, // tempo minimo entre dois hits (nao da pra spammar mais rapido)
+    reach: 18,            // alcance a partir da frente do jogador (altura = a do proprio jogador)
+    damage: 1,
+    knockback: { vx: 60, vy: -30 },            // hits 1-4: so um empurraozinho (hitstun)
+    finisherKnockback: { vx: 260, vy: -170 },  // 5o hit: o combo "joga pra tras" de verdade
+  },
+};
+
+// Inimigo de teste — sem IA nem ataque proprio ainda. So um alvo com vida,
+// gravidade e knockback, pra validar o combo de M1 antes de desenhar
+// comportamento de inimigo de verdade.
+export const ZOMBIE = {
+  width: 14,
+  height: 24,
+  maxHealth: 6,          // 6 hits de M1 (dano 1 cada) matam
+  gravity: 1400,
+  maxFallSpeed: 500,
+  knockbackDrag: 900,    // desaceleracao horizontal do empurrao
+  hurtInvuln: 0.15,      // curto — bem menor que swingDuration, nao atrapalha o combo do jogador
+  deathFadeTime: 0.4,    // segundos ate sumir de vez depois de morrer
+};

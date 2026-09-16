@@ -6,6 +6,7 @@ import { TileMap } from './world/tilemap.js';
 import { Background } from './world/background.js';
 import { salaDeTeste } from './world/rooms/sala-de-teste.js';
 import { Player } from './entities/player.js';
+import { Zombie } from './entities/zombie.js';
 import { Energy } from './systems/energy.js';
 import { Health } from './systems/health.js';
 import { drawHUD } from './ui/hud.js';
@@ -53,6 +54,8 @@ camera.snapTo(player, map);
 
 input.onFirstInput = () => heartbeat.resume();
 
+let zombies = [];
+
 // ------------------------------------------------------------------ debug --
 
 const debugEl = document.getElementById('debug');
@@ -85,6 +88,11 @@ window.addEventListener('keydown', (e) => {
     // Simula uma troca de dano: entra em modo combate e perde 1 caveira.
     energy.markCombat();
     health.damage(1);
+  } else if (e.code === 'Digit6') {
+    // Spawna um zumbi de teste logo a frente do jogador, virado pra ele.
+    const zumbi = new Zombie(player.x + player.facing * 24, player.y);
+    zumbi.facing = -player.facing;
+    zombies.push(zumbi);
   } else if (ABILITY_KEYS[e.code]) {
     const key = ABILITY_KEYS[e.code];
     player.abilities[key] = !player.abilities[key];
@@ -100,8 +108,12 @@ function update(dt) {
   input.beginFrame();
 
   player.update(dt, input, map, energy);
+  player.updateAttack(dt, input, energy, zombies);
   energy.update(dt);
   health.update(dt);
+
+  for (const zumbi of zombies) zumbi.update(dt, map);
+  zombies = zombies.filter((z) => !z.finished);
 
   // Tile de perigo: nao bloqueia o movimento, so machuca. Dash SEM
   // intangibilidade atravessa o retangulo tomando dano; dash (ou qualquer
@@ -132,12 +144,17 @@ function render() {
   ctx.save();
   ctx.translate(-camera.ox, -camera.oy);
   map.draw(ctx, camera, RENDER.width, RENDER.height);
+  for (const zumbi of zombies) zumbi.draw(ctx);
   player.draw(ctx, health.invulnTimer);
 
   if (debug.hitboxes) {
     ctx.strokeStyle = 'rgba(0,255,170,0.9)';
     ctx.lineWidth = 1;
     ctx.strokeRect(player.left + 0.5, player.top + 0.5, player.w - 1, player.h - 1);
+    for (const zumbi of zombies) {
+      ctx.strokeStyle = 'rgba(255,80,80,0.9)';
+      ctx.strokeRect(zumbi.left + 0.5, zumbi.top + 0.5, zumbi.w - 1, zumbi.h - 1);
+    }
   }
   ctx.restore();
 
@@ -166,8 +183,11 @@ function updateDebugPanel() {
     '',
     `habilidades ${abilities}`,
     '',
+    `combo M1   ${player.comboStep + 1}/5  janela ${player.comboWindowTimer.toFixed(2)}  cd ${player.attackCooldownTimer.toFixed(2)}`,
+    `zumbis     ${zombies.length}`,
+    '',
     'F1 debug   F2 hitbox   R reset',
-    'C levar dano   M som',
+    'C levar dano   M som   6 spawna zumbi',
     '1 dash  2 wall  3 intang  4 djump  5 planar',
   ].join('\n');
 }

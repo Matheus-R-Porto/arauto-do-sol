@@ -13,3 +13,8 @@ export function approach(current, target, delta) {
 
 /** Interpolacao suave independente de framerate (bom para camera). */
 export const damp = (a, b, lambda, dt) => lerp(a, b, 1 - Math.exp(-lambda * dt));
+
+/** Dois retangulos [x, x+w) x [y, y+h) se sobrepoem? */
+export function aabbOverlap(ax, ay, aw, ah, bx, by, bw, bh) {
+  return ax < bx + bw && ax + aw > bx && ay < by + bh && ay + ah > by;
+}

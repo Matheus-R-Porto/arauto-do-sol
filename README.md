@@ -3,8 +3,9 @@
 Metroidvania 2D em HTML5 + JavaScript puro (Canvas 2D, sem engine, sem build step).
 Nome provisório. O GDD conceitual está em `docs/GDD.md`.
 
-Esta primeira fatia implementa **movimento e a barra de energia única** — a base
-que define o *game feel* antes de qualquer conteúdo.
+Esta primeira fatia implementa **movimento, a barra de energia única e o
+início do combate** — a base que define o *game feel* antes de qualquer
+conteúdo.
 
 ## Rodando
 
@@ -21,8 +22,9 @@ npm test
 ```
 
 Roda os testes de física em Node (sem navegador): altura de pulo, pouso,
-travessia de vãos, wall jump, custos e regeneração de energia; e os testes
-de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio).
+travessia de vãos, wall jump, custos e regeneração de energia; os testes
+de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio); e
+os testes de combate (combo de M1 contra o zumbi de teste).
 
 ## Controles
 
@@ -35,9 +37,11 @@ de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio).
 | Descer plataforma | `↓` + `Espaço` | ↓ + A |
 | Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
 | Planar | `Espaço` segurado, depois do ápice | A segurado, depois do ápice |
+| M1 (combo básico) | `J` | X |
 
 Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
-`M` liga/desliga som · `1`–`5` ligam/desligam habilidades (`5` = planar).
+`M` liga/desliga som · `6` spawna um zumbi de teste na frente do jogador ·
+`1`–`5` ligam/desligam habilidades (`5` = planar).
 
 ## Estrutura
 
@@ -54,7 +58,9 @@ src/
     tilemap.js            grid de colisão + render de tiles
     background.js         céu com parallax (estrelas + Lua de Fogo)
     rooms/sala-de-teste.js
-  entities/player.js      física, máquina de estados, colisão
+  entities/
+    player.js             física, máquina de estados, colisão, combo de M1
+    zombie.js             inimigo de teste: vida, gravidade, knockback (sem IA)
   systems/
     energy.js             barra única, modos combate/exploração
     health.js             caveiras e fragmentos
@@ -62,6 +68,7 @@ src/
   audio/heartbeat.js      batimento cardíaco diegético (WebAudio)
 tests/fisica.test.mjs
 tests/audio.test.mjs
+tests/combate.test.mjs
 ```
 
 ### Regra do projeto
@@ -107,6 +114,15 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Batimento cardíaco que acelera com a vida baixa e some em fade out (~1.4s)
   ao sair de combate, em vez de cortar seco
 - Gating de habilidades (`player.abilities`) — a espinha do metroidvania
+- **Combate — primeiro corte (GDD 7.3)**: combo básico de M1, até 5 hits em
+  sequência. Hits 1-4 dão um empurrãozinho (hitstun); o 5º (finisher) dá um
+  knockback grande de verdade e o combo reinicia do 1º hit em seguida (não
+  precisa esperar pra encadear outro). Cada hit custa energia
+  (`ENERGY.costs.attackLight`) e entra em modo combate ao acertar.
+- Zumbi de teste (`entities/zombie.js`): alvo com vida (6 hits de M1 matam),
+  gravidade, colisão e knockback — ainda **sem IA nem ataque próprio**,
+  serve só pra validar o combo antes de desenhar inimigo de verdade. Tecla
+  `6` spawna um na frente do jogador, virado pra ele.
 
 ## Decisões que precisam de playtest
 
@@ -140,9 +156,10 @@ px/s². A gravidade é derivada disso em `player.js`.
 
 ## Próximos passos sugeridos
 
-1. Combate: empunhadura dupla (M1 mão direita / M2 mão esquerda), cadeia de
-   combo por arma, ataque pesado, bloqueio.
-2. Inimigo simples + dano, para a barra de energia finalmente alternar entre
-   os modos combate e exploração em jogo de verdade.
+1. Combate: empunhadura dupla (M1 mão direita / M2 mão esquerda), ataque
+   pesado, bloqueio. O combo básico de M1 (1 arma) já existe — ver acima.
+2. IA e ataque próprio do zumbi (contato/dano no jogador), pra vida e energia
+   alternarem os modos combate/exploração de verdade num confronto real.
 3. Sistema de salas e transições (o metroidvania de fato).
-4. Spritesheet e animação — hoje o Arauto é desenhado com retângulos.
+4. Spritesheet e animação — hoje o Arauto (e o zumbi) são desenhados com
+   retângulos.

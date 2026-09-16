@@ -34,9 +34,10 @@ de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio).
 | Correr | `Shift` (segurar) | B / RB |
 | Descer plataforma | `↓` + `Espaço` | ↓ + A |
 | Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
+| Planar | `Espaço` segurado, depois do ápice | A segurado, depois do ápice |
 
 Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
-`M` liga/desliga som · `1`–`5` ligam/desligam habilidades.
+`M` liga/desliga som · `1`–`5` ligam/desligam habilidades (`5` = planar).
 
 ## Estrutura
 
@@ -98,6 +99,11 @@ px/s². A gravidade é derivada disso em `player.js`.
 - Double jump provisório: apertar pulo 2x no ar (o double jump *de verdade* do
   GDD é outra mecânica — o torso se ejeta das pernas; isso aqui é só o padrão
   clássico de plataforma para validar movimento aéreo antes de desenhar aquilo)
+- Planar (`abilities.glide`, GDD seção 12): segurar o pulo depois do ápice
+  troca a queda normal por uma descida lenta e controlada, drenando energia
+  continuamente. Funciona igual depois do 1º ou do 2º pulo (double jump) —
+  só depende de "está caindo + segurando o botão". Soltar o pulo, tocar o
+  chão ou a energia acabar encerra o planar na hora.
 - Batimento cardíaco que acelera com a vida baixa e some em fade out (~1.4s)
   ao sair de combate, em vez de cortar seco
 - Gating de habilidades (`player.abilities`) — a espinha do metroidvania

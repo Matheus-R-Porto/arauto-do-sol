@@ -25,6 +25,7 @@ export class Player {
     this.wasOnGround = false;
     this.wallDir = 0;        // -1 parede a esquerda, 1 a direita, 0 nenhuma
     this.wallSliding = false;
+    this.gliding = false;
     this.running = false;
     this.dashing = false;
 
@@ -88,6 +89,7 @@ export class Player {
       this._updateHorizontal(dt, input, energy);
       this._updateWallSlide(dt, input, energy);
       if (!droppedThrough) this._tryJump(input, energy);
+      this._updateGlide(dt, input, energy);
       this._applyGravity(dt, input);
     }
 
@@ -261,12 +263,31 @@ export class Player {
     this.facing = this.wallDir;
   }
 
+  // ----------------------------------------------------------------- planar --
+  // Segurar o pulo depois do apice troca a queda normal por uma descida lenta
+  // e controlada — funciona igual apos o 1o ou o 2o pulo (double jump), ja
+  // que so depende de "esta caindo + segurando o botao", nao de qual pulo
+  // originou a subida. Roda DEPOIS de _tryJump de proposito: se um pulo
+  // (double jump, por exemplo) disparar nesse mesmo frame, vy volta a
+  // negativo e o planar corretamente nao ativa.
+  _updateGlide(dt, input, energy) {
+    this.gliding = false;
+    if (!this.abilities.glide) return;
+    if (this.onGround || this.wallSliding) return;
+    if (!input.held.jump) return;
+    if (this.vy < 0) return; // so depois do apice, na descida
+    if (!energy.drain('glide', dt)) return;
+
+    this.gliding = true;
+  }
+
   _applyGravity(dt, input) {
     let g = GRAVITY;
     if (this.vy > 0) g *= PLAYER.fallGravityMult;                       // cai mais rapido
     else if (this.vy < 0 && !input.held.jump) g *= PLAYER.lowJumpMult;  // pulo curto
 
-    this.vy = Math.min(this.vy + g * dt, PLAYER.maxFallSpeed);
+    const tetoQueda = this.gliding ? PLAYER.glideFallSpeed : PLAYER.maxFallSpeed;
+    this.vy = Math.min(this.vy + g * dt, tetoQueda);
     if (this.wallSliding) this.vy = Math.min(this.vy, PLAYER.wallSlideSpeed);
   }
 
@@ -339,6 +360,7 @@ export class Player {
   _resolveState() {
     if (this.dashing) this.state = 'dash';
     else if (this.wallSliding) this.state = 'wallslide';
+    else if (this.gliding) this.state = 'glide';
     else if (!this.onGround) this.state = this.vy < 0 ? 'jump' : 'fall';
     else if (Math.abs(this.vx) > 4) this.state = this.running ? 'run' : 'walk';
     else this.state = 'idle';

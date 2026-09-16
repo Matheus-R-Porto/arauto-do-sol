@@ -44,6 +44,13 @@ export const PLAYER = {
   coyoteTime: 0.10,      // ainda pode pular logo depois de sair da borda
   jumpBuffer: 0.12,      // pulo apertado pouco antes de aterrissar ainda vale
 
+  // --- planar (Planar do GDD, secao 12) --------------------------------------
+  // Segurar o pulo depois do apice (em vez de soltar) troca a queda normal
+  // por uma descida lenta, drenando energia continuamente (ver
+  // ENERGY.costs.glide). Funciona igual apos o 1o ou o 2o pulo (double
+  // jump) — so depende de estar caindo e segurando o botao.
+  glideFallSpeed: 45, // bem mais lento que maxFallSpeed (430) e que o wall slide (52)
+
   // --- dash -----------------------------------------------------------------
   dashSpeed: 330,
   dashDuration: 0.16,
@@ -89,6 +96,7 @@ export const ENERGY = {
     wallJump: 5,
     run: 6,          // por segundo
     wallSlide: 2,    // por segundo
+    glide: 6,        // por segundo
     attackLight: 9,  // combo de 5 hits ~= 45 (bate com o GDD)
     attackHeavy: 22,
   },

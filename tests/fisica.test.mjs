@@ -350,6 +350,107 @@ check('no chao, trocar de direcao continua sendo gradual (nao instantanea)',
   vxNoChaoAntes > 0 && p8.vx > 0 && p8.vx < vxNoChaoAntes,
   `vx antes=${vxNoChaoAntes.toFixed(1)}, vx 1 frame apos trocar=${p8.vx.toFixed(1)} (ainda positivo e decaindo, nao pulou direto pra -${PLAYER.walkSpeed})`);
 
+// --------------------------------------------------------------- teste 12 --
+// Planar: segurar o pulo depois do apice troca a queda normal por uma
+// descida lenta. Testado numa sala aberta e alta (sem parede, chao bem
+// longe) pra ter espaco de sobra e nao pousar no meio do teste.
+const mapQuedaLivre = new TileMap(paredeUnica(20, 60, -1)); // wallCol=-1 = sem parede interna
+const spawnQuedaLivre = { x: 10 * 16, y: 4 * 16 }; // bem no topo, longe do chao
+
+function segueSegurandoPuloAtePassarOApice(p, inp, e, mapa, maxFrames = 200) {
+  inp.pressed.jump = true;
+  inp.held.jump = true;
+  let passouDoApice = false;
+  for (let i = 0; i < maxFrames; i++) {
+    p.update(DT, inp, mapa, e);
+    e.update(DT);
+    inp.clearPressed();
+    if (p.vy >= 0) { passouDoApice = true; break; } // comecou a cair
+  }
+  return passouDoApice;
+}
+
+const p9 = new Player(spawnQuedaLivre.x, spawnQuedaLivre.y);
+p9.abilities.glide = true;
+const e10 = new Energy();
+const input9 = fakeInput();
+
+segueSegurandoPuloAtePassarOApice(p9, input9, e10, mapQuedaLivre);
+// mais alguns frames de queda planando, ainda segurando o pulo
+for (let i = 0; i < 30; i++) { p9.update(DT, input9, mapQuedaLivre, e10); e10.update(DT); }
+
+check('segurando o pulo apos o apice, entra em planar (estado e vy travado)',
+  p9.state === 'glide' && Math.abs(p9.vy - PLAYER.glideFallSpeed) < 0.5,
+  `estado=${p9.state}, vy=${p9.vy.toFixed(1)} (esperado ~${PLAYER.glideFallSpeed})`);
+
+// --------------------------------------------------------------- teste 13 --
+// Planar funciona igual depois do 2o pulo (double jump), nao so do 1o —
+// e o que o usuario pediu explicitamente.
+const p10 = new Player(spawnQuedaLivre.x, spawnQuedaLivre.y);
+p10.abilities.glide = true;
+p10.abilities.doubleJump = true;
+const e11 = new Energy();
+const input10 = fakeInput();
+
+input10.pressed.jump = true;
+input10.held.jump = true;
+p10.update(DT, input10, mapQuedaLivre, e11); // 1o pulo (chao)
+input10.clearPressed();
+input10.held.jump = false; // solta rapido, pulo curto de proposito
+for (let i = 0; i < 8; i++) { p10.update(DT, input10, mapQuedaLivre, e11); e11.update(DT); }
+
+input10.pressed.jump = true; // 2o pulo (double jump), no ar
+input10.held.jump = true;
+p10.update(DT, input10, mapQuedaLivre, e11);
+input10.clearPressed();
+
+segueSegurandoPuloAtePassarOApice(p10, input10, e11, mapQuedaLivre);
+for (let i = 0; i < 30; i++) { p10.update(DT, input10, mapQuedaLivre, e11); e11.update(DT); }
+
+check('planar tambem ativa depois do 2o pulo (double jump), nao so do 1o',
+  p10.state === 'glide' && Math.abs(p10.vy - PLAYER.glideFallSpeed) < 0.5,
+  `estado=${p10.state}, vy=${p10.vy.toFixed(1)} (esperado ~${PLAYER.glideFallSpeed})`);
+
+// --------------------------------------------------------------- teste 14 --
+// Soltar o pulo no meio do planar cancela na hora — volta a cair normal.
+input9.held.jump = false;
+const vyAoSoltar = p9.vy;
+for (let i = 0; i < 15; i++) p9.update(DT, input9, mapQuedaLivre, e10);
+check('soltar o pulo cancela o planar (volta a acelerar a queda)',
+  p9.state !== 'glide' && p9.vy > vyAoSoltar + 20,
+  `vy ao soltar=${vyAoSoltar.toFixed(1)}, vy 15 frames depois=${p9.vy.toFixed(1)}, estado=${p9.state}`);
+
+// --------------------------------------------------------------- teste 15 --
+// Planar drena energia continuamente e acaba quando a energia zera.
+const p11 = new Player(spawnQuedaLivre.x, spawnQuedaLivre.y);
+p11.abilities.glide = true;
+const e12 = new Energy();
+e12.current = 1; // quase nada, pra esgotar rapido
+const input11 = fakeInput();
+
+segueSegurandoPuloAtePassarOApice(p11, input11, e12, mapQuedaLivre);
+let energiaZerouEPlanarParou = false;
+for (let i = 0; i < 60; i++) {
+  p11.update(DT, input11, mapQuedaLivre, e12);
+  e12.update(DT);
+  if (e12.current <= 0 && p11.state !== 'glide') { energiaZerouEPlanarParou = true; break; }
+}
+check('planar drena energia e para quando ela acaba',
+  energiaZerouEPlanarParou,
+  `energia final=${e12.current.toFixed(2)}, estado final=${p11.state}`);
+
+// --------------------------------------------------------------- teste 16 --
+// Sem a habilidade, segurar o pulo caindo NAO ativa planar (queda normal).
+const p12 = new Player(spawnQuedaLivre.x, spawnQuedaLivre.y);
+p12.abilities.glide = false;
+const e13 = new Energy();
+const input12 = fakeInput();
+segueSegurandoPuloAtePassarOApice(p12, input12, e13, mapQuedaLivre);
+for (let i = 0; i < 30; i++) { p12.update(DT, input12, mapQuedaLivre, e13); e13.update(DT); }
+check('sem abilities.glide, segurar o pulo caindo nao trava a queda',
+  p12.state !== 'glide' && p12.vy > PLAYER.glideFallSpeed * 2,
+  `estado=${p12.state}, vy=${p12.vy.toFixed(1)} (bem acima do teto de planar, ${PLAYER.glideFallSpeed})`);
+
 // ------------------------------------------------------------------ saida --
 let falhas = 0;
 for (const r of results) {

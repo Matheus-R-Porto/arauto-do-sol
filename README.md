@@ -1,107 +1,103 @@
-# Arauto do Sol â€” demo v0.6.0 do CemitÃ©rio
+# Arauto do Sol (working title) — Cemetery demo v0.6.0
 
-Vertical slice em **HTML5, JavaScript ES Modules e Canvas 2D**. Sem engine, build ou dependÃªncias externas no jogo. Arte integrada em todas as categorias, agora com animaÃ§Ãµes ampliadas e sincronizadas ao gameplay. GDD original preservado em `docs/GDD.md`.
+Vertical slice built with **HTML5, JavaScript ES Modules and Canvas 2D**. No engine, build step or external dependencies in the game itself. Art integrated across every category, now with expanded animations synced to gameplay. Original GDD preserved at `docs/GDD.md`.
 
-## Pacote para enviar a outra pessoa
+## Package to send to someone else
 
-O ZIP **Arauto-do-Sol-v0.6.0-Windows.zip** fica na pasta acima do projeto. No Windows, basta extrair tudo e abrir **Jogar Arauto do Sol.exe**. Abre no navegador, funciona offline e dispensa Node.js. Mantenha a janela do iniciador aberta enquanto joga. [RelatÃ³rio do cenÃ¡rio v0.6.0](docs/RELATORIO_CENARIO.md) Â· [RelatÃ³rio das animaÃ§Ãµes v0.5](docs/RELATORIO_ANIMACOES_V2.md).
+The **Arauto-do-Sol-v0.6.0-Windows.zip** file sits in the folder above the project. On Windows, just extract everything and open **Jogar Arauto do Sol.exe**. It opens in the browser, works offline and doesn't need Node.js. Keep the launcher window open while playing. [Scenario report v0.6.0](docs/RELATORIO_CENARIO.md) · [Animation report v0.5](docs/RELATORIO_ANIMACOES_V2.md).
 
-## Arte do protagonista
+## Protagonist art
 
-ReferÃªncia preservada, RAW separados e processamento reproduzÃ­vel em Python/Pillow. Corpo de referÃªncia de 96 pixels no asset, renderizado em 24 unidades de mundo, canvas 128Ã—128, origem nos pÃ©s e paleta mestre de 16 cores. A fÃ­sica, hitboxes e lÃ³gica de combate permanecem iguais Ã  v0.2.0. [RelatÃ³rio da arte](docs/RELATORIO_ARTE_1.md) Â· [Uso da ferramenta](tools/sprite_pipeline/README.md).
+Reference preserved, RAW files kept separate, and processing is reproducible in Python/Pillow. Reference body of 96 pixels in the asset, rendered at 24 world units, 128×128 canvas, origin at the feet, and a master palette of 16 colors. Physics, hitboxes and combat logic remain the same as v0.2.0. [Art report](docs/RELATORIO_ARTE_1.md) · [Tool usage](tools/sprite_pipeline/README.md).
 
-## Tela cheia
+## Fullscreen
 
-Use o botÃ£o **Tela cheia** ou **F**. **Esc** sai do fullscreen. Base raster 960Ã—540, saÃ­da Full HD em 2Ã— sem smoothing, zoom de mundo 1,5 separado da resoluÃ§Ã£o. ProporÃ§Ã£o 16:9 com barras quando necessÃ¡rio. [ComparaÃ§Ã£o das trÃªs bases](docs/display/README.md).
+Use the **Fullscreen** button or **F**. **Esc** exits fullscreen. 960×540 raster base, Full HD output at 2× with no smoothing, world zoom of 1.5 kept separate from resolution. 16:9 ratio with bars when needed. [Comparison of the three bases](docs/display/README.md).
 
-## Executar
+## Run it
 
-Ã‰ necessÃ¡rio Node.js. Dentro desta pasta:
+Node.js is required. Inside this folder:
 
 ```sh
 npm run dev
 ```
 
-Abra **http://localhost:5174**. NÃ£o Ã© preciso `npm install`. O `index.html` precisa do servidor, nÃ£o funciona por duplo clique. Se a porta estiver ocupada, no PowerShell: `$env:PORT='5175'; npm run dev`.
+Open **http://localhost:5174**. No `npm install` needed. `index.html` requires the server — double-clicking it won't work. If the port is busy, on PowerShell: `$env:PORT='5175'; npm run dev`.
 
-Na tela inicial, pressione **EspaÃ§o / E / A do controle**. Ao terminar, os mesmos comandos reiniciam tudo. Para facilitar no Windows, tambÃ©m hÃ¡ `JOGAR.bat` (inicia o servidor e abre o navegador).
+On the title screen, press **Space / E / controller A**. The same inputs restart everything when you're done. For convenience on Windows, there's also `JOGAR.bat` (starts the server and opens the browser).
 
-## Controles
+## Controls
 
-| AÃ§Ã£o | Teclado / mouse | Controle padrÃ£o Xbox |
+| Action | Keyboard / mouse | Standard Xbox controller |
 |---|---|---|
-| Mover | A/D, setas | AnalÃ³gico / d-pad |
-| Pular, altura variÃ¡vel | EspaÃ§o / K; solte para pulo curto | A |
-| Correr | Segurar Shift / L | Segurar B / RB |
-| Descer plataforma | â†“ / S + EspaÃ§o | â†“ + A |
-| Espada, golpe 1 | M1 / J | X |
-| Espada, golpe 2 | M2 / U | RT |
-| Interagir, repousar | E | LB |
-| Pausar | Esc | â€” |
-| Silenciar | M | â€” |
-| Retornar ao checkpoint | R | â€” |
+| Move | A/D, arrow keys | Stick / d-pad |
+| Jump, variable height | Space / K; release for a short hop | A |
+| Run | Hold Shift / L | Hold B / RB |
+| Drop through platform | ↓ / S + Space | ↓ + A |
+| Sword, hit 1 | M1 / J | X |
+| Sword, hit 2 | M2 / U | RT |
+| Interact, rest | E | LB |
+| Pause | Esc | — |
+| Mute | M | — |
+| Return to checkpoint | R | — |
 
-Os ataques preservam o combo compartilhado de cinco golpes do protÃ³tipo. M2 mantÃ©m provisoriamente o dobro do dano, com o mesmo custo. A demo apresenta os dois como variaÃ§Ãµes de uma espada simples. Andar, correr, pular e atacar estÃ£o disponÃ­veis; **dash, parede, planar e pulo duplo comeÃ§am desligados**.
+Attacks preserve the prototype's shared five-hit combo. M2 still provisionally deals double damage at the same cost. The demo presents both as variations of a simple sword. Walking, running, jumping and attacking are available; **dash, wall, glide and double jump start disabled**.
 
-A energia Ã© Ãºnica. ApÃ³s o playtest, todos os custos foram reduzidos pela metade e o retorno Ã  exploraÃ§Ã£o ocorre apÃ³s 10 segundos sem causar ou receber dano. M1/M2 custam 4,5 pontos em combate e 2,25 em exploraÃ§Ã£o; correr custa 3 ou 1,5 pontos por segundo, respectivamente. A regeneraÃ§Ã£o continua em 10 pontos por segundo, apÃ³s 1 segundo sem gastar energia, em ambos os modos. Energia insuficiente nÃ£o trava o personagem: ainda Ã© possÃ­vel andar e esperar.
+Stamina is a single shared resource. After playtesting, all costs were cut in half, and it returns to the exploration rate 10 seconds after dealing or taking no damage. M1/M2 cost 4.5 points in combat and 2.25 in exploration; running costs 3 or 1.5 points per second, respectively. Regeneration stays at 10 points per second, starting 1 second after stamina was last spent, in both modes. Low stamina doesn't lock the character — you can still walk and wait.
 
-Caminhada e movimento horizontal do pulo comum tÃªm o mesmo teto: 92 px/s. Saltar a partir de uma corrida preserva o impulso de 158 px/s. Veja `docs/BALANCEAMENTO.md` para todos os valores alterados.
+Walking and the horizontal speed of a normal jump share the same cap: 92 px/s. Jumping out of a run preserves the 158 px/s momentum. See `docs/BALANCEAMENTO.md` for every changed value.
 
-## Fluxo e geografia
+## Flow and geography
 
-Dez salas principais reconstruídas a partir dos 12 recortes Dungeon Scrawl. A cela contém o segredo inicial; a Sala 3 possui segredo ligado à alavanca da Sala 4; a Sala 5 tem dois percursos e retorno por parede quebrável. A arena da Sala 7 tem ondas de 2 e 3 inimigos. A Sala 8 apresenta o portão selado; a Sala 10 contém repouso, retorno ao Pátio, Guardião, chave e porta final.
+Ten main rooms rebuilt from the 12 Dungeon Scrawl cutouts. The cell holds the initial secret; Room 3 has a secret tied to Room 4's lever; Room 5 has two routes and a breakable-wall shortcut back. Room 7's arena has waves of 2 and 3 enemies. Room 8 features the sealed gate; Room 10 holds a resting spot, the way back to the Courtyard, the Guardian, the key and the final door.
 
-As portas de conexão são atravessadas caminhando pela abertura. E aciona alavanca, repousos, baú e porta final. Pilhas de ossos exigem quatro golpes e concedem moeda, sem aumentar vida. Estados de exploração e arena concluída persistem durante a run; recarregar a página inicia outra partida.
+Connecting doors are crossed by walking through the opening. E triggers levers, resting spots, chests and the final door. Bone piles take four hits and grant coin, without raising health. Exploration and completed-arena states persist during the run; reloading the page starts a new run.
 
-Veja [o relatório completo do redesenho](docs/level-redesign/README.md).
+See [the full redesign report](docs/level-redesign/README.md).
 
-## Inimigos e boss
+## Enemies and boss
 
-- **Walker:** patrulha, aproximaÃ§Ã£o, golpe frontal anunciado e recuperaÃ§Ã£o.
-- **Lunger:** preparaÃ§Ã£o longa, investida em direÃ§Ã£o fixa, pausa para contra-atacar.
-- **Ranged:** recua quando hÃ¡ espaÃ§o, anuncia e dispara um projÃ©til lento.
-- **GuardiÃ£o do CemitÃ©rio:** nome provisÃ³rio, sem lore nova. Corte frontal, investida baixa que pode ser pulada e salto com local de queda marcado. Abaixo de 50% de vida, recuperaÃ§Ã£o um pouco menor. NÃ£o causa dano de contato permanente. SÃ³ o slam causa duas caveiras. DerrotÃ¡-lo abre a arena apÃ³s uma breve pausa; o final fica na cÃ¢mara seguinte.
+- **Walker:** patrols, approaches, telegraphs a frontal strike, then recovers.
+- **Lunger:** long wind-up, lunges in a fixed direction, pauses to allow a counterattack.
+- **Ranged:** backs off when there's room, telegraphs, and fires a slow projectile.
+- **Cemetery Guardian:** working title, no new lore yet. Frontal slash, a low lunge that can be jumped over, and a slam with a marked landing spot. Below 50% health, recovery is slightly shorter. Deals no lingering contact damage. Only the slam deals two skulls of damage. Defeating it opens the arena after a brief pause; the ending is in the next chamber.
 
 ## Debug
 
-F1: painel de sala, checkpoint, estados, FPS, energia e habilidades. F2: corpos, ataques e projÃ©teis. **F3: mapa de debug, pausando o jogo.** R: checkpoint. M: Ã¡udio. Com **F1 aberto**, C causa dano, 6 cria o dummy original, 1â€“5 alternam dash, parede, intangibilidade, pulo duplo e planar. Nenhuma tecla de debug Ã© necessÃ¡ria para concluir.
+F1: room panel, checkpoint, states, FPS, stamina and abilities. F2: bodies, attacks and projectiles. **F3: debug map, pauses the game.** R: checkpoint. M: audio. With **F1 open**, C deals damage, 6 spawns the original dummy, 1–5 toggle dash, wall, intangibility, double jump and glide. No debug key is required to finish the game.
 
-A sala original continua em `src/world/rooms/sala-de-teste.js`, usada pelos testes de regressÃ£o. O jogo inicia no CemitÃ©rio.
+The original room still lives at `src/world/rooms/sala-de-teste.js`, used by regression tests. The game starts in the Cemetery.
 
-## Testes
+## Tests
 
 ```sh
 npm test
 ```
 
-A suÃ­te cobre: fÃ­sica, Ã¡udio, combate, salas, IA, boss, input, progressÃ£o e quatro percursos completos. O percurso anti-softlock inclui cinco mortes deliberadas em etapas diferentes. NÃ£o hÃ¡ teleporte, cura artificial ou desbloqueio de habilidades nos percursos. Os testes unitÃ¡rios isolados usam estados controlados para validar casos especÃ­ficos.
+The suite covers: physics, audio, combat, rooms, AI, boss, input, progression and four full playthroughs. The anti-softlock run includes five deliberate deaths at different stages. There's no teleporting, artificial healing or ability unlocking in the playthroughs. Isolated unit tests use controlled states to validate specific cases.
 
-Para observar o teste de integraÃ§Ã£o no navegador: **http://localhost:5174/tests/playthrough.html**. Ele Ã© separado da demo normal e oferece rota crÃ­tica, explorador, completionista e anti-softlock, reproduÃ§Ã£o a 4Ã—/1Ã— e pausa por sala.
+To watch the integration test in the browser: **http://localhost:5174/tests/playthrough.html**. It's separate from the normal demo and offers critical-path, explorer, completionist and anti-softlock routes, playback at 4×/1× and per-room pausing.
 
-## Arquitetura e ediÃ§Ã£o
+## Architecture and editing
 
-- `config/tuning.js`: fÃ­sica original, valores da demo, inimigos, boss e efeitos.
-- `src/world/rooms/cemetery.js`: dados das 17 salas; retÃ¢ngulos em tiles geram ASCII. Aqui se editam geometria, spawns, saÃ­das e encontros.
-- `src/world/validate.js`: valida grid, destinos, entradas, pickups, checkpoints, boss e conectividade.
-- `src/world/progression.js`: estado centralizado dos gates, chave e recompensas da run.
-- `src/ui/map-decor.js`: landmarks, antevisÃµes e mapa F3.
-- `src/world/room-manager.js`: sala ativa, persistÃªncia da sessÃ£o, transiÃ§Ã£o, morte, checkpoint e final.
-- `src/entities/enemies/`: IA simples e projÃ©teis; reaproveita fÃ­sica do Zombie.
-- `src/entities/boss/guardian.js`: estados e trÃªs ataques do boss.
-- `src/ui/demo-view.js`: cenÃ¡rio procedural, portas, prompts, barra do boss, inÃ­cio e fim.
-- `src/audio/effects.js`: sons sintetizados no contexto do heartbeat.
-- `src/main.js`: montagem, loop, pausa e debug.
+- `config/tuning.js`: original physics, demo values, enemies, boss and effects.
+- `src/world/rooms/cemetery.js`: data for the 17 rooms; tile rectangles generate ASCII. This is where geometry, spawns, exits and encounters are edited.
+- `src/world/validate.js`: validates the grid, destinations, entrances, pickups, checkpoints, boss and connectivity.
+- `src/world/progression.js`: centralized state for gates, the key and run rewards.
+- `src/ui/map-decor.js`: landmarks, previews and the F3 map.
+- `src/world/room-manager.js`: active room, session persistence, transitions, death, checkpoint and ending.
+- `src/entities/enemies/`: simple AI and projectiles; reuses the Zombie's physics.
+- `src/entities/boss/guardian.js`: boss states and its three attacks.
+- `src/ui/demo-view.js`: procedural scenery, doors, prompts, boss bar, intro and ending.
+- `src/audio/effects.js`: sounds synthesized in the heartbeat context.
+- `src/main.js`: setup, loop, pause and debug.
 
-Somente a sala atual Ã© atualizada. FÃ­sica de 60 Hz, resoluÃ§Ã£o 480Ã—270, escala inteira, cÃ¢mera com look-ahead e smoothing preservados.
+Only the current room is updated. 60 Hz physics, 480×270 resolution, integer scaling, camera look-ahead and smoothing are all preserved.
 
-Veja `docs/DEMO_IMPLEMENTATION.md` para decisÃµes provisÃ³rias, mediÃ§Ãµes e limitaÃ§Ãµes de playtest.
+See `docs/DEMO_IMPLEMENTATION.md` for provisional decisions, measurements and playtest limitations.
 
+Character resolution fixed in v0.5.1, preserving world size and zoom: [details and reproduction](docs/RESOLUCAO_SPRITES.md).
 
+Local alignment of the M1/M2 beams: [fix and tests](docs/attack-alignment/README.md). Approved scales preserved.
 
-
-ResoluÃ§Ã£o dos personagens corrigida em v0.5.1, preservando o tamanho no mundo e o zoom: [detalhes e reproduÃ§Ã£o](docs/RESOLUCAO_SPRITES.md).
-
-Alinhamento local dos feixes M1/M2: [correÃ§Ã£o e testes](docs/attack-alignment/README.md). Escalas aprovadas preservadas.
-
-
-Revisão estrutural: todas as plataformas do Cemitério são sólidas. Desça pelas bordas e aberturas. F1 mostra também os blocos de colisão e os hazards. Veja [o relatório por anexo](docs/structural-review/RELATORIO.md) e a página de inspeção em `/tests/greybox-review.html`.
+Structural review: every platform in the Cemetery is solid. You can drop through edges and openings. F1 also shows collision blocks and hazards. See [the full report](docs/structural-review/RELATORIO.md) and the inspection page at `/tests/greybox-review.html`.

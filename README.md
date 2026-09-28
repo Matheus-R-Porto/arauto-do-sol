@@ -1,6 +1,19 @@
 # Arauto do Sol (working title) — Cemetery demo v0.6.0
 
-Vertical slice built with **HTML5, JavaScript ES Modules and Canvas 2D**. No engine, build step or external dependencies in the game itself. Art integrated across every category, now with expanded animations synced to gameplay. Original GDD preserved at `docs/GDD.md`.
+A 2D metroidvania built with **HTML5, JavaScript ES Modules and Canvas 2D** — no engine, no build step, no external dependencies. Combat and progression take inspiration from Hollow Knight; the show-don't-tell storytelling takes after Dark Souls. You play as the Herald of the Sun, struck down centuries ago and reawakened as an undead skeleton in the cemetery where their body was left, now piecing together what happened to the god they once served. Full lore in `docs/GDD.md`.
+
+This is a vertical slice (v0.6.0): one biome (the Cemetery), core combat, exploration and audio are playable end to end, but it's not a finished game.
+
+## Screenshots
+*(in-engine captures, not final marketing art)*
+
+| Exploration | Ambush |
+|---|---|
+| ![Skeleton exploring the moonlit cemetery](screenshots/exploration.webp) | ![Combat encounter with a caster enemy near a chest](screenshots/spike-crossing.webp) |
+
+| Boss reveal | Boss fight |
+|---|---|
+| ![The Cemetery Guardian blocking the sealed gate](screenshots/guardian-reveal.webp) | ![Fighting the Cemetery Guardian, mid-swing](screenshots/guardian-fight.webp) |
 
 ## Package to send to someone else
 

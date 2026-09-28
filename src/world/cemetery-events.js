@@ -26,7 +26,14 @@ export class CemeteryEvents {
  rebuild(){
   const w=this.w,m=w.map;m.grid.set(this.base);
   const paint=(x,y,width,height,type)=>{for(let r=Math.floor(y/m.tileSize);r<Math.ceil((y+height)/m.tileSize);r++)for(let c=Math.floor(x/m.tileSize);c<Math.ceil((x+width)/m.tileSize);c++)if(c>=0&&r>=0&&c<m.cols&&r<m.rows)m.grid[r*m.cols+c]=type;};
-  for(const b of this.targets)if(!b.dead&&b.kind!=='pile')paint(b.left,b.top,b.w,b.h,1);
+  for(const b of this.targets){if(b.kind==='pile')continue;
+   // Permanent masonry above the opening also keeps its collision.
+   let row=Math.floor(b.top/m.tileSize)-1,col=Math.floor((b.x+4)/m.tileSize);
+   while(row>=0&&this.base[row*m.cols+col]===0)row--;
+   const ceiling=(row+1)*m.tileSize;
+   paint(b.left,ceiling,b.w,Math.max(0,b.y-32-ceiling),1);
+   if(!b.dead)paint(b.left,b.y-32,b.w,32,1);
+  }
   if(w.room.lift)paint(w.room.lift.x,Math.round(this.liftY/8)*8,w.room.lift.w,8,1);
   if(this.arena.phase==='delay'||this.arena.phase==='wave'||this.arena.phase==='interval')for(const e of w.room.exits){if(e.axis==='y')paint(e.x-e.openingWidth/2,e.y-8,e.openingWidth,8,1);else paint(e.x-4,e.y-48,8,48,1);}
   if(w.room.bossArena&&w.boss&&!w.boss.dead&&w.state.bossStarted){const a=w.room.bossArena;for(const gate of a.gates??[{x:a.left-8,y:m.height,w:8,h:m.height},{x:a.right,y:m.height,w:8,h:m.height}])paint(gate.x,gate.y-gate.h,gate.w,gate.h,1);}

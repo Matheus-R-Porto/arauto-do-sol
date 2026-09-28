@@ -1,0 +1,10 @@
+PASSOU  em combate, fadeGain vai a 1 imediatamente
+         fadeGain=1
+PASSOU  fadeGain nao zera no primeiro frame fora de combate
+         fadeGain apos 1 frame fora de combate=0.988
+PASSOU  fadeGain chega a 0 apos fadeOutTime fora de combate
+         fadeGain apos 1.4s+ fora de combate=0
+PASSOU  voltar a combate no meio do fade restaura o volume cheio na hora
+         durante o fade=0.762, apos voltar a combate=1
+
+4/4 testes de audio ok

@@ -1,0 +1,1 @@
+Approved physics, combat, AI, player/actor animations, energy, camera, display and sprite scales unchanged; new prop hashes valid.

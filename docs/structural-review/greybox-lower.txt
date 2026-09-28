@@ -1,0 +1,13 @@
+lower 0 1199.6944444444443 656 undefined
+phase dying 258.4388888888885 560
+file:///C:/Users/theuz/.codex/.chatgpt-projects/g-p-6aabd2099e4c8191abbea50685eb5b37/arauto-do-sol/tests/greybox-lower.mjs:2
+const w=new RoomManager(new Camera(320,180));w.phase='playing';w.load('bridge',w.rooms.bridge.chest);const bot=new GreyboxDriver();bot.nav=navigation(w.map);let opened=false;for(let i=0;i<18000;i++){bot.frame++;const p=w.player,k=input();k.pressed={};k.held={};const wall=w.levelEvents.targets.find(x=>x.id==='lowerShortcut');if(i===0)k.pressed.interact=true;let action=bot.navigate(w,{x:62,y:368},k);if(p.y<380&&p.x<95){action.moveX=1;action.pressed.attackLight=i%20===0;}w.update(1/60,action);if(w.room.id==='watch'){opened=true;console.log('LOWER ROUTE RETURNED',w.elapsed,w.deaths,[...w.flags]);break;}if(w.phase!=='playing'){console.log('phase',w.phase,p.x,p.y);break;}if(i%1800===0)console.log('lower',i,p.x,p.y,bot.debug);}if(!opened)throw Error('lower route failed');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+
+Error: lower route failed
+    at file:///C:/Users/theuz/.codex/.chatgpt-projects/g-p-6aabd2099e4c8191abbea50685eb5b37/arauto-do-sol/tests/greybox-lower.mjs:2:748
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.19.0

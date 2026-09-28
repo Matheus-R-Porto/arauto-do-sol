@@ -1,0 +1,8 @@
+PASSOU inventário por sequência, durações e loops solicitados
+PASSOU frames progridem pelo timer real e recovery segura o último quadro
+PASSOU boss fase 2 preserva overlay durante movimento e adapta recovery sem alterar AI
+PASSOU morte não volta ao idle; hitstop congela relógio e flip não reinicia
+PASSOU loop e hold não dependem da quantidade de draw calls
+PASSOU marcador de disparo ocorre uma vez, só após transição real da AI
+PASSOU impacto de projétil só por colisão, não TTL nem troca de sala
+7/7 testes de animação v2 ok

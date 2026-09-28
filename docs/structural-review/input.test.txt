@@ -1,0 +1,6 @@
+PASSOU  gamepad desconectado não deixa direção presa
+PASSOU  teclado continua pressionado quando gamepad desconecta
+PASSOU  soltar teclado não solta ação ainda segurada no gamepad
+PASSOU  M1, J e gamepad alimentam a mesma ação sem repetir bordas
+PASSOU  perda de foco solta teclado e mouse
+5/5 testes de input ok

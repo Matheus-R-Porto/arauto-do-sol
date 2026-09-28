@@ -1,0 +1,10 @@
+lower 0 1199.6944444444443 656 undefined
+lower 1800 1037 613.3895747599453 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 3600 1037 624 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 5400 1037 603.6373456790125 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 7200 1037 624 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 9000 1037 624 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 10800 1037 624 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 12600 1037 615.3511659807956 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 14400 1037 613.3895747599453 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }
+lower 16200 1037 624 { start: 29, end: 7, path: undefined, p: [ 1037, 624 ] }

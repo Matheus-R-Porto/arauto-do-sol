@@ -41,7 +41,8 @@ export class RoomManager {
     this.player.reset(spawn.x,spawn.y);this.player.facing=spawn.facing??(spawn.x>this.map.width/2?-1:1);
     this.safe={...spawn};this.arrival=DEMO.arrivalGrace;this.hurtLock=0;
     this.levelEvents.load();
-    this.camera.snapTo(this.player,this.map);
+    this.presentationScale=1;this.camera.w=this.baseView.w;this.camera.h=this.baseView.h;
+    this.camera.snapTo(this.player,this.map);this.framePassages();
     this.notify(this.room.name);
   }
   get enemies(){return this.state.enemies;}
@@ -99,7 +100,7 @@ export class RoomManager {
     if(this.health.dead){this.die();return;}
     if(this.transition) {
       const t=this.transition;t.time+=dt;
-      if(t.time>=DEMO.fade&&!t.switched){t.switched=true;const e=t.exit;if(t.localZone){this.cellZone=t.localZone;this.player.reset(t.localZone==='secret'?160:216,232);this.arrival=DEMO.arrivalGrace;}else this.load(e.to,this.rooms[e.to].entries[e.entry]);if(t.notice)this.notify(t.notice);}
+      if(t.time>=DEMO.fade&&!t.switched){t.switched=true;const e=t.exit;if(t.localZone){this.cellZone=t.localZone;this.player.reset(t.localZone==='secret'?160:216,232);this.arrival=DEMO.arrivalGrace;this.framePassages();}else this.load(e.to,this.rooms[e.to].entries[e.entry]);if(t.notice)this.notify(t.notice);}
       if(t.time>=DEMO.fade*2)this.transition=null;
       return;
     }
@@ -141,10 +142,13 @@ export class RoomManager {
     const gate=rGate(this.room,p),targetScale=gate?1-.2*gate:1;
     this.presentationScale+=(targetScale-this.presentationScale)*(1-Math.exp(-4*dt));
     this.camera.w=this.baseView.w/this.presentationScale;this.camera.h=this.baseView.h/this.presentationScale;
-    this.camera.update(dt,gate?{x:p.x+(this.room.sealedGate.x-p.x)*gate*.3,y:p.y-40*gate,h:p.h,facing:p.facing}:p,this.map);
+    this.camera.update(dt,gate?{x:p.x+(this.room.sealedGate.x-p.x)*gate*.3,y:p.y-56*gate,h:p.h,facing:p.facing}:p,this.map);
+    this.framePassages();
+  }
+  framePassages(){const p=this.player;
     if(this.room.id==='awakening')this.camera.x=this.cellZone==='secret'?192-this.camera.w:184;
     // Keep the passage mouth at the screen edge while the sprite exits.
-    for(const e of this.room.exits)if(e.offscreen&&Math.abs(p.y-e.y)<28&&Math.abs(p.x-e.x)<100){
+    for(const e of this.room.exits)if(e.offscreen&&Math.abs(p.y-e.y)<28&&Math.abs(p.x-e.x)<180){
       if(e.direction>0)this.camera.x=Math.min(this.camera.x,Math.max(0,e.x-this.camera.w));
       else this.camera.x=Math.max(this.camera.x,e.x);
     }

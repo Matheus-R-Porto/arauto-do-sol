@@ -1,0 +1,13 @@
+Every horizontal passage: offscreen threshold, both directions, clear arrivals.
+Cell secret: faded local transition out and back.
+Boss: waits for entry, narrow gates, death restores preboss checkpoint; final door retains upper masonry.
+Gate camera: gradual local zoom and restoration while moving.
+Backtracking 2 -> 1 normal controls and live enemies
+Backtracking 3 -> 2 normal controls and live enemies
+Backtracking 4 -> 3 normal controls and live enemies
+Backtracking 5 -> 4 normal controls and live enemies
+Backtracking 6 -> 5 normal controls and live enemies
+Backtracking 7 -> 6 normal controls and live enemies
+Backtracking 8 -> 7 normal controls and live enemies
+Backtracking 9 -> 8 normal controls and live enemies
+Backtracking 10 -> 9 normal controls and live enemies

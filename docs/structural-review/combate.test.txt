@@ -1,0 +1,68 @@
+PASSOU  M1: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M1: 1o hit tira 1 de vida e nao mata
+         vida=11/12, morto=false
+PASSOU  M1: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M1: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M1: depois de 5 hits em combo, vida = 7
+         vida=7, morto=false
+PASSOU  M1: ainda nao morreu com 11 hits
+         vida=1, morto=false
+PASSOU  M1: 12 hits matam o zumbi (12 de vida / 1 de dano)
+         vida=0, morto=true
+PASSOU  M1: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=11 (esperado 11, so 1 hit deveria ter valido)
+PASSOU  M1: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M1: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M1: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M1: golpe consome energia (attackLight)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  M2: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M2: 1o hit tira 2 de vida e nao mata
+         vida=10/12, morto=false
+PASSOU  M2: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M2: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M2: depois de 5 hits em combo, vida = 2
+         vida=2, morto=false
+PASSOU  M2: ainda nao morreu com 5 hits
+         vida=2, morto=false
+PASSOU  M2: 6 hits matam o zumbi (12 de vida / 2 de dano)
+         vida=0, morto=true
+PASSOU  M2: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=10 (esperado 10, so 1 hit deveria ter valido)
+PASSOU  M2: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M2: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M2: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M2: golpe consome energia (attackM2)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  zumbi morto so "finished" depois do deathFadeTime
+         finished logo apos morrer=false, finished depois do fade=true
+PASSOU  M2 causa o dobro de dano do M1
+         M1=1, M2=2
+PASSOU  intercalando M1/M2, o 5o hit (M1 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  combo compartilhado reinicia do zero depois do finisher intercalado
+         combo.step apos o 5o hit=0
+PASSOU  intercalando M1/M2, o 5o hit (M2 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  o finisher intercalado ainda causa o dano da arma que bateu (M2 = 2)
+         vida antes=6, depois=4
+PASSOU  M2 acerta no frame seguinte ao M1, mesmo com o cooldown do M1 ainda ativo
+         vida=9 (esperado 9, os 2 hits deveriam ter valido)
+PASSOU  os 2 hits intercalados avancaram o MESMO combo (2 hits = passo 2)
+         combo.step apos M1 seguido de M2=2
+PASSOU  2o hit durante i-frames nao aplica dano nem sobrescreve o knockback
+         1o hit=true, 2o hit=false, vida=11, vx=100
+
+33/33 testes de combate ok

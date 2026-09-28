@@ -102,3 +102,6 @@ Veja `docs/DEMO_IMPLEMENTATION.md` para decisÃµes provisÃ³rias, mediÃ§Ãµ
 ResoluÃ§Ã£o dos personagens corrigida em v0.5.1, preservando o tamanho no mundo e o zoom: [detalhes e reproduÃ§Ã£o](docs/RESOLUCAO_SPRITES.md).
 
 Alinhamento local dos feixes M1/M2: [correÃ§Ã£o e testes](docs/attack-alignment/README.md). Escalas aprovadas preservadas.
+
+
+Revisão estrutural: todas as plataformas do Cemitério são sólidas. Desça pelas bordas e aberturas. F1 mostra também os blocos de colisão e os hazards. Veja [o relatório por anexo](docs/structural-review/RELATORIO.md) e a página de inspeção em `/tests/greybox-review.html`.

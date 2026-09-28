@@ -2,7 +2,7 @@ export function drawCemetery(ctx,w,art=null,debug=false){
  const r=w.room,ev=w.levelEvents;if(!r.number)return;
  const prop=(name,x,y)=>{if(!art?.manifest.assets[name])return false;art.sprite(ctx,name,x,y);return true;};
  // Side-view door jamb: the threshold is exactly the vertical seam at exit.x.
- for(const e of r.exits){if(!e.physical)continue;
+ for(const e of r.exits){if(!e.physical)continue;if(debug&&e.offscreen){ctx.strokeStyle='#f8de74';ctx.strokeRect(e.x+e.direction*e.visualMargin-.5,e.y-32,1,32);}
    if(e.passageType==='vertical'){if(r.arena&&w.arenaLocked){ctx.fillStyle='#847351';ctx.fillRect(e.x-e.openingWidth/2,e.y-8,e.openingWidth,3);for(let x=e.x-e.openingWidth/2;x<e.x+e.openingWidth/2;x+=8)ctx.fillRect(x,e.y-8,2,8);}if(debug){ctx.strokeStyle='#68ffae';ctx.strokeRect(e.x-e.openingWidth/2,e.y-1,e.openingWidth,2);}continue;}
    if(e.passageType==='passage'){if(debug){ctx.strokeStyle='#68ffae';ctx.strokeRect(e.x-1,e.y-22,2,22);}continue;}
    if(e.flag&&art?.wallPolish){if(debug){ctx.strokeStyle=w.flags.has(e.flag)?'#68ffae':'#ff9f68';ctx.strokeRect(e.x+3.5,e.y-32,1,32);}continue;}const locked=w.arenaLocked||!w.progression.isOpen(e);

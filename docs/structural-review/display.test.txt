@@ -1,0 +1,2 @@
+Display: 3 bases → Full HD, nearest-neighbor, aspect ratio, resize, same framing and frozen world/HUD passed.
+Fullscreen: button, F shortcut, entry/exit resize, denial and unsupported-browser fallback passed.

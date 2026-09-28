@@ -1,0 +1,11 @@
+PASSOU arte cobre todos os estados implementados e cada golpe dura o cooldown real
+PASSOU prioridade morte > hurt > ataque > ar > locomoção
+PASSOU alternância M1/M2 reinicia visual no contato sem inserir startup
+PASSOU invulnerabilidade de chegada não inventa reação de dano
+PASSOU respawn e troca de sala não carregam animações antigas
+PASSOU consultar frame em 30/60/144 FPS não avança tempo e respeita não-loop
+PASSOU pausa de transição e hitstop congelam locomoção
+PASSOU observador aceita mundo congelado sem escrever gameplay
+Arte no percurso: fall, walk, idle, jump, land, run, attack-light, attack-m2, hurt, death | 276.5 s simulados
+PASSOU percurso com observador tem o mesmo resultado de gameplay, incluindo respawn no novo mapa
+9/9 testes de apresentação ok

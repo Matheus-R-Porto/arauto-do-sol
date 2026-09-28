@@ -1,0 +1,2 @@
+Architecture: secret opacity before/during damage, persistent reveal, fixed cell lintel and unchanged remaining map verified.
+Directional shortcuts and visibility separation verified.

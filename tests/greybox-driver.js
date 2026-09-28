@@ -2,7 +2,7 @@ import {navigation,nearest,route,landing,input}from'./greybox-navigation.js';
 import {PlaythroughDriver}from'./playthrough-driver.js';
 export class GreyboxDriver{
  constructor(){this.frame=0;this.last='';this.cache=new Map();this.bossBot=new PlaythroughDriver({mode:'critical'});this.roomOrder=['awakening','passage','crossroads','watch','bridge','ossuary','sentries','balcony','ascent','guardian'];this.air=null;this.wait=0;}
- next(w){
+ next(w,overrideGoal=null){
   this.frame++;const p=w.player,r=w.room,k=input();k.pressed={};k.held={};
   if(w.phase==='title'){k.pressed.interact=true;return k;}if(w.phase!=='playing'||w.transition)return k;
   if(this.last!==r.id){this.last=r.id;this.frame=0;this.air=null;this.nav=navigation(w.map);this.wait=0;}
@@ -10,8 +10,8 @@ export class GreyboxDriver{
    const offset=r.bossArena.left,player=Object.create(p),boss=Object.create(w.boss);Object.defineProperty(player,'x',{value:p.x-offset});Object.defineProperty(boss,'x',{value:w.boss.x-offset});Object.defineProperty(boss,'slamX',{value:w.boss.slamX-offset});
    const local=Object.create(w);Object.defineProperty(local,'player',{value:player});Object.defineProperty(local,'boss',{value:boss});Object.defineProperty(local,'map',{value:{width:r.bossArena.right-offset}});return this.bossBot.next(local);
   }
-  let goal=r.exits.find(e=>e.to===this.roomOrder[this.roomOrder.indexOf(r.id)+1]);
-  if(r.id==='guardian')goal=!w.bossDefeated?{x:r.bossArena.trigger+24,y:r.boss.y}:!w.flags.has('bossKey')?r.bossKey:!w.flags.has('finalDoor')?{x:r.finalDoor.x-12,y:r.finalDoor.y}:r.end;
+  let goal=overrideGoal??r.exits.find(e=>e.to===this.roomOrder[this.roomOrder.indexOf(r.id)+1]);
+  if(r.id==='guardian'&&!overrideGoal)goal=!w.bossDefeated?{x:r.bossArena.trigger+24,y:r.boss.y}:!w.flags.has('bossKey')?r.bossKey:!w.flags.has('finalDoor')?{x:r.finalDoor.x-12,y:r.finalDoor.y}:r.end;
   if(w.arenaLocked&&!w.boss){const e=w.enemies.find(e=>!e.dead);goal=e?{x:e.x,y:e.y}:{x:240,y:224};}
   if(!goal)return k;
   // Defensive ordinary attacks; no changes to positions, health or energy.
@@ -28,12 +28,12 @@ export class GreyboxDriver{
   }
   return this.navigate(w,goal,k);
  }
- navigate(w,goal,k){const p=w.player,r=w.room; if(goal.offscreen&&Math.abs(p.y-goal.y)<2&&Math.abs(p.x-goal.x)<60){k.moveX=goal.direction;return k;}
+ navigate(w,goal,k){const p=w.player,r=w.room; if(r.id==='ascent'&&goal.to==='balcony'&&p.y<100){k.moveX=p.x>124?-1:0;return k;} if(goal.offscreen&&Math.abs(p.y-goal.y)<2&&Math.abs(p.x-goal.x)<60){k.moveX=goal.direction;return k;}
   if(w.energy.current<12&&!this.air&&p.onGround){if(w.energy.current<60){this.rest=true;}}if(this.rest){const threatened=w.enemies.some(e=>!e.dead&&Math.abs(e.x-p.x)<210&&Math.abs(e.y-p.y)<40);if(w.energy.current>(threatened?24:75))this.rest=false;else {this.runup=null;k.pressed={};return k;}}
   if(r.finalDoor&&!w.flags.has('finalDoor')&&Math.abs(p.x-r.finalDoor.x)<25){k.pressed.interact=true;return k;}
   if(goal.axis==='y'&&!this.air&&Math.abs(p.y-goal.y)<48&&Math.abs(p.x-goal.x)<40){
    this.air=null;k.moveX=Math.abs(goal.x-p.x)>2?Math.sign(goal.x-p.x):0;
-   if(goal.direction<0){k.pressed.jump=p.onGround;k.held.jump=true;}
+   if(goal.direction<0||w.map.overlapsSolid(p.x+k.moveX*8-5,p.y-22,10,22)){k.pressed.jump=p.onGround;k.held.jump=true;}
    return k;
   }
   if(this.air){const a=this.air;a.time++;k.moveX=a.turn&&a.time>=a.turn?-a.dir:a.dir;k.held.dash=true;k.held.jump=a.jump===true&&a.time<a.cut;k.held.down=a.jump==='drop';if((p.onGround&&landing(this.nav.nodes,p)===a.to&&a.time>3)||a.time>a.frames+45){this.air=null;}else return k;}

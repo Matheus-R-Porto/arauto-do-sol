@@ -1,0 +1,1 @@
+Tiles: protected gameplay/actors, approved scales, deterministic distribution, and identical partial-tile sampling verified.

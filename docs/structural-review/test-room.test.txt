@@ -1,0 +1,1 @@
+Test room: square, isolated, two solid platforms, drop-through blocked, real combat functional.

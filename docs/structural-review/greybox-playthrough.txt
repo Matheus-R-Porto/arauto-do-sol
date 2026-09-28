@@ -1,0 +1,21 @@
+0.0 awakening 5
+0.7 passage 5
+8.9 crossroads 5
+24.2 watch 5
+44.7 bridge 3
+progress 58.5 bridge 573 240 {"start":1,"end":5,"path":4,"p":[575.4722222222229,240]}
+70.8 ossuary 1
+84.0 sentries 5
+110.6 ossuary 1
+progress 117.4 ossuary 1059 64 {"start":0,"end":0,"path":0,"p":[1056.3888888888882,64]}
+118.7 sentries 1
+120.8 balcony 1
+127.1 ascent 1
+131.0 ossuary 5
+145.9 sentries 5
+148.1 balcony 5
+154.4 ascent 5
+progress 174.4 ascent 206 416 {"start":10,"end":0,"path":9,"p":[210.58888888889234,416]}
+188.0 guardian 4
+progress 234.0 guardian 1072 400 {"start":5,"end":5,"path":0,"p":[1040.038888888887,400]}
+FINISHED 276.5000000000772 1

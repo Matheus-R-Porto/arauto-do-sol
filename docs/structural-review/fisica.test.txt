@@ -1,0 +1,46 @@
+PASSOU  cai e pousa no chao
+         y=304 onGround=true
+PASSOU  pousa na altura do chao (linha 19 => y=304)
+         y=304
+PASSOU  altura do pulo ~= jumpHeight
+         alcancou 49.6px, configurado 52px (erro 2.4)
+PASSOU  pulo curto < pulo longo
+         curto 31.7px vs longo 49.6px
+PASSOU  vence o vao de 5 tiles correndo
+         vel corrida 158px/s, x final 632, y 304
+PASSOU  custo em exploracao e metade do de combate
+         combate 6, exploracao 3
+PASSOU  regen so comeca apos 1s e rende ~10%/s
+         apos 1s: 0.17, apos 2s: 10.17
+PASSOU  wall jump sobe o poco ate a saida (linha 6 => y<=112)
+         subiu ate y=38 (chao era 304)
+PASSOU  sem doubleJump, 2o toque no ar nao impulsiona
+         vy antes=32.1, depois=52.8
+PASSOU  com doubleJump, 2o toque no ar impulsiona pra cima
+         vy antes=135.8, apos pulo=-223.5
+PASSOU  depois de usar, um 3o toque no ar nao impulsiona de novo
+         vy apos 2o pulo=-223.5, apos tentar 3o=-210.1
+PASSOU  double jump consome o unico pulo aereo disponivel (nao e infinito)
+         airJumpsLeft apos usar = 0
+PASSOU  dash SEM intangibilidade atravessa o hazard tomando dano
+         dano tomado=true, vida=4/5
+PASSOU  dash COM intangibilidade atravessa o hazard ileso
+         dano tomado=false, vida=5/5
+PASSOU  escala uma parede unica por varios ciclos sem pousar (>= 6 tiles)
+         pousou=false, altura maxima=570.0px (35.6 tiles)
+PASSOU  troca de direcao no ar e instantanea (direto no airSpeed, sem frear)
+         vx antes=18.3, vx logo apos trocar=-92.0 (esperado -92)
+PASSOU  no chao, trocar de direcao continua sendo gradual (nao instantanea)
+         vx antes=92.0, vx 1 frame apos trocar=68.7 (ainda positivo e decaindo, nao pulou direto pra -92)
+PASSOU  segurando o pulo apos o apice, entra em planar (estado e vy travado)
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  planar tambem ativa depois do 2o pulo (double jump), nao so do 1o
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  soltar o pulo cancela o planar (volta a acelerar a queda)
+         vy ao soltar=45.0, vy 15 frames depois=356.0, estado=fall
+PASSOU  planar drena energia e para quando ela acaba
+         energia final=0.00, estado final=fall
+PASSOU  sem abilities.glide, segurar o pulo caindo nao trava a queda
+         estado=fall, vy=430.0 (bem acima do teto de planar, 45)
+
+22/22 testes ok

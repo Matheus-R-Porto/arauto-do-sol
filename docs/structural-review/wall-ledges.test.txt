@@ -1,0 +1,103 @@
+Cell: intact barrier, real melee destruction, physical local crossing.
+10 -> 3 -> 10: real melee, aligned crossing, safe arrival and bidirectional transition.
+Shortcut remains open after room reload and respawn.
+Room 4: bottom -> all climbing stages -> room 3, normal jumps: 24
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  [
+    {
+      breakAllowed: false,
+      connection: 'awakening:passage:main',
+      direction: -1,
+...
+      kind: undefined,
++     offscreen: true,
+      passageType: 'passage',
+      physical: true,
+      side: 'east',
+      to: 'crossroads',
++     visualMargin: 24,
+      x: 760,
+      y: 248
+    }
+  ]
+
+    at file:///C:/Users/theuz/.codex/.chatgpt-projects/g-p-6aabd2099e4c8191abbea50685eb5b37/arauto-do-sol/tests/wall-ledges.test.mjs:23:96
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    {
+      x: 40,
+      y: 248,
+      to: 'awakening',
+      entry: 'awakening:passage:main:awakening',
+      direction: -1,
+      side: 'west',
+      physical: true,
+      passageType: 'door',
+      connection: 'awakening:passage:main',
+      flag: undefined,
+      kind: undefined,
+      breakAllowed: false
+    },
+    {
+      x: 760,
+      y: 248,
+      to: 'crossroads',
+      entry: 'passage:crossroads:main:crossroads',
+      direction: 1,
+      side: 'east',
+      physical: true,
+      passageType: 'passage',
+      connection: 'passage:crossroads:main',
+      flag: undefined,
+      kind: undefined,
+      breakAllowed: false,
+      offscreen: true,
+      visualMargin: 24
+    }
+  ],
+  expected: [
+    {
+      x: 40,
+      y: 248,
+      to: 'awakening',
+      entry: 'awakening:passage:main:awakening',
+      direction: -1,
+      side: 'west',
+      physical: true,
+      passageType: 'door',
+      connection: 'awakening:passage:main',
+      flag: undefined,
+      kind: undefined,
+      breakAllowed: false
+    },
+    {
+      x: 760,
+      y: 248,
+      to: 'crossroads',
+      entry: 'passage:crossroads:main:crossroads',
+      direction: 1,
+      side: 'east',
+      physical: true,
+      passageType: 'passage',
+      connection: 'passage:crossroads:main',
+      flag: undefined,
+      kind: undefined,
+      breakAllowed: false
+    }
+  ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,1 @@
+Polish: unchanged gameplay hashes, persistent rubble without collision, confirmed hits only, landing and original attack clips preserved.

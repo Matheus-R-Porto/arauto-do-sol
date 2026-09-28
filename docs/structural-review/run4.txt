@@ -1,0 +1,31 @@
+0.0 awakening 5
+0.7 passage 5
+10.3 crossroads 5
+26.2 watch 5
+31.4 bridge 5
+progress 58.5 bridge 1222 272 {"start":4,"end":5,"path":1,"p":[1220.2388888888881,272]}
+60.1 ossuary 3
+progress 118.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 178.2 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 238.2 ossuary 1041 184 {"start":5,"end":0,"path":2,"p":[1043.0166666666669,184]}
+progress 298.2 ossuary 1042 169 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 358.2 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 418.1 ossuary 1058 184 {"start":5,"end":0,"path":2,"p":[1058.5,184]}
+progress 478.1 ossuary 1032 184 {"start":5,"end":0,"path":2,"p":[1032.6722222222227,184]}
+progress 538.1 ossuary 1053 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 598.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 658.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 718.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 778.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1059,184]}
+progress 838.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 898.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 958.1 ossuary 1054 184 {"start":5,"end":0,"path":2,"p":[1055.25,184]}
+progress 1018.1 ossuary 1032 175 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1078.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1138.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1059,184]}
+progress 1198.1 ossuary 1043 184 {"start":5,"end":0,"path":2,"p":[1044.5500000000002,184]}
+progress 1258.1 ossuary 1042 169 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1318.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1378.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1438.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1031.5500000000006,184]}
+progress 1498.1 ossuary 1059 184 {"start":5,"end":0,"path":2,"p":[1059,184]}

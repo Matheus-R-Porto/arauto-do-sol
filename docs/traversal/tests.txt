@@ -1,0 +1,200 @@
+
+> arauto-do-sol@0.6.0 test
+> node tests/fisica.test.mjs && node tests/audio.test.mjs && node tests/combate.test.mjs && node tests/input.test.mjs && node tests/sprites.test.mjs && node tests/animations-v2.test.mjs && node tests/hud-detail.test.mjs && node tests/display.test.mjs && node tests/attack-alignment.test.mjs && node tests/greybox-secret.mjs && node tests/greybox-lower.mjs && node tests/greybox.test.mjs && node tests/level-protected.test.mjs && node tests/greybox-playthrough.mjs && node tests/test-room.test.mjs && node tests/polish.test.mjs && node tests/architecture.test.mjs && node tests/tiles.test.mjs && node tests/traversal.test.mjs
+
+PASSOU  cai e pousa no chao
+         y=304 onGround=true
+PASSOU  pousa na altura do chao (linha 19 => y=304)
+         y=304
+PASSOU  altura do pulo ~= jumpHeight
+         alcancou 49.6px, configurado 52px (erro 2.4)
+PASSOU  pulo curto < pulo longo
+         curto 31.7px vs longo 49.6px
+PASSOU  vence o vao de 5 tiles correndo
+         vel corrida 158px/s, x final 632, y 304
+PASSOU  custo em exploracao e metade do de combate
+         combate 6, exploracao 3
+PASSOU  regen so comeca apos 1s e rende ~10%/s
+         apos 1s: 0.17, apos 2s: 10.17
+PASSOU  wall jump sobe o poco ate a saida (linha 6 => y<=112)
+         subiu ate y=38 (chao era 304)
+PASSOU  sem doubleJump, 2o toque no ar nao impulsiona
+         vy antes=32.1, depois=52.8
+PASSOU  com doubleJump, 2o toque no ar impulsiona pra cima
+         vy antes=135.8, apos pulo=-223.5
+PASSOU  depois de usar, um 3o toque no ar nao impulsiona de novo
+         vy apos 2o pulo=-223.5, apos tentar 3o=-210.1
+PASSOU  double jump consome o unico pulo aereo disponivel (nao e infinito)
+         airJumpsLeft apos usar = 0
+PASSOU  dash SEM intangibilidade atravessa o hazard tomando dano
+         dano tomado=true, vida=4/5
+PASSOU  dash COM intangibilidade atravessa o hazard ileso
+         dano tomado=false, vida=5/5
+PASSOU  escala uma parede unica por varios ciclos sem pousar (>= 6 tiles)
+         pousou=false, altura maxima=570.0px (35.6 tiles)
+PASSOU  troca de direcao no ar e instantanea (direto no airSpeed, sem frear)
+         vx antes=18.3, vx logo apos trocar=-92.0 (esperado -92)
+PASSOU  no chao, trocar de direcao continua sendo gradual (nao instantanea)
+         vx antes=92.0, vx 1 frame apos trocar=68.7 (ainda positivo e decaindo, nao pulou direto pra -92)
+PASSOU  segurando o pulo apos o apice, entra em planar (estado e vy travado)
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  planar tambem ativa depois do 2o pulo (double jump), nao so do 1o
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  soltar o pulo cancela o planar (volta a acelerar a queda)
+         vy ao soltar=45.0, vy 15 frames depois=356.0, estado=fall
+PASSOU  planar drena energia e para quando ela acaba
+         energia final=0.00, estado final=fall
+PASSOU  sem abilities.glide, segurar o pulo caindo nao trava a queda
+         estado=fall, vy=430.0 (bem acima do teto de planar, 45)
+
+22/22 testes ok
+PASSOU  em combate, fadeGain vai a 1 imediatamente
+         fadeGain=1
+PASSOU  fadeGain nao zera no primeiro frame fora de combate
+         fadeGain apos 1 frame fora de combate=0.988
+PASSOU  fadeGain chega a 0 apos fadeOutTime fora de combate
+         fadeGain apos 1.4s+ fora de combate=0
+PASSOU  voltar a combate no meio do fade restaura o volume cheio na hora
+         durante o fade=0.762, apos voltar a combate=1
+
+4/4 testes de audio ok
+PASSOU  M1: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M1: 1o hit tira 1 de vida e nao mata
+         vida=11/12, morto=false
+PASSOU  M1: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M1: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M1: depois de 5 hits em combo, vida = 7
+         vida=7, morto=false
+PASSOU  M1: ainda nao morreu com 11 hits
+         vida=1, morto=false
+PASSOU  M1: 12 hits matam o zumbi (12 de vida / 1 de dano)
+         vida=0, morto=true
+PASSOU  M1: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=11 (esperado 11, so 1 hit deveria ter valido)
+PASSOU  M1: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M1: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M1: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M1: golpe consome energia (attackLight)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  M2: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M2: 1o hit tira 2 de vida e nao mata
+         vida=10/12, morto=false
+PASSOU  M2: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M2: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M2: depois de 5 hits em combo, vida = 2
+         vida=2, morto=false
+PASSOU  M2: ainda nao morreu com 5 hits
+         vida=2, morto=false
+PASSOU  M2: 6 hits matam o zumbi (12 de vida / 2 de dano)
+         vida=0, morto=true
+PASSOU  M2: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=10 (esperado 10, so 1 hit deveria ter valido)
+PASSOU  M2: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M2: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M2: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M2: golpe consome energia (attackM2)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  zumbi morto so "finished" depois do deathFadeTime
+         finished logo apos morrer=false, finished depois do fade=true
+PASSOU  M2 causa o dobro de dano do M1
+         M1=1, M2=2
+PASSOU  intercalando M1/M2, o 5o hit (M1 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  combo compartilhado reinicia do zero depois do finisher intercalado
+         combo.step apos o 5o hit=0
+PASSOU  intercalando M1/M2, o 5o hit (M2 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  o finisher intercalado ainda causa o dano da arma que bateu (M2 = 2)
+         vida antes=6, depois=4
+PASSOU  M2 acerta no frame seguinte ao M1, mesmo com o cooldown do M1 ainda ativo
+         vida=9 (esperado 9, os 2 hits deveriam ter valido)
+PASSOU  os 2 hits intercalados avancaram o MESMO combo (2 hits = passo 2)
+         combo.step apos M1 seguido de M2=2
+PASSOU  2o hit durante i-frames nao aplica dano nem sobrescreve o knockback
+         1o hit=true, 2o hit=false, vida=11, vx=100
+
+33/33 testes de combate ok
+PASSOU  gamepad desconectado não deixa direção presa
+PASSOU  teclado continua pressionado quando gamepad desconecta
+PASSOU  soltar teclado não solta ação ainda segurada no gamepad
+PASSOU  M1, J e gamepad alimentam a mesma ação sem repetir bordas
+PASSOU  perda de foco solta teclado e mouse
+5/5 testes de input ok
+PASSOU arte cobre todos os estados implementados e cada golpe dura o cooldown real
+PASSOU prioridade morte > hurt > ataque > ar > locomoção
+PASSOU alternância M1/M2 reinicia visual no contato sem inserir startup
+PASSOU invulnerabilidade de chegada não inventa reação de dano
+PASSOU respawn e troca de sala não carregam animações antigas
+PASSOU consultar frame em 30/60/144 FPS não avança tempo e respeita não-loop
+PASSOU pausa de transição e hitstop congelam locomoção
+PASSOU observador aceita mundo congelado sem escrever gameplay
+Arte no percurso: fall, walk, jump, land, run, idle, attack-m2, attack-light, hurt, death | 237.9 s simulados
+PASSOU percurso com observador tem o mesmo resultado de gameplay, incluindo respawn no novo mapa
+9/9 testes de apresentação ok
+PASSOU inventário por sequência, durações e loops solicitados
+PASSOU frames progridem pelo timer real e recovery segura o último quadro
+PASSOU boss fase 2 preserva overlay durante movimento e adapta recovery sem alterar AI
+PASSOU morte não volta ao idle; hitstop congela relógio e flip não reinicia
+PASSOU loop e hold não dependem da quantidade de draw calls
+PASSOU marcador de disparo ocorre uma vez, só após transição real da AI
+PASSOU impacto de projétil só por colisão, não TTL nem troca de sala
+7/7 testes de animação v2 ok
+HUD: somente quatro assets alterados; pivots, dimensões e preenchimento 0/10/50/100% preservados.
+Display: 3 bases → Full HD, nearest-neighbor, aspect ratio, resize, same framing and frozen world/HUD passed.
+Fullscreen: button, F shortcut, entry/exit resize, denial and unsupported-browser fallback passed.
+PASSOU M1 acompanha a lâmina alta, em vez do centro vertical da hitbox
+PASSOU retração da espada move o efeito junto com o quadro real de M1 e M2
+PASSOU espelhamento e salto preservam ligação local à lâmina em todos os quadros
+PASSOU alternância não deixa feixe anterior sobre a nova pose; hurt e recovery não deixam resíduos
+PASSOU efeito respeita recorte do alcance e não escala a arte nem altera estado
+PASSOU sprites, perfis de escala, gameplay e resolução aprovados permanecem byte a byte iguais
+6/6 testes de alinhamento ok
+0 48.30555555555556 344 undefined [ 'liftLever' ]
+0 400.4500000000003 293.3131001371742 { start: 16, end: 1, path: 4, p: [ 375.316666666668, 336 ] } [ 'liftLever' ]
+SECRET COLLECTED 55.93333333333144 0
+lower 0 1199.6944444444443 656 undefined
+LOWER ROUTE RETURNED 12.450000000000198 0 [ 'lowerChest', 'lowerShortcut' ]
+Greybox: ten rooms, four-hit piles, physical doors, directional walls, lift gate, two waves and persistent run state passed.
+Optional chest return, one-way drop, lever interaction, lift persistence and safe boss checkpoint passed.
+Approved physics, combat, AI, player/actor animations, energy, camera, display and sprite scales unchanged; new prop hashes valid.
+0.0 awakening 5
+0.7 passage 5
+9.2 crossroads 5
+24.8 watch 5
+33.4 bridge 5
+progress 58.5 bridge 980 256 {"start":2,"end":5,"path":2,"p":[971.211111111108,256]}
+68.5 ossuary 3
+79.1 sentries 5
+97.6 ossuary 4
+104.8 sentries 4
+106.9 balcony 4
+114.8 ascent 4
+progress 116.3 ascent 1005 544 {"start":24,"end":0,"path":15,"p":[1005,544]}
+150.5 guardian 1
+progress 176.0 guardian 1273 400 {"start":4,"end":4,"path":0,"p":[1065.4388888888866,400]}
+progress 236.0 guardian 1595 392 {"start":3,"end":1,"path":2,"p":[1593.0555555555447,392]}
+FINISHED 237.21666666674759 0
+Test room: square, isolated, two solid platforms, drop-through blocked, real combat functional.
+Polish: unchanged gameplay hashes, persistent rubble without collision, confirmed hits only, landing and original attack clips preserved.
+Architecture: secret opacity before/during damage, persistent reveal, fixed cell lintel and unchanged remaining map verified.
+Directional shortcuts and visibility separation verified.
+Tiles: protected gameplay/actors, approved scales, deterministic distribution, and identical partial-tile sampling verified.
+3->4: south, clear collider, normal controls, framed arrival
+4->3: north, clear collider, normal controls, framed arrival
+6->7: north, clear collider, normal controls, framed arrival
+7->6: south, clear collider, normal controls, framed arrival
+9->10: north, clear collider, normal controls, framed arrival
+10->9: south, clear collider, normal controls, framed arrival
+Traversal: local geometry only, unchanged topology/encounters, all six vertical directions traversed.

@@ -1,0 +1,222 @@
+{
+  "frames": [
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 24,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        59,
+        82,
+        187,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\slam-active\\slam-active-0.png",
+      "input_sha256": "fb306380a194cec875e3dfaf14f73ce0b8e2603d15786b5bcac057f86f9b0cb0",
+      "input_size": [
+        271,
+        349
+      ],
+      "input_bbox": [
+        2,
+        2,
+        269,
+        347
+      ],
+      "source_anchor": [
+        145.0,
+        347
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.48,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\slam-active\\slam-active-0.png",
+      "output_sha256": "072ea9f3f8a1ac25377bc51a05473c1bc3f999c90e623a57cea39fb07e2fb2ef"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 23,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        52,
+        95,
+        171,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\slam-active\\slam-active-1.png",
+      "input_sha256": "8f6e418713e367dd26f5845206493275b4ca681d32ea8916507951ed10751b86",
+      "input_size": [
+        251,
+        322
+      ],
+      "input_bbox": [
+        2,
+        2,
+        249,
+        320
+      ],
+      "source_anchor": [
+        160.0,
+        320
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.48,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\slam-active\\slam-active-1.png",
+      "output_sha256": "43c9a905b1e13519f1a62c84f83433e4e069be34a127ffb293748ed7f09b630a"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#df8348",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        53,
+        143,
+        202,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\slam-active\\slam-active-2.png",
+      "input_sha256": "9f48a130155c49fa82af62610c92eed07b467cf52fb6468a69f3b407f42c28b6",
+      "input_size": [
+        314,
+        223
+      ],
+      "input_bbox": [
+        2,
+        2,
+        312,
+        221
+      ],
+      "source_anchor": [
+        157.5,
+        221
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.48,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\slam-active\\slam-active-2.png",
+      "output_sha256": "c2134cb5536fc123e60d466ad10967e60cf8fa884e38246c31cebc0f39362477"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "awakening",
+    "nodes": 1,
+    "results": []
+  },
+  {
+    "id": "passage",
+    "nodes": 8,
+    "results": [
+      {
+        "from": "awakening 40",
+        "to": "crossroads 760",
+        "reachable": true
+      },
+      {
+        "from": "crossroads 760",
+        "to": "awakening 40",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "crossroads",
+    "nodes": 28,
+    "results": [
+      {
+        "from": "passage 40",
+        "to": "watch 1392",
+        "reachable": true
+      },
+      {
+        "from": "passage 40",
+        "to": "guardian 1432",
+        "reachable": true
+      },
+      {
+        "from": "watch 1392",
+        "to": "passage 40",
+        "reachable": true
+      },
+      {
+        "from": "watch 1392",
+        "to": "guardian 1432",
+        "reachable": true
+      },
+      {
+        "from": "guardian 1432",
+        "to": "passage 40",
+        "reachable": true
+      },
+      {
+        "from": "guardian 1432",
+        "to": "watch 1392",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "watch",
+    "nodes": 23,
+    "results": [
+      {
+        "from": "crossroads 192",
+        "to": "bridge 392",
+        "reachable": true
+      },
+      {
+        "from": "crossroads 192",
+        "to": "bridge 88",
+        "reachable": true
+      },
+      {
+        "from": "bridge 392",
+        "to": "crossroads 192",
+        "reachable": true
+      },
+      {
+        "from": "bridge 392",
+        "to": "bridge 88",
+        "reachable": true
+      },
+      {
+        "from": "bridge 88",
+        "to": "crossroads 192",
+        "reachable": true
+      },
+      {
+        "from": "bridge 88",
+        "to": "bridge 392",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "nodes": 31,
+    "results": [
+      {
+        "from": "watch 224",
+        "to": "ossuary 1392",
+        "reachable": true
+      },
+      {
+        "from": "watch 224",
+        "to": "watch 72",
+        "reachable": true
+      },
+      {
+        "from": "ossuary 1392",
+        "to": "watch 224",
+        "reachable": true
+      },
+      {
+        "from": "ossuary 1392",
+        "to": "watch 72",
+        "reachable": true
+      },
+      {
+        "from": "watch 72",
+        "to": "watch 224",
+        "reachable": false
+      },
+      {
+        "from": "watch 72",
+        "to": "ossuary 1392",
+        "reachable": false
+      }
+    ]
+  },
+  {
+    "id": "ossuary",
+    "nodes": 16,
+    "results": [
+      {
+        "from": "bridge 40",
+        "to": "sentries 1048",
+        "reachable": true
+      },
+      {
+        "from": "sentries 1048",
+        "to": "bridge 40",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "sentries",
+    "nodes": 3,
+    "results": [
+      {
+        "from": "ossuary 440",
+        "to": "balcony 40",
+        "reachable": true
+      },
+      {
+        "from": "balcony 40",
+        "to": "ossuary 440",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "balcony",
+    "nodes": 4,
+    "results": [
+      {
+        "from": "sentries 752",
+        "to": "ascent 40",
+        "reachable": true
+      },
+      {
+        "from": "ascent 40",
+        "to": "sentries 752",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "ascent",
+    "nodes": 25,
+    "results": [
+      {
+        "from": "balcony 1104",
+        "to": "guardian 160",
+        "reachable": true
+      },
+      {
+        "from": "guardian 160",
+        "to": "balcony 1104",
+        "reachable": true
+      }
+    ]
+  },
+  {
+    "id": "guardian",
+    "nodes": 9,
+    "results": [
+      {
+        "from": "ascent 864",
+        "to": "crossroads 40",
+        "reachable": true
+      },
+      {
+        "from": "crossroads 40",
+        "to": "ascent 864",
+        "reachable": true
+      }
+    ]
+  }
+]

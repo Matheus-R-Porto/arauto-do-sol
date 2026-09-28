@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Piloto de arte — Arauto do Sol</title>
+<style>body{background:#090c12;color:#dfd5bd;font:14px monospace;margin:16px}canvas{image-rendering:pixelated;display:block;border:1px solid #3d4147;margin:12px 0}button,select{padding:8px;background:#252e35;color:inherit}#loupe{width:768px;height:480px}p{max-width:900px}</style>
+<h1>Idle piloto · tamanho nativo + ampliação nearest</h1>
+<label>Método <select id="method"><option>nearest</option><option>box</option><option selected>lanczos</option></select></label>
+<label>Sala <select id="room"></select></label>
+<button id="flip">Espelhar</button><button id="boxes">F2 · hitbox</button><button id="pause">Pausar idle</button>
+<canvas id="native" width="480" height="270"></canvas><canvas id="loupe" width="128" height="80"></canvas>
+<p id="status">Carregando arte processada…</p>
+<script type="module">
+import {RoomManager} from '../src/world/room-manager.js';import {Camera} from '../src/core/camera.js';import {Background} from '../src/world/background.js';import {DemoView} from '../src/ui/demo-view.js';import {loadPlayerSprites,PlayerSpriteView} from '../src/ui/player-sprites.js';
+const native=document.querySelector('#native'),ctx=native.getContext('2d'),zoom=document.querySelector('#loupe').getContext('2d');
+const w=new RoomManager(new Camera(480,270));w.phase='playing';const views={};
+for(const method of ['nearest','box','lanczos'])views[method]=new PlayerSpriteView(await loadPlayerSprites(`/assets/sprites/pilot/${method}/manifest.json`));
+import {loadWorldArt} from '../src/ui/world-art.js';
+const view=new DemoView(new Background(480,270),null,await loadWorldArt(),1),room=document.querySelector('#room');
+for(const r of Object.values(w.rooms)){const option=document.createElement('option');option.value=r.id;option.textContent=r.name;room.append(option);}
+room.onchange=()=>w.load(room.value,w.rooms[room.value].spawn);
+document.querySelector('#flip').onclick=()=>w.player.facing*=-1;
+let hitboxes=false,paused=false,time=0,last=0,acc=0;document.querySelector('#boxes').onclick=()=>hitboxes=!hitboxes;document.querySelector('#pause').onclick=()=>paused=!paused;
+function frame(t){const method=document.querySelector('#method').value;view.playerView=views[method];acc+=Math.min(.1,(t-last)/1000);last=t;
+ while(acc>=1/60){if(!paused){time+=1/60;for(const v of Object.values(views))v.animator.time+=1/60;}acc-=1/60;}
+ view.draw(ctx,w,time,{hitboxes,map:false});zoom.imageSmoothingEnabled=false;
+ zoom.clearRect(0,0,128,80);zoom.drawImage(native,Math.round(w.player.x-w.camera.ox)-64,Math.round(w.player.y-w.camera.oy)-48,128,80,0,0,128,80);
+ document.querySelector('#status').textContent=`${method} · corpo 24 px · canvas 64×40 · pivot 32,36 · collider 10×22 · ${w.player.facing===1?'direita':'esquerda'} · frame ${Math.floor(views[method].animator.time/.32)%3}`;
+ requestAnimationFrame(frame);
+}requestAnimationFrame(frame);
+</script></html>

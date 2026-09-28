@@ -1,0 +1,230 @@
+{
+  "frames": [
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        79,
+        106,
+        168,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\idle\\idle-0.png",
+      "input_sha256": "6c6c183df48f35afd5ed942512db943de18678bd584f7a81698e9c1789a65d01",
+      "input_size": [
+        182,
+        287
+      ],
+      "input_bbox": [
+        2,
+        2,
+        180,
+        285
+      ],
+      "source_anchor": [
+        99.0,
+        285
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.5017421602787456,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\idle\\idle-0.png",
+      "output_sha256": "d890c1de55f2b4f90218c7477a9902d04d0645189ff05bc32c15fc7c8556745b"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        82,
+        106,
+        169,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\idle\\idle-1.png",
+      "input_sha256": "55784da9e8672822ba5a48b79a52f1fa09ff9033bef12ed2246495935b31f933",
+      "input_size": [
+        177,
+        287
+      ],
+      "input_bbox": [
+        2,
+        2,
+        175,
+        285
+      ],
+      "source_anchor": [
+        94.0,
+        285
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.5017421602787456,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\idle\\idle-1.png",
+      "output_sha256": "1f4100812b565850e4a2619152368c65bda2e2a424699e0f1bd11757dc042277"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 28,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3",
+        "#ffca7d"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        81,
+        107,
+        169,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\idle\\idle-2.png",
+      "input_sha256": "43c0adab513b0fbd1a224289f72bfa6c87d18f5d6c45950cebf25b57631d66a9",
+      "input_size": [
+        180,
+        286
+      ],
+      "input_bbox": [
+        2,
+        2,
+        178,
+        284
+      ],
+      "source_anchor": [
+        96.5,
+        284
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.5017421602787456,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\idle\\idle-2.png",
+      "output_sha256": "062784f4561f3ef5bcc20e643f68dae02741b947da9902d694a6d2a08c47a2a1"
+    }
+  ]
+}

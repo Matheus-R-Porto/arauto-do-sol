@@ -1,0 +1,21 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Alinhamento de golpes</title>
+<style>body{background:#11151b;color:#ddd;font:14px monospace}label{margin-right:16px}canvas{display:block;image-rendering:pixelated;margin:16px 0;width:960px;max-width:98vw}button,select{padding:8px}#detail{width:640px}pre{white-space:pre-wrap}</style>
+<label>Golpe <select id="attack"><option value="light">M1</option><option value="m2">M2</option></select></label>
+<label>Direção <select id="facing"><option value="1">Direita</option><option value="-1">Esquerda</option></select></label>
+<label><input id="air" type="checkbox">No ar</label><label><input id="boxes" type="checkbox" checked>Hitboxes</label>
+<label>Quadro <input id="tick" type="range" min="0" max="17" value="0"></label>
+<button id="next">Próximo quadro</button><button id="combo">Alternar M1/M2</button>
+<canvas id="game" width="1920" height="1080"></canvas><canvas id="detail" width="640" height="320"></canvas><pre id="status"></pre>
+<script type="module">
+import{RoomManager}from'../src/world/room-manager.js';import{Camera}from'../src/core/camera.js';import{Background}from'../src/world/background.js';import{DemoView,WORLD_ZOOM}from'../src/ui/demo-view.js';import{loadPlayerSprites,PlayerSpriteView}from'../src/ui/player-sprites.js';import{loadWorldArt}from'../src/ui/world-art.js';
+const sprites=await loadPlayerSprites(),art=await loadWorldArt(),ctx=document.querySelector('#game').getContext('2d'),detail=document.querySelector('#detail').getContext('2d');
+const el=id=>document.getElementById(id),input=(pressed={})=>({held:{},pressed,released:{},moveX:0});let combo=false;
+function draw(){const w=new RoomManager(new Camera(480/WORLD_ZOOM,270/WORLD_ZOOM)),pv=new PlayerSpriteView(sprites),view=new DemoView(new Background(480,270),pv,art);w.load('awakening',{x:100,y:352});w.phase='playing';w.transition=null;w.state.enemies=[];w.state.boss=null;
+const step=i=>{w.update(1/60,i);view.update(1/60,w);};for(let i=0;i<60;i++)step(input());w.player.facing=Number(el('facing').value);if(el('air').checked){step(input({jump:true}));for(let i=0;i<5;i++)step(input());}
+const key=el('attack').value;step(input({[key==='light'?'attackLight':'attackM2']:true}));for(let i=0;i<Number(el('tick').value);i++)step(input(combo&&i===2?{[key==='light'?'attackM2':'attackLight']:true}:{}));
+ctx.setTransform(4,0,0,4,0,0);view.draw(ctx,w,0,{hitboxes:el('boxes').checked,map:false});
+detail.imageSmoothingEnabled=false;detail.setTransform(1,0,0,1,0,0);detail.fillStyle='#18202a';detail.fillRect(0,0,640,320);detail.save();detail.scale(8,8);detail.translate(40-Math.round(w.player.x),35-Math.round(w.player.y));pv.draw(detail,w);
+if(el('boxes').checked){const p=w.player,b=p._attackHitbox(18);detail.lineWidth=.125;detail.strokeStyle='#67f7b4';detail.strokeRect(p.left,p.top,p.w,p.h);detail.strokeStyle='#fff36b';detail.strokeRect(b.left,b.top,b.w,b.h);}detail.restore();
+el('status').textContent=`${pv.animator.state} · t=${pv.animator.time.toFixed(3)} · flash M1=${w.player.attacks.light.flashTimer.toFixed(3)} / M2=${w.player.attacks.m2.flashTimer.toFixed(3)} · posição ${w.player.x.toFixed(1)},${w.player.y.toFixed(1)}\nAcima: enquadramento do jogo. Abaixo: ampliação 8× para inspeção. Verde: corpo; amarelo: alcance existente.\n${combo?'Alternância de golpes no terceiro quadro.':''}`;}
+for(const id of ['attack','facing','air','boxes','tick'])el(id).oninput=draw;el('next').onclick=()=>{el('tick').value=(Number(el('tick').value)+1)%18;draw();};el('combo').onclick=()=>{combo=!combo;el('tick').value=4;draw();};draw();
+</script></html>

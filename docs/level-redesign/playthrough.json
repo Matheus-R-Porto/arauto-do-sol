@@ -1,0 +1,22 @@
+{
+  "seconds": 264.80000000008783,
+  "deaths": 1,
+  "rooms": [
+    "awakening",
+    "passage",
+    "crossroads",
+    "watch",
+    "bridge",
+    "ossuary",
+    "sentries",
+    "balcony",
+    "ascent",
+    "guardian"
+  ],
+  "flags": [
+    "arenaComplete",
+    "bossKey",
+    "finalDoor"
+  ],
+  "finished": true
+}

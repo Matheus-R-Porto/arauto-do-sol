@@ -1,0 +1,5 @@
+﻿PASSOU: 56 arquivos servidos integralmente pelo executável, sem Node.js.
+PASSOU: MIME JavaScript e requisições HEAD.
+PASSOU: sprites finais e manifesto disponíveis; RAW inacessível.
+PASSOU: caminhos externos, arquivos alheios, arquivo ausente e métodos de escrita bloqueados.
+PASSOU: duas instâncias coexistem em portas livres, somente em 127.0.0.1.

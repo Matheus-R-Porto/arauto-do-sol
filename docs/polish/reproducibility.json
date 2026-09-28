@@ -1,0 +1,14 @@
+{
+  "identical": true,
+  "files": {
+    "assets\\sprites\\world\\polish\\wall-broken.png": "bd8598f8b824037be05feb705359af463fce25cefc0976726eb4c789c9f125ae",
+    "assets\\sprites\\world\\polish\\wall-cracked.png": "b3630973072ffe0dc4a4ed12ae2472eb4e87e79a48f343712f9022f8b5eea547",
+    "assets\\sprites\\world\\polish\\wall-intact.png": "835cde1910cf4b56665d52edc6a5cd248a6b6ec1f5c9c35f5f9180567f0dee90",
+    "assets\\sprites\\world\\polish\\wall-rubble.png": "7ae144077961b296ee9506702b808fcae5a1a25a27feaf18acc334ec8f5a8359",
+    "assets\\sprites\\protagonist\\polish\\land-0.png": "735e8bddd6d8efcb5bf14d68ca351023d7eaf2c82ad74863fa0c6693bce8d226",
+    "assets\\sprites\\protagonist\\polish\\land-1.png": "038d32b3aae3d6fda89c384f9530a50fdcb71fb313139db21b621e4cb9b0875b",
+    "assets\\sprites\\protagonist\\polish\\land-2.png": "dab59a14b5604859a851873ea96f8c1cd31aad4397a05784ae15d7096e51ce2e",
+    "assets\\sprites\\world\\manifest.json": "f98253581c964a2cf275599b1a4b0800fca7d9aca4520a348da031b8a2d4a9ff",
+    "assets\\sprites\\protagonist\\manifest.json": "c92f55b7db40fc9f77b66f03eb4137b8f03d41b55b09666c46e0cc8d36222565"
+  }
+}

@@ -1,0 +1,1510 @@
+{
+  "lunger/idle": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          46,
+          39,
+          339,
+          209
+        ],
+        "sourceAnchor": [
+          146,
+          168
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            25,
+            42,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\idle\\idle-0.png",
+          "input_sha256": "a2e6878655d88888b0e57ea91886b34176f5fe14014fe464ef413246860e01b1",
+          "input_size": [
+            293,
+            170
+          ],
+          "input_bbox": [
+            2,
+            2,
+            291,
+            168
+          ],
+          "source_anchor": [
+            146,
+            168
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\idle\\idle-0.png",
+          "output_sha256": "f947a5cd05a4d18e045255c3c9fd1f86c5d0752b14ebc490dec5fcb36b12dc63"
+        }
+      },
+      {
+        "rawBox": [
+          416,
+          39,
+          720,
+          209
+        ],
+        "sourceAnchor": [
+          160,
+          168
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            42,
+            55,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\idle\\idle-1.png",
+          "input_sha256": "b939e4233b6d1301c482b3c7b41a69513607c85a928bcf69c701f0119c656f43",
+          "input_size": [
+            304,
+            170
+          ],
+          "input_bbox": [
+            2,
+            2,
+            302,
+            168
+          ],
+          "source_anchor": [
+            160,
+            168
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\idle\\idle-1.png",
+          "output_sha256": "5eba98d79f302119c419b598e01dd3c4f9be99108cc57fbd28db42cddc48a015"
+        }
+      }
+    ]
+  },
+  "lunger/walk": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          792,
+          39,
+          1099,
+          209
+        ],
+        "sourceAnchor": [
+          168,
+          168
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            42,
+            54,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\walk\\walk-0.png",
+          "input_sha256": "8554c51805075dc60955914a91e5892c5d046b9136b1368e3fc041f3f9ef0f7a",
+          "input_size": [
+            307,
+            170
+          ],
+          "input_bbox": [
+            2,
+            2,
+            305,
+            168
+          ],
+          "source_anchor": [
+            168,
+            168
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\walk\\walk-0.png",
+          "output_sha256": "a3b99d565bb992e0e88dbfdae5f422147057a337f0ba546f8f19a0a1913f8307"
+        }
+      },
+      {
+        "rawBox": [
+          1168,
+          41,
+          1474,
+          209
+        ],
+        "sourceAnchor": [
+          176,
+          166
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            22,
+            42,
+            53,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\walk\\walk-1.png",
+          "input_sha256": "357ec642583997934ea093150d2faaf4ba884749bd3e74c36eed8a6e02a2ce59",
+          "input_size": [
+            306,
+            168
+          ],
+          "input_bbox": [
+            2,
+            2,
+            304,
+            166
+          ],
+          "source_anchor": [
+            176,
+            166
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\walk\\walk-1.png",
+          "output_sha256": "17e24a15323f6cc12569187e86f79ec38f455893864240af5425dc43923f1e44"
+        }
+      },
+      {
+        "rawBox": [
+          43,
+          249,
+          339,
+          418
+        ],
+        "sourceAnchor": [
+          149,
+          166
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#efe3be",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            24,
+            42,
+            55,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\walk\\walk-2.png",
+          "input_sha256": "5ddb568b959c22b756d1580f02877cbd118da019bf353947d833f3c74b7244b2",
+          "input_size": [
+            296,
+            169
+          ],
+          "input_bbox": [
+            2,
+            2,
+            294,
+            167
+          ],
+          "source_anchor": [
+            149,
+            166
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\walk\\walk-2.png",
+          "output_sha256": "f514df1c4018643b34042fe58c17c2fe18a774e741cd4531faefe94e2f0fe6a4"
+        }
+      },
+      {
+        "rawBox": [
+          404,
+          249,
+          716,
+          418
+        ],
+        "sourceAnchor": [
+          172,
+          166
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            22,
+            42,
+            55,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\walk\\walk-3.png",
+          "input_sha256": "bcc13e7f9eac50455839fc2890c6a70908ef0d38e39f99639f5d121001d59377",
+          "input_size": [
+            312,
+            169
+          ],
+          "input_bbox": [
+            2,
+            2,
+            310,
+            167
+          ],
+          "source_anchor": [
+            172,
+            166
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\walk\\walk-3.png",
+          "output_sha256": "bae1feab6928e5cb6be4f2b8d0dc7ba0eff718b047d7f111ce319ee5da3d611f"
+        }
+      }
+    ]
+  },
+  "lunger/windup": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          792,
+          267,
+          1114,
+          418
+        ],
+        "sourceAnchor": [
+          168,
+          148
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            44,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\windup\\windup-0.png",
+          "input_sha256": "db142645154e235b1c5ed64fba7bab6133152d04239463215fd31defd9d5bdc7",
+          "input_size": [
+            322,
+            151
+          ],
+          "input_bbox": [
+            2,
+            2,
+            320,
+            149
+          ],
+          "source_anchor": [
+            168,
+            148
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\windup\\windup-0.png",
+          "output_sha256": "61364cc717267e36c467a7c5fd08a72d0d401a6c115f1044ac9ba0b524dec6c8"
+        }
+      },
+      {
+        "rawBox": [
+          1146,
+          281,
+          1495,
+          418
+        ],
+        "sourceAnchor": [
+          198,
+          134
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            20,
+            46,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\windup\\windup-1.png",
+          "input_sha256": "4e88baba3678cfb064788b458d15dbc983973320ecff40917870b0a0b353044d",
+          "input_size": [
+            349,
+            137
+          ],
+          "input_bbox": [
+            2,
+            2,
+            347,
+            135
+          ],
+          "source_anchor": [
+            198,
+            134
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\windup\\windup-1.png",
+          "output_sha256": "0f27e3966325f3ec958ba99604ce552665d6888d452835d04068c7b40dd0ff6e"
+        }
+      },
+      {
+        "rawBox": [
+          26,
+          505,
+          350,
+          622
+        ],
+        "sourceAnchor": [
+          166,
+          115
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            48,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\windup\\windup-2.png",
+          "input_sha256": "59ae981123e3eb02e5c30da44ad65062995e13bfbcad71d4722118a1b083797f",
+          "input_size": [
+            324,
+            117
+          ],
+          "input_bbox": [
+            2,
+            2,
+            322,
+            115
+          ],
+          "source_anchor": [
+            166,
+            115
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\windup\\windup-2.png",
+          "output_sha256": "20dbe880ba5923d23637de746573284508f577e61e7e0892ac5e5336c514db3d"
+        }
+      }
+    ]
+  },
+  "lunger/active": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          376,
+          453,
+          763,
+          605
+        ],
+        "sourceAnchor": [
+          200,
+          167
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 11,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            19,
+            42,
+            60,
+            58
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\active\\active-0.png",
+          "input_sha256": "aee2ba6a1cd486181b4c57c55541a3721cd78d635f5305ac6865ade7aae38ffa",
+          "input_size": [
+            387,
+            152
+          ],
+          "input_bbox": [
+            2,
+            2,
+            385,
+            150
+          ],
+          "source_anchor": [
+            200,
+            167
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\active\\active-0.png",
+          "output_sha256": "c4b3470723508e062fd795d9cd75eb21cb4514f6f8d5c948824dbab46b3fac51"
+        }
+      },
+      {
+        "rawBox": [
+          787,
+          461,
+          1116,
+          611
+        ],
+        "sourceAnchor": [
+          173,
+          159
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#ded2a9",
+            "#efe3be",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            43,
+            57,
+            59
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\active\\active-1.png",
+          "input_sha256": "9fa02a19b8a2a6d0fcf80bb5c1ece68a96b6517efa00283e0289b764b80ceb93",
+          "input_size": [
+            329,
+            150
+          ],
+          "input_bbox": [
+            2,
+            2,
+            327,
+            148
+          ],
+          "source_anchor": [
+            173,
+            159
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\active\\active-1.png",
+          "output_sha256": "9f7c3b6bcdb282927ce67c2f55c94dc82916c2afd30c23c922f3d8b54709177c"
+        }
+      },
+      {
+        "rawBox": [
+          1153,
+          470,
+          1497,
+          623
+        ],
+        "sourceAnchor": [
+          191,
+          150
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 11,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            21,
+            44,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\active\\active-2.png",
+          "input_sha256": "71766b805a8d6d288f66a81c7c940a8fc2d13ddef7b94090482bf4c4c5d1c267",
+          "input_size": [
+            344,
+            153
+          ],
+          "input_bbox": [
+            2,
+            2,
+            342,
+            151
+          ],
+          "source_anchor": [
+            191,
+            150
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\active\\active-2.png",
+          "output_sha256": "36ec4a7f6752880b1128e97d6f306e83a6b05b88e61268b1cabf13210c31c2e0"
+        }
+      }
+    ]
+  },
+  "lunger/recovery": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          47,
+          661,
+          346,
+          813
+        ],
+        "sourceAnchor": [
+          145,
+          149
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            25,
+            44,
+            57,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\recovery\\recovery-0.png",
+          "input_sha256": "f890ab9ea3e6412fdfaaff6bca156ac312476400206ca3247452727b27526228",
+          "input_size": [
+            299,
+            152
+          ],
+          "input_bbox": [
+            2,
+            2,
+            297,
+            150
+          ],
+          "source_anchor": [
+            145,
+            149
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\recovery\\recovery-0.png",
+          "output_sha256": "186007f25ab8986636ad40692805b0dc69ccc39dfebb2575f8775a4274f15d2b"
+        }
+      },
+      {
+        "rawBox": [
+          407,
+          662,
+          707,
+          813
+        ],
+        "sourceAnchor": [
+          169,
+          148
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 14,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#efe3be",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            44,
+            54,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\recovery\\recovery-1.png",
+          "input_sha256": "2215c091ff0855f30664fde7188e8da862870fcf4605ac3d3a488ac294eeec0d",
+          "input_size": [
+            300,
+            151
+          ],
+          "input_bbox": [
+            2,
+            2,
+            298,
+            149
+          ],
+          "source_anchor": [
+            169,
+            148
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\recovery\\recovery-1.png",
+          "output_sha256": "addda4eeef99855ea79b61dc5a55ba6afd0b82fc5a98e9f60f6048f2f018f6a7"
+        }
+      }
+    ]
+  },
+  "lunger/hurt": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          797,
+          641,
+          1075,
+          813
+        ],
+        "sourceAnchor": [
+          163,
+          169
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            23,
+            42,
+            52,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\hurt\\hurt-0.png",
+          "input_sha256": "e2ddd8f17ac7b4a408a902a27d333b2f8c097b4ba2bc7bcdcc33640fedc1afc7",
+          "input_size": [
+            278,
+            172
+          ],
+          "input_bbox": [
+            2,
+            2,
+            276,
+            170
+          ],
+          "source_anchor": [
+            163,
+            169
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\hurt\\hurt-0.png",
+          "output_sha256": "a19970573c3b2fff6d32cab2621c06fc337884929a3b11d2a6371f63d82ca974"
+        }
+      },
+      {
+        "rawBox": [
+          1164,
+          665,
+          1476,
+          813
+        ],
+        "sourceAnchor": [
+          180,
+          145
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 13,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9",
+            "#f0c887"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            22,
+            45,
+            54,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\hurt\\hurt-1.png",
+          "input_sha256": "3ecc0263678fab12d15fc8c0b0541bbca6717f68a322e16e845518d48cdf1b44",
+          "input_size": [
+            312,
+            148
+          ],
+          "input_bbox": [
+            2,
+            2,
+            310,
+            146
+          ],
+          "source_anchor": [
+            180,
+            145
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\hurt\\hurt-1.png",
+          "output_sha256": "67a35900469fe048ab0edd19c693bb8c2962eee40b3fe762c48d0c94d4994cad"
+        }
+      }
+    ]
+  },
+  "lunger/death": {
+    "raw": "lunger/sheet.png",
+    "sha256": "de096357c84f4515c65b376303ea992e9f5705267868aeee7638b8c918f5ee9f",
+    "frames": [
+      {
+        "rawBox": [
+          50,
+          839,
+          344,
+          986
+        ],
+        "sourceAnchor": [
+          142,
+          143
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            25,
+            45,
+            56,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\death\\death-0.png",
+          "input_sha256": "6f812468ccf55f7d3b189aada9d25c131e07722dbf4a463e2054fc30c03767ea",
+          "input_size": [
+            294,
+            147
+          ],
+          "input_bbox": [
+            2,
+            2,
+            292,
+            145
+          ],
+          "source_anchor": [
+            142,
+            143
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\death\\death-0.png",
+          "output_sha256": "49f006524859f97e56dbfa7858b5ab712a01131c8c696b70b6714f9600d17e25"
+        }
+      },
+      {
+        "rawBox": [
+          384,
+          861,
+          716,
+          986
+        ],
+        "sourceAnchor": [
+          192,
+          121
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 12,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#cc9670",
+            "#ded2a9"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            21,
+            47,
+            55,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\death\\death-1.png",
+          "input_sha256": "7498326289ae4cf66a505d2d78ddc2289910ef1e129692cd74faa2d936ca834d",
+          "input_size": [
+            332,
+            125
+          ],
+          "input_bbox": [
+            2,
+            2,
+            330,
+            123
+          ],
+          "source_anchor": [
+            192,
+            121
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\death\\death-1.png",
+          "output_sha256": "aaaebf00f43bbb07e344e05a4f1e24c3ed17ce400489adcf06306869b2c6c261"
+        }
+      },
+      {
+        "rawBox": [
+          789,
+          856,
+          1099,
+          988
+        ],
+        "sourceAnchor": [
+          171,
+          126
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 10,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            22,
+            47,
+            55,
+            61
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\death\\death-2.png",
+          "input_sha256": "3ac257724cab2a3fb42e0ac74735a42d57745d7e793df8745fb670f9bd7119ad",
+          "input_size": [
+            310,
+            132
+          ],
+          "input_bbox": [
+            2,
+            2,
+            308,
+            130
+          ],
+          "source_anchor": [
+            171,
+            126
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\death\\death-2.png",
+          "output_sha256": "1206e69679f3d5ee66f1df8873277161aab7e0b715317f670e371e97e64a8dac"
+        }
+      },
+      {
+        "rawBox": [
+          1124,
+          900,
+          1498,
+          986
+        ],
+        "sourceAnchor": [
+          220,
+          82
+        ],
+        "scale": 0.10714285714285714,
+        "report": {
+          "size": [
+            80,
+            64
+          ],
+          "mode": "RGBA",
+          "visible_colors": 11,
+          "colors": [
+            "#131416",
+            "#28282a",
+            "#403c34",
+            "#482d28",
+            "#5b5343",
+            "#744139",
+            "#786b52",
+            "#9a8a68",
+            "#a36750",
+            "#bbae86",
+            "#ded2a9"
+          ],
+          "alpha": "binary",
+          "transparent": true,
+          "visible_bbox": [
+            18,
+            51,
+            57,
+            60
+          ],
+          "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\lunger\\death\\death-3.png",
+          "input_sha256": "405af041c42d6fdba948e57f4ef8d7a8a4f592e22f42079667be73c735ecdee8",
+          "input_size": [
+            374,
+            86
+          ],
+          "input_bbox": [
+            2,
+            2,
+            372,
+            84
+          ],
+          "source_anchor": [
+            220,
+            82
+          ],
+          "background": {
+            "action": "preserved_alpha",
+            "removed_pixels": 0
+          },
+          "common_scale": 0.10714285714285714,
+          "downsample_method": "lanczos",
+          "post_scale_method": "nearest",
+          "pivot": [
+            40,
+            60
+          ],
+          "baseline": 60,
+          "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\lunger\\death\\death-3.png",
+          "output_sha256": "b9a1de2b52f6f819a97da911465e39ede438d2cc7945aff539ba1b9e98c97a90"
+        }
+      }
+    ]
+  }
+}

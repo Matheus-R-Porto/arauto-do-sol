@@ -1,0 +1,164 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 4,
+      "colors": [
+        "#564039",
+        "#7b999d",
+        "#80528f",
+        "#956341"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        63,
+        58,
+        70,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\slash-light\\slash-light-0.png",
+      "input_sha256": "55f5b89d9cda8880350ab50479995f389c4e738c0f6ab35a02328630d4387f50",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        41,
+        115,
+        233,
+        142
+      ],
+      "source_anchor": [
+        137.0,
+        142
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\slash-light\\slash-light-0.png",
+      "output_sha256": "ac7a4a28746b4f0aee33bb035a26f891fffb7316c21f9794f250bd04ac5cd609"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 10,
+      "colors": [
+        "#23232d",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        58,
+        56,
+        72,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\slash-light\\slash-light-1.png",
+      "input_sha256": "73e755f9933f3aa16bc417f710d2f42d91b9be6718844fbc579854c8ebb12511",
+      "input_size": [
+        281,
+        224
+      ],
+      "input_bbox": [
+        10,
+        101,
+        277,
+        157
+      ],
+      "source_anchor": [
+        143.5,
+        157
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\slash-light\\slash-light-1.png",
+      "output_sha256": "282f03cfc3b7d372e7cd1396c8687731ff6e344e219efb790dd0e24f0f9e5f09"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 2,
+      "colors": [
+        "#23232d",
+        "#564039"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        60,
+        57,
+        63,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\slash-light\\slash-light-2.png",
+      "input_sha256": "5f17b8ed26617e5c42283b4b9a53c4f5b96d6cc5ff0fea9593d08a13daa3f07f",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        57,
+        108,
+        227,
+        149
+      ],
+      "source_anchor": [
+        142.0,
+        149
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\slash-light\\slash-light-2.png",
+      "output_sha256": "2500feb7a1ac8732bd304c096c6f14072385505d50e27747a0cb7b1b857d4909"
+    }
+  ]
+}

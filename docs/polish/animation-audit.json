@@ -1,0 +1,3992 @@
+{
+  "protagonist": {
+    "before": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/idle/idle-0.png",
+            "duration": 0.25,
+            "asset": "player-idle-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-1.png",
+            "duration": 0.25,
+            "asset": "player-idle-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-2.png",
+            "duration": 0.25,
+            "asset": "player-idle-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-3.png",
+            "duration": 0.25,
+            "asset": "player-idle-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/walk/walk-0.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-1.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-2.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-3.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-3",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-4.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-4",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-5.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-5",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "run": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/run/run-0.png",
+            "duration": 0.06,
+            "asset": "player-run-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-1.png",
+            "duration": 0.06,
+            "asset": "player-run-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-2.png",
+            "duration": 0.06,
+            "asset": "player-run-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-3.png",
+            "duration": 0.06,
+            "asset": "player-run-3",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-4.png",
+            "duration": 0.06,
+            "asset": "player-run-4",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-5.png",
+            "duration": 0.06,
+            "asset": "player-run-5",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "jump": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "air/jump-0.png",
+            "duration": 0.12,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "air/jump-1.png",
+            "duration": 0.24,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "fall": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "air/fall-0.png",
+            "duration": 0.12,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "air/fall-1.png",
+            "duration": 0.24,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "attack-light": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/player/attack-light/attack-light-0.png",
+            "duration": 0.05,
+            "asset": "player-attack-light-0",
+            "pivot": [
+              50,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-1.png",
+            "duration": 0.05,
+            "asset": "player-attack-light-1",
+            "pivot": [
+              49,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-2.png",
+            "duration": 0.07,
+            "asset": "player-attack-light-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-3.png",
+            "duration": 0.08,
+            "asset": "player-attack-light-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "time": 0,
+            "name": "contact"
+          }
+        ]
+      },
+      "attack-m2": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/player/attack-m2/attack-m2-0.png",
+            "duration": 0.05,
+            "asset": "player-attack-m2-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-1.png",
+            "duration": 0.05,
+            "asset": "player-attack-m2-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-2.png",
+            "duration": 0.07,
+            "asset": "player-attack-m2-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-3.png",
+            "duration": 0.08,
+            "asset": "player-attack-m2-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "time": 0,
+            "name": "contact"
+          }
+        ]
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "hurt/hurt-0.png",
+            "duration": 0.07,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "hurt/hurt-1.png",
+            "duration": 0.07,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "death/death-0.png",
+            "duration": 0.15,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-1.png",
+            "duration": 0.18,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-2.png",
+            "duration": 0.22,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-3.png",
+            "duration": 0.3,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      }
+    },
+    "after": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/idle/idle-0.png",
+            "duration": 0.25,
+            "asset": "player-idle-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-1.png",
+            "duration": 0.25,
+            "asset": "player-idle-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-2.png",
+            "duration": 0.25,
+            "asset": "player-idle-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/idle/idle-3.png",
+            "duration": 0.25,
+            "asset": "player-idle-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/walk/walk-0.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-1.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-2.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-3.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-3",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-4.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-4",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/walk/walk-5.png",
+            "duration": 0.08666666666666667,
+            "asset": "player-walk-5",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "run": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/player/run/run-0.png",
+            "duration": 0.06,
+            "asset": "player-run-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-1.png",
+            "duration": 0.06,
+            "asset": "player-run-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-2.png",
+            "duration": 0.06,
+            "asset": "player-run-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-3.png",
+            "duration": 0.06,
+            "asset": "player-run-3",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-4.png",
+            "duration": 0.06,
+            "asset": "player-run-4",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/run/run-5.png",
+            "duration": 0.06,
+            "asset": "player-run-5",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "jump": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "air/jump-0.png",
+            "duration": 0.12,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "air/jump-1.png",
+            "duration": 0.24,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "fall": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "air/fall-0.png",
+            "duration": 0.12,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "air/fall-1.png",
+            "duration": 0.24,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "attack-light": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/player/attack-light/attack-light-0.png",
+            "duration": 0.05,
+            "asset": "player-attack-light-0",
+            "pivot": [
+              50,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-1.png",
+            "duration": 0.05,
+            "asset": "player-attack-light-1",
+            "pivot": [
+              49,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-2.png",
+            "duration": 0.07,
+            "asset": "player-attack-light-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-light/attack-light-3.png",
+            "duration": 0.08,
+            "asset": "player-attack-light-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "time": 0,
+            "name": "contact"
+          }
+        ]
+      },
+      "attack-m2": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/player/attack-m2/attack-m2-0.png",
+            "duration": 0.05,
+            "asset": "player-attack-m2-0",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-1.png",
+            "duration": 0.05,
+            "asset": "player-attack-m2-1",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-2.png",
+            "duration": 0.07,
+            "asset": "player-attack-m2-2",
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "v2/player/attack-m2/attack-m2-3.png",
+            "duration": 0.08,
+            "asset": "player-attack-m2-3",
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "time": 0,
+            "name": "contact"
+          }
+        ]
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "hurt/hurt-0.png",
+            "duration": 0.07,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "hurt/hurt-1.png",
+            "duration": 0.07,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "death/death-0.png",
+            "duration": 0.15,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-1.png",
+            "duration": 0.18,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-2.png",
+            "duration": 0.22,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "death/death-3.png",
+            "duration": 0.3,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      },
+      "land": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "polish/land-0.png",
+            "duration": 0.04,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "polish/land-1.png",
+            "duration": 0.04,
+            "pivot": [
+              64,
+              112
+            ]
+          },
+          {
+            "file": "polish/land-2.png",
+            "duration": 0.04,
+            "pivot": [
+              64,
+              112
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "world": {
+    "before": {
+      "walker": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/walker/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "walker-idle-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "walker-idle-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/walker/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "walker-walk-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "walker-walk-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "walker-walk-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "walker-walk-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/windup/windup-0.png",
+              "duration": 0.3,
+              "asset": "walker-windup-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/windup/windup-1.png",
+              "duration": 0.22,
+              "asset": "walker-windup-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/windup/windup-2.png",
+              "duration": 0.13,
+              "asset": "walker-windup-2",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/active/active-0.png",
+              "duration": 0.08,
+              "asset": "walker-active-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/active/active-1.png",
+              "duration": 0.08,
+              "asset": "walker-active-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/recovery/recovery-0.png",
+              "duration": 0.25,
+              "asset": "walker-recovery-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/recovery/recovery-1.png",
+              "duration": 1,
+              "asset": "walker-recovery-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "walker-hurt-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "walker-hurt-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/death/death-0.png",
+              "duration": 0.08,
+              "asset": "walker-death-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-1.png",
+              "duration": 0.09,
+              "asset": "walker-death-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-2.png",
+              "duration": 0.1,
+              "asset": "walker-death-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-3.png",
+              "duration": 0.13,
+              "asset": "walker-death-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "lunger": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "lunger-idle-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "lunger-idle-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-2",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-3",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/windup/windup-0.png",
+              "duration": 0.35,
+              "asset": "lunger-windup-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/windup/windup-1.png",
+              "duration": 0.3,
+              "asset": "lunger-windup-1",
+              "pivot": [
+                33,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/windup/windup-2.png",
+              "duration": 0.2,
+              "asset": "lunger-windup-2",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/active/active-0.png",
+              "duration": 0.16,
+              "asset": "lunger-active-0",
+              "pivot": [
+                33,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/active/active-1.png",
+              "duration": 0.16,
+              "asset": "lunger-active-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/active/active-2.png",
+              "duration": 0.16,
+              "asset": "lunger-active-2",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/recovery/recovery-0.png",
+              "duration": 0.3,
+              "asset": "lunger-recovery-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/recovery/recovery-1.png",
+              "duration": 1.5,
+              "asset": "lunger-recovery-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "lunger-hurt-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "lunger-hurt-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/death/death-0.png",
+              "duration": 0.08,
+              "asset": "lunger-death-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-1.png",
+              "duration": 0.09,
+              "asset": "lunger-death-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-2.png",
+              "duration": 0.1,
+              "asset": "lunger-death-2",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-3.png",
+              "duration": 0.13,
+              "asset": "lunger-death-3",
+              "pivot": [
+                36,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "ranged": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/ranged/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "ranged-idle-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "ranged-idle-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/ranged/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/windup/windup-0.png",
+              "duration": 0.35,
+              "asset": "ranged-windup-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/windup/windup-1.png",
+              "duration": 0.3,
+              "asset": "ranged-windup-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/windup/windup-2.png",
+              "duration": 0.25,
+              "asset": "ranged-windup-2",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/active/active-0.png",
+              "duration": 0.06,
+              "asset": "ranged-active-0",
+              "pivot": [
+                57,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/active/active-1.png",
+              "duration": 0.06,
+              "asset": "ranged-active-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "time": 0,
+              "name": "fire"
+            }
+          ]
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/recovery/recovery-0.png",
+              "duration": 0.3,
+              "asset": "ranged-recovery-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/recovery/recovery-1.png",
+              "duration": 2,
+              "asset": "ranged-recovery-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "ranged-hurt-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "ranged-hurt-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/death/death-0.png",
+              "duration": 0.08,
+              "asset": "ranged-death-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-1.png",
+              "duration": 0.09,
+              "asset": "ranged-death-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-2.png",
+              "duration": 0.1,
+              "asset": "ranged-death-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-3.png",
+              "duration": 0.13,
+              "asset": "ranged-death-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "boss": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/idle/idle-0.png",
+              "duration": 0.4,
+              "asset": "boss-idle-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-1.png",
+              "duration": 0.4,
+              "asset": "boss-idle-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-2.png",
+              "duration": 0.4,
+              "asset": "boss-idle-2",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/walk/walk-0.png",
+              "duration": 0.2,
+              "asset": "boss-walk-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-1.png",
+              "duration": 0.2,
+              "asset": "boss-walk-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-2.png",
+              "duration": 0.2,
+              "asset": "boss-walk-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-3.png",
+              "duration": 0.2,
+              "asset": "boss-walk-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "intro": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/intro/intro-0.png",
+              "duration": 0.4,
+              "asset": "boss-intro-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-1.png",
+              "duration": 0.35,
+              "asset": "boss-intro-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-2.png",
+              "duration": 0.35,
+              "asset": "boss-intro-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-3.png",
+              "duration": 0.35,
+              "asset": "boss-intro-3",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-4.png",
+              "duration": 0.35,
+              "asset": "boss-intro-4",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/hurt/hurt-0.png",
+              "duration": 0.07,
+              "asset": "boss-hurt-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/hurt/hurt-1.png",
+              "duration": 0.08,
+              "asset": "boss-hurt-1",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/death/death-0.png",
+              "duration": 0.05,
+              "asset": "boss-death-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-1.png",
+              "duration": 0.05,
+              "asset": "boss-death-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-2.png",
+              "duration": 0.06,
+              "asset": "boss-death-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-3.png",
+              "duration": 0.07,
+              "asset": "boss-death-3",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-4.png",
+              "duration": 0.08,
+              "asset": "boss-death-4",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-5.png",
+              "duration": 0.09,
+              "asset": "boss-death-5",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-windup/slash-windup-0.png",
+              "duration": 0.3,
+              "asset": "boss-slash-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-1.png",
+              "duration": 0.25,
+              "asset": "boss-slash-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-2.png",
+              "duration": 0.23,
+              "asset": "boss-slash-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-3.png",
+              "duration": 0.17,
+              "asset": "boss-slash-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-active/slash-active-0.png",
+              "duration": 0.08,
+              "asset": "boss-slash-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-active/slash-active-1.png",
+              "duration": 0.12,
+              "asset": "boss-slash-active-1",
+              "pivot": [
+                118,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-recovery/slash-recovery-0.png",
+              "duration": 0.3,
+              "asset": "boss-slash-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-recovery/slash-recovery-1.png",
+              "duration": 1.8,
+              "asset": "boss-slash-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/charge-windup/charge-windup-0.png",
+              "duration": 0.4,
+              "asset": "boss-charge-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-1.png",
+              "duration": 0.3,
+              "asset": "boss-charge-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-2.png",
+              "duration": 0.25,
+              "asset": "boss-charge-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-3.png",
+              "duration": 0.2,
+              "asset": "boss-charge-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-active": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/charge-active/charge-active-0.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-1.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-2.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-3.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/charge-recovery/charge-recovery-0.png",
+              "duration": 0.35,
+              "asset": "boss-charge-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-recovery/charge-recovery-1.png",
+              "duration": 2.05,
+              "asset": "boss-charge-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-windup/slam-windup-0.png",
+              "duration": 0.4,
+              "asset": "boss-slam-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-1.png",
+              "duration": 0.3,
+              "asset": "boss-slam-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-2.png",
+              "duration": 0.3,
+              "asset": "boss-slam-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-3.png",
+              "duration": 0.2,
+              "asset": "boss-slam-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-active/slam-active-0.png",
+              "duration": 0.3,
+              "asset": "boss-slam-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-active/slam-active-1.png",
+              "duration": 0.28,
+              "asset": "boss-slam-active-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-active/slam-active-2.png",
+              "duration": 0.02,
+              "asset": "boss-slam-active-2",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-0.png",
+              "duration": 0.25,
+              "asset": "boss-slam-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-1.png",
+              "duration": 0.4,
+              "asset": "boss-slam-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-2.png",
+              "duration": 1.95,
+              "asset": "boss-slam-recovery-2",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "vfx": {
+        "phase-transition": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-0.png",
+              "duration": 0.12,
+              "asset": "vfx-phase-transition-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-1.png",
+              "duration": 0.14,
+              "asset": "vfx-phase-transition-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-2.png",
+              "duration": 0.18,
+              "asset": "vfx-phase-transition-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-3.png",
+              "duration": 0.2,
+              "asset": "vfx-phase-transition-3",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-4.png",
+              "duration": 0.21,
+              "asset": "vfx-phase-transition-4",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "projectile": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/vfx/projectile/projectile-0.png",
+              "duration": 0.08,
+              "asset": "vfx-projectile-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile/projectile-1.png",
+              "duration": 0.08,
+              "asset": "vfx-projectile-1",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "projectile-impact": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-0.png",
+              "duration": 0.05,
+              "asset": "vfx-projectile-impact-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-1.png",
+              "duration": 0.07,
+              "asset": "vfx-projectile-impact-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-2.png",
+              "duration": 0.1,
+              "asset": "vfx-projectile-impact-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "flame": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/vfx/flame/flame-0.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-1.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-2.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-3.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/charge/charge-0.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/charge/charge-1.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/charge/charge-2.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-light": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/slash-light/slash-light-0.png",
+              "duration": 0.03,
+              "asset": "vfx-slash-light-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-light/slash-light-1.png",
+              "duration": 0.04,
+              "asset": "vfx-slash-light-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-light/slash-light-2.png",
+              "duration": 0.05,
+              "asset": "vfx-slash-light-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-heavy": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-0.png",
+              "duration": 0.025,
+              "asset": "vfx-slash-heavy-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-1.png",
+              "duration": 0.025,
+              "asset": "vfx-slash-heavy-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-2.png",
+              "duration": 0.035,
+              "asset": "vfx-slash-heavy-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-3.png",
+              "duration": 0.035,
+              "asset": "vfx-slash-heavy-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "boss-slash": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-0.png",
+              "duration": 0.04,
+              "asset": "vfx-boss-slash-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-1.png",
+              "duration": 0.04,
+              "asset": "vfx-boss-slash-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-2.png",
+              "duration": 0.06,
+              "asset": "vfx-boss-slash-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-3.png",
+              "duration": 0.06,
+              "asset": "vfx-boss-slash-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hit": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/hit/hit-0.png",
+              "duration": 0.035,
+              "asset": "vfx-hit-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/hit/hit-1.png",
+              "duration": 0.045,
+              "asset": "vfx-hit-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/hit/hit-2.png",
+              "duration": 0.07,
+              "asset": "vfx-hit-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "dust": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/dust/dust-0.png",
+              "duration": 0.05,
+              "asset": "vfx-dust-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-1.png",
+              "duration": 0.05,
+              "asset": "vfx-dust-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-2.png",
+              "duration": 0.06,
+              "asset": "vfx-dust-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-3.png",
+              "duration": 0.08,
+              "asset": "vfx-dust-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "shockwave": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/shockwave/shockwave-0.png",
+              "duration": 0.04,
+              "asset": "vfx-shockwave-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-1.png",
+              "duration": 0.05,
+              "asset": "vfx-shockwave-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-2.png",
+              "duration": 0.06,
+              "asset": "vfx-shockwave-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-3.png",
+              "duration": 0.07,
+              "asset": "vfx-shockwave-3",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-4.png",
+              "duration": 0.1,
+              "asset": "vfx-shockwave-4",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        }
+      }
+    },
+    "after": {
+      "walker": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/walker/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "walker-idle-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "walker-idle-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/walker/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "walker-walk-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "walker-walk-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "walker-walk-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "walker-walk-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/windup/windup-0.png",
+              "duration": 0.3,
+              "asset": "walker-windup-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/windup/windup-1.png",
+              "duration": 0.22,
+              "asset": "walker-windup-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/windup/windup-2.png",
+              "duration": 0.13,
+              "asset": "walker-windup-2",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/active/active-0.png",
+              "duration": 0.08,
+              "asset": "walker-active-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/active/active-1.png",
+              "duration": 0.08,
+              "asset": "walker-active-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/recovery/recovery-0.png",
+              "duration": 0.25,
+              "asset": "walker-recovery-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/recovery/recovery-1.png",
+              "duration": 1,
+              "asset": "walker-recovery-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "walker-hurt-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "walker-hurt-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/walker/death/death-0.png",
+              "duration": 0.08,
+              "asset": "walker-death-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-1.png",
+              "duration": 0.09,
+              "asset": "walker-death-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-2.png",
+              "duration": 0.1,
+              "asset": "walker-death-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/walker/death/death-3.png",
+              "duration": 0.13,
+              "asset": "walker-death-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "lunger": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "lunger-idle-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "lunger-idle-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-2",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "lunger-walk-3",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/windup/windup-0.png",
+              "duration": 0.35,
+              "asset": "lunger-windup-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/windup/windup-1.png",
+              "duration": 0.3,
+              "asset": "lunger-windup-1",
+              "pivot": [
+                33,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/windup/windup-2.png",
+              "duration": 0.2,
+              "asset": "lunger-windup-2",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/lunger/active/active-0.png",
+              "duration": 0.16,
+              "asset": "lunger-active-0",
+              "pivot": [
+                33,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/active/active-1.png",
+              "duration": 0.16,
+              "asset": "lunger-active-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/active/active-2.png",
+              "duration": 0.16,
+              "asset": "lunger-active-2",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/recovery/recovery-0.png",
+              "duration": 0.3,
+              "asset": "lunger-recovery-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/recovery/recovery-1.png",
+              "duration": 1.5,
+              "asset": "lunger-recovery-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "lunger-hurt-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "lunger-hurt-1",
+              "pivot": [
+                32,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/lunger/death/death-0.png",
+              "duration": 0.08,
+              "asset": "lunger-death-0",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-1.png",
+              "duration": 0.09,
+              "asset": "lunger-death-1",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-2.png",
+              "duration": 0.1,
+              "asset": "lunger-death-2",
+              "pivot": [
+                32,
+                56
+              ]
+            },
+            {
+              "file": "v2/lunger/death/death-3.png",
+              "duration": 0.13,
+              "asset": "lunger-death-3",
+              "pivot": [
+                36,
+                56
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "ranged": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/ranged/idle/idle-0.png",
+              "duration": 0.3,
+              "asset": "ranged-idle-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/idle/idle-1.png",
+              "duration": 0.3,
+              "asset": "ranged-idle-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/ranged/walk/walk-0.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-1.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-2.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/walk/walk-3.png",
+              "duration": 0.16,
+              "asset": "ranged-walk-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/windup/windup-0.png",
+              "duration": 0.35,
+              "asset": "ranged-windup-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/windup/windup-1.png",
+              "duration": 0.3,
+              "asset": "ranged-windup-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/windup/windup-2.png",
+              "duration": 0.25,
+              "asset": "ranged-windup-2",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/active/active-0.png",
+              "duration": 0.06,
+              "asset": "ranged-active-0",
+              "pivot": [
+                57,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/active/active-1.png",
+              "duration": 0.06,
+              "asset": "ranged-active-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "time": 0,
+              "name": "fire"
+            }
+          ]
+        },
+        "recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/recovery/recovery-0.png",
+              "duration": 0.3,
+              "asset": "ranged-recovery-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/recovery/recovery-1.png",
+              "duration": 2,
+              "asset": "ranged-recovery-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/hurt/hurt-0.png",
+              "duration": 0.08,
+              "asset": "ranged-hurt-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/hurt/hurt-1.png",
+              "duration": 0.12,
+              "asset": "ranged-hurt-1",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/ranged/death/death-0.png",
+              "duration": 0.08,
+              "asset": "ranged-death-0",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-1.png",
+              "duration": 0.09,
+              "asset": "ranged-death-1",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-2.png",
+              "duration": 0.1,
+              "asset": "ranged-death-2",
+              "pivot": [
+                64,
+                120
+              ]
+            },
+            {
+              "file": "v2/ranged/death/death-3.png",
+              "duration": 0.13,
+              "asset": "ranged-death-3",
+              "pivot": [
+                64,
+                120
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "boss": {
+        "idle": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/idle/idle-0.png",
+              "duration": 0.4,
+              "asset": "boss-idle-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-1.png",
+              "duration": 0.4,
+              "asset": "boss-idle-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-2.png",
+              "duration": 0.4,
+              "asset": "boss-idle-2",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "walk": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/walk/walk-0.png",
+              "duration": 0.2,
+              "asset": "boss-walk-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-1.png",
+              "duration": 0.2,
+              "asset": "boss-walk-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-2.png",
+              "duration": 0.2,
+              "asset": "boss-walk-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/walk/walk-3.png",
+              "duration": 0.2,
+              "asset": "boss-walk-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "intro": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/intro/intro-0.png",
+              "duration": 0.4,
+              "asset": "boss-intro-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-1.png",
+              "duration": 0.35,
+              "asset": "boss-intro-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-2.png",
+              "duration": 0.35,
+              "asset": "boss-intro-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-3.png",
+              "duration": 0.35,
+              "asset": "boss-intro-3",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/intro/intro-4.png",
+              "duration": 0.35,
+              "asset": "boss-intro-4",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hurt": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/hurt/hurt-0.png",
+              "duration": 0.07,
+              "asset": "boss-hurt-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/hurt/hurt-1.png",
+              "duration": 0.08,
+              "asset": "boss-hurt-1",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "death": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/death/death-0.png",
+              "duration": 0.05,
+              "asset": "boss-death-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-1.png",
+              "duration": 0.05,
+              "asset": "boss-death-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-2.png",
+              "duration": 0.06,
+              "asset": "boss-death-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-3.png",
+              "duration": 0.07,
+              "asset": "boss-death-3",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-4.png",
+              "duration": 0.08,
+              "asset": "boss-death-4",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/death/death-5.png",
+              "duration": 0.09,
+              "asset": "boss-death-5",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-windup/slash-windup-0.png",
+              "duration": 0.3,
+              "asset": "boss-slash-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-1.png",
+              "duration": 0.25,
+              "asset": "boss-slash-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-2.png",
+              "duration": 0.23,
+              "asset": "boss-slash-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-windup/slash-windup-3.png",
+              "duration": 0.17,
+              "asset": "boss-slash-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-active/slash-active-0.png",
+              "duration": 0.08,
+              "asset": "boss-slash-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-active/slash-active-1.png",
+              "duration": 0.12,
+              "asset": "boss-slash-active-1",
+              "pivot": [
+                118,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slash-recovery/slash-recovery-0.png",
+              "duration": 0.24,
+              "asset": "boss-slash-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slash-recovery/slash-recovery-1.png",
+              "duration": 1.4400000000000002,
+              "asset": "boss-slash-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-0.png",
+              "duration": 0.42000000000000004,
+              "asset": "boss-idle-0",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/charge-windup/charge-windup-0.png",
+              "duration": 0.4,
+              "asset": "boss-charge-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-1.png",
+              "duration": 0.3,
+              "asset": "boss-charge-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-2.png",
+              "duration": 0.25,
+              "asset": "boss-charge-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-windup/charge-windup-3.png",
+              "duration": 0.2,
+              "asset": "boss-charge-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-active": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/boss/charge-active/charge-active-0.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-1.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-2.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-active/charge-active-3.png",
+              "duration": 0.2375,
+              "asset": "boss-charge-active-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/charge-recovery/charge-recovery-0.png",
+              "duration": 0.27999999999999997,
+              "asset": "boss-charge-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/charge-recovery/charge-recovery-1.png",
+              "duration": 1.64,
+              "asset": "boss-charge-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-0.png",
+              "duration": 0.48,
+              "asset": "boss-idle-0",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-windup": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-windup/slam-windup-0.png",
+              "duration": 0.4,
+              "asset": "boss-slam-windup-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-1.png",
+              "duration": 0.3,
+              "asset": "boss-slam-windup-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-2.png",
+              "duration": 0.3,
+              "asset": "boss-slam-windup-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-windup/slam-windup-3.png",
+              "duration": 0.2,
+              "asset": "boss-slam-windup-3",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-active": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-active/slam-active-0.png",
+              "duration": 0.3,
+              "asset": "boss-slam-active-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-active/slam-active-1.png",
+              "duration": 0.28,
+              "asset": "boss-slam-active-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-active/slam-active-2.png",
+              "duration": 0.02,
+              "asset": "boss-slam-active-2",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slam-recovery": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-0.png",
+              "duration": 0.2,
+              "asset": "boss-slam-recovery-0",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-1.png",
+              "duration": 0.32000000000000006,
+              "asset": "boss-slam-recovery-1",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/slam-recovery/slam-recovery-2.png",
+              "duration": 1.56,
+              "asset": "boss-slam-recovery-2",
+              "pivot": [
+                128,
+                248
+              ]
+            },
+            {
+              "file": "v2/boss/idle/idle-0.png",
+              "duration": 0.52,
+              "asset": "boss-idle-0",
+              "pivot": [
+                128,
+                248
+              ]
+            }
+          ],
+          "markers": []
+        }
+      },
+      "vfx": {
+        "phase-transition": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-0.png",
+              "duration": 0.12,
+              "asset": "vfx-phase-transition-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-1.png",
+              "duration": 0.14,
+              "asset": "vfx-phase-transition-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-2.png",
+              "duration": 0.18,
+              "asset": "vfx-phase-transition-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-3.png",
+              "duration": 0.2,
+              "asset": "vfx-phase-transition-3",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/phase-transition/phase-transition-4.png",
+              "duration": 0.21,
+              "asset": "vfx-phase-transition-4",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "projectile": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/vfx/projectile/projectile-0.png",
+              "duration": 0.08,
+              "asset": "vfx-projectile-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile/projectile-1.png",
+              "duration": 0.08,
+              "asset": "vfx-projectile-1",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "projectile-impact": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-0.png",
+              "duration": 0.05,
+              "asset": "vfx-projectile-impact-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-1.png",
+              "duration": 0.07,
+              "asset": "vfx-projectile-impact-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/projectile-impact/projectile-impact-2.png",
+              "duration": 0.1,
+              "asset": "vfx-projectile-impact-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "flame": {
+          "loop": true,
+          "frames": [
+            {
+              "file": "v2/vfx/flame/flame-0.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-1.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-2.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/flame/flame-3.png",
+              "duration": 0.12,
+              "asset": "vfx-flame-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "charge": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/charge/charge-0.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/charge/charge-1.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/charge/charge-2.png",
+              "duration": 0.3,
+              "asset": "vfx-charge-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-light": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/slash-light/slash-light-0.png",
+              "duration": 0.03,
+              "asset": "vfx-slash-light-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-light/slash-light-1.png",
+              "duration": 0.04,
+              "asset": "vfx-slash-light-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-light/slash-light-2.png",
+              "duration": 0.05,
+              "asset": "vfx-slash-light-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "slash-heavy": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-0.png",
+              "duration": 0.025,
+              "asset": "vfx-slash-heavy-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-1.png",
+              "duration": 0.025,
+              "asset": "vfx-slash-heavy-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-2.png",
+              "duration": 0.035,
+              "asset": "vfx-slash-heavy-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/slash-heavy/slash-heavy-3.png",
+              "duration": 0.035,
+              "asset": "vfx-slash-heavy-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "boss-slash": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-0.png",
+              "duration": 0.04,
+              "asset": "vfx-boss-slash-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-1.png",
+              "duration": 0.04,
+              "asset": "vfx-boss-slash-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-2.png",
+              "duration": 0.06,
+              "asset": "vfx-boss-slash-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/boss-slash/boss-slash-3.png",
+              "duration": 0.06,
+              "asset": "vfx-boss-slash-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "hit": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/hit/hit-0.png",
+              "duration": 0.035,
+              "asset": "vfx-hit-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/hit/hit-1.png",
+              "duration": 0.045,
+              "asset": "vfx-hit-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/hit/hit-2.png",
+              "duration": 0.07,
+              "asset": "vfx-hit-2",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "dust": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/dust/dust-0.png",
+              "duration": 0.05,
+              "asset": "vfx-dust-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-1.png",
+              "duration": 0.05,
+              "asset": "vfx-dust-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-2.png",
+              "duration": 0.06,
+              "asset": "vfx-dust-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/dust/dust-3.png",
+              "duration": 0.08,
+              "asset": "vfx-dust-3",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        },
+        "shockwave": {
+          "loop": false,
+          "frames": [
+            {
+              "file": "v2/vfx/shockwave/shockwave-0.png",
+              "duration": 0.04,
+              "asset": "vfx-shockwave-0",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-1.png",
+              "duration": 0.05,
+              "asset": "vfx-shockwave-1",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-2.png",
+              "duration": 0.06,
+              "asset": "vfx-shockwave-2",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-3.png",
+              "duration": 0.07,
+              "asset": "vfx-shockwave-3",
+              "pivot": [
+                64,
+                60
+              ]
+            },
+            {
+              "file": "v2/vfx/shockwave/shockwave-4.png",
+              "duration": 0.1,
+              "asset": "vfx-shockwave-4",
+              "pivot": [
+                64,
+                60
+              ]
+            }
+          ],
+          "markers": []
+        }
+      }
+    }
+  }
+}

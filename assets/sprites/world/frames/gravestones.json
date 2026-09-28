@@ -1,0 +1,271 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-props",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      124
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 9.85,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "327b93c64aaf80b46b30f2f9e67d2ce4766a3a95994a3fd0c5598d70ad745382",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#303b2d",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#4d5b3d",
+        "#596b6c",
+        "#615443",
+        "#71805a",
+        "#748583",
+        "#7f6b4f",
+        "#81493a",
+        "#94a09a",
+        "#a28a5b"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        34,
+        77,
+        94,
+        124
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\gravestones.png",
+      "input_sha256": "71246c8b6612c44225a162135af09ccada49bd81494a65daffe5b4bf029fa186",
+      "input_size": [
+        595,
+        465
+      ],
+      "input_bbox": [
+        2,
+        2,
+        593,
+        463
+      ],
+      "source_anchor": [
+        297.5,
+        463
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.10152284263959391,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        124
+      ],
+      "baseline": 124,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\frames\\gravestones.png",
+      "output_sha256": "25fe9393070a7ba6eb8755bfca7682b09ba56a0ba46cdea873c1788956a3a74f"
+    }
+  ]
+}

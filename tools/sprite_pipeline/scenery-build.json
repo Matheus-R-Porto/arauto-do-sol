@@ -1,0 +1,29 @@
+{
+  "baseline": "../../docs/scenery/source-manifest.json",
+  "groups": [
+    "landmarks",
+    "relics",
+    "doors",
+    "terrain",
+    "interactions",
+    "secrets"
+  ],
+  "profiles": {
+    "props": "profiles/scenery-props.json",
+    "terrain": "profiles/scenery-terrain.json",
+    "background": "profiles/scenery-background.json"
+  },
+  "backgrounds": [
+    "crypt",
+    "exterior",
+    "ossuary",
+    "arena"
+  ],
+  "offsets": {
+    "dead-tree": [
+      0,
+      2
+    ]
+  },
+  "notes": "Offset da árvore: 2 unidades para assentar a faixa central das raízes. Coordenadas da instância e geometria inalteradas."
+}

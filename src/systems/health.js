@@ -23,7 +23,7 @@ export class Health {
   damage(amount = 1) {
     if (this.invulnTimer > 0 || this.dead) return false;
     this.skulls = Math.max(0, this.skulls - amount);
-    this.invulnTimer = 1.0;
+    this.invulnTimer = HEALTH.invulnerability;
     return true;
   }
 

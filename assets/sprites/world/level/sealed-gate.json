@@ -1,0 +1,287 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "level-props",
+    "max_frame": [
+      512,
+      512
+    ],
+    "canvas": [
+      256,
+      384
+    ],
+    "pivot": [
+      128,
+      376
+    ],
+    "visible_size": [
+      248,
+      376
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 1515,
+      "target_pixels": 352
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "preserve",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory."
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "67567ab4d8b7f4017812b55656167068836e7e24eed5bce2e6fff044f759e395",
+  "frames": [
+    {
+      "size": [
+        256,
+        384
+      ],
+      "mode": "RGBA",
+      "visible_colors": 29,
+      "colors": [
+        "#0b1017",
+        "#121b24",
+        "#1b2731",
+        "#211d1b",
+        "#244449",
+        "#25333c",
+        "#303b2d",
+        "#33434a",
+        "#343027",
+        "#39717a",
+        "#45565b",
+        "#494135",
+        "#4b2925",
+        "#4d5b3d",
+        "#596b6c",
+        "#615443",
+        "#63a9b4",
+        "#71805a",
+        "#748583",
+        "#7f6b4f",
+        "#81493a",
+        "#94a09a",
+        "#a28a5b",
+        "#a5d7d1",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        15,
+        24,
+        242,
+        376
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\sealed-gate.png",
+      "input_sha256": "eca561f0c5f5552e4f084dfb43b5aed5cf0dbbf872814f6c38c146fa319a998b",
+      "input_size": [
+        1024,
+        1536
+      ],
+      "input_bbox": [
+        24,
+        6,
+        1000,
+        1521
+      ],
+      "source_anchor": [
+        512.0,
+        1521
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.23234323432343235,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        376
+      ],
+      "baseline": 376,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\sealed-gate.png",
+      "output_sha256": "a699a5ad5374de9de5702c6ae458de674be27ad655e3cb3f9a859ca420eb7642"
+    }
+  ]
+}

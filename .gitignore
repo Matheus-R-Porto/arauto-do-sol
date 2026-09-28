@@ -3,3 +3,11 @@ dist/
 .DS_Store
 Thumbs.db
 *.log
+
+# Portable player builds and extracted validation copies
+release/
+
+# Reproducible art intermediates; RAW, profiles and final sprites are kept.
+assets/work/
+__pycache__/
+*.pyc

@@ -1,0 +1,140 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 20,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#2c2339",
+        "#403c34",
+        "#482d28",
+        "#4b385b",
+        "#53646d",
+        "#5b5343",
+        "#705381",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a284b1",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#d6b9db",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        41,
+        43,
+        104,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\ranged\\hurt\\hurt-0.png",
+      "input_sha256": "859bc55b4ead88c21bb51eec03d3dec41b13ec16d067f3115d11b41e0a14f75e",
+      "input_size": [
+        169,
+        207
+      ],
+      "input_bbox": [
+        2,
+        2,
+        167,
+        205
+      ],
+      "source_anchor": [
+        62.0,
+        205
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.38095238095238093,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\ranged\\hurt\\hurt-0.png",
+      "output_sha256": "ad9722ad656004aee51f6ab86f7d132c49d76fb6ff2e58adc5766cc9ab9a3c39"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 20,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#2c2339",
+        "#403c34",
+        "#482d28",
+        "#4b385b",
+        "#53646d",
+        "#5b5343",
+        "#705381",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a284b1",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#d6b9db",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        38,
+        45,
+        100,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\ranged\\hurt\\hurt-1.png",
+      "input_sha256": "fc678ad08c6fd4738a8bb05c07071e312e796a090675e92b89f41560a0cfa720",
+      "input_size": [
+        166,
+        200
+      ],
+      "input_bbox": [
+        2,
+        2,
+        164,
+        198
+      ],
+      "source_anchor": [
+        71.5,
+        198
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.38095238095238093,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\ranged\\hurt\\hurt-1.png",
+      "output_sha256": "e5e26adaeb6145756f9030250d02a02f0913f60176b9384f89667ba1e0243b17"
+    }
+  ]
+}

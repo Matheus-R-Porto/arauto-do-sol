@@ -1,0 +1,152 @@
+{
+  "frames": [
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#df8348",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        50,
+        132,
+        199,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\slash-recovery\\slash-recovery-0.png",
+      "input_sha256": "521bd297676bc43ea9967441ba7d684f666df84bdabb5f9ac385cd95f5f0981e",
+      "input_size": [
+        367,
+        286
+      ],
+      "input_bbox": [
+        2,
+        2,
+        365,
+        284
+      ],
+      "source_anchor": [
+        192.0,
+        284
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\slash-recovery\\slash-recovery-0.png",
+      "output_sha256": "8e15fe5eb94e4b3c9fc270ea5cb8a10352504acead998651220ffb716c2cace5"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 25,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#df8348",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        65,
+        133,
+        179,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\slash-recovery\\slash-recovery-1.png",
+      "input_sha256": "7243c435c37b9b414ceac115409b665c30fc6a855bde386c12c87d03b03e06be",
+      "input_size": [
+        281,
+        283
+      ],
+      "input_bbox": [
+        2,
+        2,
+        279,
+        281
+      ],
+      "source_anchor": [
+        155.0,
+        281
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\slash-recovery\\slash-recovery-1.png",
+      "output_sha256": "c1002d550cf4fb2c6966d09e68b5e9d72539b62f5e69404bf058e2d9de8aeac2"
+    }
+  ]
+}

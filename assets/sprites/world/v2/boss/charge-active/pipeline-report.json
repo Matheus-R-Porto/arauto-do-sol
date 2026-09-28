@@ -1,0 +1,298 @@
+{
+  "frames": [
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 24,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        21,
+        133,
+        177,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\charge-active\\charge-active-0.png",
+      "input_sha256": "bde40483d68c79ebc08834d24159c17cdc884cac0c34e221d6d4d09fccb444d2",
+      "input_size": [
+        384,
+        283
+      ],
+      "input_bbox": [
+        2,
+        2,
+        382,
+        281
+      ],
+      "source_anchor": [
+        261,
+        281
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\charge-active\\charge-active-0.png",
+      "output_sha256": "2a6760c4ec6812cddb31ea14dbfab9dd2b174b54cffef887a12aedcad43f8bdd"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 25,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        30,
+        128,
+        185,
+        245
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\charge-active\\charge-active-1.png",
+      "input_sha256": "2854323d2fc9cea56fdaef04abb15070feff72d0b43faa69d9f4a16d9aaf8825",
+      "input_size": [
+        381,
+        288
+      ],
+      "input_bbox": [
+        2,
+        2,
+        379,
+        286
+      ],
+      "source_anchor": [
+        240,
+        293
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\charge-active\\charge-active-1.png",
+      "output_sha256": "bad601e294227c5f9469ea079557765eab2315f06cbe1810dcd5bfeb345abe51"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 26,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#df8348",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        32,
+        130,
+        194,
+        245
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\charge-active\\charge-active-2.png",
+      "input_sha256": "58937fdece2c176fe2c33cd499ba570b09d8337587b3977b7fa8970691d4238e",
+      "input_size": [
+        398,
+        283
+      ],
+      "input_bbox": [
+        2,
+        2,
+        396,
+        281
+      ],
+      "source_anchor": [
+        236,
+        288
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\charge-active\\charge-active-2.png",
+      "output_sha256": "b3175916c28482f8cd91f21c7a7de842d4c2d17bd1e104e821568430ccfd9472"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#df8348",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        26,
+        130,
+        165,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\charge-active\\charge-active-3.png",
+      "input_sha256": "79ed7de1c4f86ff1a70ebd8c2c07fdbe16839655be46455937c8cc5ed5435bda",
+      "input_size": [
+        343,
+        290
+      ],
+      "input_bbox": [
+        2,
+        2,
+        341,
+        288
+      ],
+      "source_anchor": [
+        250,
+        288
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.41142857142857137,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\charge-active\\charge-active-3.png",
+      "output_sha256": "453406be3b39acb94cc0c6001aa3d19062f088bc6d3128c62b1998e5604212d0"
+    }
+  ]
+}

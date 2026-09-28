@@ -1,0 +1,272 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "level-props",
+    "max_frame": [
+      512,
+      512
+    ],
+    "canvas": [
+      40,
+      48
+    ],
+    "pivot": [
+      20,
+      44
+    ],
+    "visible_size": [
+      32,
+      40
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 125,
+      "target_pixels": 24
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "preserve",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory."
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "6c7b4b5b95b60fe789ee8e177683066f5f4b61c34b4e04496956b3969f1434dd",
+  "frames": [
+    {
+      "size": [
+        40,
+        48
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        8,
+        14,
+        32,
+        44
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-currency.png",
+      "input_sha256": "530f32a691d83e912c5f87c3cd2532970f7e7f800de903b568b911611fb14235",
+      "input_size": [
+        125,
+        165
+      ],
+      "input_bbox": [
+        0,
+        3,
+        125,
+        165
+      ],
+      "source_anchor": [
+        62.5,
+        165
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.192,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        20,
+        44
+      ],
+      "baseline": 44,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-currency.png",
+      "output_sha256": "a4b79f72a8b32f1c80b135e9ba7bba9e2e7c7ca9133eb8cebeed139eef413085"
+    }
+  ]
+}

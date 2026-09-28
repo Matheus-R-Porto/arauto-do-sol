@@ -1,11 +1,11 @@
 {
   "name": "arauto-do-sol",
-  "version": "0.0.1",
-  "description": "Metroidvania 2D em Canvas 2D puro (nome provisorio)",
+  "version": "0.6.0",
+  "description": "Demo jogavel do Cemiterio \u00e2\u20ac\u201d Canvas 2D sem dependencias",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "node serve.js",
-    "test": "node tests/fisica.test.mjs && node tests/audio.test.mjs && node tests/combate.test.mjs"
+    "test": "node tests/fisica.test.mjs && node tests/audio.test.mjs && node tests/combate.test.mjs && node tests/input.test.mjs && node tests/sprites.test.mjs && node tests/animations-v2.test.mjs && node tests/hud-detail.test.mjs && node tests/display.test.mjs && node tests/attack-alignment.test.mjs && node tests/greybox-secret.mjs && node tests/greybox-lower.mjs && node tests/greybox.test.mjs && node tests/level-protected.test.mjs && node tests/greybox-playthrough.mjs && node tests/test-room.test.mjs && node tests/polish.test.mjs && node tests/architecture.test.mjs && node tests/tiles.test.mjs && node tests/traversal.test.mjs && node tests/wall-ledges.test.mjs"
   }
 }

@@ -1,0 +1,225 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-enemy",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      80,
+      64
+    ],
+    "pivot": [
+      40,
+      60
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 15.458333333333332,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 24,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-enemies.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      19,
+      20,
+      22
+    ],
+    [
+      40,
+      40,
+      42
+    ],
+    [
+      64,
+      60,
+      52
+    ],
+    [
+      91,
+      83,
+      67
+    ],
+    [
+      120,
+      107,
+      82
+    ],
+    [
+      154,
+      138,
+      104
+    ],
+    [
+      187,
+      174,
+      134
+    ],
+    [
+      222,
+      210,
+      169
+    ],
+    [
+      239,
+      227,
+      190
+    ],
+    [
+      35,
+      49,
+      42
+    ],
+    [
+      61,
+      83,
+      66
+    ],
+    [
+      95,
+      121,
+      87
+    ],
+    [
+      138,
+      155,
+      110
+    ],
+    [
+      72,
+      45,
+      40
+    ],
+    [
+      116,
+      65,
+      57
+    ],
+    [
+      163,
+      103,
+      80
+    ],
+    [
+      204,
+      150,
+      112
+    ],
+    [
+      44,
+      35,
+      57
+    ],
+    [
+      75,
+      56,
+      91
+    ],
+    [
+      112,
+      83,
+      129
+    ],
+    [
+      162,
+      132,
+      177
+    ],
+    [
+      214,
+      185,
+      219
+    ],
+    [
+      240,
+      200,
+      135
+    ],
+    [
+      83,
+      100,
+      109
+    ]
+  ],
+  "profile_sha256": "a786e505c4a5e79898ab240b1b4cf54064b9f7546ca4169e033c0c8879c6713f",
+  "frames": [
+    {
+      "size": [
+        80,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 9,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#786b52",
+        "#9a8a68",
+        "#bbae86",
+        "#ded2a9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        38,
+        43,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\walker-recovery.png",
+      "input_sha256": "b8af2417a3cdcb8885b681cb9f4b11354e8cbf94e73ad59b41d41adaaa9265e1",
+      "input_size": [
+        249,
+        340
+      ],
+      "input_bbox": [
+        2,
+        2,
+        247,
+        338
+      ],
+      "source_anchor": [
+        210.0,
+        338
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.0646900269541779,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        40,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\frames\\walker-recovery.png",
+      "output_sha256": "7463c87615f830e5058557a2a075acddbc8d4d109a494c56d2796021d1a5e291"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "name": "walker",
+  "status": "resolution-correction",
+  "max_frame": [
+    128,
+    128
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    120
+  ],
+  "visible_size": [
+    126,
+    126
+  ],
+  "margin": 1,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": {
+    "source_pixels": 1,
+    "target_pixels": 88
+  },
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 24,
+  "palette": "../palettes/world-enemies.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 20
+  },
+  "notes": "Escala anat\u00f4mica comum a todas as poses. Arma e membros em movimento podem estender os bounds do corpo em repouso.",
+  "fit_anchor": true,
+  "world_scale": 0.2727272727272727
+}

@@ -1,0 +1,7720 @@
+{
+  "schemaVersion": 1,
+  "status": "animation-expansion-v2",
+  "assets": {
+    "stone-a": {
+      "file": "/assets/sprites/world/frames/stone-a.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        28,
+        80,
+        60
+      ],
+      "colors": 11,
+      "sha256": "c1081028daca8f867697e1266e8cca056d2f777fc67f33184cdf0aeb049a06d1",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        0,
+        730,
+        475
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        32
+      ]
+    },
+    "ledge": {
+      "file": "/assets/sprites/world/frames/ledge.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        34,
+        48,
+        94,
+        60
+      ],
+      "colors": 14,
+      "sha256": "d8a7e962465afb97021686cef2b6229be15f419c018e85235d0da0492e4b5b4b",
+      "raw": "terrain",
+      "rawBox": [
+        730,
+        0,
+        1671,
+        475
+      ],
+      "scale": 0.08053691275167785,
+      "sourceAnchor": [
+        429.0,
+        446
+      ]
+    },
+    "spikes": {
+      "file": "/assets/sprites/world/frames/spikes.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        45,
+        80,
+        59
+      ],
+      "colors": 7,
+      "sha256": "2d67825603d6f935f58cad25d0bfb30f2e8818f5fa58fb163c20a4e673f22110",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        475,
+        975,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        16
+      ]
+    },
+    "stone-b": {
+      "file": "/assets/sprites/world/frames/stone-b.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        28,
+        80,
+        60
+      ],
+      "colors": 11,
+      "sha256": "d9a7f90752f9842c4c18661854a7b9796e305908e8501f9d1585ba65bb479e86",
+      "raw": "terrain",
+      "rawBox": [
+        975,
+        475,
+        1671,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        32
+      ]
+    },
+    "arch": {
+      "file": "/assets/sprites/world/frames/arch.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        85,
+        83,
+        123
+      ],
+      "colors": 10,
+      "sha256": "cd6289f835cd9a0dcf238adcbc67f0a888d1f5962e71b0a1da4105f384635959",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        0,
+        724,
+        543
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        450.0,
+        543
+      ]
+    },
+    "sun-door": {
+      "file": "/assets/sprites/world/frames/sun-door.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        85,
+        83,
+        123
+      ],
+      "colors": 11,
+      "sha256": "ffdb3eb8512217e755ac81c23356814a3205053597633cd9b6ceb84ee6f30aae",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        0,
+        1448,
+        543
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        275.0,
+        543
+      ]
+    },
+    "chain-gate": {
+      "file": "/assets/sprites/world/frames/chain-gate.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        86,
+        83,
+        124
+      ],
+      "colors": 13,
+      "sha256": "0660ef22a3af124599f0dcb3cfe27827be2d5deddb3a89340cc5626ed6d8ff11",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        543,
+        724,
+        1086
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        450.0,
+        521
+      ]
+    },
+    "shortcut-gate": {
+      "file": "/assets/sprites/world/frames/shortcut-gate.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        86,
+        83,
+        124
+      ],
+      "colors": 11,
+      "sha256": "84931cfd519373ed6b43f4e05c7e23cae063de588fb52d477975093c07d8f169",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        543,
+        1448,
+        1086
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        275.0,
+        521
+      ]
+    },
+    "statue": {
+      "file": "/assets/sprites/world/frames/statue.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        40,
+        9,
+        87,
+        124
+      ],
+      "colors": 19,
+      "sha256": "eed10f66b3457f5e074a4691f945f09c4862794876d6f6408a43218113512b21",
+      "raw": "landmarks",
+      "rawBox": [
+        203,
+        6,
+        458,
+        626
+      ],
+      "scale": 0.18831168831168832,
+      "sourceAnchor": [
+        127.5,
+        618
+      ]
+    },
+    "mausoleum": {
+      "file": "/assets/sprites/world/frames/mausoleum.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        21,
+        12,
+        107,
+        124
+      ],
+      "colors": 20,
+      "sha256": "f9aebf9533c8ce9b0239e380f2a2b5c4fefc78b0b4acd68d17aa3c5d77bcbed6",
+      "raw": "landmarks",
+      "rawBox": [
+        701,
+        10,
+        1172,
+        622
+      ],
+      "scale": 0.18421052631578946,
+      "sourceAnchor": [
+        235.5,
+        610
+      ]
+    },
+    "window": {
+      "file": "/assets/sprites/world/frames/window.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        40,
+        16,
+        88,
+        124
+      ],
+      "colors": 21,
+      "sha256": "2776963637a9c6d39bf0c8557f4b740359ccc3b19ea160b8f21d4187c67fe7db",
+      "raw": "landmarks",
+      "rawBox": [
+        198,
+        639,
+        458,
+        1225
+      ],
+      "scale": 0.18556701030927836,
+      "sourceAnchor": [
+        130.0,
+        584
+      ]
+    },
+    "bones": {
+      "file": "/assets/sprites/world/frames/bones.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        14,
+        66,
+        113,
+        124
+      ],
+      "colors": 19,
+      "sha256": "ecda8bc74840fee0e6713ba30bbe5b8133b7637bd36e1056b616a8605a09f2f8",
+      "raw": "landmarks",
+      "rawBox": [
+        651,
+        875,
+        1229,
+        1214
+      ],
+      "scale": 0.17313432835820897,
+      "sourceAnchor": [
+        289.0,
+        337
+      ]
+    },
+    "bell": {
+      "file": "/assets/sprites/world/frames/bell.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        34,
+        25,
+        94,
+        124
+      ],
+      "colors": 22,
+      "sha256": "d04a2b1fdfb856fd4d9d8c6b38926ec192d69a4cbdd6023373a6f959e9acca05",
+      "raw": "relics",
+      "rawBox": [
+        158,
+        79,
+        481,
+        608
+      ],
+      "scale": 0.18808777429467086,
+      "sourceAnchor": [
+        161.5,
+        527
+      ]
+    },
+    "dead-tree": {
+      "file": "/assets/sprites/world/frames/dead-tree.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        11,
+        7,
+        119,
+        124
+      ],
+      "colors": 15,
+      "sha256": "d39ac6b5a50c4cdead40fed257ec66ffa699220191f0ca6e8551f296c07bd81c",
+      "raw": "relics",
+      "rawBox": [
+        653,
+        30,
+        1230,
+        656
+      ],
+      "scale": 0.18971061093247588,
+      "sourceAnchor": [
+        288.5,
+        624
+      ]
+    },
+    "urns": {
+      "file": "/assets/sprites/world/frames/urns.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        31,
+        63,
+        97,
+        124
+      ],
+      "colors": 18,
+      "sha256": "62fc6ca7ed3e174bed3b44dbbb6a9fec186fe26ced56eb5ef5320ac9e85cc8bb",
+      "raw": "relics",
+      "rawBox": [
+        10,
+        664,
+        616,
+        1226
+      ],
+      "scale": 0.10963455149501661,
+      "sourceAnchor": [
+        303.0,
+        560
+      ]
+    },
+    "gravestones": {
+      "file": "/assets/sprites/world/frames/gravestones.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        34,
+        77,
+        94,
+        124
+      ],
+      "colors": 15,
+      "sha256": "25fe9393070a7ba6eb8755bfca7682b09ba56a0ba46cdea873c1788956a3a74f",
+      "raw": "relics",
+      "rawBox": [
+        637,
+        746,
+        1232,
+        1211
+      ],
+      "scale": 0.10152284263959391,
+      "sourceAnchor": [
+        297.5,
+        463
+      ]
+    },
+    "shrine": {
+      "file": "/assets/sprites/world/frames/shrine.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        47,
+        82,
+        80,
+        124
+      ],
+      "colors": 25,
+      "sha256": "f9d129077ec0b95bf51094213155e3d670ca3d1df3b8198fdb4d7451091621e5",
+      "raw": "interactions",
+      "rawBox": [
+        92,
+        6,
+        592,
+        635
+      ],
+      "scale": 0.0672,
+      "sourceAnchor": [
+        250.0,
+        627
+      ]
+    },
+    "fountain": {
+      "file": "/assets/sprites/world/frames/fountain.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        50,
+        82,
+        77,
+        124
+      ],
+      "colors": 26,
+      "sha256": "748dab62c5538cc73beb4bba6d4141e0185766f7cfd7dbfe062ba4da59b42c96",
+      "raw": "interactions",
+      "rawBox": [
+        781,
+        49,
+        1166,
+        635
+      ],
+      "scale": 0.07216494845360824,
+      "sourceAnchor": [
+        192.5,
+        584
+      ]
+    },
+    "lever": {
+      "file": "/assets/sprites/world/frames/lever.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        50,
+        109,
+        78,
+        124
+      ],
+      "colors": 13,
+      "sha256": "e2b5930a25785696089d8879872c7bba7dfe52ad093bdb082b88d2127ad79c9a",
+      "raw": "interactions",
+      "rawBox": [
+        46,
+        861,
+        617,
+        1172
+      ],
+      "scale": 0.04938271604938271,
+      "sourceAnchor": [
+        285.5,
+        309
+      ]
+    },
+    "sun-key": {
+      "file": "/assets/sprites/world/frames/sun-key.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        59,
+        106,
+        69,
+        123
+      ],
+      "colors": 5,
+      "sha256": "2fa0aecba5853dfa24acbed4627851cf0a53f666b70c6095a34026037caef117",
+      "raw": "interactions",
+      "rawBox": [
+        831,
+        674,
+        1130,
+        1216
+      ],
+      "scale": 0.03389830508474576,
+      "sourceAnchor": [
+        149.5,
+        540
+      ]
+    },
+    "fragment": {
+      "file": "/assets/sprites/world/frames/fragment.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        60,
+        115,
+        69,
+        124
+      ],
+      "colors": 12,
+      "sha256": "fd5f950289f0d252696fbe42b9ad2e0af3c4dd9d2d4124d56545c08ef6e601cf",
+      "raw": "secrets",
+      "rawBox": [
+        141,
+        114,
+        516,
+        507
+      ],
+      "scale": 0.02425876010781671,
+      "sourceAnchor": [
+        187.5,
+        391
+      ]
+    },
+    "secret-stone": {
+      "file": "/assets/sprites/world/frames/secret-stone.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        52,
+        92,
+        76,
+        124
+      ],
+      "colors": 10,
+      "sha256": "94c69b53658273323dbb94d8a95d50d02ce50fb34ba79b6c6c817e6b4c789462",
+      "raw": "secrets",
+      "rawBox": [
+        740,
+        56,
+        1135,
+        578
+      ],
+      "scale": 0.061381074168797956,
+      "sourceAnchor": [
+        197.5,
+        520
+      ]
+    },
+    "end-arch": {
+      "file": "/assets/sprites/world/frames/end-arch.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        38,
+        71,
+        90,
+        124
+      ],
+      "colors": 19,
+      "sha256": "6ff8f8eca02e1b9e3a8ed6eccf137a5848d3648ad918572eb9dcb7da3928abf5",
+      "raw": "secrets",
+      "rawBox": [
+        60,
+        651,
+        589,
+        1188
+      ],
+      "scale": 0.09904761904761905,
+      "sourceAnchor": [
+        264.5,
+        535
+      ]
+    },
+    "ladder": {
+      "file": "/assets/sprites/world/frames/ladder.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        57,
+        88,
+        71,
+        124
+      ],
+      "colors": 6,
+      "sha256": "54b34065f95c7a8c874a1ce9bd1ce4f8e8c903fb1927db67a374aaf5ef626cfb",
+      "raw": "secrets",
+      "rawBox": [
+        828,
+        647,
+        1050,
+        1207
+      ],
+      "scale": 0.06422018348623854,
+      "sourceAnchor": [
+        111.0,
+        558
+      ]
+    },
+    "medallion": {
+      "file": "/assets/sprites/world/frames/medallion.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        50,
+        25,
+        69,
+        43
+      ],
+      "colors": 10,
+      "sha256": "404cea8543d7ebf7714197541586d711201c092c4767c991636b14b703ca4fa5",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "scale": 0.04713804713804714,
+      "sourceAnchor": [
+        471.0,
+        468
+      ]
+    },
+    "energy-frame": {
+      "file": "/assets/sprites/world/frames/energy-frame.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        29,
+        32,
+        98,
+        44
+      ],
+      "colors": 6,
+      "sha256": "846279f3a68c0e90533ff8c93474645d99ab1330d1e5e3df7568d81a840d0d5e",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "scale": 0.09302325581395349,
+      "sourceAnchor": [
+        371.0,
+        321
+      ]
+    },
+    "health-skull": {
+      "file": "/assets/sprites/world/frames/health-skull.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        61,
+        36,
+        67,
+        44
+      ],
+      "colors": 9,
+      "sha256": "43dd882b8584ce55b01971766e90bc5733c8e981d2571adb4e359eb438b50242",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "scale": 0.02572347266881029,
+      "sourceAnchor": [
+        384.0,
+        410
+      ]
+    },
+    "hud-fragment": {
+      "file": "/assets/sprites/world/frames/hud-fragment.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        62,
+        38,
+        66,
+        44
+      ],
+      "colors": 6,
+      "sha256": "30db168b20a979516f7add5d89fc081714134b3df7dc13c38d31b8826643be45",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 0.019933554817275746,
+      "sourceAnchor": [
+        390.5,
+        396
+      ]
+    },
+    "slash-light": {
+      "file": "/assets/sprites/world/frames/slash-light.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        55,
+        36,
+        77,
+        60
+      ],
+      "colors": 9,
+      "sha256": "80208183c33d34025ae7927bf36ffcf7efff79c90df95ddea535114614b2a2f6",
+      "raw": "effects",
+      "rawBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "scale": 0.06818181818181818,
+      "sourceAnchor": [
+        429.5,
+        460
+      ]
+    },
+    "slash-heavy": {
+      "file": "/assets/sprites/world/frames/slash-heavy.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        47,
+        32,
+        82,
+        60
+      ],
+      "colors": 8,
+      "sha256": "381d6a436f0b822938595c2de9f227c45488d297fff6d96d15a1688527938698",
+      "raw": "effects",
+      "rawBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "scale": 0.0759493670886076,
+      "sourceAnchor": [
+        364.5,
+        485
+      ]
+    },
+    "hit": {
+      "file": "/assets/sprites/world/frames/hit.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        56,
+        45,
+        70,
+        59
+      ],
+      "colors": 8,
+      "sha256": "339853249e422017e6127a6c3cc834fbd2b4c388eb2fc2c4975dfb1f99e5d622",
+      "raw": "effects",
+      "rawBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "scale": 0.0425531914893617,
+      "sourceAnchor": [
+        411.0,
+        435
+      ]
+    },
+    "projectile": {
+      "file": "/assets/sprites/world/frames/projectile.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        64,
+        57,
+        69,
+        60
+      ],
+      "colors": 3,
+      "sha256": "954f730025cd3a7fe96e8aa2c6219a9f27f3484ab009bf3997f67456f9d60a6c",
+      "raw": "effects",
+      "rawBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 0.021691973969631236,
+      "sourceAnchor": [
+        339.5,
+        320
+      ]
+    },
+    "shockwave": {
+      "file": "/assets/sprites/world/frames/shockwave.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        31,
+        46,
+        98,
+        60
+      ],
+      "colors": 11,
+      "sha256": "2af4d91a9c4559a2f6579b58899b2dc81494638e77fa10f291d166611b70580c",
+      "raw": "effects-extra",
+      "rawBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "scale": 0.09142857142857143,
+      "sourceAnchor": [
+        395.5,
+        393
+      ]
+    },
+    "dust": {
+      "file": "/assets/sprites/world/frames/dust.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        56,
+        53,
+        79,
+        60
+      ],
+      "colors": 7,
+      "sha256": "713dbce70ef10d9f9fc1409d25054510f85b8dca196b94d38589256d85482b1a",
+      "raw": "effects-extra",
+      "rawBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "scale": 0.0446927374301676,
+      "sourceAnchor": [
+        358.0,
+        378
+      ]
+    },
+    "flame": {
+      "file": "/assets/sprites/world/frames/flame.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        62,
+        48,
+        67,
+        59
+      ],
+      "colors": 4,
+      "sha256": "dbb67027bc8bc34e4c1571c42034ee32b595e78e5e975fc25090f4def01dbf12",
+      "raw": "effects-extra",
+      "rawBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "scale": 0.041916167664670656,
+      "sourceAnchor": [
+        394.0,
+        418
+      ]
+    },
+    "projectile-2": {
+      "file": "/assets/sprites/world/frames/projectile-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        63,
+        57,
+        69,
+        60
+      ],
+      "colors": 4,
+      "sha256": "b9944f4f055711182ab820d0ba720d83b908305598bc537250c100620f48ca54",
+      "raw": "effects-extra",
+      "rawBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 0.018656716417910446,
+      "sourceAnchor": [
+        363.0,
+        339
+      ]
+    },
+    "walker-idle": {
+      "file": "/assets/sprites/world/frames/walker-idle.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        34,
+        36,
+        52,
+        60
+      ],
+      "colors": 9,
+      "sha256": "c94e780f796071368c66d792beaa1f281e267898037b3322a424865657851571",
+      "raw": "walker",
+      "rawBox": [
+        65,
+        101,
+        343,
+        476
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        99.0,
+        373
+      ]
+    },
+    "walker-walk-1": {
+      "file": "/assets/sprites/world/v2/walker/walk/walk-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        32,
+        33,
+        114,
+        120
+      ],
+      "sha256": "4ded8e0fc36ce86f4b52c30ef22b8ae0d5ddca1c9dcf91e269024040e7ad164e"
+    },
+    "walker-walk-2": {
+      "file": "/assets/sprites/world/v2/walker/walk/walk-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        30,
+        33,
+        115,
+        120
+      ],
+      "sha256": "25b0352f75ca21630c62b1b2f458d29bc1345da28063562bcd21de6216be4d17"
+    },
+    "walker-hurt": {
+      "file": "/assets/sprites/world/frames/walker-hurt.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        33,
+        36,
+        51,
+        60
+      ],
+      "colors": 9,
+      "sha256": "92acec7ea384d4e65eae508674b67a41764f66ebee2ec5fa944801c2da4f962d",
+      "raw": "walker",
+      "rawBox": [
+        1229,
+        105,
+        1513,
+        476
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        107.0,
+        369
+      ]
+    },
+    "walker-windup": {
+      "file": "/assets/sprites/world/frames/walker-windup.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        31,
+        35,
+        48,
+        60
+      ],
+      "colors": 9,
+      "sha256": "9fedb7e5944fa14a73b7cd937e3cfa44f7c973b44967cdc9ea7ebf6b3158b808",
+      "raw": "walker",
+      "rawBox": [
+        28,
+        551,
+        289,
+        948
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        142.5,
+        395
+      ]
+    },
+    "walker-active": {
+      "file": "/assets/sprites/world/frames/walker-active.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        31,
+        39,
+        63,
+        60
+      ],
+      "colors": 8,
+      "sha256": "a27d22c79189998ae7dc0bc5abdcc65ff81062e556ed7540dc65149c47ac90c4",
+      "raw": "walker",
+      "rawBox": [
+        373,
+        611,
+        879,
+        947
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        140.0,
+        334
+      ]
+    },
+    "walker-recovery": {
+      "file": "/assets/sprites/world/frames/walker-recovery.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        27,
+        38,
+        43,
+        60
+      ],
+      "colors": 9,
+      "sha256": "7463c87615f830e5058557a2a075acddbc8d4d109a494c56d2796021d1a5e291",
+      "raw": "walker",
+      "rawBox": [
+        844,
+        622,
+        1093,
+        962
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        210.0,
+        338
+      ]
+    },
+    "walker-death": {
+      "file": "/assets/sprites/world/frames/walker-death.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        27,
+        53,
+        54,
+        60
+      ],
+      "colors": 8,
+      "sha256": "0dda846e327c420f472fbd8e3779fa3675a78d807d6f1b805cec443358b5d0d7",
+      "raw": "walker",
+      "rawBox": [
+        1103,
+        857,
+        1524,
+        965
+      ],
+      "scale": 0.0646900269541779,
+      "sourceAnchor": [
+        210.5,
+        106
+      ]
+    },
+    "lunger-idle": {
+      "file": "/assets/sprites/world/frames/lunger-idle.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        29,
+        42,
+        56,
+        60
+      ],
+      "colors": 9,
+      "sha256": "5e3822e5bf7ddeb9a3784df20b359a8c257b8ff38e4a6232491c5010ebf98f01",
+      "raw": "lunger",
+      "rawBox": [
+        48,
+        241,
+        353,
+        443
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        123.0,
+        200
+      ]
+    },
+    "lunger-walk-1": {
+      "file": "/assets/sprites/world/v2/lunger/walk/walk-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        5,
+        30,
+        53,
+        56
+      ],
+      "sha256": "ab06e5dfce1f11a6b9d72ce703489e68d5a1f7fcc0d7c9657435727846420238"
+    },
+    "lunger-walk-2": {
+      "file": "/assets/sprites/world/v2/lunger/walk/walk-2.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        8,
+        30,
+        55,
+        57
+      ],
+      "sha256": "d3bb674b8b6481566257cdd9618cde04191d47ab6774dd9e892451b9dcc4043e"
+    },
+    "lunger-hurt": {
+      "file": "/assets/sprites/world/frames/lunger-hurt.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        30,
+        35,
+        51,
+        60
+      ],
+      "colors": 10,
+      "sha256": "6fcb041dd34931a19116c946475d1d316f7eeeeb3c15ef8cc74cf926ea8a09ab",
+      "raw": "lunger",
+      "rawBox": [
+        1243,
+        163,
+        1476,
+        443
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        114.5,
+        278
+      ]
+    },
+    "lunger-windup": {
+      "file": "/assets/sprites/world/frames/lunger-windup.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        25,
+        45,
+        54,
+        60
+      ],
+      "colors": 9,
+      "sha256": "71a9f73d5644c660f9bc4d624fc10c5e0794844457b57b31046379d878b5c4c8",
+      "raw": "lunger",
+      "rawBox": [
+        34,
+        711,
+        352,
+        883
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        168.0,
+        170
+      ]
+    },
+    "lunger-active": {
+      "file": "/assets/sprites/world/frames/lunger-active.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        36,
+        43,
+        74,
+        60
+      ],
+      "colors": 9,
+      "sha256": "6ea099f9b224f6deb076f45dad2b7718ad8722ef59b3beba7bbf840250b37b5c",
+      "raw": "lunger",
+      "rawBox": [
+        381,
+        660,
+        799,
+        852
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        43.0,
+        190
+      ]
+    },
+    "lunger-recovery": {
+      "file": "/assets/sprites/world/frames/lunger-recovery.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        29,
+        45,
+        53,
+        60
+      ],
+      "colors": 10,
+      "sha256": "2a60973b3df51ea7e6f816a2bbca21e0393d9c2bfdb513c2b2f286f57817e788",
+      "raw": "lunger",
+      "rawBox": [
+        815,
+        711,
+        1094,
+        883
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        131.5,
+        170
+      ]
+    },
+    "lunger-death": {
+      "file": "/assets/sprites/world/frames/lunger-death.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        23,
+        51,
+        56,
+        60
+      ],
+      "colors": 10,
+      "sha256": "868319963c3014bc41ebc42a9f5930bf6780ed11392874ec8ecbcd9054304c69",
+      "raw": "lunger",
+      "rawBox": [
+        1126,
+        791,
+        1505,
+        890
+      ],
+      "scale": 0.09090909090909091,
+      "sourceAnchor": [
+        189.5,
+        97
+      ]
+    },
+    "ranged-idle": {
+      "file": "/assets/sprites/world/frames/ranged-idle.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        33,
+        28,
+        51,
+        60
+      ],
+      "colors": 10,
+      "sha256": "dafb63682433e84e79f2eaf5af74e1b366789fc0c6c010b159f8446f11fcc562",
+      "raw": "ranged",
+      "rawBox": [
+        95,
+        94,
+        310,
+        479
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        80.5,
+        383
+      ]
+    },
+    "ranged-walk-1": {
+      "file": "/assets/sprites/world/v2/ranged/walk/walk-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        30,
+        35,
+        90,
+        120
+      ],
+      "sha256": "4bc57e1cfe60d81de1c22e79e650fd313ef6d94286b7e1b7067cc38f2048b9d4"
+    },
+    "ranged-walk-2": {
+      "file": "/assets/sprites/world/v2/ranged/walk/walk-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        33,
+        36,
+        94,
+        120
+      ],
+      "sha256": "01688453f635ceaac1968682fbeab4f6ba539ebde2a9e98eb9b029ffbbe400a3"
+    },
+    "ranged-hurt": {
+      "file": "/assets/sprites/world/frames/ranged-hurt.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        31,
+        31,
+        52,
+        60
+      ],
+      "colors": 9,
+      "sha256": "c451cbfa200d8f0c83456d2211beaebb249c67a6e69afb0f59a956ef5933b0b1",
+      "raw": "ranged",
+      "rawBox": [
+        1210,
+        127,
+        1465,
+        479
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        108.0,
+        350
+      ]
+    },
+    "ranged-windup": {
+      "file": "/assets/sprites/world/frames/ranged-windup.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        30,
+        26,
+        51,
+        60
+      ],
+      "colors": 11,
+      "sha256": "fc808d6953774fd5bbe3a84b96a2cf420564783dbbe62fb8346c9ffdeadffea2",
+      "raw": "ranged",
+      "rawBox": [
+        51,
+        544,
+        304,
+        949
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        126.5,
+        403
+      ]
+    },
+    "ranged-active": {
+      "file": "/assets/sprites/world/frames/ranged-active.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        29,
+        32,
+        60,
+        60
+      ],
+      "colors": 11,
+      "sha256": "edb92f609da1dba0f943e0bb2086f0c73b2e146bb149de2baa723580b0d34d1a",
+      "raw": "ranged",
+      "rawBox": [
+        399,
+        610,
+        775,
+        949
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        133.5,
+        337
+      ]
+    },
+    "ranged-recovery": {
+      "file": "/assets/sprites/world/frames/ranged-recovery.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        33,
+        32,
+        51,
+        60
+      ],
+      "colors": 11,
+      "sha256": "59d01af83e4be1dc6072dcaf7528f59da067a0fe9a75a7ac3b4ec061b6c5ca3f",
+      "raw": "ranged",
+      "rawBox": [
+        836,
+        617,
+        1052,
+        949
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        84.0,
+        330
+      ]
+    },
+    "ranged-death": {
+      "file": "/assets/sprites/world/frames/ranged-death.png",
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "bounds": [
+        25,
+        50,
+        57,
+        60
+      ],
+      "colors": 11,
+      "sha256": "0810cd5a513bbb49b517f844eae9a7a8cd6db85aea1964296d1798107f9eb98d",
+      "raw": "ranged",
+      "rawBox": [
+        1117,
+        831,
+        1511,
+        959
+      ],
+      "scale": 0.08398950131233596,
+      "sourceAnchor": [
+        197.0,
+        126
+      ]
+    },
+    "boss-idle": {
+      "file": "/assets/sprites/world/frames/boss-idle.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        22,
+        25,
+        58,
+        90
+      ],
+      "colors": 20,
+      "sha256": "07cd7dc8edff7493761afd492adb07948ac0209e306741ead66bb7a76b2d73a7",
+      "raw": "boss",
+      "rawBox": [
+        87,
+        12,
+        273,
+        347
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        95.0,
+        333
+      ]
+    },
+    "boss-walk-1": {
+      "file": "/assets/sprites/world/v2/boss/walk/walk-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        67,
+        111,
+        194,
+        248
+      ],
+      "sha256": "9fc9153ab1da50e436aaa82b92621dc8679c02ddd136c62bd94350e4e52c8885"
+    },
+    "boss-walk-2": {
+      "file": "/assets/sprites/world/v2/boss/walk/walk-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        58,
+        110,
+        179,
+        248
+      ],
+      "sha256": "0c90febb77b854a27cc6c84896b3894d5b509d1c93c5d17db800ab95094777f2"
+    },
+    "boss-hurt": {
+      "file": "/assets/sprites/world/frames/boss-hurt.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        18,
+        35,
+        61,
+        90
+      ],
+      "colors": 21,
+      "sha256": "7ec40aaa60dbaa3836d314f89fd9aeb595e7f3c83d803211de1717cabd71beea",
+      "raw": "boss",
+      "rawBox": [
+        1172,
+        57,
+        1396,
+        347
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        112.5,
+        288
+      ]
+    },
+    "boss-slash-windup": {
+      "file": "/assets/sprites/world/frames/boss-slash-windup.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        7,
+        24,
+        62,
+        90
+      ],
+      "colors": 22,
+      "sha256": "2e1a2db4dd774631b0c4aa392ca97801d544d85f8e79db467459f851bf649de1",
+      "raw": "boss",
+      "rawBox": [
+        18,
+        363,
+        302,
+        703
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        171.0,
+        338
+      ]
+    },
+    "boss-slash-active": {
+      "file": "/assets/sprites/world/frames/boss-slash-active.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        13,
+        37,
+        94,
+        90
+      ],
+      "colors": 21,
+      "sha256": "85fb86902a5e91574d2040e2e1a723d8542b9ffcb0dc8acb2adc7e4272df33c0",
+      "raw": "boss",
+      "rawBox": [
+        352,
+        427,
+        771,
+        703
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        141.0,
+        274
+      ]
+    },
+    "boss-charge-windup": {
+      "file": "/assets/sprites/world/frames/boss-charge-windup.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        11,
+        42,
+        67,
+        90
+      ],
+      "colors": 21,
+      "sha256": "2117002820571cba69d6bd98605fa587f2756553ec9a630fad7e31602e6f58c1",
+      "raw": "boss",
+      "rawBox": [
+        773,
+        453,
+        1066,
+        701
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        156.0,
+        246
+      ]
+    },
+    "boss-charge-active": {
+      "file": "/assets/sprites/world/frames/boss-charge-active.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        17,
+        43,
+        80,
+        90
+      ],
+      "colors": 21,
+      "sha256": "b5fdfc4c6cf959383e3b37a849849b61ed4b52fae738eb1f912720403970460b",
+      "raw": "boss",
+      "rawBox": [
+        1091,
+        458,
+        1417,
+        702
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        117.5,
+        242
+      ]
+    },
+    "boss-slam-windup": {
+      "file": "/assets/sprites/world/frames/boss-slam-windup.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        12,
+        26,
+        67,
+        90
+      ],
+      "colors": 21,
+      "sha256": "23dd549f35b400ccb62031953f4948cacf54a33638a193196492f4cd872137c9",
+      "raw": "boss",
+      "rawBox": [
+        25,
+        727,
+        310,
+        1059
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        142.5,
+        330
+      ]
+    },
+    "boss-slam-active": {
+      "file": "/assets/sprites/world/frames/boss-slam-active.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        25,
+        40,
+        73,
+        90
+      ],
+      "colors": 22,
+      "sha256": "bf5068686467c634d5a9426f0f3d2482b6c7a2c52bfd9be0e281a13e8e57f088",
+      "raw": "boss",
+      "rawBox": [
+        385,
+        717,
+        634,
+        974
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        77.5,
+        255
+      ]
+    },
+    "boss-recovery": {
+      "file": "/assets/sprites/world/frames/boss-recovery.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        17,
+        36,
+        64,
+        90
+      ],
+      "colors": 22,
+      "sha256": "32ac688cecd2764f94eff08c87c0889bcfa14ccd74c725d50e28fd6e18260df2",
+      "raw": "boss",
+      "rawBox": [
+        764,
+        773,
+        1014,
+        1059
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        125.0,
+        284
+      ]
+    },
+    "boss-death": {
+      "file": "/assets/sprites/world/frames/boss-death.png",
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "bounds": [
+        2,
+        65,
+        77,
+        90
+      ],
+      "colors": 21,
+      "sha256": "71d04b663f9183cf0106aed1dcc526abe31128f0b59e92bbf9c235f5d917c9cf",
+      "raw": "boss",
+      "rawBox": [
+        1039,
+        935,
+        1427,
+        1064
+      ],
+      "scale": 0.19637462235649547,
+      "sourceAnchor": [
+        194.0,
+        127
+      ]
+    },
+    "walker-idle-0": {
+      "file": "/assets/sprites/world/v2/walker/idle/idle-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        37,
+        34,
+        113,
+        120
+      ],
+      "sha256": "69c4ceb733b284f7087820464c98cd0911ca0c50f8d15d23c0d15fc24c17546d"
+    },
+    "walker-idle-1": {
+      "file": "/assets/sprites/world/v2/walker/idle/idle-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        36,
+        33,
+        112,
+        120
+      ],
+      "sha256": "bade3b8e113fe4bf91458c30b1c113f338f1e0634cf7c4f0e455d3a3001295f5"
+    },
+    "walker-walk-0": {
+      "file": "/assets/sprites/world/v2/walker/walk/walk-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        34,
+        33,
+        118,
+        120
+      ],
+      "sha256": "41911352bc556558e95f3de9964c338fe263805e7c9de6a9edf8edd6e9a0d44c"
+    },
+    "walker-walk-3": {
+      "file": "/assets/sprites/world/v2/walker/walk/walk-3.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        33,
+        33,
+        113,
+        120
+      ],
+      "sha256": "0597f7919ecfe16ecd5c19c6e32356ee6ee1913eb768e61951d1fd288580a31a"
+    },
+    "walker-windup-0": {
+      "file": "/assets/sprites/world/v2/walker/windup/windup-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        36,
+        33,
+        113,
+        120
+      ],
+      "sha256": "cc48d28f4d17162a6b1dbbe00d7738c4bc85360c2792d7dc533b50fa3982222d"
+    },
+    "walker-windup-1": {
+      "file": "/assets/sprites/world/v2/walker/windup/windup-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        28,
+        29,
+        93,
+        120
+      ],
+      "sha256": "6283fa81cf79f48bc6db4829ab7390bb56c22b43437eceb13a2581abfe5da5bc"
+    },
+    "walker-windup-2": {
+      "file": "/assets/sprites/world/v2/walker/windup/windup-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        27,
+        21,
+        93,
+        120
+      ],
+      "sha256": "65feb9d543d3b04f1480d165fd01e480ea0aa774bc37b41e87e2cfea340127d8"
+    },
+    "walker-active-0": {
+      "file": "/assets/sprites/world/v2/walker/active/active-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        29,
+        38,
+        121,
+        120
+      ],
+      "sha256": "a5790c4ea1ba981026a6feb710ae089d6b3d3ed891b5be31f4e74ac1ab7ec6c1"
+    },
+    "walker-active-1": {
+      "file": "/assets/sprites/world/v2/walker/active/active-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        23,
+        48,
+        104,
+        120
+      ],
+      "sha256": "9fe4bcbf3ec9231b2fa6fd8fb8b5d26ded153a6ad159c99236aeb6fc329799db"
+    },
+    "walker-recovery-0": {
+      "file": "/assets/sprites/world/v2/walker/recovery/recovery-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        24,
+        45,
+        110,
+        120
+      ],
+      "sha256": "cf397b156908e5f9e3ec9f3e1458ca82cd5f3e6a542d144cffda7e947c1beaae"
+    },
+    "walker-recovery-1": {
+      "file": "/assets/sprites/world/v2/walker/recovery/recovery-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        26,
+        45,
+        105,
+        120
+      ],
+      "sha256": "7b288d6182793eeb95173a3f11e674c63a98d0eddb46191a5d51c5e3fec7090d"
+    },
+    "walker-hurt-0": {
+      "file": "/assets/sprites/world/v2/walker/hurt/hurt-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        16,
+        42,
+        102,
+        120
+      ],
+      "sha256": "2394602290e6df1cb4e3feae74ba3c3b5a3b4ea05f899dbadcc6a11c868cd7fd"
+    },
+    "walker-hurt-1": {
+      "file": "/assets/sprites/world/v2/walker/hurt/hurt-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        23,
+        49,
+        107,
+        120
+      ],
+      "sha256": "32427f2971a7e4b5ddbae2e54c54aff024f7c26020d69b53a59554f2d7708946"
+    },
+    "walker-death-0": {
+      "file": "/assets/sprites/world/v2/walker/death/death-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        16,
+        66,
+        112,
+        120
+      ],
+      "sha256": "373902dc5000cd774bf5d630d5639c618a245aab257501862ec839c46c9a0703"
+    },
+    "walker-death-1": {
+      "file": "/assets/sprites/world/v2/walker/death/death-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        15,
+        72,
+        113,
+        120
+      ],
+      "sha256": "9594902f3e1c6b2f4ff42bb643af4e7c4d26f4b253aaf056cee438fcf6bd716e"
+    },
+    "walker-death-2": {
+      "file": "/assets/sprites/world/v2/walker/death/death-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        8,
+        75,
+        120,
+        120
+      ],
+      "sha256": "15447637740787069c10b25115d7cc78457f255d04fb3feafac2db81b91b5d3f"
+    },
+    "walker-death-3": {
+      "file": "/assets/sprites/world/v2/walker/death/death-3.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.2727272727272727,
+      "bounds": [
+        1,
+        89,
+        127,
+        120
+      ],
+      "sha256": "61ba73f1d90be0f8c77eb39ea23cc067c3a59fd09867ba1e1bb10f5def8a10e2"
+    },
+    "lunger-idle-0": {
+      "file": "/assets/sprites/world/v2/lunger/idle/idle-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        9,
+        29,
+        55,
+        56
+      ],
+      "sha256": "92d65cba79629ea9dae22ae8eb730dc50e23d5dac05d99a1ffa892d996356fb1"
+    },
+    "lunger-idle-1": {
+      "file": "/assets/sprites/world/v2/lunger/idle/idle-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        7,
+        29,
+        55,
+        56
+      ],
+      "sha256": "a460af66148e79ff5286764073972c8997cb4506b5d0bff3c1cf247389b5f036"
+    },
+    "lunger-walk-0": {
+      "file": "/assets/sprites/world/v2/lunger/walk/walk-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        6,
+        29,
+        54,
+        56
+      ],
+      "sha256": "24a71d727c78d5f05c080625fbb510bdfe97f66400aa4108376bff6910715ed4"
+    },
+    "lunger-walk-3": {
+      "file": "/assets/sprites/world/v2/lunger/walk/walk-3.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        5,
+        30,
+        55,
+        57
+      ],
+      "sha256": "2b89a0828bc4cbb5c940bc419682a7a5b8aaafec6af24e2d402c643ba8980828"
+    },
+    "lunger-windup-0": {
+      "file": "/assets/sprites/world/v2/lunger/windup/windup-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        6,
+        33,
+        56,
+        57
+      ],
+      "sha256": "3fb8b1a3e7c60527059ecfdad1721ff52c4d798ec70b73159eb632fde9e46665"
+    },
+    "lunger-windup-1": {
+      "file": "/assets/sprites/world/v2/lunger/windup/windup-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        33,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        2,
+        35,
+        56,
+        56
+      ],
+      "sha256": "61f6a11dbbaa349a9404827f2b04902be12d881c0873525487e27e1a39dcd7df"
+    },
+    "lunger-windup-2": {
+      "file": "/assets/sprites/world/v2/lunger/windup/windup-2.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        6,
+        38,
+        57,
+        56
+      ],
+      "sha256": "1f7264e8fc1efa39694c872d055cd1ad64bf9491d5d9cc5a703fcbf5427dd91d"
+    },
+    "lunger-active-0": {
+      "file": "/assets/sprites/world/v2/lunger/active/active-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        33,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        1,
+        29,
+        63,
+        53
+      ],
+      "sha256": "aec7a8eb607888907ab87eec65170dd059ff953ce8fcf73e6ee7b005076c6e28"
+    },
+    "lunger-active-1": {
+      "file": "/assets/sprites/world/v2/lunger/active/active-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        5,
+        31,
+        57,
+        54
+      ],
+      "sha256": "8fa101ed6663b4d06a4f7067daac1de03fd11c89652e5ed3eebf0d4d6213a066"
+    },
+    "lunger-active-2": {
+      "file": "/assets/sprites/world/v2/lunger/active/active-2.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        2,
+        32,
+        57,
+        56
+      ],
+      "sha256": "2132c66f6ce911e0ff8d649806fd4949a5d1d0bc4b030a416759501037cd1415"
+    },
+    "lunger-recovery-0": {
+      "file": "/assets/sprites/world/v2/lunger/recovery/recovery-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        9,
+        32,
+        56,
+        56
+      ],
+      "sha256": "f87215c6324941c2608195d90d3e9d64d09abf33f7a980aa8deb1b3d2344d06e"
+    },
+    "lunger-recovery-1": {
+      "file": "/assets/sprites/world/v2/lunger/recovery/recovery-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        6,
+        33,
+        53,
+        57
+      ],
+      "sha256": "7a03d5374ce38d829d631b1f5ad03eb1f0caeee8522118d8e3dc6bc222d3c883"
+    },
+    "lunger-hurt-0": {
+      "file": "/assets/sprites/world/v2/lunger/hurt/hurt-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        6,
+        29,
+        50,
+        56
+      ],
+      "sha256": "03cef6b9b352901f6caef6f0f5eb5d03307aed79be4668d13568810651d92b2a"
+    },
+    "lunger-hurt-1": {
+      "file": "/assets/sprites/world/v2/lunger/hurt/hurt-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        3,
+        33,
+        53,
+        56
+      ],
+      "sha256": "8fa8f6c60b63e16e9fd70f591a7173269ebab0b438505b19f6174438d37d4c29"
+    },
+    "lunger-death-0": {
+      "file": "/assets/sprites/world/v2/lunger/death/death-0.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        10,
+        33,
+        57,
+        56
+      ],
+      "sha256": "e6cdb95361b6a2946b33e8a937923500d802115ef04f2f80c6b202e620ef2f4e"
+    },
+    "lunger-death-1": {
+      "file": "/assets/sprites/world/v2/lunger/death/death-1.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        2,
+        37,
+        54,
+        56
+      ],
+      "sha256": "cc1261707ca4f7dff54a421f790049c3d5d870303f82f49abebb1519c3b7738e"
+    },
+    "lunger-death-2": {
+      "file": "/assets/sprites/world/v2/lunger/death/death-2.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        5,
+        36,
+        54,
+        57
+      ],
+      "sha256": "5b0f9376597ea20cebaefee4b51388ff90c29b207da27a9ba39b8e6c73abba81"
+    },
+    "lunger-death-3": {
+      "file": "/assets/sprites/world/v2/lunger/death/death-3.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        36,
+        56
+      ],
+      "worldScale": 0.6666666666666666,
+      "bounds": [
+        1,
+        43,
+        60,
+        56
+      ],
+      "sha256": "6b534bf4ebaf55b32d54cc0b85e7026957ab728eea6ce0e835365ff07a01f449"
+    },
+    "ranged-idle-0": {
+      "file": "/assets/sprites/world/v2/ranged/idle/idle-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        42,
+        34,
+        100,
+        120
+      ],
+      "sha256": "be5225033a746085d69ac8967b96ee31d9227705987ef082599f667986faab22"
+    },
+    "ranged-idle-1": {
+      "file": "/assets/sprites/world/v2/ranged/idle/idle-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        42,
+        34,
+        96,
+        120
+      ],
+      "sha256": "3fd687aac32e8a679339ed046f10d348bb569db144558091a15247bdbb1b7eef"
+    },
+    "ranged-walk-0": {
+      "file": "/assets/sprites/world/v2/ranged/walk/walk-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        34,
+        35,
+        98,
+        120
+      ],
+      "sha256": "39275205a9e9bbbc584a4a941b498c1bcf4bef494808a1822323f65cd82f7f53"
+    },
+    "ranged-walk-3": {
+      "file": "/assets/sprites/world/v2/ranged/walk/walk-3.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        33,
+        35,
+        93,
+        120
+      ],
+      "sha256": "a6954d5cfe432608b81231a1ff3947528ef3b57c817757c85bdd0a7aaadc14d9"
+    },
+    "ranged-windup-0": {
+      "file": "/assets/sprites/world/v2/ranged/windup/windup-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        36,
+        37,
+        103,
+        120
+      ],
+      "sha256": "7f5bb6ed78fecd8fa3c8eeb2c7c94aa6a8868e14d17f84bb7e6188c555151c20"
+    },
+    "ranged-windup-1": {
+      "file": "/assets/sprites/world/v2/ranged/windup/windup-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        34,
+        31,
+        109,
+        120
+      ],
+      "sha256": "b882277909b5666035e5749cf23dd3c315132d201ec9b0ac7b41a37c450db73a"
+    },
+    "ranged-windup-2": {
+      "file": "/assets/sprites/world/v2/ranged/windup/windup-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        30,
+        21,
+        94,
+        120
+      ],
+      "sha256": "2d41eaafcd556fd6142187dc3c2ee73570a0e4a87abdd6447f8339385632545d"
+    },
+    "ranged-active-0": {
+      "file": "/assets/sprites/world/v2/ranged/active/active-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        57,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        24,
+        45,
+        127,
+        120
+      ],
+      "sha256": "d0f910c0ebc7e078840b338a93aa8326618011446432e9382bf982e36b1d9f4f"
+    },
+    "ranged-active-1": {
+      "file": "/assets/sprites/world/v2/ranged/active/active-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        27,
+        32,
+        98,
+        120
+      ],
+      "sha256": "626580986c36f1c580f96e865f6e1126b3ca8ee86c7f48d1ac1e8356e59a6563"
+    },
+    "ranged-recovery-0": {
+      "file": "/assets/sprites/world/v2/ranged/recovery/recovery-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        39,
+        45,
+        106,
+        120
+      ],
+      "sha256": "eba6110e7845f7023465c7ad165a5b1db4c9672578a8ec5fc95e1018c50628c4"
+    },
+    "ranged-recovery-1": {
+      "file": "/assets/sprites/world/v2/ranged/recovery/recovery-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        41,
+        49,
+        96,
+        120
+      ],
+      "sha256": "05badc451d96d2894e9b2c7756a3ffdd64e0fd98235873b2735656bc45d2c22e"
+    },
+    "ranged-hurt-0": {
+      "file": "/assets/sprites/world/v2/ranged/hurt/hurt-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        41,
+        43,
+        104,
+        120
+      ],
+      "sha256": "ad9722ad656004aee51f6ab86f7d132c49d76fb6ff2e58adc5766cc9ab9a3c39"
+    },
+    "ranged-hurt-1": {
+      "file": "/assets/sprites/world/v2/ranged/hurt/hurt-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        38,
+        45,
+        100,
+        120
+      ],
+      "sha256": "e5e26adaeb6145756f9030250d02a02f0913f60176b9384f89667ba1e0243b17"
+    },
+    "ranged-death-0": {
+      "file": "/assets/sprites/world/v2/ranged/death/death-0.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        29,
+        45,
+        99,
+        120
+      ],
+      "sha256": "78d2d04543970d958a8ab2ed20c88111b9cd66305da5960651f29ae28949386a"
+    },
+    "ranged-death-1": {
+      "file": "/assets/sprites/world/v2/ranged/death/death-1.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        30,
+        55,
+        97,
+        120
+      ],
+      "sha256": "a9e7e21213db9691164d9bc2e89a497f2609bf8b3e8f62d5e5bc6dee78f8be92"
+    },
+    "ranged-death-2": {
+      "file": "/assets/sprites/world/v2/ranged/death/death-2.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        16,
+        68,
+        113,
+        120
+      ],
+      "sha256": "d226b7a9d65580a6f601d9a539d624646edbd1b638bdeb57e3e6f51219de51cd"
+    },
+    "ranged-death-3": {
+      "file": "/assets/sprites/world/v2/ranged/death/death-3.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        120
+      ],
+      "worldScale": 0.36363636363636365,
+      "bounds": [
+        2,
+        91,
+        127,
+        120
+      ],
+      "sha256": "02e242a5829d8a841f4472b2e899bbbfce3d183ec097d13c547e6fab80fdf294"
+    },
+    "boss-idle-0": {
+      "file": "/assets/sprites/world/v2/boss/idle/idle-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        79,
+        106,
+        168,
+        248
+      ],
+      "sha256": "d890c1de55f2b4f90218c7477a9902d04d0645189ff05bc32c15fc7c8556745b"
+    },
+    "boss-idle-1": {
+      "file": "/assets/sprites/world/v2/boss/idle/idle-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        82,
+        106,
+        169,
+        248
+      ],
+      "sha256": "1f4100812b565850e4a2619152368c65bda2e2a424699e0f1bd11757dc042277"
+    },
+    "boss-idle-2": {
+      "file": "/assets/sprites/world/v2/boss/idle/idle-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        81,
+        107,
+        169,
+        248
+      ],
+      "sha256": "062784f4561f3ef5bcc20e643f68dae02741b947da9902d694a6d2a08c47a2a1"
+    },
+    "boss-walk-0": {
+      "file": "/assets/sprites/world/v2/boss/walk/walk-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        67,
+        107,
+        179,
+        248
+      ],
+      "sha256": "f6ad02992f21392f0b0c0021c175b65022abc55702157fc6124a7168a265b895"
+    },
+    "boss-walk-3": {
+      "file": "/assets/sprites/world/v2/boss/walk/walk-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        62,
+        111,
+        180,
+        248
+      ],
+      "sha256": "fc429a40e89d5145f11af5d636589469b45acc669c5ea93e5e87b791618fac8e"
+    },
+    "boss-intro-0": {
+      "file": "/assets/sprites/world/v2/boss/intro/intro-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        68,
+        145,
+        188,
+        248
+      ],
+      "sha256": "71890d7d951bd1cfcbb1ea8c4c80488cf67d5dc1dc80249c5ca47841b57f631a"
+    },
+    "boss-intro-1": {
+      "file": "/assets/sprites/world/v2/boss/intro/intro-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        69,
+        130,
+        189,
+        248
+      ],
+      "sha256": "fd77b837ec9bd111500d01d18d081cfc64e04a1e22c14aec904f7746a448d533"
+    },
+    "boss-intro-2": {
+      "file": "/assets/sprites/world/v2/boss/intro/intro-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        68,
+        136,
+        184,
+        248
+      ],
+      "sha256": "c3e2834d36129fc3b93cc530e3b88cfcacf0455f7faee25053e3d87561432893"
+    },
+    "boss-intro-3": {
+      "file": "/assets/sprites/world/v2/boss/intro/intro-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        65,
+        125,
+        178,
+        248
+      ],
+      "sha256": "162a0826b226da27c05482c77e8a5265faf244bd69d25a61e55b8c9d1417304d"
+    },
+    "boss-intro-4": {
+      "file": "/assets/sprites/world/v2/boss/intro/intro-4.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        78,
+        109,
+        171,
+        248
+      ],
+      "sha256": "3e3c206f5e23bc598280f8ccd68ac2631ff1819b983c8b774cc65f052a681f02"
+    },
+    "boss-hurt-0": {
+      "file": "/assets/sprites/world/v2/boss/hurt/hurt-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        74,
+        115,
+        177,
+        248
+      ],
+      "sha256": "e03852ee1af3ce708448b685e926fac92858843fe3773e4d7d1cb2d2c4ba8188"
+    },
+    "boss-hurt-1": {
+      "file": "/assets/sprites/world/v2/boss/hurt/hurt-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        57,
+        125,
+        182,
+        248
+      ],
+      "sha256": "b5092f9e280cfc06beb48d158c6d30dc06b52e236681bd41ed7cf3f2158d99fc"
+    },
+    "boss-death-0": {
+      "file": "/assets/sprites/world/v2/boss/death/death-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        63,
+        127,
+        193,
+        248
+      ],
+      "sha256": "a455bb83602783821303abba726fe404b9df18ca5c10f67c87f0eedeed6cd0a3"
+    },
+    "boss-death-1": {
+      "file": "/assets/sprites/world/v2/boss/death/death-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        65,
+        136,
+        191,
+        248
+      ],
+      "sha256": "e158c3ae69d7bb8508a1eeb1e628d558c76c8250b65c67670307983950db7ccb"
+    },
+    "boss-death-2": {
+      "file": "/assets/sprites/world/v2/boss/death/death-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        64,
+        138,
+        193,
+        248
+      ],
+      "sha256": "e854ac312bff406ef9a6f62318b31e40d6d5a20603508be28ce680bd5a6a61dd"
+    },
+    "boss-death-3": {
+      "file": "/assets/sprites/world/v2/boss/death/death-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        66,
+        160,
+        190,
+        248
+      ],
+      "sha256": "b5487fe073312cd46f67a2fd3e9daceef95da547ea7962bd54eb02c04687fe3e"
+    },
+    "boss-death-4": {
+      "file": "/assets/sprites/world/v2/boss/death/death-4.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        62,
+        170,
+        193,
+        248
+      ],
+      "sha256": "380f8174fb130850f3928f131a45034a69a98f926c381a7c99cd7a4c4aec21d3"
+    },
+    "boss-death-5": {
+      "file": "/assets/sprites/world/v2/boss/death/death-5.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        57,
+        196,
+        200,
+        248
+      ],
+      "sha256": "cd200d1fcfe81192fed72f84f7a9151e44c54a6f09d2b79821dc68c88eb68231"
+    },
+    "boss-slash-windup-0": {
+      "file": "/assets/sprites/world/v2/boss/slash-windup/slash-windup-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        61,
+        105,
+        201,
+        248
+      ],
+      "sha256": "a80d7fa40957d13fc702a1e074f5e3ba09155ccfa622456bdd58ddf30b5ff29d"
+    },
+    "boss-slash-windup-1": {
+      "file": "/assets/sprites/world/v2/boss/slash-windup/slash-windup-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        23,
+        114,
+        188,
+        248
+      ],
+      "sha256": "da60c3fe58258f37351fc2b9e132ea3ba49d8efb41d790980c954750e054bdff"
+    },
+    "boss-slash-windup-2": {
+      "file": "/assets/sprites/world/v2/boss/slash-windup/slash-windup-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        54,
+        81,
+        180,
+        248
+      ],
+      "sha256": "e13eca6ac3a39922155dfcbd265b2b4615bd356725af22bceffd1615c30765d3"
+    },
+    "boss-slash-windup-3": {
+      "file": "/assets/sprites/world/v2/boss/slash-windup/slash-windup-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        53,
+        46,
+        182,
+        248
+      ],
+      "sha256": "ce961e078fa0249fdda23761b87e06b7104af07ab311a81f218ad38c0addfb71"
+    },
+    "boss-slash-active-0": {
+      "file": "/assets/sprites/world/v2/boss/slash-active/slash-active-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        67,
+        113,
+        218,
+        248
+      ],
+      "sha256": "f3dec4d66b25fce49cdefde32804d62fdf8083717cfb436f8aab09baf6ed93cf"
+    },
+    "boss-slash-active-1": {
+      "file": "/assets/sprites/world/v2/boss/slash-active/slash-active-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        118,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        53,
+        118,
+        255,
+        248
+      ],
+      "sha256": "caeb9322069ecd10a02333a4073c355696157364defaa28d24dff87940841677"
+    },
+    "boss-slash-recovery-0": {
+      "file": "/assets/sprites/world/v2/boss/slash-recovery/slash-recovery-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        50,
+        132,
+        199,
+        248
+      ],
+      "sha256": "8e15fe5eb94e4b3c9fc270ea5cb8a10352504acead998651220ffb716c2cace5"
+    },
+    "boss-slash-recovery-1": {
+      "file": "/assets/sprites/world/v2/boss/slash-recovery/slash-recovery-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        65,
+        133,
+        179,
+        248
+      ],
+      "sha256": "c1002d550cf4fb2c6966d09e68b5e9d72539b62f5e69404bf058e2d9de8aeac2"
+    },
+    "boss-charge-windup-0": {
+      "file": "/assets/sprites/world/v2/boss/charge-windup/charge-windup-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        33,
+        113,
+        171,
+        248
+      ],
+      "sha256": "b5c724e700c66d2a9c630a7e4d775e0a93ed7ea665fc0ae85ad6928f19908f73"
+    },
+    "boss-charge-windup-1": {
+      "file": "/assets/sprites/world/v2/boss/charge-windup/charge-windup-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        34,
+        130,
+        170,
+        248
+      ],
+      "sha256": "16ece4a43668734013e10d3034c49fb2c3ffba05654eac9dc3d6467f3e0bb0ae"
+    },
+    "boss-charge-windup-2": {
+      "file": "/assets/sprites/world/v2/boss/charge-windup/charge-windup-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        23,
+        141,
+        169,
+        248
+      ],
+      "sha256": "6a885922e9c536b0f666142819ef2f023c075a2986b1d2ab2434d20a0012eb10"
+    },
+    "boss-charge-windup-3": {
+      "file": "/assets/sprites/world/v2/boss/charge-windup/charge-windup-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        12,
+        144,
+        158,
+        248
+      ],
+      "sha256": "f943579080fb6b9791356cdc5bd2fa0bea32f4d0aa5684c00625876c9e2935b3"
+    },
+    "boss-charge-active-0": {
+      "file": "/assets/sprites/world/v2/boss/charge-active/charge-active-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        21,
+        133,
+        177,
+        248
+      ],
+      "sha256": "2a6760c4ec6812cddb31ea14dbfab9dd2b174b54cffef887a12aedcad43f8bdd"
+    },
+    "boss-charge-active-1": {
+      "file": "/assets/sprites/world/v2/boss/charge-active/charge-active-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        30,
+        128,
+        185,
+        245
+      ],
+      "sha256": "bad601e294227c5f9469ea079557765eab2315f06cbe1810dcd5bfeb345abe51"
+    },
+    "boss-charge-active-2": {
+      "file": "/assets/sprites/world/v2/boss/charge-active/charge-active-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        32,
+        130,
+        194,
+        245
+      ],
+      "sha256": "b3175916c28482f8cd91f21c7a7de842d4c2d17bd1e104e821568430ccfd9472"
+    },
+    "boss-charge-active-3": {
+      "file": "/assets/sprites/world/v2/boss/charge-active/charge-active-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        26,
+        130,
+        165,
+        248
+      ],
+      "sha256": "453406be3b39acb94cc0c6001aa3d19062f088bc6d3128c62b1998e5604212d0"
+    },
+    "boss-charge-recovery-0": {
+      "file": "/assets/sprites/world/v2/boss/charge-recovery/charge-recovery-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        20,
+        137,
+        166,
+        248
+      ],
+      "sha256": "1e3548646fbb4d5979cb280364831c79a02b66bbabe3d886374189527c615790"
+    },
+    "boss-charge-recovery-1": {
+      "file": "/assets/sprites/world/v2/boss/charge-recovery/charge-recovery-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        19,
+        157,
+        168,
+        248
+      ],
+      "sha256": "aa860ff84e3bf1a949b68cbc4bed3a57248fcde62d946fc40cf316e13daf702e"
+    },
+    "boss-slam-windup-0": {
+      "file": "/assets/sprites/world/v2/boss/slam-windup/slam-windup-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        77,
+        106,
+        176,
+        248
+      ],
+      "sha256": "362a31d4953910c96919387d7e2a12c22cacc248122c8fce52006419217a9f56"
+    },
+    "boss-slam-windup-1": {
+      "file": "/assets/sprites/world/v2/boss/slam-windup/slam-windup-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        65,
+        56,
+        187,
+        248
+      ],
+      "sha256": "959de4c45f2d99740a93fa907fc0145e6919bb5cdc9ca92cbef4c615f992066c"
+    },
+    "boss-slam-windup-2": {
+      "file": "/assets/sprites/world/v2/boss/slam-windup/slam-windup-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        27,
+        103,
+        177,
+        248
+      ],
+      "sha256": "8901ca4cfe9e0236cbb2c8a9b9de35fede58cadf52165f32362bd9a9f86b9b19"
+    },
+    "boss-slam-windup-3": {
+      "file": "/assets/sprites/world/v2/boss/slam-windup/slam-windup-3.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        17,
+        79,
+        168,
+        248
+      ],
+      "sha256": "4899e6c145f6cd1249c7e4067984d476c213613fbe2c1cf752dc80730bf9eba0"
+    },
+    "boss-slam-active-0": {
+      "file": "/assets/sprites/world/v2/boss/slam-active/slam-active-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        59,
+        82,
+        187,
+        248
+      ],
+      "sha256": "072ea9f3f8a1ac25377bc51a05473c1bc3f999c90e623a57cea39fb07e2fb2ef"
+    },
+    "boss-slam-active-1": {
+      "file": "/assets/sprites/world/v2/boss/slam-active/slam-active-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        52,
+        95,
+        171,
+        248
+      ],
+      "sha256": "43c9a905b1e13519f1a62c84f83433e4e069be34a127ffb293748ed7f09b630a"
+    },
+    "boss-slam-active-2": {
+      "file": "/assets/sprites/world/v2/boss/slam-active/slam-active-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        53,
+        143,
+        202,
+        248
+      ],
+      "sha256": "c2134cb5536fc123e60d466ad10967e60cf8fa884e38246c31cebc0f39362477"
+    },
+    "boss-slam-recovery-0": {
+      "file": "/assets/sprites/world/v2/boss/slam-recovery/slam-recovery-0.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        68,
+        133,
+        188,
+        248
+      ],
+      "sha256": "85ec953256d068ca40dd0e6fbdc88f14bc61da458241f46bb876fdaec14c86ee"
+    },
+    "boss-slam-recovery-1": {
+      "file": "/assets/sprites/world/v2/boss/slam-recovery/slam-recovery-1.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        73,
+        115,
+        182,
+        248
+      ],
+      "sha256": "d27c9aedd946996e05a97f24febd473aa0c1336563cacea68dc46d98002a99ad"
+    },
+    "boss-slam-recovery-2": {
+      "file": "/assets/sprites/world/v2/boss/slam-recovery/slam-recovery-2.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        248
+      ],
+      "worldScale": 0.4513888888888889,
+      "bounds": [
+        79,
+        125,
+        178,
+        248
+      ],
+      "sha256": "b6e209bea324394005a03504955b808820d5d11dc839b68f357269bd403f494e"
+    },
+    "vfx-phase-transition-0": {
+      "file": "/assets/sprites/world/v2/vfx/phase-transition/phase-transition-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        57,
+        45,
+        71,
+        58
+      ],
+      "sha256": "45b60ebcd108a01a4c7af3436e20e919839083f642f3f2af0ce8bffd5dd80148"
+    },
+    "vfx-phase-transition-1": {
+      "file": "/assets/sprites/world/v2/vfx/phase-transition/phase-transition-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        55,
+        39,
+        74,
+        58
+      ],
+      "sha256": "65786cd71e6170e51a119869d6492edbc0dfef02c7f6d3704cb2d70b50182154"
+    },
+    "vfx-phase-transition-2": {
+      "file": "/assets/sprites/world/v2/vfx/phase-transition/phase-transition-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        51,
+        33,
+        76,
+        58
+      ],
+      "sha256": "6ba4b67f9ebe41915dde0d2a251506875b77db9f2f4c9c71ea27d12a1e36ef73"
+    },
+    "vfx-phase-transition-3": {
+      "file": "/assets/sprites/world/v2/vfx/phase-transition/phase-transition-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        52,
+        38,
+        76,
+        58
+      ],
+      "sha256": "3e8b46537f64b53c28e66a6e118873d8305555b93cbde591ba3c6cef1c71fee4"
+    },
+    "vfx-phase-transition-4": {
+      "file": "/assets/sprites/world/v2/vfx/phase-transition/phase-transition-4.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        55,
+        40,
+        72,
+        58
+      ],
+      "sha256": "08d0ffe0110d50fee887b593b8c29e6ba27a8fcc45183021846c0effad932076"
+    },
+    "vfx-projectile-0": {
+      "file": "/assets/sprites/world/v2/vfx/projectile/projectile-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        62,
+        56,
+        67,
+        60
+      ],
+      "sha256": "38b673419721a7ce134f3ec07a6e2cf2fe03eeac8a52ca94f440f463fa4d4a04"
+    },
+    "vfx-projectile-1": {
+      "file": "/assets/sprites/world/v2/vfx/projectile/projectile-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        62,
+        55,
+        69,
+        60
+      ],
+      "sha256": "3541ec035a29e7e7f26a4f4441db606a089d7365b70966a86c84491101a9f4da"
+    },
+    "vfx-projectile-impact-0": {
+      "file": "/assets/sprites/world/v2/vfx/projectile-impact/projectile-impact-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        57,
+        45,
+        71,
+        58
+      ],
+      "sha256": "b3300af8dd521f164e1bd4760673c2bd1b3efa36c0e23b1f275e5e18950f4848"
+    },
+    "vfx-projectile-impact-1": {
+      "file": "/assets/sprites/world/v2/vfx/projectile-impact/projectile-impact-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        57,
+        47,
+        72,
+        59
+      ],
+      "sha256": "2d531601d40b9171badb5bb889a12b08f15cc1e8b472ab003656c6c326aeb966"
+    },
+    "vfx-projectile-impact-2": {
+      "file": "/assets/sprites/world/v2/vfx/projectile-impact/projectile-impact-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        59,
+        50,
+        67,
+        57
+      ],
+      "sha256": "1020bea82aa75d30c28227ee25cd0056f7298ff5f57e50ba7c7995a2a8721d70"
+    },
+    "vfx-flame-0": {
+      "file": "/assets/sprites/world/v2/vfx/flame/flame-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        61,
+        52,
+        68,
+        60
+      ],
+      "sha256": "6f134ec588e9287650c99a8264a47406ef7204e13753a5a751e6784d90813956"
+    },
+    "vfx-flame-1": {
+      "file": "/assets/sprites/world/v2/vfx/flame/flame-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        49,
+        68,
+        60
+      ],
+      "sha256": "416e1b6933df9996be4deb49bc2c6851b953d14c7f17fa5934ed5bf1d979818d"
+    },
+    "vfx-flame-2": {
+      "file": "/assets/sprites/world/v2/vfx/flame/flame-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        59,
+        46,
+        68,
+        60
+      ],
+      "sha256": "c0c342a8558ab8748968bdd86fe8b5b2070c995907b2209e820aa67dbcad02e0"
+    },
+    "vfx-flame-3": {
+      "file": "/assets/sprites/world/v2/vfx/flame/flame-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        50,
+        67,
+        60
+      ],
+      "sha256": "ca16b9c7be13fce21723b582dc21f1cb00ab3bfe48141875eb812c20f5550329"
+    },
+    "vfx-charge-0": {
+      "file": "/assets/sprites/world/v2/vfx/charge/charge-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        53,
+        68,
+        60
+      ],
+      "sha256": "02318f6aed7b9fd51c0eacf178d6cb22188cab3fb9378fe1083a4c3ac77414c2"
+    },
+    "vfx-charge-1": {
+      "file": "/assets/sprites/world/v2/vfx/charge/charge-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        59,
+        50,
+        69,
+        60
+      ],
+      "sha256": "20af697b7d8da0472820cf9b2c3a6aa2692b5cc2d9291be9d804e6d6ba60037d"
+    },
+    "vfx-charge-2": {
+      "file": "/assets/sprites/world/v2/vfx/charge/charge-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        59,
+        47,
+        70,
+        59
+      ],
+      "sha256": "3669f17ace297062f5cf1bd8ff85bd370c1c9ef5e2c1319a5d14f60ac84b7f45"
+    },
+    "vfx-slash-light-0": {
+      "file": "/assets/sprites/world/v2/vfx/slash-light/slash-light-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        63,
+        58,
+        70,
+        60
+      ],
+      "sha256": "ac7a4a28746b4f0aee33bb035a26f891fffb7316c21f9794f250bd04ac5cd609"
+    },
+    "vfx-slash-light-1": {
+      "file": "/assets/sprites/world/v2/vfx/slash-light/slash-light-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        58,
+        56,
+        72,
+        60
+      ],
+      "sha256": "282f03cfc3b7d372e7cd1396c8687731ff6e344e219efb790dd0e24f0f9e5f09"
+    },
+    "vfx-slash-light-2": {
+      "file": "/assets/sprites/world/v2/vfx/slash-light/slash-light-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        57,
+        63,
+        60
+      ],
+      "sha256": "2500feb7a1ac8732bd304c096c6f14072385505d50e27747a0cb7b1b857d4909"
+    },
+    "vfx-slash-heavy-0": {
+      "file": "/assets/sprites/world/v2/vfx/slash-heavy/slash-heavy-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        56,
+        47,
+        72,
+        60
+      ],
+      "sha256": "4b82f2e26dae457239c75ed337b6e21e24d02a92c2d2690221e0e92613d11264"
+    },
+    "vfx-slash-heavy-1": {
+      "file": "/assets/sprites/world/v2/vfx/slash-heavy/slash-heavy-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        56,
+        47,
+        72,
+        59
+      ],
+      "sha256": "ac0bd916ec58b887a4dacc5ae9a6c3b438fc6cfa3c2bad8b4e8032ad60c936ea"
+    },
+    "vfx-slash-heavy-2": {
+      "file": "/assets/sprites/world/v2/vfx/slash-heavy/slash-heavy-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        56,
+        47,
+        73,
+        60
+      ],
+      "sha256": "be73f1cd711d442d886d2a6bb2aaee9b1ea9a6f7946050f55d5f30bc62bc6b2e"
+    },
+    "vfx-slash-heavy-3": {
+      "file": "/assets/sprites/world/v2/vfx/slash-heavy/slash-heavy-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        56,
+        47,
+        68,
+        59
+      ],
+      "sha256": "d7bcc65f47e0ee3c0c6a58170a7448eaf1be51beb0875eefcee2eb35e4d73a15"
+    },
+    "vfx-boss-slash-0": {
+      "file": "/assets/sprites/world/v2/vfx/boss-slash/boss-slash-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        41,
+        21,
+        88,
+        60
+      ],
+      "sha256": "38bee91b3e9379c3b23f5a508e1cf300cfe2420c6ef4181fd9aced54ed506f7c"
+    },
+    "vfx-boss-slash-1": {
+      "file": "/assets/sprites/world/v2/vfx/boss-slash/boss-slash-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        36,
+        20,
+        91,
+        60
+      ],
+      "sha256": "8ff6d36aa49118f950ebccb7d791c9c8d95fab2c5441b9805ec1b7f32b8bc572"
+    },
+    "vfx-boss-slash-2": {
+      "file": "/assets/sprites/world/v2/vfx/boss-slash/boss-slash-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        39,
+        22,
+        89,
+        60
+      ],
+      "sha256": "6aea1470e2c1353e241aa2eda0fe25de15bd97efc7d8235e2ccc512eee7b0770"
+    },
+    "vfx-boss-slash-3": {
+      "file": "/assets/sprites/world/v2/vfx/boss-slash/boss-slash-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        42,
+        22,
+        87,
+        60
+      ],
+      "sha256": "2d445a8e72d1c5602f9efdcbd75db32cca720595710205357dbdd591754e3a6f"
+    },
+    "vfx-hit-0": {
+      "file": "/assets/sprites/world/v2/vfx/hit/hit-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        62,
+        54,
+        66,
+        58
+      ],
+      "sha256": "8a144377489f80594bbb1f0b9a8c9e68a063a04975af2c5d8b25f9b7edae474c"
+    },
+    "vfx-hit-1": {
+      "file": "/assets/sprites/world/v2/vfx/hit/hit-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        50,
+        70,
+        59
+      ],
+      "sha256": "6e60990d41d16d60b177440da034f5979cf9a74a3015732b7f00aea9f8177c26"
+    },
+    "vfx-hit-2": {
+      "file": "/assets/sprites/world/v2/vfx/hit/hit-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        60,
+        53,
+        62,
+        57
+      ],
+      "sha256": "e6bcd991b90c171968d5e28e7035dbdea724ed1740e46eb6e5ee9cd27423b4f6"
+    },
+    "vfx-dust-0": {
+      "file": "/assets/sprites/world/v2/vfx/dust/dust-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        57,
+        55,
+        72,
+        60
+      ],
+      "sha256": "da1e97150183f7af2614465ed4d8813260868068f3e9b474044d85550b2e6920"
+    },
+    "vfx-dust-1": {
+      "file": "/assets/sprites/world/v2/vfx/dust/dust-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        53,
+        48,
+        73,
+        60
+      ],
+      "sha256": "d4de2f5e632e517e3a17cb2c104bfbae2d00b488cb9af791e9e661a4a7e782df"
+    },
+    "vfx-dust-2": {
+      "file": "/assets/sprites/world/v2/vfx/dust/dust-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        53,
+        49,
+        76,
+        60
+      ],
+      "sha256": "a4efd52b0f5be062525b270ba18dc602d84ec943a8dfa2614136b12e9a94d5f7"
+    },
+    "vfx-dust-3": {
+      "file": "/assets/sprites/world/v2/vfx/dust/dust-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        54,
+        51,
+        75,
+        60
+      ],
+      "sha256": "b58e83234d5756654420ac7536117e5be4f561a20a3aa4b84a23b655b7e1c2a0"
+    },
+    "vfx-shockwave-0": {
+      "file": "/assets/sprites/world/v2/vfx/shockwave/shockwave-0.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        29,
+        20,
+        98,
+        60
+      ],
+      "sha256": "de4df0519a5b0da1adeac2619f465c0615afe0e5744f6cd88601e5f7c6feb4ce"
+    },
+    "vfx-shockwave-1": {
+      "file": "/assets/sprites/world/v2/vfx/shockwave/shockwave-1.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        19,
+        30,
+        108,
+        60
+      ],
+      "sha256": "e9aefff8c19ae1f2a06399d830bce0df7fe743261313ff7f5039c2d7390eeb0d"
+    },
+    "vfx-shockwave-2": {
+      "file": "/assets/sprites/world/v2/vfx/shockwave/shockwave-2.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        22,
+        38,
+        105,
+        60
+      ],
+      "sha256": "bfaf5dc9c49934c60bccfd480df3ddfe615a162be4f0670cc2667ea2d4451e1c"
+    },
+    "vfx-shockwave-3": {
+      "file": "/assets/sprites/world/v2/vfx/shockwave/shockwave-3.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        17,
+        43,
+        111,
+        60
+      ],
+      "sha256": "aa22147b1eb76ea5cfe1ae462bcda6c27e96c19b902e9a05092efd2fba171dea"
+    },
+    "vfx-shockwave-4": {
+      "file": "/assets/sprites/world/v2/vfx/shockwave/shockwave-4.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "worldScale": 1,
+      "bounds": [
+        23,
+        47,
+        106,
+        60
+      ],
+      "sha256": "ad126b83c65f5ec134386c1f6dc015251d619f0b6dcced4d019f9e2edd2132e9"
+    }
+  },
+  "backgrounds": {
+    "crypt": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "137c9cc7e1972b194b6810dbab7815bc4165edf2cd7d8c7de880f171a8fd22eb",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 38,
+          "sha256": "13f1930cb1f004daf6af19c736bcb2b996849aa4f573adab6233744766bc72ce",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "5d7ed1ab823d5d6d270575b5d356827b11ac71242f40d807df7b5c424d0518a6",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "eede3cd4ebc22663529b64502a0526128aef156e17bc89ddecc55af7d007e593",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "df738641c62717d6f3e53ae284fb12036fa01dcedccf54317861e5be36f9d9aa",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 35,
+          "sha256": "be615facc2e96f690142da37ac17af98ed7393f3d49c292846b9dc8cffbf670f",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "36bc59e80e1167b112862bf8aec7d701dbc63c3afc5d9968b272d6c8ff0d7b81",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "44e28c47fd3e64421c0ddf89d5278e4a0fb1e73d2c61c6734d6407d76b5109e5",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "e40fdd341f8fae5163d091ddf93e4140b34fc09d9ac4b03c5b7d533655b07583",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 35,
+          "sha256": "e4d2d962cb445a95623f6e6af3ffe4ae2457312213dfdbe1aa4ed2c50d9d84bf",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "35cd1e03c73ff1c397cf6e3a4fcc20550596526a4a81ab8663550e005979d742",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/crypt-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 42,
+          "sha256": "759995af5e31569ed5fe3bd5212b4533f3af4a981d70bf42c00ce625415664e3",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "exterior": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "ce68a2f386fad199f50053459d61b92e7cb4408f45ec66ce3c15288303e1a8b3",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "9f8096948e29d28132b41b8c957c1805811b359a6d8f46ace614e63d68ca41d4",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "e972bd6960f54e6ae8b88a863cdc2a0b6fc004681436d64285819a6ce5d791e8",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "7b52dc4761b823b80086c44b1cdeff3382a9c3320c02124f283bda62ca4dbca4",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "1987237dbd9991b8d2518bced04b7df68988f370ebc9df621b285beee8e29093",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "c93e0b7775c8a442d5033eb65e5d74cdd566270d00491bc3a683896a3e943783",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "d2ebe7fe5516a431d2096eef80e3c51340c3d836230d2b50b94246bb5f601831",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "2ba41414a1e9b55bf11d96f2a4bef7a2e9f10080e274ce4ae563a17b1d8617f8",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "f6ec65a5bc2d813da90d91a00a4015eb80ee5aed46d8ce2405c4637cc8e7a81d",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "5020e6771525bdf8e4a5a6fa3218b65ddaaac66bbda0479d6188b17f688f012e",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "30dd6e20253942d257a9f2c4f71bc9e14b3cca760dd7ecdc078e77bfc9ebe929",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/exterior-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "8fc2cf0eafba4a8c22bdd3e746d5cbde343aceaec5483e93e44bbc3172a52960",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "ossuary": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "88e64cbf17ecc2d223d0a6963a1b07f82db2b086f860de8d16834a11a3fcac82",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 37,
+          "sha256": "02fd11bf814067b653a19ff74735b05d0f1398b809cc353f3a5b95b68e43d49a",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "0759d6244dd94c56087b0476e51198d64704c924853d75eb2069fb66c154ff71",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "d16f677d7dedb9d3ea4744721d140c4e7a22e76dce095c52869328196427f738",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "58807a220e38f277c1e8733777a840ffc3cb1c02b2137499a105658d43354b02",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "65f47e0b0f7b3e1b5771941af1d03fe876e001013427b5c04f558404f772a794",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "05a024bf058b1c54d93842dd602159160ee83862e69866c9cf63bc6ee9546861",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "ece258d5037a6496c9128d283234897c53b05ef6d146dd71270826b02db98310",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "0e5da4b6f73753bad5f3aecdad57c08e0b0ed8ffb2bc9f43fdb84707fce3e5eb",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 43,
+          "sha256": "678403ec3e5b8c022ad969c423d5c814d9eccfbf2e0f84f195b13d00feca0b90",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "cdc54a26edf5d0bffbc2cd99364ef86dc3f40485e206f6e471978088ce57ce8f",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/ossuary-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "63b03c530655eb2a1cb3e2b9030fe13600c9a2474c192a9d42b3880acc2ba603",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "arena": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "e353faaa0a6d79d8f077f29411b8f66996cc73f7a4d74de83e759006f63208da",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "3ac7f2f2e41b069e93a5badc666e0f35aeb1cb7fc95dc415aa554a76f4798e25",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "4267217623222cc957ea16e77fd05e27a5452958de9793bef5095c175c32e0e0",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "fd906f38020a61eb515b1fd7987582f890f5ca77605e94cbe6afedbc65c1b49c",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "1c9b0175567ed98adc4abb4ae509cad75b7ed036d8466d0c22cedf078044d46b",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "c22899ead482f6ff26527a7c81c5e14febb07a67864af483c975e9071a552919",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "e40de11ef0f5308eb87f7fa2a6c66ce0ff92b64b377c59fa2875d98946fa0678",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "60295cdd6abac09d6c29dca88bff7504e6c2537c5ce38494d3409168e6fa0364",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "b8ece403cb4bbe4b73dd555fa352d97c6166e376146be4e26adec02f3448fbee",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 40,
+          "sha256": "8d43005fb3af25a1e9abac464467749517d51a551c509cbb9e14db3013587f0f",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 43,
+          "sha256": "17d3170f45cc5d4b479904cc85e2ec17e52c984a552dbc62c3b9f613f97eb3e3",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "/assets/sprites/world/backgrounds/arena-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "cec857794e7270e43b3bb06d2ab1b21956f505cd4f41f73a4488df2a330e90d4",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    }
+  },
+  "rawHashes": {
+    "crypt": "a86ac616a0ee94574b08ae67db96ccbb9e80761669d4eccf07538ce99254f02d",
+    "exterior": "4550346e874be96d89a0e71892951431be44940689ddc3ce9aef7486196e57ac",
+    "ossuary": "6fea7a4bc7a0427b6117ee63fd93b0db685c2abfb9c6920ab9f1e65532ebb786",
+    "arena": "ca274f290a1628ef99e2c28f1270fe0014ab88618157f89ec8ad16ce76379106",
+    "terrain": "f5898739af762f19e39a733e997a58c5de3df87ff72ae8441f1c5a39b36af669",
+    "doors": "87c72aa08021f51b4ecfd50274de4bd0f277a70a5f3bbda131680435c4109ca5",
+    "landmarks": "c92a9b5272ed1a9a688889795db6a49ed9f9124fa71df2279ff6cdf42f92f65a",
+    "relics": "0fe08ef29e6890084c866083406747d9271f6e0b16e245075a6c6492fe2299b7",
+    "interactions": "7c3f125d5ce9a57e58340790dbbe5f51d0c6e991f8a92dcf59edf98e17bc2c58",
+    "secrets": "6d6b52af9d83aa8b347b033c4f4fad8b45b60c871df25aeaf5bdaeeda7d4b542",
+    "hud": "1555f145749aef5bcfc07bf8a0ef9a65814f7506e2b16f92fbdd0def433264e5",
+    "effects": "7aedb9ae17ee6cf3c29c923469f35807eb2dacb74820f5cf3063a5d4370587db",
+    "effects-extra": "f60185b13cd0a4cfbba988ea155b3fcc424377ce9e05167858e62d0c1bd05d87",
+    "walker": "7924983ec970a0293ca3685669a12f6c28f734eca6a8963ba3956751d116cf74",
+    "lunger": "38d485f15351bd832def2a6eea4bf76384345cb0e04b3659e8bee8cbd22d133d",
+    "ranged": "f8f0e32a4351551b93b7ece0f844aa51c6d6a632445f079fcd20c605cbaf6ab6",
+    "boss": "0bd5f9d2c4d00bbc799fb25357e5b16a2480114051bee989963e4da1a330ac60"
+  },
+  "animations": {
+    "walker": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/walker/idle/idle-0.png",
+            "duration": 0.3,
+            "asset": "walker-idle-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/idle/idle-1.png",
+            "duration": 0.3,
+            "asset": "walker-idle-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/walker/walk/walk-0.png",
+            "duration": 0.16,
+            "asset": "walker-walk-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/walk/walk-1.png",
+            "duration": 0.16,
+            "asset": "walker-walk-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/walk/walk-2.png",
+            "duration": 0.16,
+            "asset": "walker-walk-2",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/walk/walk-3.png",
+            "duration": 0.16,
+            "asset": "walker-walk-3",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/walker/windup/windup-0.png",
+            "duration": 0.3,
+            "asset": "walker-windup-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/windup/windup-1.png",
+            "duration": 0.22,
+            "asset": "walker-windup-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/windup/windup-2.png",
+            "duration": 0.13,
+            "asset": "walker-windup-2",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "active": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/walker/active/active-0.png",
+            "duration": 0.08,
+            "asset": "walker-active-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/active/active-1.png",
+            "duration": 0.08,
+            "asset": "walker-active-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/walker/recovery/recovery-0.png",
+            "duration": 0.25,
+            "asset": "walker-recovery-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/recovery/recovery-1.png",
+            "duration": 1,
+            "asset": "walker-recovery-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/walker/hurt/hurt-0.png",
+            "duration": 0.08,
+            "asset": "walker-hurt-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/hurt/hurt-1.png",
+            "duration": 0.12,
+            "asset": "walker-hurt-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/walker/death/death-0.png",
+            "duration": 0.08,
+            "asset": "walker-death-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/death/death-1.png",
+            "duration": 0.09,
+            "asset": "walker-death-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/death/death-2.png",
+            "duration": 0.1,
+            "asset": "walker-death-2",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/walker/death/death-3.png",
+            "duration": 0.13,
+            "asset": "walker-death-3",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      }
+    },
+    "lunger": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/lunger/idle/idle-0.png",
+            "duration": 0.3,
+            "asset": "lunger-idle-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/idle/idle-1.png",
+            "duration": 0.3,
+            "asset": "lunger-idle-1",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/lunger/walk/walk-0.png",
+            "duration": 0.16,
+            "asset": "lunger-walk-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/walk/walk-1.png",
+            "duration": 0.16,
+            "asset": "lunger-walk-1",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/walk/walk-2.png",
+            "duration": 0.16,
+            "asset": "lunger-walk-2",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/walk/walk-3.png",
+            "duration": 0.16,
+            "asset": "lunger-walk-3",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/lunger/windup/windup-0.png",
+            "duration": 0.35,
+            "asset": "lunger-windup-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/windup/windup-1.png",
+            "duration": 0.3,
+            "asset": "lunger-windup-1",
+            "pivot": [
+              33,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/windup/windup-2.png",
+            "duration": 0.2,
+            "asset": "lunger-windup-2",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "active": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/lunger/active/active-0.png",
+            "duration": 0.16,
+            "asset": "lunger-active-0",
+            "pivot": [
+              33,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/active/active-1.png",
+            "duration": 0.16,
+            "asset": "lunger-active-1",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/active/active-2.png",
+            "duration": 0.16,
+            "asset": "lunger-active-2",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/lunger/recovery/recovery-0.png",
+            "duration": 0.3,
+            "asset": "lunger-recovery-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/recovery/recovery-1.png",
+            "duration": 1.5,
+            "asset": "lunger-recovery-1",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/lunger/hurt/hurt-0.png",
+            "duration": 0.08,
+            "asset": "lunger-hurt-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/hurt/hurt-1.png",
+            "duration": 0.12,
+            "asset": "lunger-hurt-1",
+            "pivot": [
+              32,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/lunger/death/death-0.png",
+            "duration": 0.08,
+            "asset": "lunger-death-0",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/death/death-1.png",
+            "duration": 0.09,
+            "asset": "lunger-death-1",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/death/death-2.png",
+            "duration": 0.1,
+            "asset": "lunger-death-2",
+            "pivot": [
+              32,
+              56
+            ]
+          },
+          {
+            "file": "v2/lunger/death/death-3.png",
+            "duration": 0.13,
+            "asset": "lunger-death-3",
+            "pivot": [
+              36,
+              56
+            ]
+          }
+        ],
+        "markers": []
+      }
+    },
+    "ranged": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/ranged/idle/idle-0.png",
+            "duration": 0.3,
+            "asset": "ranged-idle-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/idle/idle-1.png",
+            "duration": 0.3,
+            "asset": "ranged-idle-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/ranged/walk/walk-0.png",
+            "duration": 0.16,
+            "asset": "ranged-walk-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/walk/walk-1.png",
+            "duration": 0.16,
+            "asset": "ranged-walk-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/walk/walk-2.png",
+            "duration": 0.16,
+            "asset": "ranged-walk-2",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/walk/walk-3.png",
+            "duration": 0.16,
+            "asset": "ranged-walk-3",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/ranged/windup/windup-0.png",
+            "duration": 0.35,
+            "asset": "ranged-windup-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/windup/windup-1.png",
+            "duration": 0.3,
+            "asset": "ranged-windup-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/windup/windup-2.png",
+            "duration": 0.25,
+            "asset": "ranged-windup-2",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "active": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/ranged/active/active-0.png",
+            "duration": 0.06,
+            "asset": "ranged-active-0",
+            "pivot": [
+              57,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/active/active-1.png",
+            "duration": 0.06,
+            "asset": "ranged-active-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "time": 0,
+            "name": "fire"
+          }
+        ]
+      },
+      "recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/ranged/recovery/recovery-0.png",
+            "duration": 0.3,
+            "asset": "ranged-recovery-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/recovery/recovery-1.png",
+            "duration": 2,
+            "asset": "ranged-recovery-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/ranged/hurt/hurt-0.png",
+            "duration": 0.08,
+            "asset": "ranged-hurt-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/hurt/hurt-1.png",
+            "duration": 0.12,
+            "asset": "ranged-hurt-1",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/ranged/death/death-0.png",
+            "duration": 0.08,
+            "asset": "ranged-death-0",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/death/death-1.png",
+            "duration": 0.09,
+            "asset": "ranged-death-1",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/death/death-2.png",
+            "duration": 0.1,
+            "asset": "ranged-death-2",
+            "pivot": [
+              64,
+              120
+            ]
+          },
+          {
+            "file": "v2/ranged/death/death-3.png",
+            "duration": 0.13,
+            "asset": "ranged-death-3",
+            "pivot": [
+              64,
+              120
+            ]
+          }
+        ],
+        "markers": []
+      }
+    },
+    "boss": {
+      "idle": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/boss/idle/idle-0.png",
+            "duration": 0.4,
+            "asset": "boss-idle-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/idle/idle-1.png",
+            "duration": 0.4,
+            "asset": "boss-idle-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/idle/idle-2.png",
+            "duration": 0.4,
+            "asset": "boss-idle-2",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "walk": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/boss/walk/walk-0.png",
+            "duration": 0.2,
+            "asset": "boss-walk-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/walk/walk-1.png",
+            "duration": 0.2,
+            "asset": "boss-walk-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/walk/walk-2.png",
+            "duration": 0.2,
+            "asset": "boss-walk-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/walk/walk-3.png",
+            "duration": 0.2,
+            "asset": "boss-walk-3",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "intro": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/intro/intro-0.png",
+            "duration": 0.4,
+            "asset": "boss-intro-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/intro/intro-1.png",
+            "duration": 0.35,
+            "asset": "boss-intro-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/intro/intro-2.png",
+            "duration": 0.35,
+            "asset": "boss-intro-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/intro/intro-3.png",
+            "duration": 0.35,
+            "asset": "boss-intro-3",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/intro/intro-4.png",
+            "duration": 0.35,
+            "asset": "boss-intro-4",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "hurt": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/hurt/hurt-0.png",
+            "duration": 0.07,
+            "asset": "boss-hurt-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/hurt/hurt-1.png",
+            "duration": 0.08,
+            "asset": "boss-hurt-1",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "death": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/death/death-0.png",
+            "duration": 0.05,
+            "asset": "boss-death-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/death/death-1.png",
+            "duration": 0.05,
+            "asset": "boss-death-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/death/death-2.png",
+            "duration": 0.06,
+            "asset": "boss-death-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/death/death-3.png",
+            "duration": 0.07,
+            "asset": "boss-death-3",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/death/death-4.png",
+            "duration": 0.08,
+            "asset": "boss-death-4",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/death/death-5.png",
+            "duration": 0.09,
+            "asset": "boss-death-5",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slash-windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slash-windup/slash-windup-0.png",
+            "duration": 0.3,
+            "asset": "boss-slash-windup-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slash-windup/slash-windup-1.png",
+            "duration": 0.25,
+            "asset": "boss-slash-windup-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slash-windup/slash-windup-2.png",
+            "duration": 0.23,
+            "asset": "boss-slash-windup-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slash-windup/slash-windup-3.png",
+            "duration": 0.17,
+            "asset": "boss-slash-windup-3",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slash-active": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slash-active/slash-active-0.png",
+            "duration": 0.08,
+            "asset": "boss-slash-active-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slash-active/slash-active-1.png",
+            "duration": 0.12,
+            "asset": "boss-slash-active-1",
+            "pivot": [
+              118,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slash-recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slash-recovery/slash-recovery-0.png",
+            "duration": 0.3,
+            "asset": "boss-slash-recovery-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slash-recovery/slash-recovery-1.png",
+            "duration": 1.8,
+            "asset": "boss-slash-recovery-1",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "charge-windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/charge-windup/charge-windup-0.png",
+            "duration": 0.4,
+            "asset": "boss-charge-windup-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-windup/charge-windup-1.png",
+            "duration": 0.3,
+            "asset": "boss-charge-windup-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-windup/charge-windup-2.png",
+            "duration": 0.25,
+            "asset": "boss-charge-windup-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-windup/charge-windup-3.png",
+            "duration": 0.2,
+            "asset": "boss-charge-windup-3",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "charge-active": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/boss/charge-active/charge-active-0.png",
+            "duration": 0.2375,
+            "asset": "boss-charge-active-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-active/charge-active-1.png",
+            "duration": 0.2375,
+            "asset": "boss-charge-active-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-active/charge-active-2.png",
+            "duration": 0.2375,
+            "asset": "boss-charge-active-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-active/charge-active-3.png",
+            "duration": 0.2375,
+            "asset": "boss-charge-active-3",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "charge-recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/charge-recovery/charge-recovery-0.png",
+            "duration": 0.35,
+            "asset": "boss-charge-recovery-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/charge-recovery/charge-recovery-1.png",
+            "duration": 2.05,
+            "asset": "boss-charge-recovery-1",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slam-windup": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slam-windup/slam-windup-0.png",
+            "duration": 0.4,
+            "asset": "boss-slam-windup-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-windup/slam-windup-1.png",
+            "duration": 0.3,
+            "asset": "boss-slam-windup-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-windup/slam-windup-2.png",
+            "duration": 0.3,
+            "asset": "boss-slam-windup-2",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-windup/slam-windup-3.png",
+            "duration": 0.2,
+            "asset": "boss-slam-windup-3",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slam-active": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slam-active/slam-active-0.png",
+            "duration": 0.3,
+            "asset": "boss-slam-active-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-active/slam-active-1.png",
+            "duration": 0.28,
+            "asset": "boss-slam-active-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-active/slam-active-2.png",
+            "duration": 0.02,
+            "asset": "boss-slam-active-2",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slam-recovery": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/boss/slam-recovery/slam-recovery-0.png",
+            "duration": 0.25,
+            "asset": "boss-slam-recovery-0",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-recovery/slam-recovery-1.png",
+            "duration": 0.4,
+            "asset": "boss-slam-recovery-1",
+            "pivot": [
+              128,
+              248
+            ]
+          },
+          {
+            "file": "v2/boss/slam-recovery/slam-recovery-2.png",
+            "duration": 1.95,
+            "asset": "boss-slam-recovery-2",
+            "pivot": [
+              128,
+              248
+            ]
+          }
+        ],
+        "markers": []
+      }
+    },
+    "vfx": {
+      "phase-transition": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/phase-transition/phase-transition-0.png",
+            "duration": 0.12,
+            "asset": "vfx-phase-transition-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/phase-transition/phase-transition-1.png",
+            "duration": 0.14,
+            "asset": "vfx-phase-transition-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/phase-transition/phase-transition-2.png",
+            "duration": 0.18,
+            "asset": "vfx-phase-transition-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/phase-transition/phase-transition-3.png",
+            "duration": 0.2,
+            "asset": "vfx-phase-transition-3",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/phase-transition/phase-transition-4.png",
+            "duration": 0.21,
+            "asset": "vfx-phase-transition-4",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "projectile": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/vfx/projectile/projectile-0.png",
+            "duration": 0.08,
+            "asset": "vfx-projectile-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/projectile/projectile-1.png",
+            "duration": 0.08,
+            "asset": "vfx-projectile-1",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "projectile-impact": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/projectile-impact/projectile-impact-0.png",
+            "duration": 0.05,
+            "asset": "vfx-projectile-impact-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/projectile-impact/projectile-impact-1.png",
+            "duration": 0.07,
+            "asset": "vfx-projectile-impact-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/projectile-impact/projectile-impact-2.png",
+            "duration": 0.1,
+            "asset": "vfx-projectile-impact-2",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "flame": {
+        "loop": true,
+        "frames": [
+          {
+            "file": "v2/vfx/flame/flame-0.png",
+            "duration": 0.12,
+            "asset": "vfx-flame-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/flame/flame-1.png",
+            "duration": 0.12,
+            "asset": "vfx-flame-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/flame/flame-2.png",
+            "duration": 0.12,
+            "asset": "vfx-flame-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/flame/flame-3.png",
+            "duration": 0.12,
+            "asset": "vfx-flame-3",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "charge": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/charge/charge-0.png",
+            "duration": 0.3,
+            "asset": "vfx-charge-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/charge/charge-1.png",
+            "duration": 0.3,
+            "asset": "vfx-charge-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/charge/charge-2.png",
+            "duration": 0.3,
+            "asset": "vfx-charge-2",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slash-light": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/slash-light/slash-light-0.png",
+            "duration": 0.03,
+            "asset": "vfx-slash-light-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/slash-light/slash-light-1.png",
+            "duration": 0.04,
+            "asset": "vfx-slash-light-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/slash-light/slash-light-2.png",
+            "duration": 0.05,
+            "asset": "vfx-slash-light-2",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "slash-heavy": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/slash-heavy/slash-heavy-0.png",
+            "duration": 0.025,
+            "asset": "vfx-slash-heavy-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/slash-heavy/slash-heavy-1.png",
+            "duration": 0.025,
+            "asset": "vfx-slash-heavy-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/slash-heavy/slash-heavy-2.png",
+            "duration": 0.035,
+            "asset": "vfx-slash-heavy-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/slash-heavy/slash-heavy-3.png",
+            "duration": 0.035,
+            "asset": "vfx-slash-heavy-3",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "boss-slash": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/boss-slash/boss-slash-0.png",
+            "duration": 0.04,
+            "asset": "vfx-boss-slash-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/boss-slash/boss-slash-1.png",
+            "duration": 0.04,
+            "asset": "vfx-boss-slash-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/boss-slash/boss-slash-2.png",
+            "duration": 0.06,
+            "asset": "vfx-boss-slash-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/boss-slash/boss-slash-3.png",
+            "duration": 0.06,
+            "asset": "vfx-boss-slash-3",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "hit": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/hit/hit-0.png",
+            "duration": 0.035,
+            "asset": "vfx-hit-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/hit/hit-1.png",
+            "duration": 0.045,
+            "asset": "vfx-hit-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/hit/hit-2.png",
+            "duration": 0.07,
+            "asset": "vfx-hit-2",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "dust": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/dust/dust-0.png",
+            "duration": 0.05,
+            "asset": "vfx-dust-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/dust/dust-1.png",
+            "duration": 0.05,
+            "asset": "vfx-dust-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/dust/dust-2.png",
+            "duration": 0.06,
+            "asset": "vfx-dust-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/dust/dust-3.png",
+            "duration": 0.08,
+            "asset": "vfx-dust-3",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      },
+      "shockwave": {
+        "loop": false,
+        "frames": [
+          {
+            "file": "v2/vfx/shockwave/shockwave-0.png",
+            "duration": 0.04,
+            "asset": "vfx-shockwave-0",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/shockwave/shockwave-1.png",
+            "duration": 0.05,
+            "asset": "vfx-shockwave-1",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/shockwave/shockwave-2.png",
+            "duration": 0.06,
+            "asset": "vfx-shockwave-2",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/shockwave/shockwave-3.png",
+            "duration": 0.07,
+            "asset": "vfx-shockwave-3",
+            "pivot": [
+              64,
+              60
+            ]
+          },
+          {
+            "file": "v2/vfx/shockwave/shockwave-4.png",
+            "duration": 0.1,
+            "asset": "vfx-shockwave-4",
+            "pivot": [
+              64,
+              60
+            ]
+          }
+        ],
+        "markers": []
+      }
+    }
+  }
+}

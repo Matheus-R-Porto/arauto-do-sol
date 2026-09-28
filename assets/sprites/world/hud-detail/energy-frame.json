@@ -1,0 +1,189 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "hud-detail",
+    "max_frame": [
+      512,
+      192
+    ],
+    "canvas": [
+      512,
+      192
+    ],
+    "pivot": [
+      256,
+      176
+    ],
+    "visible_size": [
+      504,
+      184
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 2.6875,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/world-hud.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "HUD 4x pixel density from immutable RAW; same screen size and anchors."
+  },
+  "palette_colors": [
+    [
+      11,
+      13,
+      19
+    ],
+    [
+      31,
+      32,
+      38
+    ],
+    [
+      52,
+      50,
+      56
+    ],
+    [
+      77,
+      72,
+      66
+    ],
+    [
+      109,
+      97,
+      77
+    ],
+    [
+      146,
+      122,
+      83
+    ],
+    [
+      185,
+      155,
+      99
+    ],
+    [
+      223,
+      199,
+      141
+    ],
+    [
+      242,
+      230,
+      200
+    ],
+    [
+      185,
+      182,
+      167
+    ],
+    [
+      138,
+      147,
+      143
+    ],
+    [
+      65,
+      103,
+      117
+    ],
+    [
+      125,
+      182,
+      196
+    ],
+    [
+      202,
+      231,
+      223
+    ],
+    [
+      186,
+      100,
+      71
+    ],
+    [
+      241,
+      173,
+      104
+    ]
+  ],
+  "profile_sha256": "f9d0c8c6ec64e08ea099be8a35a98308bd571fd2c73bb17dffdb1f1260babce6",
+  "frames": [
+    {
+      "size": [
+        512,
+        192
+      ],
+      "mode": "RGBA",
+      "visible_colors": 11,
+      "colors": [
+        "#0b0d13",
+        "#1f2026",
+        "#343238",
+        "#4d4842",
+        "#6d614d",
+        "#927a53",
+        "#b99b63",
+        "#ba6447",
+        "#dfc78d",
+        "#f1ad68",
+        "#f2e6c8"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        118,
+        128,
+        394,
+        176
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\hud-detail\\energy-frame.png",
+      "input_sha256": "df61294fafb38526d8d33ac80d36a65b5c575812f67fe56d1cc4606e299d94b5",
+      "input_size": [
+        768,
+        512
+      ],
+      "input_bbox": [
+        0,
+        192,
+        742,
+        321
+      ],
+      "source_anchor": [
+        371.0,
+        321
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.37209302325581395,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        256,
+        176
+      ],
+      "baseline": 176,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\hud-detail\\energy-frame.png",
+      "output_sha256": "d64d47b9a092be709e15f334778624621ae991436bebe3d124b7777b0296cdbe"
+    }
+  ]
+}

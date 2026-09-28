@@ -1,0 +1,187 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "protagonist",
+    "status": "approved_idle_pilot_v1",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      64,
+      40
+    ],
+    "pivot": [
+      32,
+      36
+    ],
+    "visible_size": [
+      48,
+      24
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 24.749999999999996,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/protagonist.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Piloto inspecionado nativamente em 480×270, no despertar e na cripta, com flip e F2. Lanczos preserva melhor espada e volume que nearest/BOX. Corpo em pé: 24 px. Calibração anatômica por RAW registrada no layout; canvas/pivot/paleta compartilhados."
+  },
+  "palette_colors": [
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      181,
+      172,
+      150
+    ],
+    [
+      143,
+      133,
+      114
+    ],
+    [
+      105,
+      95,
+      79
+    ],
+    [
+      66,
+      57,
+      47
+    ],
+    [
+      46,
+      37,
+      30
+    ],
+    [
+      26,
+      18,
+      11
+    ],
+    [
+      238,
+      231,
+      207
+    ],
+    [
+      199,
+      190,
+      166
+    ],
+    [
+      164,
+      153,
+      129
+    ],
+    [
+      123,
+      112,
+      91
+    ],
+    [
+      84,
+      74,
+      59
+    ],
+    [
+      36,
+      35,
+      41
+    ],
+    [
+      81,
+      84,
+      89
+    ],
+    [
+      140,
+      142,
+      140
+    ],
+    [
+      195,
+      197,
+      185
+    ]
+  ],
+  "profile_sha256": "67713bfde6fcb0f3bd043d8c131c75682cdf826b0a733d98245af175b364519e",
+  "frames": [
+    {
+      "size": [
+        64,
+        40
+      ],
+      "mode": "RGBA",
+      "visible_colors": 9,
+      "colors": [
+        "#1a120b",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8f8572",
+        "#b5ac96"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        12,
+        38,
+        36
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\idle\\idle-2.png",
+      "input_sha256": "7339ec55c73db4694791f5d33ed3e246caa5d688ae22a93d74f3966d4e895194",
+      "input_size": [
+        280,
+        594
+      ],
+      "input_bbox": [
+        2,
+        2,
+        278,
+        592
+      ],
+      "source_anchor": [
+        129.0,
+        592
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.04040404040404041,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        32,
+        36
+      ],
+      "baseline": 36,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\idle-2.png",
+      "output_sha256": "c29422967618888935e41087472ff8015d2f1fe0cca14ebbb9b0765af1b00907"
+    }
+  ]
+}

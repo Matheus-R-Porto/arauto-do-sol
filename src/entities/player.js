@@ -1,4 +1,4 @@
-import { PLAYER, COMBAT } from '../../config/tuning.js';
+import { PLAYER, COMBAT, DEMO } from '../../config/tuning.js';
 import { approach, sign, aabbOverlap } from '../core/math.js';
 
 // Gravidade e impulso derivados de altura/tempo definidos em tuning.js.
@@ -79,6 +79,12 @@ export class Player {
   get intangible() { return this.dashing && this.abilities.dashIntangible; }
 
   reset(x, y) {
+    this.onGround = this.wasOnGround = this.wallSliding = this.gliding = this.running = false;
+    this.wallDir = this.coyoteTimer = 0;
+    this.airDashesLeft = PLAYER.airDashes;
+    this.airJumpsLeft = this.abilities.doubleJump ? 1 : 0;
+    this.combo.step = this.combo.windowTimer = 0;
+    for (const attack of Object.values(this.attacks)) attack.cooldownTimer = attack.flashTimer = 0;
     this.x = x;
     this.y = y;
     this.vx = 0;
@@ -187,8 +193,8 @@ export class Player {
 
     if (dir !== 0) this.facing = dir;
 
-    // No ar o teto e o airSpeed (mais rapido que andar — pular nao pode ser
-    // mais lento que caminhar), independente de estar "correndo" (running so
+    // No ar o teto e o airSpeed (igual a caminhada), independente de estar
+    // "correndo" (running so
     // existe no chao, ver wantsRun acima).
     const maxSpeed = this.onGround ? (this.running ? PLAYER.runSpeed : PLAYER.walkSpeed) : PLAYER.airSpeed;
     const accel = this.onGround ? PLAYER.groundAccel : PLAYER.airAccel;
@@ -425,7 +431,7 @@ export class Player {
     }
 
     weaponState.cooldownTimer = cfg.swingDuration;
-    weaponState.flashTimer = 0.12;
+    weaponState.flashTimer = DEMO.hitFlash;
 
     this.combo.windowTimer = cfg.comboWindow;
     this.combo.step = (this.combo.step + 1) % cfg.comboHits;
@@ -496,7 +502,7 @@ export class Player {
   _drawAttackFlash(ctx, state, reach, rgb) {
     if (state.flashTimer <= 0) return;
     const box = this._attackHitbox(reach);
-    const t = state.flashTimer / 0.12;
+    const t = state.flashTimer / DEMO.hitFlash;
     ctx.fillStyle = `rgba(${rgb},${(0.55 * t).toFixed(2)})`;
     ctx.fillRect(Math.round(box.left), Math.round(box.top), box.w, box.h);
   }

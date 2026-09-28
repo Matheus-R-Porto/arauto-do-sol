@@ -1,0 +1,267 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-props",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      124
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 13.842105263157896,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "ca5ee659c7b642c2f5817914ae0e498737c274de123bb16531afa5c725e472ed",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 11,
+      "colors": [
+        "#0b1017",
+        "#121b24",
+        "#1b2731",
+        "#211d1b",
+        "#303b2d",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#4d5b3d",
+        "#615443",
+        "#81493a"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        45,
+        85,
+        83,
+        123
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\sun-door.png",
+      "input_sha256": "17b5fee26a1f2d3acc6828482723d98a22a2fb8a941a457b4c5f821753aa5811",
+      "input_size": [
+        724,
+        543
+      ],
+      "input_bbox": [
+        12,
+        6,
+        538,
+        543
+      ],
+      "source_anchor": [
+        275.0,
+        543
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.07224334600760456,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        124
+      ],
+      "baseline": 124,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\frames\\sun-door.png",
+      "output_sha256": "ffdb3eb8512217e755ac81c23356814a3205053597633cd9b6ceb84ee6f30aae"
+    }
+  ]
+}

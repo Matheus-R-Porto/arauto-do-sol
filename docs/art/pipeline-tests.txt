@@ -1,0 +1,37 @@
+test_all_initial_filters_supported (test_pipeline.PipelineTests.test_all_initial_filters_supported) ... ok
+test_alpha_always_preserved_before_threshold (test_pipeline.PipelineTests.test_alpha_always_preserved_before_threshold) ... ok
+test_alpha_threshold_and_hidden_rgb (test_pipeline.PipelineTests.test_alpha_threshold_and_hidden_rgb) ... ok
+test_ambiguous_background_fails (test_pipeline.PipelineTests.test_ambiguous_background_fails) ... ok
+test_anchor_file_cannot_be_overwritten_by_report (test_pipeline.PipelineTests.test_anchor_file_cannot_be_overwritten_by_report) ... ok
+test_batch_common_scale_and_baseline (test_pipeline.PipelineTests.test_batch_common_scale_and_baseline) ... ok
+test_calibration_uses_same_scale_across_separate_calls (test_pipeline.PipelineTests.test_calibration_uses_same_scale_across_separate_calls) ... ok
+test_cli_compare_exports_reports_and_native_previews (test_pipeline.PipelineTests.test_cli_compare_exports_reports_and_native_previews) ... ok
+test_cli_preview_cannot_overwrite_raw_or_final (test_pipeline.PipelineTests.test_cli_preview_cannot_overwrite_raw_or_final) ... ok
+test_empty_image_fails (test_pipeline.PipelineTests.test_empty_image_fails) ... ok
+test_explicit_anchor_preserves_body_when_weapon_extends (test_pipeline.PipelineTests.test_explicit_anchor_preserves_body_when_weapon_extends) ... ok
+test_final_rgba_binary_margin_and_native_size (test_pipeline.PipelineTests.test_final_rgba_binary_margin_and_native_size) ... ok
+test_flood_fill_does_not_erase_enclosed_same_color (test_pipeline.PipelineTests.test_flood_fill_does_not_erase_enclosed_same_color) ... ok
+test_hardlink_to_raw_is_protected (test_pipeline.PipelineTests.test_hardlink_to_raw_is_protected) ... ok
+test_invalid_batch_writes_nothing (test_pipeline.PipelineTests.test_invalid_batch_writes_nothing) ... ok
+test_maximum_is_not_target (test_pipeline.PipelineTests.test_maximum_is_not_target) ... ok
+test_palette_load_relative_to_profile (test_pipeline.PipelineTests.test_palette_load_relative_to_profile) ... ok
+test_per_frame_source_anchors_correct_raw_translation (test_pipeline.PipelineTests.test_per_frame_source_anchors_correct_raw_translation) ... ok
+test_pixel_base_forces_nearest (test_pipeline.PipelineTests.test_pixel_base_forces_nearest) ... ok
+test_post_scale_must_respect_maximum (test_pipeline.PipelineTests.test_post_scale_must_respect_maximum) ... ok
+test_post_scale_nearest_blocks (test_pipeline.PipelineTests.test_post_scale_nearest_blocks) ... ok
+test_preview_is_separate_has_four_backgrounds (test_pipeline.PipelineTests.test_preview_is_separate_has_four_backgrounds) ... ok
+test_profile_rejects_oversize_canvas (test_pipeline.PipelineTests.test_profile_rejects_oversize_canvas) ... ok
+test_profile_requires_master_palette (test_pipeline.PipelineTests.test_profile_requires_master_palette) ... ok
+test_raw_file_and_raw_directory_cannot_be_outputs (test_pipeline.PipelineTests.test_raw_file_and_raw_directory_cannot_be_outputs) ... ok
+test_recursive_batch_preserves_structure (test_pipeline.PipelineTests.test_recursive_batch_preserves_structure) ... ok
+test_repeated_export_is_byte_identical (test_pipeline.PipelineTests.test_repeated_export_is_byte_identical) ... ok
+test_shared_palette_membership (test_pipeline.PipelineTests.test_shared_palette_membership) ... ok
+test_sixteen_is_not_a_global_limit (test_pipeline.PipelineTests.test_sixteen_is_not_a_global_limit) ... ok
+test_animation_frames_are_not_duplicate_placeholders (test_production.ProductionTests.test_animation_frames_are_not_duplicate_placeholders) ... ok
+test_every_runtime_frame_has_shared_palette_canvas_pivot_and_report (test_production.ProductionTests.test_every_runtime_frame_has_shared_palette_canvas_pivot_and_report) ... ok
+test_raw_layouts_do_not_clip_visible_pixels_and_preserve_scale (test_production.ProductionTests.test_raw_layouts_do_not_clip_visible_pixels_and_preserve_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.764s
+
+OK

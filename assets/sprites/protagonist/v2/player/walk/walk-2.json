@@ -1,0 +1,196 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "protagonist",
+    "status": "resolution-correction",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      112
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 4.583333333333334,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/protagonist.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+    "fit_anchor": true,
+    "world_scale": 0.25
+  },
+  "palette_colors": [
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      181,
+      172,
+      150
+    ],
+    [
+      143,
+      133,
+      114
+    ],
+    [
+      105,
+      95,
+      79
+    ],
+    [
+      66,
+      57,
+      47
+    ],
+    [
+      46,
+      37,
+      30
+    ],
+    [
+      26,
+      18,
+      11
+    ],
+    [
+      238,
+      231,
+      207
+    ],
+    [
+      199,
+      190,
+      166
+    ],
+    [
+      164,
+      153,
+      129
+    ],
+    [
+      123,
+      112,
+      91
+    ],
+    [
+      84,
+      74,
+      59
+    ],
+    [
+      36,
+      35,
+      41
+    ],
+    [
+      81,
+      84,
+      89
+    ],
+    [
+      140,
+      142,
+      140
+    ],
+    [
+      195,
+      197,
+      185
+    ]
+  ],
+  "profile_sha256": "58a5fdbaa2f5656fcbccd2290dde6985e2bac23d79cf3d0b66ddec2248c233e2",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        32,
+        16,
+        85,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\walk\\walk-2.png",
+      "input_sha256": "bc8a5fee750497bbbd94657286876d9cfada9f1b8bf1b0888640d0438281c5c4",
+      "input_size": [
+        248,
+        442
+      ],
+      "input_bbox": [
+        2,
+        2,
+        246,
+        440
+      ],
+      "source_anchor": [
+        150,
+        440
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.21818181818181814,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\walk\\walk-2.png",
+      "output_sha256": "7c4ce9ee51d8b56032c2baeb47c58aca8c471d252466e1f9a307619adfa9c186"
+    }
+  ]
+}

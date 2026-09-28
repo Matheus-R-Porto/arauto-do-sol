@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "name": "level-props",
+  "max_frame": [
+    512,
+    512
+  ],
+  "canvas": [
+    40,
+    48
+  ],
+  "pivot": [
+    20,
+    44
+  ],
+  "visible_size": [
+    32,
+    40
+  ],
+  "margin": 4,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": {
+    "source_pixels": 125,
+    "target_pixels": 24
+  },
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 32,
+  "palette": "../../palettes/world-stone.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "preserve",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 4,
+  "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory."
+}

@@ -1,0 +1,225 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 7,
+      "colors": [
+        "#23232d",
+        "#27233e",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#ded3ae"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        57,
+        55,
+        72,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\dust\\dust-0.png",
+      "input_sha256": "ec7abd94254ff5b85ead5c1153a07ee0baa833b095f67ae0edbbff76bff7d082",
+      "input_size": [
+        280,
+        225
+      ],
+      "input_bbox": [
+        63,
+        103,
+        225,
+        178
+      ],
+      "source_anchor": [
+        144.0,
+        178
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.09090909090909091,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\dust\\dust-0.png",
+      "output_sha256": "da1e97150183f7af2614465ed4d8813260868068f3e9b474044d85550b2e6920"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 8,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#cf9454",
+        "#ded3ae"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        53,
+        48,
+        73,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\dust\\dust-1.png",
+      "input_sha256": "09fb5993c01c4dca03b428c188c5227f31b49c876b11c162fec93610843a281b",
+      "input_size": [
+        281,
+        225
+      ],
+      "input_bbox": [
+        16,
+        44,
+        257,
+        178
+      ],
+      "source_anchor": [
+        136.5,
+        178
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.09090909090909091,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\dust\\dust-1.png",
+      "output_sha256": "d4de2f5e632e517e3a17cb2c104bfbae2d00b488cb9af791e9e661a4a7e782df"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 8,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#cf9454",
+        "#ded3ae"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        53,
+        49,
+        76,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\dust\\dust-2.png",
+      "input_sha256": "0d607b9533946dea482e8ec708273053b5c4772b0d6eec3be732e994a9cb986a",
+      "input_size": [
+        280,
+        225
+      ],
+      "input_bbox": [
+        17,
+        59,
+        266,
+        178
+      ],
+      "source_anchor": [
+        141.5,
+        178
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.09090909090909091,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\dust\\dust-2.png",
+      "output_sha256": "a4efd52b0f5be062525b270ba18dc602d84ec943a8dfa2614136b12e9a94d5f7"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 6,
+      "colors": [
+        "#23232d",
+        "#564039",
+        "#7b999d",
+        "#956341",
+        "#cf9454",
+        "#ded3ae"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        54,
+        51,
+        75,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\dust\\dust-3.png",
+      "input_sha256": "0119bdcb1831fe6fc1737c5c0c20749f46930a14cf04ee35d404a930a19559e4",
+      "input_size": [
+        281,
+        225
+      ],
+      "input_bbox": [
+        31,
+        80,
+        270,
+        178
+      ],
+      "source_anchor": [
+        150.5,
+        178
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.09090909090909091,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\dust\\dust-3.png",
+      "output_sha256": "b58e83234d5756654420ac7536117e5be4f561a20a3aa4b84a23b655b7e1c2a0"
+    }
+  ]
+}

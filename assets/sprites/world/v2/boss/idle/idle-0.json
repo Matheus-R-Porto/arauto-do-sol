@@ -1,0 +1,287 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "boss",
+    "status": "resolution-correction",
+    "max_frame": [
+      256,
+      256
+    ],
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      248
+    ],
+    "visible_size": [
+      254,
+      254
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 1.9930555555555556,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/world-boss.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Escala anatômica comum a todas as poses. Arma e membros em movimento podem estender os bounds do corpo em repouso.",
+    "fit_anchor": true,
+    "world_scale": 0.4513888888888889
+  },
+  "palette_colors": [
+    [
+      16,
+      19,
+      25
+    ],
+    [
+      28,
+      34,
+      42
+    ],
+    [
+      44,
+      51,
+      59
+    ],
+    [
+      64,
+      71,
+      77
+    ],
+    [
+      87,
+      97,
+      105
+    ],
+    [
+      117,
+      128,
+      134
+    ],
+    [
+      152,
+      161,
+      162
+    ],
+    [
+      193,
+      196,
+      183
+    ],
+    [
+      225,
+      221,
+      199
+    ],
+    [
+      246,
+      236,
+      211
+    ],
+    [
+      36,
+      29,
+      26
+    ],
+    [
+      60,
+      50,
+      39
+    ],
+    [
+      87,
+      72,
+      52
+    ],
+    [
+      120,
+      96,
+      67
+    ],
+    [
+      156,
+      125,
+      80
+    ],
+    [
+      194,
+      158,
+      97
+    ],
+    [
+      232,
+      196,
+      129
+    ],
+    [
+      49,
+      39,
+      48
+    ],
+    [
+      75,
+      56,
+      69
+    ],
+    [
+      112,
+      80,
+      90
+    ],
+    [
+      146,
+      102,
+      107
+    ],
+    [
+      167,
+      130,
+      116
+    ],
+    [
+      52,
+      62,
+      53
+    ],
+    [
+      84,
+      97,
+      72
+    ],
+    [
+      121,
+      130,
+      99
+    ],
+    [
+      37,
+      62,
+      72
+    ],
+    [
+      70,
+      105,
+      120
+    ],
+    [
+      119,
+      167,
+      176
+    ],
+    [
+      116,
+      46,
+      41
+    ],
+    [
+      169,
+      78,
+      49
+    ],
+    [
+      223,
+      131,
+      72
+    ],
+    [
+      255,
+      202,
+      125
+    ]
+  ],
+  "profile_sha256": "31fcca44c2bfd84edde791fb69589add48e5992495143321e60c148526f989f5",
+  "frames": [
+    {
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 27,
+      "colors": [
+        "#101319",
+        "#1c222a",
+        "#241d1a",
+        "#2c333b",
+        "#312730",
+        "#343e35",
+        "#3c3227",
+        "#40474d",
+        "#4b3845",
+        "#546148",
+        "#574834",
+        "#576169",
+        "#70505a",
+        "#742e29",
+        "#758086",
+        "#786043",
+        "#798263",
+        "#92666b",
+        "#98a1a2",
+        "#9c7d50",
+        "#a78274",
+        "#a94e31",
+        "#c1c4b7",
+        "#c29e61",
+        "#e1ddc7",
+        "#e8c481",
+        "#f6ecd3"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        79,
+        106,
+        168,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\boss\\idle\\idle-0.png",
+      "input_sha256": "6c6c183df48f35afd5ed942512db943de18678bd584f7a81698e9c1789a65d01",
+      "input_size": [
+        182,
+        287
+      ],
+      "input_bbox": [
+        2,
+        2,
+        180,
+        285
+      ],
+      "source_anchor": [
+        99.0,
+        285
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.5017421602787456,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\boss\\idle\\idle-0.png",
+      "output_sha256": "d890c1de55f2b4f90218c7477a9902d04d0645189ff05bc32c15fc7c8556745b"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Playtest de exploração — Arauto do Sol</title><link rel="stylesheet" href="../style.css">
+<style>body{overflow:auto;padding:12px;box-sizing:border-box}button,select{background:#242e38;color:#e5d5b4;border:1px solid #6c6d67;padding:8px;cursor:pointer}#status{max-width:95vw;white-space:pre-wrap;font-size:11px}#controls{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}label{font-size:12px}canvas{width:min(960px,95vw);height:auto}</style>
+<body><canvas id="game" width="480" height="270"></canvas><div id="controls">
+<select id="mode" aria-label="Percurso"><option value="explorer">Explorador</option><option value="critical">Rota crítica</option><option value="completionist">Completionista</option><option value="anti">Anti-softlock · 5 mortes</option></select>
+<button id="start">Iniciar nova run (4×)</button><button id="pause">Pausar / continuar</button><button id="normal">Velocidade 1×</button><button id="map">Mapa de debug</button><label><input type="checkbox" id="rooms">Pausar por sala</label>
+<label>Parar na animação <select id="anim-stop"><option value="">Não parar</option><option>walk</option><option>run</option><option>jump</option><option>fall</option><option>attack-light</option><option>attack-m2</option><option>hurt</option><option>death</option></select></label><label><input type="checkbox" id="hitboxes">F2 · hitboxes</label><button id="step">Avançar 1 quadro</button></div>
+<pre id="status">Playtest assistido: o controlador usa apenas movimento, salto, espada e interação normais. Sem alterar vida, energia, posição ou habilidades.</pre>
+<script type="module">
+import {RoomManager} from '../src/world/room-manager.js';import {Camera} from '../src/core/camera.js';import {Background} from '../src/world/background.js';import {DemoView,WORLD_ZOOM} from '../src/ui/demo-view.js';import {PlaythroughDriver} from './playthrough-driver.js';import {loadPlayerSprites,PlayerSpriteView} from '../src/ui/player-sprites.js';
+import {loadWorldArt} from '../src/ui/world-art.js';
+const playerView=new PlayerSpriteView(await loadPlayerSprites()),worldArt=await loadWorldArt();
+const w=new RoomManager(new Camera(480/WORLD_ZOOM,270/WORLD_ZOOM)),view=new DemoView(new Background(480,270),playerView,worldArt),ctx=document.querySelector('canvas').getContext('2d');let bot,run=false,speed=4,last=0,acc=0,lastRoom='',map=false;const log=[],seen=new Set(),actorSeen=new Set(),fxSeen=new Set();let drawTotal=0,drawCount=0,drawMax=0;
+ctx.canvas.width=1920;ctx.canvas.height=1080;ctx.setTransform(4,0,0,4,0,0);
+let armed=true;document.querySelector('#anim-stop').onchange=()=>armed=true;
+document.querySelector('#step').onclick=()=>{if(bot){run=false;w.update(1/60,bot.next(w));view.update(1/60,w);}};
+document.querySelector('#start').onclick=()=>{const mode=document.querySelector('#mode').value;w.restart();bot=new PlaythroughDriver({mode:mode==='anti'?'completionist':mode,exerciseDeaths:mode==='anti'});log.length=0;actorSeen.clear();fxSeen.clear();drawTotal=drawCount=drawMax=0;lastRoom='awakening';acc=0;run=true;speed=4;map=false;};
+document.querySelector('#pause').onclick=()=>run=!run;document.querySelector('#normal').onclick=()=>speed=1;document.querySelector('#map').onclick=()=>{map=!map;if(map)run=false;};
+function frame(t){acc+=Math.min(.1,(t-last)/1000)*speed;last=t;if(run&&bot){while(acc>=1/60&&w.phase!=='finished'){
+ w.update(1/60,bot.next(w));view.update(1/60,w);seen.add(playerView.animator.state);for(const e of w.targets){const a=worldArt.animator.actors.get(e);if(a){actorSeen.add((e===w.boss?'boss':e.type)+':'+a.state);if(a.phaseTime<.85)fxSeen.add('phase-transition');}}for(const e of worldArt.events)fxSeen.add(e.name);if(w.projectiles.length)fxSeen.add('projectile');acc-=1/60;
+ if(armed&&document.querySelector('#anim-stop').value===playerView.animator.state){armed=false;run=false;acc=0;break;}
+ if(w.room.id!==lastRoom&&!w.transition){lastRoom=w.room.id;log.push(`${Math.round(w.elapsed)}s: ${w.room.name}`);if(document.querySelector('#rooms').checked){run=false;acc=0;break;}}
+ }if(w.phase==='finished'){run=false;acc=0;}}else acc=0;
+ if(bot)document.querySelector('#status').textContent=`${run?'EM EXECUÇÃO':'PAUSADO'} | ${w.phase} | ${w.room.id} | ${w.elapsed.toFixed(1)}s | ${w.deaths} mortes | ${w.visited.size}/17 salas | boss ${w.boss?.health??'—'}\n${[...w.flags].join(' · ')}\nMortes deliberadas: ${[...bot.deathStages].join(', ')}\nArte: ${playerView.animator.state} · estados observados: ${[...seen].join(', ')}\n${log.slice(-5).join('\n')}`;
+ const drawStart=performance.now();view.draw(ctx,w,t/1000,{hitboxes:document.querySelector('#hitboxes').checked,map});const cost=performance.now()-drawStart;drawTotal+=cost;drawCount++;drawMax=Math.max(drawMax,cost);if(bot)document.querySelector('#status').textContent+='\nEntidades: '+[...actorSeen].join(', ')+'\nVFX observados: '+[...fxSeen].join(', ')+'\nRender médio: '+(drawTotal/drawCount).toFixed(2)+' ms; pico '+drawMax.toFixed(2)+' ms';requestAnimationFrame(frame);
+}requestAnimationFrame(frame);
+</script></body></html>
+

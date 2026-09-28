@@ -1,0 +1,160 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 6,
+      "colors": [
+        "#27233e",
+        "#49345f",
+        "#80528f",
+        "#bb85cb",
+        "#e1bce9",
+        "#f2f0d4"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        57,
+        45,
+        71,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\projectile-impact\\projectile-impact-0.png",
+      "input_sha256": "12f2d0f51eaedba914223607821d2065142115572ca80b5aa4a652ef10ed0695",
+      "input_size": [
+        300,
+        250
+      ],
+      "input_bbox": [
+        31,
+        11,
+        275,
+        231
+      ],
+      "source_anchor": [
+        153.0,
+        231
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.08333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\projectile-impact\\projectile-impact-0.png",
+      "output_sha256": "b3300af8dd521f164e1bd4760673c2bd1b3efa36c0e23b1f275e5e18950f4848"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 4,
+      "colors": [
+        "#49345f",
+        "#80528f",
+        "#bb85cb",
+        "#e1bce9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        57,
+        47,
+        72,
+        59
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\projectile-impact\\projectile-impact-1.png",
+      "input_sha256": "3bff74aa6eda647566ce1ffad3efcc126db698e52baaba4b4411663d3bc695c0",
+      "input_size": [
+        295,
+        250
+      ],
+      "input_bbox": [
+        44,
+        32,
+        239,
+        208
+      ],
+      "source_anchor": [
+        141.5,
+        208
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.08333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\projectile-impact\\projectile-impact-1.png",
+      "output_sha256": "2d531601d40b9171badb5bb889a12b08f15cc1e8b472ab003656c6c326aeb966"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 2,
+      "colors": [
+        "#49345f",
+        "#bb85cb"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        59,
+        50,
+        67,
+        57
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\projectile-impact\\projectile-impact-2.png",
+      "input_sha256": "7e865e92a953188b9c01dac94173aa942fe13e6eaf8b64668418860b64cde19d",
+      "input_size": [
+        257,
+        250
+      ],
+      "input_bbox": [
+        71,
+        61,
+        195,
+        192
+      ],
+      "source_anchor": [
+        133.0,
+        192
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.08333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\projectile-impact\\projectile-impact-2.png",
+      "output_sha256": "1020bea82aa75d30c28227ee25cd0056f7298ff5f57e50ba7c7995a2a8721d70"
+    }
+  ]
+}

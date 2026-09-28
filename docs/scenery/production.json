@@ -1,0 +1,4454 @@
+{
+  "statue": {
+    "before": {
+      "file": "frames/statue.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        40,
+        9,
+        87,
+        124
+      ],
+      "colors": 19,
+      "sha256": "eed10f66b3457f5e074a4691f945f09c4862794876d6f6408a43218113512b21",
+      "raw": "landmarks",
+      "rawBox": [
+        203,
+        6,
+        458,
+        626
+      ],
+      "scale": 0.18831168831168832,
+      "sourceAnchor": [
+        127.5,
+        618
+      ]
+    },
+    "after": {
+      "file": "scenery/landmarks/statue.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        161,
+        32,
+        350,
+        496
+      ],
+      "colors": 23,
+      "sha256": "61abdad0801e67c5a44820d11fc155d438ff1d7c76ff0f5ae12b4b7e7800ebd6",
+      "raw": "landmarks",
+      "rawBox": [
+        203,
+        6,
+        458,
+        626
+      ],
+      "scale": 0.7532467532467533,
+      "sourceAnchor": [
+        127.5,
+        618
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "c92a9b5272ed1a9a688889795db6a49ed9f9124fa71df2279ff6cdf42f92f65a"
+  },
+  "mausoleum": {
+    "before": {
+      "file": "frames/mausoleum.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        21,
+        12,
+        107,
+        124
+      ],
+      "colors": 20,
+      "sha256": "f9aebf9533c8ce9b0239e380f2a2b5c4fefc78b0b4acd68d17aa3c5d77bcbed6",
+      "raw": "landmarks",
+      "rawBox": [
+        701,
+        10,
+        1172,
+        622
+      ],
+      "scale": 0.18421052631578946,
+      "sourceAnchor": [
+        235.5,
+        610
+      ]
+    },
+    "after": {
+      "file": "scenery/landmarks/mausoleum.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        84,
+        48,
+        428,
+        496
+      ],
+      "colors": 25,
+      "sha256": "0a0fff7571687bab10df7f04341d5ec324173149391f9b90d34ee3a46edf7941",
+      "raw": "landmarks",
+      "rawBox": [
+        701,
+        10,
+        1172,
+        622
+      ],
+      "scale": 0.7368421052631579,
+      "sourceAnchor": [
+        235.5,
+        610
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "c92a9b5272ed1a9a688889795db6a49ed9f9124fa71df2279ff6cdf42f92f65a"
+  },
+  "window": {
+    "before": {
+      "file": "frames/window.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        40,
+        16,
+        88,
+        124
+      ],
+      "colors": 21,
+      "sha256": "2776963637a9c6d39bf0c8557f4b740359ccc3b19ea160b8f21d4187c67fe7db",
+      "raw": "landmarks",
+      "rawBox": [
+        198,
+        639,
+        458,
+        1225
+      ],
+      "scale": 0.18556701030927836,
+      "sourceAnchor": [
+        130.0,
+        584
+      ]
+    },
+    "after": {
+      "file": "scenery/landmarks/window.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        161,
+        64,
+        351,
+        496
+      ],
+      "colors": 31,
+      "sha256": "7dc77838fa8587aed6860c8be39d88a4fd001f2e486f9be48668d9c01ef861d2",
+      "raw": "landmarks",
+      "rawBox": [
+        198,
+        639,
+        458,
+        1225
+      ],
+      "scale": 0.7422680412371134,
+      "sourceAnchor": [
+        130.0,
+        584
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "c92a9b5272ed1a9a688889795db6a49ed9f9124fa71df2279ff6cdf42f92f65a"
+  },
+  "bones": {
+    "before": {
+      "file": "frames/bones.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        14,
+        66,
+        113,
+        124
+      ],
+      "colors": 19,
+      "sha256": "ecda8bc74840fee0e6713ba30bbe5b8133b7637bd36e1056b616a8605a09f2f8",
+      "raw": "landmarks",
+      "rawBox": [
+        651,
+        875,
+        1229,
+        1214
+      ],
+      "scale": 0.17313432835820897,
+      "sourceAnchor": [
+        289.0,
+        337
+      ]
+    },
+    "after": {
+      "file": "scenery/landmarks/bones.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        57,
+        264,
+        455,
+        496
+      ],
+      "colors": 24,
+      "sha256": "133f53f9a4a9d145aba79a3218d306ccba98f7c80a94ed295746d3025f382a8d",
+      "raw": "landmarks",
+      "rawBox": [
+        651,
+        875,
+        1229,
+        1214
+      ],
+      "scale": 0.6925373134328359,
+      "sourceAnchor": [
+        289.0,
+        337
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "c92a9b5272ed1a9a688889795db6a49ed9f9124fa71df2279ff6cdf42f92f65a"
+  },
+  "bell": {
+    "before": {
+      "file": "frames/bell.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        34,
+        25,
+        94,
+        124
+      ],
+      "colors": 22,
+      "sha256": "d04a2b1fdfb856fd4d9d8c6b38926ec192d69a4cbdd6023373a6f959e9acca05",
+      "raw": "relics",
+      "rawBox": [
+        158,
+        79,
+        481,
+        608
+      ],
+      "scale": 0.18808777429467086,
+      "sourceAnchor": [
+        161.5,
+        527
+      ]
+    },
+    "after": {
+      "file": "scenery/relics/bell.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        136,
+        101,
+        376,
+        496
+      ],
+      "colors": 27,
+      "sha256": "1f1d82dfee570cc5862e8b85fa23f68f57de6eba098c4aa736826d8c04771da7",
+      "raw": "relics",
+      "rawBox": [
+        158,
+        79,
+        481,
+        608
+      ],
+      "scale": 0.7523510971786834,
+      "sourceAnchor": [
+        161.5,
+        527
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "0fe08ef29e6890084c866083406747d9271f6e0b16e245075a6c6492fe2299b7"
+  },
+  "dead-tree": {
+    "before": {
+      "file": "frames/dead-tree.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        11,
+        7,
+        119,
+        124
+      ],
+      "colors": 15,
+      "sha256": "d39ac6b5a50c4cdead40fed257ec66ffa699220191f0ca6e8551f296c07bd81c",
+      "raw": "relics",
+      "rawBox": [
+        653,
+        30,
+        1230,
+        656
+      ],
+      "scale": 0.18971061093247588,
+      "sourceAnchor": [
+        288.5,
+        624
+      ]
+    },
+    "after": {
+      "file": "scenery/relics/dead-tree.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        39,
+        24,
+        474,
+        496
+      ],
+      "colors": 22,
+      "sha256": "ef7c4c9ea0dbadc5d835530333b24f65688cbf49af96417f5a5b364440a815bd",
+      "raw": "relics",
+      "rawBox": [
+        653,
+        30,
+        1230,
+        656
+      ],
+      "scale": 0.7588424437299035,
+      "sourceAnchor": [
+        288.5,
+        624
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        2
+      ]
+    },
+    "raw_sha256": "0fe08ef29e6890084c866083406747d9271f6e0b16e245075a6c6492fe2299b7"
+  },
+  "urns": {
+    "before": {
+      "file": "frames/urns.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        31,
+        63,
+        97,
+        124
+      ],
+      "colors": 18,
+      "sha256": "62fc6ca7ed3e174bed3b44dbbb6a9fec186fe26ced56eb5ef5320ac9e85cc8bb",
+      "raw": "relics",
+      "rawBox": [
+        10,
+        664,
+        616,
+        1226
+      ],
+      "scale": 0.10963455149501661,
+      "sourceAnchor": [
+        303.0,
+        560
+      ]
+    },
+    "after": {
+      "file": "scenery/relics/urns.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        124,
+        251,
+        388,
+        496
+      ],
+      "colors": 25,
+      "sha256": "da898267dc30ffebf30cff577407b18a52d6ad79f8ecf1e6d1e714b6c5d81590",
+      "raw": "relics",
+      "rawBox": [
+        10,
+        664,
+        616,
+        1226
+      ],
+      "scale": 0.43853820598006643,
+      "sourceAnchor": [
+        303.0,
+        560
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "0fe08ef29e6890084c866083406747d9271f6e0b16e245075a6c6492fe2299b7"
+  },
+  "gravestones": {
+    "before": {
+      "file": "frames/gravestones.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        34,
+        77,
+        94,
+        124
+      ],
+      "colors": 15,
+      "sha256": "25fe9393070a7ba6eb8755bfca7682b09ba56a0ba46cdea873c1788956a3a74f",
+      "raw": "relics",
+      "rawBox": [
+        637,
+        746,
+        1232,
+        1211
+      ],
+      "scale": 0.10152284263959391,
+      "sourceAnchor": [
+        297.5,
+        463
+      ]
+    },
+    "after": {
+      "file": "scenery/relics/gravestones.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        136,
+        309,
+        376,
+        496
+      ],
+      "colors": 24,
+      "sha256": "10320e36c66c83063e5751d34c0163a10ec7c500422e837f7fa7dc757f7477a5",
+      "raw": "relics",
+      "rawBox": [
+        637,
+        746,
+        1232,
+        1211
+      ],
+      "scale": 0.40609137055837563,
+      "sourceAnchor": [
+        297.5,
+        463
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "0fe08ef29e6890084c866083406747d9271f6e0b16e245075a6c6492fe2299b7"
+  },
+  "arch": {
+    "before": {
+      "file": "frames/arch.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        85,
+        83,
+        123
+      ],
+      "colors": 10,
+      "sha256": "cd6289f835cd9a0dcf238adcbc67f0a888d1f5962e71b0a1da4105f384635959",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        0,
+        724,
+        543
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        450.0,
+        543
+      ]
+    },
+    "after": {
+      "file": "scenery/doors/arch.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        180,
+        341,
+        332,
+        494
+      ],
+      "colors": 18,
+      "sha256": "bb36164053644be5a4a72f0798a257949598fb15985bd4bae369f35b7c4ae3bd",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        0,
+        724,
+        543
+      ],
+      "scale": 0.2889733840304182,
+      "sourceAnchor": [
+        450.0,
+        543
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "87c72aa08021f51b4ecfd50274de4bd0f277a70a5f3bbda131680435c4109ca5"
+  },
+  "sun-door": {
+    "before": {
+      "file": "frames/sun-door.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        85,
+        83,
+        123
+      ],
+      "colors": 11,
+      "sha256": "ffdb3eb8512217e755ac81c23356814a3205053597633cd9b6ceb84ee6f30aae",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        0,
+        1448,
+        543
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        275.0,
+        543
+      ]
+    },
+    "after": {
+      "file": "scenery/doors/sun-door.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        180,
+        341,
+        332,
+        494
+      ],
+      "colors": 21,
+      "sha256": "6c2260c7bf8497cb1bad5306618638c1343c19921cdfa18be6cb86598bcb890f",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        0,
+        1448,
+        543
+      ],
+      "scale": 0.2889733840304182,
+      "sourceAnchor": [
+        275.0,
+        543
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "87c72aa08021f51b4ecfd50274de4bd0f277a70a5f3bbda131680435c4109ca5"
+  },
+  "chain-gate": {
+    "before": {
+      "file": "frames/chain-gate.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        86,
+        83,
+        124
+      ],
+      "colors": 13,
+      "sha256": "0660ef22a3af124599f0dcb3cfe27827be2d5deddb3a89340cc5626ed6d8ff11",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        543,
+        724,
+        1086
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        450.0,
+        521
+      ]
+    },
+    "after": {
+      "file": "scenery/doors/chain-gate.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        180,
+        345,
+        332,
+        496
+      ],
+      "colors": 21,
+      "sha256": "1035d4ae8134d5008d4b9d07301f26b24a42da4f126a3b3915ca7278494d2297",
+      "raw": "doors",
+      "rawBox": [
+        0,
+        543,
+        724,
+        1086
+      ],
+      "scale": 0.2889733840304182,
+      "sourceAnchor": [
+        450.0,
+        521
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "87c72aa08021f51b4ecfd50274de4bd0f277a70a5f3bbda131680435c4109ca5"
+  },
+  "shortcut-gate": {
+    "before": {
+      "file": "frames/shortcut-gate.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        45,
+        86,
+        83,
+        124
+      ],
+      "colors": 11,
+      "sha256": "84931cfd519373ed6b43f4e05c7e23cae063de588fb52d477975093c07d8f169",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        543,
+        1448,
+        1086
+      ],
+      "scale": 0.07224334600760456,
+      "sourceAnchor": [
+        275.0,
+        521
+      ]
+    },
+    "after": {
+      "file": "scenery/doors/shortcut-gate.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        180,
+        345,
+        332,
+        496
+      ],
+      "colors": 22,
+      "sha256": "adfae6a2b17d4ed756f997c594c823c0c81324ff3231206e272700422bad2212",
+      "raw": "doors",
+      "rawBox": [
+        724,
+        543,
+        1448,
+        1086
+      ],
+      "scale": 0.2889733840304182,
+      "sourceAnchor": [
+        275.0,
+        521
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "87c72aa08021f51b4ecfd50274de4bd0f277a70a5f3bbda131680435c4109ca5"
+  },
+  "stone-a": {
+    "before": {
+      "file": "frames/stone-a.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        28,
+        80,
+        60
+      ],
+      "colors": 11,
+      "sha256": "c1081028daca8f867697e1266e8cca056d2f777fc67f33184cdf0aeb049a06d1",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        0,
+        730,
+        475
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        32
+      ]
+    },
+    "after": {
+      "file": "scenery/terrain/stone-a.png",
+      "canvas": [
+        512,
+        256
+      ],
+      "pivot": [
+        256,
+        240
+      ],
+      "bounds": [
+        192,
+        112,
+        320,
+        240
+      ],
+      "colors": 20,
+      "sha256": "fcaa82d964b64ad5f2bea8448100dfdec37e79b39b416d0c2ad91b4503dabf94",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        0,
+        730,
+        475
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        64.0,
+        128
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-terrain.json",
+      "worldOffset": [
+        0,
+        0
+      ],
+      "repeatSize": [
+        32,
+        32
+      ]
+    },
+    "raw_sha256": "f5898739af762f19e39a733e997a58c5de3df87ff72ae8441f1c5a39b36af669"
+  },
+  "ledge": {
+    "before": {
+      "file": "frames/ledge.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        34,
+        48,
+        94,
+        60
+      ],
+      "colors": 14,
+      "sha256": "d8a7e962465afb97021686cef2b6229be15f419c018e85235d0da0492e4b5b4b",
+      "raw": "terrain",
+      "rawBox": [
+        730,
+        0,
+        1671,
+        475
+      ],
+      "scale": 0.08053691275167785,
+      "sourceAnchor": [
+        429.0,
+        446
+      ]
+    },
+    "after": {
+      "file": "scenery/terrain/ledge.png",
+      "canvas": [
+        512,
+        256
+      ],
+      "pivot": [
+        256,
+        240
+      ],
+      "bounds": [
+        136,
+        192,
+        375,
+        240
+      ],
+      "colors": 23,
+      "sha256": "0ad6488d0a3343e60133283a9b2a9f02da6c220c0f1f436998ab357f872893a7",
+      "raw": "terrain",
+      "rawBox": [
+        730,
+        0,
+        1671,
+        475
+      ],
+      "scale": 0.3221476510067114,
+      "sourceAnchor": [
+        429.0,
+        446
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-terrain.json",
+      "worldOffset": [
+        0,
+        0
+      ],
+      "repeatSize": [
+        60,
+        12
+      ]
+    },
+    "raw_sha256": "f5898739af762f19e39a733e997a58c5de3df87ff72ae8441f1c5a39b36af669"
+  },
+  "spikes": {
+    "before": {
+      "file": "frames/spikes.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        45,
+        80,
+        59
+      ],
+      "colors": 7,
+      "sha256": "2d67825603d6f935f58cad25d0bfb30f2e8818f5fa58fb163c20a4e673f22110",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        475,
+        975,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        16
+      ]
+    },
+    "after": {
+      "file": "scenery/terrain/spikes.png",
+      "canvas": [
+        512,
+        256
+      ],
+      "pivot": [
+        256,
+        240
+      ],
+      "bounds": [
+        192,
+        177,
+        320,
+        240
+      ],
+      "colors": 20,
+      "sha256": "a9fe83b7eaf1a4c6aacec645a52c1e0cd0a3a288c1c971851d1d06c94e30edde",
+      "raw": "terrain",
+      "rawBox": [
+        0,
+        475,
+        975,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        64.0,
+        64
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-terrain.json",
+      "worldOffset": [
+        0,
+        0
+      ],
+      "repeatSize": [
+        32,
+        14
+      ]
+    },
+    "raw_sha256": "f5898739af762f19e39a733e997a58c5de3df87ff72ae8441f1c5a39b36af669"
+  },
+  "stone-b": {
+    "before": {
+      "file": "frames/stone-b.png",
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "bounds": [
+        48,
+        28,
+        80,
+        60
+      ],
+      "colors": 11,
+      "sha256": "d9a7f90752f9842c4c18661854a7b9796e305908e8501f9d1585ba65bb479e86",
+      "raw": "terrain",
+      "rawBox": [
+        975,
+        475,
+        1671,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        16.0,
+        32
+      ]
+    },
+    "after": {
+      "file": "scenery/terrain/stone-b.png",
+      "canvas": [
+        512,
+        256
+      ],
+      "pivot": [
+        256,
+        240
+      ],
+      "bounds": [
+        192,
+        112,
+        320,
+        240
+      ],
+      "colors": 20,
+      "sha256": "7c4623d0813d478143d71eba8f68743126aaacca5298e9610d1f740458d760e1",
+      "raw": "terrain",
+      "rawBox": [
+        975,
+        475,
+        1671,
+        941
+      ],
+      "scale": 1,
+      "sourceAnchor": [
+        64.0,
+        128
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-terrain.json",
+      "worldOffset": [
+        0,
+        0
+      ],
+      "repeatSize": [
+        32,
+        32
+      ]
+    },
+    "raw_sha256": "f5898739af762f19e39a733e997a58c5de3df87ff72ae8441f1c5a39b36af669"
+  },
+  "shrine": {
+    "before": {
+      "file": "frames/shrine.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        47,
+        82,
+        80,
+        124
+      ],
+      "colors": 25,
+      "sha256": "f9d129077ec0b95bf51094213155e3d670ca3d1df3b8198fdb4d7451091621e5",
+      "raw": "interactions",
+      "rawBox": [
+        92,
+        6,
+        592,
+        635
+      ],
+      "scale": 0.0672,
+      "sourceAnchor": [
+        250.0,
+        627
+      ]
+    },
+    "after": {
+      "file": "scenery/interactions/shrine.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        189,
+        328,
+        322,
+        496
+      ],
+      "colors": 28,
+      "sha256": "d94cb17638c84425e6394341d66205053723bbf702a695f1be826672f63f7357",
+      "raw": "interactions",
+      "rawBox": [
+        92,
+        6,
+        592,
+        635
+      ],
+      "scale": 0.2688,
+      "sourceAnchor": [
+        250.0,
+        627
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "7c3f125d5ce9a57e58340790dbbe5f51d0c6e991f8a92dcf59edf98e17bc2c58"
+  },
+  "fountain": {
+    "before": {
+      "file": "frames/fountain.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        50,
+        82,
+        77,
+        124
+      ],
+      "colors": 26,
+      "sha256": "748dab62c5538cc73beb4bba6d4141e0185766f7cfd7dbfe062ba4da59b42c96",
+      "raw": "interactions",
+      "rawBox": [
+        781,
+        49,
+        1166,
+        635
+      ],
+      "scale": 0.07216494845360824,
+      "sourceAnchor": [
+        192.5,
+        584
+      ]
+    },
+    "after": {
+      "file": "scenery/interactions/fountain.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        201,
+        328,
+        311,
+        496
+      ],
+      "colors": 30,
+      "sha256": "8b93365a35f870d82379c211c3972036b4429bb2865d18ba1b9f6368d24281f0",
+      "raw": "interactions",
+      "rawBox": [
+        781,
+        49,
+        1166,
+        635
+      ],
+      "scale": 0.28865979381443296,
+      "sourceAnchor": [
+        192.5,
+        584
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "7c3f125d5ce9a57e58340790dbbe5f51d0c6e991f8a92dcf59edf98e17bc2c58"
+  },
+  "lever": {
+    "before": {
+      "file": "frames/lever.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        50,
+        109,
+        78,
+        124
+      ],
+      "colors": 13,
+      "sha256": "e2b5930a25785696089d8879872c7bba7dfe52ad093bdb082b88d2127ad79c9a",
+      "raw": "interactions",
+      "rawBox": [
+        46,
+        861,
+        617,
+        1172
+      ],
+      "scale": 0.04938271604938271,
+      "sourceAnchor": [
+        285.5,
+        309
+      ]
+    },
+    "after": {
+      "file": "scenery/interactions/lever.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        200,
+        435,
+        312,
+        496
+      ],
+      "colors": 26,
+      "sha256": "9d71d017583cfde481d1ffb9c14f155d6589f34c5d48b11ef3309e1ea4f1d9b8",
+      "raw": "interactions",
+      "rawBox": [
+        46,
+        861,
+        617,
+        1172
+      ],
+      "scale": 0.19753086419753085,
+      "sourceAnchor": [
+        285.5,
+        309
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "7c3f125d5ce9a57e58340790dbbe5f51d0c6e991f8a92dcf59edf98e17bc2c58"
+  },
+  "sun-key": {
+    "before": {
+      "file": "frames/sun-key.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        59,
+        106,
+        69,
+        123
+      ],
+      "colors": 5,
+      "sha256": "2fa0aecba5853dfa24acbed4627851cf0a53f666b70c6095a34026037caef117",
+      "raw": "interactions",
+      "rawBox": [
+        831,
+        674,
+        1130,
+        1216
+      ],
+      "scale": 0.03389830508474576,
+      "sourceAnchor": [
+        149.5,
+        540
+      ]
+    },
+    "after": {
+      "file": "scenery/interactions/sun-key.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        236,
+        423,
+        276,
+        496
+      ],
+      "colors": 12,
+      "sha256": "906df404455c963bd6b3f554be1fa000c14a3915b7e439aa5d8093d8a216282e",
+      "raw": "interactions",
+      "rawBox": [
+        831,
+        674,
+        1130,
+        1216
+      ],
+      "scale": 0.13559322033898305,
+      "sourceAnchor": [
+        149.5,
+        540
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "7c3f125d5ce9a57e58340790dbbe5f51d0c6e991f8a92dcf59edf98e17bc2c58"
+  },
+  "fragment": {
+    "before": {
+      "file": "frames/fragment.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        60,
+        115,
+        69,
+        124
+      ],
+      "colors": 12,
+      "sha256": "fd5f950289f0d252696fbe42b9ad2e0af3c4dd9d2d4124d56545c08ef6e601cf",
+      "raw": "secrets",
+      "rawBox": [
+        141,
+        114,
+        516,
+        507
+      ],
+      "scale": 0.02425876010781671,
+      "sourceAnchor": [
+        187.5,
+        391
+      ]
+    },
+    "after": {
+      "file": "scenery/secrets/fragment.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        238,
+        458,
+        274,
+        496
+      ],
+      "colors": 18,
+      "sha256": "5ccab058c38c318f530577447546394f51e782d62105920ecf5d694671311e77",
+      "raw": "secrets",
+      "rawBox": [
+        141,
+        114,
+        516,
+        507
+      ],
+      "scale": 0.09703504043126684,
+      "sourceAnchor": [
+        187.5,
+        391
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "6d6b52af9d83aa8b347b033c4f4fad8b45b60c871df25aeaf5bdaeeda7d4b542"
+  },
+  "secret-stone": {
+    "before": {
+      "file": "frames/secret-stone.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        52,
+        92,
+        76,
+        124
+      ],
+      "colors": 10,
+      "sha256": "94c69b53658273323dbb94d8a95d50d02ce50fb34ba79b6c6c817e6b4c789462",
+      "raw": "secrets",
+      "rawBox": [
+        740,
+        56,
+        1135,
+        578
+      ],
+      "scale": 0.061381074168797956,
+      "sourceAnchor": [
+        197.5,
+        520
+      ]
+    },
+    "after": {
+      "file": "scenery/secrets/secret-stone.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        208,
+        369,
+        304,
+        496
+      ],
+      "colors": 21,
+      "sha256": "7f75f3fcdf750bf54332993332b85e7f06809357b0e878d43a474759d262bed4",
+      "raw": "secrets",
+      "rawBox": [
+        740,
+        56,
+        1135,
+        578
+      ],
+      "scale": 0.24552429667519182,
+      "sourceAnchor": [
+        197.5,
+        520
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "6d6b52af9d83aa8b347b033c4f4fad8b45b60c871df25aeaf5bdaeeda7d4b542"
+  },
+  "end-arch": {
+    "before": {
+      "file": "frames/end-arch.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        38,
+        71,
+        90,
+        124
+      ],
+      "colors": 19,
+      "sha256": "6ff8f8eca02e1b9e3a8ed6eccf137a5848d3648ad918572eb9dcb7da3928abf5",
+      "raw": "secrets",
+      "rawBox": [
+        60,
+        651,
+        589,
+        1188
+      ],
+      "scale": 0.09904761904761905,
+      "sourceAnchor": [
+        264.5,
+        535
+      ]
+    },
+    "after": {
+      "file": "scenery/secrets/end-arch.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        152,
+        285,
+        360,
+        496
+      ],
+      "colors": 22,
+      "sha256": "282ea0c4de9451b9496074365575ab58ca9eb15d58ae091f0236102e0f34aba2",
+      "raw": "secrets",
+      "rawBox": [
+        60,
+        651,
+        589,
+        1188
+      ],
+      "scale": 0.3961904761904762,
+      "sourceAnchor": [
+        264.5,
+        535
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "6d6b52af9d83aa8b347b033c4f4fad8b45b60c871df25aeaf5bdaeeda7d4b542"
+  },
+  "ladder": {
+    "before": {
+      "file": "frames/ladder.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "bounds": [
+        57,
+        88,
+        71,
+        124
+      ],
+      "colors": 6,
+      "sha256": "54b34065f95c7a8c874a1ce9bd1ce4f8e8c903fb1927db67a374aaf5ef626cfb",
+      "raw": "secrets",
+      "rawBox": [
+        828,
+        647,
+        1050,
+        1207
+      ],
+      "scale": 0.06422018348623854,
+      "sourceAnchor": [
+        111.0,
+        558
+      ]
+    },
+    "after": {
+      "file": "scenery/secrets/ladder.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        496
+      ],
+      "bounds": [
+        228,
+        353,
+        284,
+        496
+      ],
+      "colors": 17,
+      "sha256": "97e40f7ba73de8dac335bb7c949051024ac7197af887c7b1e7fcdcdc22d37736",
+      "raw": "secrets",
+      "rawBox": [
+        828,
+        647,
+        1050,
+        1207
+      ],
+      "scale": 0.25688073394495414,
+      "sourceAnchor": [
+        111.0,
+        558
+      ],
+      "worldScale": 0.25,
+      "profile": "profiles/scenery-props.json",
+      "worldOffset": [
+        0,
+        0
+      ]
+    },
+    "raw_sha256": "6d6b52af9d83aa8b347b033c4f4fad8b45b60c871df25aeaf5bdaeeda7d4b542"
+  },
+  "background/crypt": {
+    "before": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "backgrounds/crypt-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "137c9cc7e1972b194b6810dbab7815bc4165edf2cd7d8c7de880f171a8fd22eb",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 38,
+          "sha256": "13f1930cb1f004daf6af19c736bcb2b996849aa4f573adab6233744766bc72ce",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "5d7ed1ab823d5d6d270575b5d356827b11ac71242f40d807df7b5c424d0518a6",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "eede3cd4ebc22663529b64502a0526128aef156e17bc89ddecc55af7d007e593",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "df738641c62717d6f3e53ae284fb12036fa01dcedccf54317861e5be36f9d9aa",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 35,
+          "sha256": "be615facc2e96f690142da37ac17af98ed7393f3d49c292846b9dc8cffbf670f",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "36bc59e80e1167b112862bf8aec7d701dbc63c3afc5d9968b272d6c8ff0d7b81",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "44e28c47fd3e64421c0ddf89d5278e4a0fb1e73d2c61c6734d6407d76b5109e5",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "e40fdd341f8fae5163d091ddf93e4140b34fc09d9ac4b03c5b7d533655b07583",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 35,
+          "sha256": "e4d2d962cb445a95623f6e6af3ffe4ae2457312213dfdbe1aa4ed2c50d9d84bf",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "35cd1e03c73ff1c397cf6e3a4fcc20550596526a4a81ab8663550e005979d742",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/crypt-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 42,
+          "sha256": "759995af5e31569ed5fe3bd5212b4533f3af4a981d70bf42c00ce625415664e3",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "after": {
+      "size": [
+        960,
+        540
+      ],
+      "worldSize": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "scenery/backgrounds/crypt-0-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "45229eb98173e1b3c1a464364503e8bf886e2e8177a3aafbbf4af70c948f950b",
+          "x": 0,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-1-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 55,
+          "sha256": "0c22d462fb6b23bb7f52ea92d46b94244f0490b9d230b639f7d3ffa7bf1f5615",
+          "x": 240,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-2-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "123c621a5e838609f7f7f5d0d2c1bfd2da84cccdb07bfdbfa6c49e5f786a2565",
+          "x": 480,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-3-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "0577f9f1764bae954742ed752ddf48b93ddb494166109ca2e8d35b4c963231b3",
+          "x": 720,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-0-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 61,
+          "sha256": "e24b0857fc3a38c5cc65561346dd6a97951371cef2df30b4cb382dcf26af2e97",
+          "x": 0,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-1-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 51,
+          "sha256": "aa134bbe58c1c98189100fb576ee115eb3f9ca1eab9a74e66b7766e0eb4f4acd",
+          "x": 240,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-2-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "0222359693b0607d8e4afd98b089b34c1f51d0e2bb0713c956ab2f041d5407b0",
+          "x": 480,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-3-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "ea4cd6fdca00e2df84997c5e3c28f6039a7303ad5d82769add65ca5e217a7481",
+          "x": 720,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-0-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "1bccf230904fa33bba444ea0fd65d7fd3239478b900f9c437ec6ca4303536056",
+          "x": 0,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-1-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 49,
+          "sha256": "df9fc8df8091f526889c893e20fcf46245bada97c23daadc70e75916ed89e8f5",
+          "x": 240,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-2-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 62,
+          "sha256": "a0f3465b7d922a97e89485f91940becfdc3f6edead6bbd18fd892f088322c171",
+          "x": 480,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/crypt-3-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 56,
+          "sha256": "a3819ea0ae96136e2f762cfe493d038479fed4e4c6b2af16ec9927d1b369cc78",
+          "x": 720,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        }
+      ]
+    },
+    "raw_sha256": "a86ac616a0ee94574b08ae67db96ccbb9e80761669d4eccf07538ce99254f02d"
+  },
+  "background/exterior": {
+    "before": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "backgrounds/exterior-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "ce68a2f386fad199f50053459d61b92e7cb4408f45ec66ce3c15288303e1a8b3",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "9f8096948e29d28132b41b8c957c1805811b359a6d8f46ace614e63d68ca41d4",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "e972bd6960f54e6ae8b88a863cdc2a0b6fc004681436d64285819a6ce5d791e8",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "7b52dc4761b823b80086c44b1cdeff3382a9c3320c02124f283bda62ca4dbca4",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "1987237dbd9991b8d2518bced04b7df68988f370ebc9df621b285beee8e29093",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "c93e0b7775c8a442d5033eb65e5d74cdd566270d00491bc3a683896a3e943783",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "d2ebe7fe5516a431d2096eef80e3c51340c3d836230d2b50b94246bb5f601831",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "2ba41414a1e9b55bf11d96f2a4bef7a2e9f10080e274ce4ae563a17b1d8617f8",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "f6ec65a5bc2d813da90d91a00a4015eb80ee5aed46d8ce2405c4637cc8e7a81d",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "5020e6771525bdf8e4a5a6fa3218b65ddaaac66bbda0479d6188b17f688f012e",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "30dd6e20253942d257a9f2c4f71bc9e14b3cca760dd7ecdc078e77bfc9ebe929",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/exterior-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 45,
+          "sha256": "8fc2cf0eafba4a8c22bdd3e746d5cbde343aceaec5483e93e44bbc3172a52960",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "after": {
+      "size": [
+        960,
+        540
+      ],
+      "worldSize": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "scenery/backgrounds/exterior-0-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "1a9ce842284e46076e011ce05ff113380fd63fafa55c177ef91c7931ac894985",
+          "x": 0,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-1-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "d72e7c7c3c0bd42b202f12262f97f73006ac4dc7ae7f06f3347deaa5552018a9",
+          "x": 240,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-2-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "b0adbb8ce9534165f4cc5b2d94ecf85836feb9cdf2085837656d647a2c6fe2d3",
+          "x": 480,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-3-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "3ec44c12af6c5c9d50cce963559481ed4b0bb9fadf37b7b3e280ec0a092f2911",
+          "x": 720,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-0-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "686fca15fac75cc3474e0e3c26d4823edbce04b82dfc0dd5bfeb7de81cc57165",
+          "x": 0,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-1-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "0e9fbce2717958ec5b9548749c0fcca50b4c5c468a2796f0d2cb6a73203a696d",
+          "x": 240,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-2-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "f4fb3b53d8038ca7ee03bc0e4c198983f37dd1ba0c55dd8b6cb2ad48c92c2d6a",
+          "x": 480,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-3-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "8ac007c258b413839c0c0ecdc5bce105c8899845ac958503142ac875d737ba4c",
+          "x": 720,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-0-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "13831493f8bb8bcfdb15140d40ad70d0f011bb75c22f63d0cf7b77198144b643",
+          "x": 0,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-1-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "ac867227647f370d247e84f54724d8de1b603a27e0442ba7d450b950b81e3088",
+          "x": 240,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-2-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "275686a7bdcd07fccce048f88a492693d5abf58d15a4e131643f5a97428f40fc",
+          "x": 480,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/exterior-3-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "a114c126bd76ac13afffa4cb10f0df93ef5a0b1b9b6952fccedd0a071e3296cc",
+          "x": 720,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        }
+      ]
+    },
+    "raw_sha256": "4550346e874be96d89a0e71892951431be44940689ddc3ce9aef7486196e57ac"
+  },
+  "background/ossuary": {
+    "before": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "backgrounds/ossuary-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "88e64cbf17ecc2d223d0a6963a1b07f82db2b086f860de8d16834a11a3fcac82",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 37,
+          "sha256": "02fd11bf814067b653a19ff74735b05d0f1398b809cc353f3a5b95b68e43d49a",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "0759d6244dd94c56087b0476e51198d64704c924853d75eb2069fb66c154ff71",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "d16f677d7dedb9d3ea4744721d140c4e7a22e76dce095c52869328196427f738",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "58807a220e38f277c1e8733777a840ffc3cb1c02b2137499a105658d43354b02",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "65f47e0b0f7b3e1b5771941af1d03fe876e001013427b5c04f558404f772a794",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "05a024bf058b1c54d93842dd602159160ee83862e69866c9cf63bc6ee9546861",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "ece258d5037a6496c9128d283234897c53b05ef6d146dd71270826b02db98310",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "0e5da4b6f73753bad5f3aecdad57c08e0b0ed8ffb2bc9f43fdb84707fce3e5eb",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 43,
+          "sha256": "678403ec3e5b8c022ad969c423d5c814d9eccfbf2e0f84f195b13d00feca0b90",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "cdc54a26edf5d0bffbc2cd99364ef86dc3f40485e206f6e471978088ce57ce8f",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/ossuary-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "63b03c530655eb2a1cb3e2b9030fe13600c9a2474c192a9d42b3880acc2ba603",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "after": {
+      "size": [
+        960,
+        540
+      ],
+      "worldSize": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "scenery/backgrounds/ossuary-0-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "a33df69d7f869289bc6b971d83ef83e8e4d2a94e4d9737c3c3ef8ee0a0d713cc",
+          "x": 0,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-1-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 58,
+          "sha256": "ec79167b7430d265871be8e006fe591af2bcb5d6f5c7ed2aa125aed51123ed2f",
+          "x": 240,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-2-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "5f8f14f3b34c96b847eeed710118fed8f3789a7c88fa20ee09f9a7fd16f5c89e",
+          "x": 480,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-3-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "1f90a541959ac17f0339b645e9b9bc3be37a067ea3cb0bb3aaca57c950875aba",
+          "x": 720,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-0-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "c20be822580e7fd95a7c56077d0210979ff2a4c7c56ced9a922b2478041b93a0",
+          "x": 0,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-1-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "b33474c0fd12fc7ba1a3fa0a9d076ff31821eaaa8502e253438aa664e572b4db",
+          "x": 240,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-2-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "8729d5fe49bdb471762dac189c1917f0a59ead629e7cf0380d30d152225e67df",
+          "x": 480,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-3-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "bd44c84417205fbf8ac0787fce09ac0f0c1448f448919ff20e5d311978e611c6",
+          "x": 720,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-0-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "ebc8acc5cafe46dfbf189bd7ccc3e130975e161dab778fdda32b4e0269de0e39",
+          "x": 0,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-1-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 62,
+          "sha256": "661b229d8eaee10ed2ab8e2ffe10f7110e1eaf1c6c718a03139934deadbdf8c9",
+          "x": 240,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-2-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "a18993649abf959bbd5dd311ed3089db6d8c277de006db6f30ad54d6604ac146",
+          "x": 480,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/ossuary-3-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "3fa17ddeb6832e11a4429552a74ba24c471e17098494ee5ef97c2081d61546e5",
+          "x": 720,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        }
+      ]
+    },
+    "raw_sha256": "6fea7a4bc7a0427b6117ee63fd93b0db685c2abfb9c6920ab9f1e65532ebb786"
+  },
+  "background/arena": {
+    "before": {
+      "size": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "backgrounds/arena-0-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "e353faaa0a6d79d8f077f29411b8f66996cc73f7a4d74de83e759006f63208da",
+          "x": 0,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-1-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 46,
+          "sha256": "3ac7f2f2e41b069e93a5badc666e0f35aeb1cb7fc95dc415aa554a76f4798e25",
+          "x": 120,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-2-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "4267217623222cc957ea16e77fd05e27a5452958de9793bef5095c175c32e0e0",
+          "x": 240,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-3-0.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "fd906f38020a61eb515b1fd7987582f890f5ca77605e94cbe6afedbc65c1b49c",
+          "x": 360,
+          "y": 0,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-0-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "1c9b0175567ed98adc4abb4ae509cad75b7ed036d8466d0c22cedf078044d46b",
+          "x": 0,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-1-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 47,
+          "sha256": "c22899ead482f6ff26527a7c81c5e14febb07a67864af483c975e9071a552919",
+          "x": 120,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-2-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 48,
+          "sha256": "e40de11ef0f5308eb87f7fa2a6c66ce0ff92b64b377c59fa2875d98946fa0678",
+          "x": 240,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-3-1.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "60295cdd6abac09d6c29dca88bff7504e6c2537c5ce38494d3409168e6fa0364",
+          "x": 360,
+          "y": 90,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-0-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "b8ece403cb4bbe4b73dd555fa352d97c6166e376146be4e26adec02f3448fbee",
+          "x": 0,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-1-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 40,
+          "sha256": "8d43005fb3af25a1e9abac464467749517d51a551c509cbb9e14db3013587f0f",
+          "x": 120,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-2-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 43,
+          "sha256": "17d3170f45cc5d4b479904cc85e2ec17e52c984a552dbc62c3b9f613f97eb3e3",
+          "x": 240,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        },
+        {
+          "file": "backgrounds/arena-3-2.png",
+          "canvas": [
+            122,
+            92
+          ],
+          "pivot": [
+            61,
+            91
+          ],
+          "bounds": [
+            1,
+            1,
+            121,
+            91
+          ],
+          "colors": 49,
+          "sha256": "cec857794e7270e43b3bb06d2ab1b21956f505cd4f41f73a4488df2a330e90d4",
+          "x": 360,
+          "y": 180,
+          "source": [
+            1,
+            1,
+            120,
+            90
+          ]
+        }
+      ]
+    },
+    "after": {
+      "size": [
+        960,
+        540
+      ],
+      "worldSize": [
+        480,
+        270
+      ],
+      "panels": [
+        {
+          "file": "scenery/backgrounds/arena-0-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "549a56d828c86d5e9b7ba38cc6452007c179fae494afc6370feccc3be8c2d38e",
+          "x": 0,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-1-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 63,
+          "sha256": "daf3ac37dcb0de9459fd5d74b703af59c73e6bb775060abd7043d3fa3920a5ca",
+          "x": 240,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-2-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "f93e79d9054726b00e9f1953d0f43357c709a0bbb048f891b5647c2d60255ab8",
+          "x": 480,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-3-0.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "a98c03458089888e2c700de0331c12399e1631e77c0c1eec9a430934b0cd0c44",
+          "x": 720,
+          "y": 0,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-0-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "77b6f294528756b98ee1928fdcf59b59a7e2ec6f1eab4b3c448a26545dc28a7a",
+          "x": 0,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-1-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "b9be66414e4a871efa78f4bf2d73b8b641670b28de188497f74562f01149ac12",
+          "x": 240,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-2-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "c3bb2b85ed4be6110c1ae953f7b0b72cad4150eb9fbbf1735347fcf783390899",
+          "x": 480,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-3-1.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "157c792cdbeaaac9808894aab144e38df27b8f4e568297cc8d8f986a269480ab",
+          "x": 720,
+          "y": 180,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-0-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "af3fc18475c3352b860ca7ec92aeba60b1e34c1754e28c026b2360cecb109cfa",
+          "x": 0,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-1-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 59,
+          "sha256": "5b38f9f2489c70e0d3fa549421ba7e11d5ee04407a0355391c25153ecb47e1b9",
+          "x": 240,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-2-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 62,
+          "sha256": "fe1c79c9f2dacd76a540f7136b4498ffb90f52191121ced7d36a8973b9f58a60",
+          "x": 480,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        },
+        {
+          "file": "scenery/backgrounds/arena-3-2.png",
+          "canvas": [
+            244,
+            184
+          ],
+          "pivot": [
+            122,
+            182
+          ],
+          "bounds": [
+            2,
+            2,
+            242,
+            182
+          ],
+          "colors": 64,
+          "sha256": "21f72a5f6639342ac232e858526e543ac0f95986cba88aeb5382906dcd777a88",
+          "x": 720,
+          "y": 360,
+          "source": [
+            2,
+            2,
+            240,
+            180
+          ],
+          "profile": "profiles/scenery-background.json"
+        }
+      ]
+    },
+    "raw_sha256": "ca274f290a1628ef99e2c28f1270fe0014ab88618157f89ec8ad16ce76379106"
+  }
+}

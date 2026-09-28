@@ -1,0 +1,244 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 11,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        41,
+        21,
+        88,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\boss-slash\\boss-slash-0.png",
+      "input_sha256": "365fa91e9a6b0b9340d69fe70e251691daafd3378a0026deb7f7b059888891f3",
+      "input_size": [
+        280,
+        225
+      ],
+      "input_bbox": [
+        45,
+        35,
+        232,
+        190
+      ],
+      "source_anchor": [
+        138.5,
+        190
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.25,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\boss-slash\\boss-slash-0.png",
+      "output_sha256": "38bee91b3e9379c3b23f5a508e1cf300cfe2420c6ef4181fd9aced54ed506f7c"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#408478",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#ed8e5e",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        36,
+        20,
+        91,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\boss-slash\\boss-slash-1.png",
+      "input_sha256": "8b1d670337f9745690911bbfa1b51506e6c6353907301f6910d64c488eb603f1",
+      "input_size": [
+        281,
+        225
+      ],
+      "input_bbox": [
+        37,
+        30,
+        257,
+        189
+      ],
+      "source_anchor": [
+        147.0,
+        189
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.25,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\boss-slash\\boss-slash-1.png",
+      "output_sha256": "8ff6d36aa49118f950ebccb7d791c9c8d95fab2c5441b9805ec1b7f32b8bc572"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 13,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        39,
+        22,
+        89,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\boss-slash\\boss-slash-2.png",
+      "input_sha256": "539f383540105ded6567f0ccb7380f07326552e7ca5b1bde849e2c2a5ce908ee",
+      "input_size": [
+        280,
+        225
+      ],
+      "input_bbox": [
+        38,
+        37,
+        238,
+        189
+      ],
+      "source_anchor": [
+        138.0,
+        189
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.25,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\boss-slash\\boss-slash-2.png",
+      "output_sha256": "6aea1470e2c1353e241aa2eda0fe25de15bd97efc7d8235e2ccc512eee7b0770"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 8,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        42,
+        22,
+        87,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\boss-slash\\boss-slash-3.png",
+      "input_sha256": "44a275722e14630a238adf3c7f2abf45e5a143cc4d37ad9e8a9a04358d860128",
+      "input_size": [
+        281,
+        225
+      ],
+      "input_bbox": [
+        62,
+        51,
+        242,
+        203
+      ],
+      "source_anchor": [
+        152.0,
+        203
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.25,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\boss-slash\\boss-slash-3.png",
+      "output_sha256": "2d445a8e72d1c5602f9efdcbd75db32cca720595710205357dbdd591754e3a6f"
+    }
+  ]
+}

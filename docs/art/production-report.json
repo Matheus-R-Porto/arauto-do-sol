@@ -1,0 +1,2778 @@
+{
+  "idle": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 609,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "d1b48da65a568084b82fed8574dada0c39286a36cdf686a6a27e9bdb9c75136e",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          46,
+          16,
+          88,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-0.png",
+        "input_sha256": "39ab7e4c70ab3408844e691647cb3dd43bdf2c910711ae2d6d9260f56890f9da",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          332,
+          70,
+          598,
+          679
+        ],
+        "source_anchor": [
+          448,
+          679
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.15763546798029557,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\idle\\idle-0.png",
+        "output_sha256": "81e13f5243da0fd3e8a4be9d54faa2f430136e0f434a378af9a5fc4c42ae510a"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          44,
+          16,
+          88,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-1.png",
+        "input_sha256": "240083c3e490d199b408d5cb3e09cc1492507d91f5439bce0fb379478b315aca",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          218,
+          70,
+          499,
+          679
+        ],
+        "source_anchor": [
+          347,
+          679
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.15763546798029557,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\idle\\idle-1.png",
+        "output_sha256": "fcff99408450cd6a4ecc7781001fc6cfdf9ee9a2c85b1750eb018bcbbdfd7836"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          45,
+          16,
+          88,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-2.png",
+        "input_sha256": "af56c7a3f25c863ec4eb436a6fc93b847886603ed888adf794866c86337eb7e2",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          128,
+          70,
+          399,
+          679
+        ],
+        "source_anchor": [
+          249,
+          679
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.15763546798029557,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\idle\\idle-2.png",
+        "output_sha256": "e2e401b0fdc172320997f7c9e36bd0469e573c236332d0478ebfe9bcb4ddbe0e"
+      }
+    ]
+  },
+  "walk": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 488,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "925b6fecb75c78ddf49575fce70e0032bd9e69e9878cfab95ba4e9bf05df927b",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          39,
+          16,
+          93,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\walk\\walk-0.png",
+        "input_sha256": "70f09e3ed35334d12805dca0ebe549ebce684a8b5c8b8b770a16d2a91f49b1e1",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          221,
+          105,
+          493,
+          593
+        ],
+        "source_anchor": [
+          349,
+          593
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19672131147540983,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\walk\\walk-0.png",
+        "output_sha256": "7ac8751d6333851bc73ec50cef3fb5b3f18ccd7b0d1f81de97f52a9dff79253d"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          40,
+          16,
+          93,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\walk\\walk-1.png",
+        "input_sha256": "37da82bc6f6aeea4306a4b763b28f223037e5faadec6430fccf75314eee819ff",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          184,
+          105,
+          451,
+          593
+        ],
+        "source_anchor": [
+          304,
+          593
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19672131147540983,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\walk\\walk-1.png",
+        "output_sha256": "2fae2e66159adb1af56e4ac1a7da0cf9a897c7fd91adef48d1236f053a045b50"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          38,
+          17,
+          95,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\walk\\walk-2.png",
+        "input_sha256": "8834c1c4bc44679cd4e1a5c702e29d0355c35cb1fbb49d98185769c8288e4311",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          224,
+          59,
+          516,
+          544
+        ],
+        "source_anchor": [
+          354,
+          544
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19672131147540983,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\walk\\walk-2.png",
+        "output_sha256": "51be454d4a4c21e49c95232994a0bb8f31d9bdd22bda2e6d627dd31ddc09c485"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          38,
+          17,
+          97,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\walk\\walk-3.png",
+        "input_sha256": "c95bc142c245779355e7bd1097d7a1a3fa3c627e4a2c272b8660aba0c56039b5",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          169,
+          59,
+          471,
+          544
+        ],
+        "source_anchor": [
+          303,
+          544
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19672131147540983,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\walk\\walk-3.png",
+        "output_sha256": "5362640e349bb7480968977c3c0015b32ade82e5972a8d5389c76779495e88ff"
+      }
+    ]
+  },
+  "run": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 520,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "addafacc3936edc1cd7391a94d7665af7d9f78a1063ce8043c2f58a6f706d535",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          23,
+          27,
+          96,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\run\\run-0.png",
+        "input_sha256": "e7cc4dd4df90756c50d830410133c9fb50f050e664253a88b70bc9cc8eb843b3",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          125,
+          116,
+          522,
+          579
+        ],
+        "source_anchor": [
+          348,
+          579
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18461538461538463,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\run\\run-0.png",
+        "output_sha256": "f70fc982b0da50e84ee266d9e10d9bfa7c27006f68105c20c9dfd539eb3d9df5"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          22,
+          26,
+          95,
+          101
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\run\\run-1.png",
+        "input_sha256": "c53ee4c66b489f9f07ea81012f1877b931058e8f4239bc0276f1f89a23907bc2",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          86,
+          115,
+          480,
+          520
+        ],
+        "source_anchor": [
+          316,
+          579
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18461538461538463,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\run\\run-1.png",
+        "output_sha256": "7d1f381e16c7d4d25f7b44607ea898b41be9b80e8151728c5f89270313c00f87"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          23,
+          26,
+          100,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\run\\run-2.png",
+        "input_sha256": "db90b60fea0d04699d335d22b9a569de80fe1d80063bc17811ff0f0b7455f60b",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          143,
+          76,
+          562,
+          544
+        ],
+        "source_anchor": [
+          366,
+          544
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18461538461538463,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\run\\run-2.png",
+        "output_sha256": "278c23f6781506d8610c6da19182dccf8244c9c48a1898cc74f767e429e6f7ec"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          21,
+          25,
+          93,
+          99
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\run\\run-3.png",
+        "input_sha256": "c017bc36b05c9f8a98cb002825080aef21f5a2abce714f1f91e48a681bfb0d1b",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          81,
+          74,
+          473,
+          473
+        ],
+        "source_anchor": [
+          316,
+          544
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18461538461538463,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\run\\run-3.png",
+        "output_sha256": "3c34fe7bd4f0a4cccc8d44569bb6a13efa21f48bca6ac77941c69928d071c9ca"
+      }
+    ]
+  },
+  "air": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 510,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "9bf3f0a332c706abd3fa59aa78095b891be38435e5657498fa3cad91f373324a",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          38,
+          16,
+          90,
+          105
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\air\\fall-0.png",
+        "input_sha256": "d32b0a140f935cf03b921e1a1d424ad50446b3f9493cddf2d4d29eb1a1fdd109",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          191,
+          74,
+          468,
+          549
+        ],
+        "source_anchor": [
+          329,
+          584
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18823529411764706,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\air\\fall-0.png",
+        "output_sha256": "e7558d38939b20dd0938f2bb39301af548ecf0799dd7eaa91274b235e67f7d49"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          38,
+          16,
+          91,
+          103
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\air\\fall-1.png",
+        "input_sha256": "5dafea3430905642f7ca91b87482216794f1bffc196f96b5dd92e4a8b35eab31",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          195,
+          74,
+          479,
+          537
+        ],
+        "source_anchor": [
+          335,
+          584
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18823529411764706,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\air\\fall-1.png",
+        "output_sha256": "ab39559644a34783023f836badb42dcbd9b0018a18d89888d6daf8ec888a1b99"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          42,
+          16,
+          91,
+          102
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\air\\jump-0.png",
+        "input_sha256": "5494a9b42381263efecef065bffe62ce4dbd796bd2e8ae6bca7525dd22d00fb1",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          210,
+          76,
+          468,
+          532
+        ],
+        "source_anchor": [
+          329,
+          586
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18823529411764706,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\air\\jump-0.png",
+        "output_sha256": "1743a86badfdf7d4790e149174fb95628fe377dde207e75810e9660b811d35d1"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          41,
+          16,
+          91,
+          92
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\air\\jump-1.png",
+        "input_sha256": "d92779b7f87f449355f9b38c9d576b5f5730b64d8e5903a600d3faf71cace0db",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          205,
+          76,
+          469,
+          478
+        ],
+        "source_anchor": [
+          329,
+          586
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.18823529411764706,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\air\\jump-1.png",
+        "output_sha256": "c87710953ec293acce8e624746d71d33af75a579e765815460574ba8188ed2c2"
+      }
+    ]
+  },
+  "attack-light": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 592,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "d5b8b997e2a281165c2a43a2e98d40b55b7f5083c4bea1d325ad0a5a62f22c0d",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          44,
+          16,
+          126,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-light\\attack-light-0.png",
+        "input_sha256": "466cd1e3c8765348d7a76d912aebd8309d62fefbf27cf90f87a7741e80e4e6de",
+        "input_size": [
+          850,
+          724
+        ],
+        "input_bbox": [
+          288,
+          83,
+          791,
+          674
+        ],
+        "source_anchor": [
+          409,
+          674
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.16216216216216217,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-light\\attack-light-0.png",
+        "output_sha256": "f3e171449a8610c06243a55a11e8d5abb0361fc7427e38b1dbfe0e45979deba2"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          43,
+          16,
+          111,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-light\\attack-light-1.png",
+        "input_sha256": "c7416635ce8dde6cc29f493fe4db1ce1ab9dc6cb1da4a77666e39c455b0eb9b5",
+        "input_size": [
+          650,
+          724
+        ],
+        "input_bbox": [
+          93,
+          85,
+          515,
+          674
+        ],
+        "source_anchor": [
+          225,
+          674
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.16216216216216217,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-light\\attack-light-1.png",
+        "output_sha256": "ddc84af7ed1f9ca181cb4deb55cede49eddb034ccc2b518974c33accd33c5017"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          43,
+          16,
+          88,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-light\\attack-light-2.png",
+        "input_sha256": "059d0c4af32ee8d3a98933b0a9fd5c2db8e26a89531bc516c5d53595ca76a1de",
+        "input_size": [
+          672,
+          724
+        ],
+        "input_bbox": [
+          122,
+          82,
+          398,
+          674
+        ],
+        "source_anchor": [
+          249,
+          674
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.16216216216216217,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-light\\attack-light-2.png",
+        "output_sha256": "2fb70b50883a408c4c78ce1a6cf9c96c25ed6d2c0e72cc3abdd44ee848420389"
+      }
+    ]
+  },
+  "attack-m2": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 560,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "9b13cfa33f41fb14d914a4edfa6a8c4a0774d4ef852bc680cda69f4b0819b62e",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          41,
+          23,
+          120,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-m2\\attack-m2-0.png",
+        "input_sha256": "108bdf4abd0f3bece8aeb094dfa3e93f93ebd475170c7fc7ae2bf1a2c839b29a",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          258,
+          139,
+          721,
+          660
+        ],
+        "source_anchor": [
+          394,
+          660
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.17142857142857143,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-m2\\attack-m2-0.png",
+        "output_sha256": "efe1005c75b94d39f6dc4d7b56efa9616d2ea39c5e1adf52db7e41dd61e9ad23"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          41,
+          27,
+          113,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-m2\\attack-m2-1.png",
+        "input_sha256": "6829f2b1083764d92dc36d970b5746586e7df3a4144c73fa2b8afdca23b15d28",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          205,
+          166,
+          624,
+          660
+        ],
+        "source_anchor": [
+          340,
+          660
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.17142857142857143,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-m2\\attack-m2-1.png",
+        "output_sha256": "55539356bb8b22211671d7ee8f71f09abbfc50c1920568f03c7337ca926147cd"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 15,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          43,
+          16,
+          89,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\attack-m2\\attack-m2-2.png",
+        "input_sha256": "67f5f0ba65e6d4a4d4727580a95c3476979bf4d60d6d2c395714b3b987417b95",
+        "input_size": [
+          724,
+          724
+        ],
+        "input_bbox": [
+          192,
+          100,
+          458,
+          660
+        ],
+        "source_anchor": [
+          312,
+          660
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.17142857142857143,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\attack-m2\\attack-m2-2.png",
+        "output_sha256": "81542005e6386f7077f3b0f120e9f2f29ebaa1b19fe72283ca571b3e11b64a32"
+      }
+    ]
+  },
+  "hurt": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 584,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "5c085d3184929a3627c7335c1c8b9df81fbb864358f6c4db317f8a264863918f",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          35,
+          13,
+          94,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\hurt\\hurt-0.png",
+        "input_sha256": "fc7f5cb8a7cd9fa067df14cd0bc3fe77a2811a5c0c0256ff437d67449d54646d",
+        "input_size": [
+          887,
+          887
+        ],
+        "input_bbox": [
+          400,
+          192,
+          756,
+          793
+        ],
+        "source_anchor": [
+          575,
+          793
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.1643835616438356,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\hurt\\hurt-0.png",
+        "output_sha256": "496a9407e480a5d27a8260867cb11c244227a92d936d4e42432cb676c857d526"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          44,
+          16,
+          90,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\hurt\\hurt-1.png",
+        "input_sha256": "c471b75c240a9c42bd5f50b5dffcf2452f1bb4e31c6314750ac6aa9c1a5ef5ab",
+        "input_size": [
+          887,
+          887
+        ],
+        "input_bbox": [
+          224,
+          209,
+          501,
+          793
+        ],
+        "source_anchor": [
+          346,
+          793
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.1643835616438356,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\hurt\\hurt-1.png",
+        "output_sha256": "8e3c5be713c00592429df1b6a1258c06663665bb17715e919a2e1809c07e0cfb"
+      }
+    ]
+  },
+  "death": {
+    "tool_version": "1.1.0",
+    "pillow_version": "12.3.0",
+    "profile": {
+      "schema_version": 1,
+      "name": "protagonist",
+      "status": "resolution-correction",
+      "max_frame": [
+        128,
+        128
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "visible_size": [
+        126,
+        126
+      ],
+      "margin": 1,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 490,
+        "target_pixels": 96
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 16,
+      "palette": "../palettes/protagonist.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "auto",
+        "color": null,
+        "tolerance": 20
+      },
+      "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+      "fit_anchor": true,
+      "world_scale": 0.25
+    },
+    "palette_colors": [
+      [
+        219,
+        211,
+        186
+      ],
+      [
+        181,
+        172,
+        150
+      ],
+      [
+        143,
+        133,
+        114
+      ],
+      [
+        105,
+        95,
+        79
+      ],
+      [
+        66,
+        57,
+        47
+      ],
+      [
+        46,
+        37,
+        30
+      ],
+      [
+        26,
+        18,
+        11
+      ],
+      [
+        238,
+        231,
+        207
+      ],
+      [
+        199,
+        190,
+        166
+      ],
+      [
+        164,
+        153,
+        129
+      ],
+      [
+        123,
+        112,
+        91
+      ],
+      [
+        84,
+        74,
+        59
+      ],
+      [
+        36,
+        35,
+        41
+      ],
+      [
+        81,
+        84,
+        89
+      ],
+      [
+        140,
+        142,
+        140
+      ],
+      [
+        195,
+        197,
+        185
+      ]
+    ],
+    "profile_sha256": "5fa5ef400ccbc9b4772736c352b28d419865abd6d2420e3069df0653d163fb1d",
+    "frames": [
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          50,
+          28,
+          93,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-0.png",
+        "input_sha256": "1180f33ae8cc137395488975d058645e53cab880f9a7402ed2252f3a3868c0cb",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          236,
+          179,
+          458,
+          608
+        ],
+        "source_anchor": [
+          305,
+          608
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19591836734693877,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-0.png",
+        "output_sha256": "79dd03bd9dceaa89f2ba39ff9e4e492b9a0cf9de4386c22d2dc630e0d5eed74e"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          36,
+          51,
+          92,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-1.png",
+        "input_sha256": "8944360c03e09dfe2833e0380e34f4e974716fb2c388f3d75488cd5e461f65a3",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          162,
+          299,
+          446,
+          608
+        ],
+        "source_anchor": [
+          304,
+          608
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19591836734693877,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-1.png",
+        "output_sha256": "bab20967612253cadf2538613c278eb073d4962d258f7a422847e4af4d228da4"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          29,
+          72,
+          112,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-2.png",
+        "input_sha256": "89bf65c27a66ad2f06903f919bd00294dbbc6b42a698fd5b10cbdaf9af2161f1",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          124,
+          319,
+          550,
+          521
+        ],
+        "source_anchor": [
+          304,
+          521
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19591836734693877,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-2.png",
+        "output_sha256": "f748be8160bb22a3c9e66a77b2f27fcb7d7237fd4c6bf5e4ef6efe4b011445cd"
+      },
+      {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "visible_colors": 16,
+        "colors": [
+          "#1a120b",
+          "#242329",
+          "#2e251e",
+          "#42392f",
+          "#515459",
+          "#544a3b",
+          "#695f4f",
+          "#7b705b",
+          "#8c8e8c",
+          "#8f8572",
+          "#a49981",
+          "#b5ac96",
+          "#c3c5b9",
+          "#c7bea6",
+          "#dbd3ba",
+          "#eee7cf"
+        ],
+        "alpha": "binary",
+        "transparent": true,
+        "visible_bbox": [
+          28,
+          88,
+          111,
+          112
+        ],
+        "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-3.png",
+        "input_sha256": "15e8f69daed1afc9dedc64e2d7702f9c54502291fc8533c59b5364ffc25ee0a8",
+        "input_size": [
+          627,
+          627
+        ],
+        "input_bbox": [
+          122,
+          392,
+          544,
+          516
+        ],
+        "source_anchor": [
+          304,
+          516
+        ],
+        "background": {
+          "action": "preserved_alpha",
+          "removed_pixels": 0
+        },
+        "common_scale": 0.19591836734693877,
+        "downsample_method": "lanczos",
+        "post_scale_method": "nearest",
+        "pivot": [
+          64,
+          112
+        ],
+        "baseline": 112,
+        "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-3.png",
+        "output_sha256": "97bfc353dea8b2ae39083e959109b935cc749e6e7c2b2bdad70b8dacc6031cde"
+      }
+    ]
+  }
+}

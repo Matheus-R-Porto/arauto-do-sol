@@ -1,0 +1,314 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#b65240",
+        "#cf9454",
+        "#ded3ae",
+        "#ed8e5e",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        29,
+        20,
+        98,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\shockwave\\shockwave-0.png",
+      "input_sha256": "9f1cfaff5a2a75b38ebc5cc1499abd7985d21d3b3aca4cbe6a7a9c29f809f707",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        29,
+        35,
+        237,
+        154
+      ],
+      "source_anchor": [
+        133.0,
+        154
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\shockwave\\shockwave-0.png",
+      "output_sha256": "de4df0519a5b0da1adeac2619f465c0615afe0e5744f6cd88601e5f7c6feb4ce"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 18,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#408478",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#b65240",
+        "#c3dcce",
+        "#cf9454",
+        "#ded3ae",
+        "#ed8e5e",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        19,
+        30,
+        108,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\shockwave\\shockwave-1.png",
+      "input_sha256": "f90e8cc10108f26e27a29a28da89a3225e6a74784bbf9b3cc48d972839467a2f",
+      "input_size": [
+        281,
+        224
+      ],
+      "input_bbox": [
+        2,
+        65,
+        270,
+        154
+      ],
+      "source_anchor": [
+        136.0,
+        154
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\shockwave\\shockwave-1.png",
+      "output_sha256": "e9aefff8c19ae1f2a06399d830bce0df7fe743261313ff7f5039c2d7390eeb0d"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 18,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#408478",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#80528f",
+        "#956341",
+        "#b65240",
+        "#c3dcce",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        22,
+        38,
+        105,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\shockwave\\shockwave-2.png",
+      "input_sha256": "d77015b1990cc761456b939f76baed923a8b91ca0cb37016ab058bd4a6e44d87",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        31,
+        87,
+        280,
+        154
+      ],
+      "source_anchor": [
+        155.5,
+        154
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\shockwave\\shockwave-2.png",
+      "output_sha256": "bfaf5dc9c49934c60bccfd480df3ddfe615a162be4f0670cc2667ea2d4451e1c"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#27233e",
+        "#408478",
+        "#455660",
+        "#564039",
+        "#713c39",
+        "#7b999d",
+        "#956341",
+        "#b65240",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        17,
+        43,
+        111,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\shockwave\\shockwave-3.png",
+      "input_sha256": "2eec1dcc7754b2a47d138027e7dd9c61f8705e66a9eb009a4cc8e32fc4ef6ef8",
+      "input_size": [
+        281,
+        224
+      ],
+      "input_bbox": [
+        0,
+        104,
+        281,
+        154
+      ],
+      "source_anchor": [
+        140.5,
+        154
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\shockwave\\shockwave-3.png",
+      "output_sha256": "aa22147b1eb76ea5cfe1ae462bcda6c27e96c19b902e9a05092efd2fba171dea"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 2,
+      "colors": [
+        "#23232d",
+        "#244742"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        23,
+        47,
+        106,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\shockwave\\shockwave-4.png",
+      "input_sha256": "43f2496c7a0124adba220f11060ee17d700f98862977cd5ced0907a938a9f14e",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        0,
+        115,
+        248,
+        154
+      ],
+      "source_anchor": [
+        124.0,
+        154
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3333333333333333,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\shockwave\\shockwave-4.png",
+      "output_sha256": "ad126b83c65f5ec134386c1f6dc015251d619f0b6dcced4d019f9e2edd2132e9"
+    }
+  ]
+}

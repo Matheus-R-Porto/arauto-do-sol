@@ -1,0 +1,17 @@
+2026-09-19 — http://localhost:5174/tests/playthrough.html
+Percurso anti-softlock, comandos normais, reprodução 4×.
+PAUSADO | finished | beyond | 355.7s | 5 mortes | 17/17 salas
+4 fragmentos; boss derrotado; todos os atalhos; saída e final funcionais.
+Player: fall, walk, run, jump, attack-m2, hurt, idle, attack-light, death.
+Entidades: walker idle/walk/windup/hurt/recovery/death/active;
+lunger idle/walk/windup/active/recovery/hurt/death;
+ranged idle/windup/active/recovery/hurt/death;
+boss intro/idle/walk/slashwindup/slashactive/recovery/chargewindup/chargeactive/slamwindup/slamactive/hurt/death.
+VFX registrados: dust, hit, charge, projectile, projectile-impact, shockwave, phase-transition.
+Render médio observado no fim: 0.61 ms; pico 2.90 ms.
+Sem erros/avisos de console.
+Essa medição cobre a renderização na máquina atual, não é garantia de FPS para todo hardware.
+Ranged walk não ocorreu nesta rota; inspeção e caso isolado de recuo são registrados separadamente.
+Inspeções 1×: Player idle com flip/collider; Walker windup;
+Lunger active espelhado; Ranged active; boss slash-windup e provas nativas de todos os sets.
+Caso isolado de recuo com a AI real: Ranged deslocou -18.70 px em 0.85 s; os 4/4 quadros de walk foram observados. Apenas posicionamento inicial de fixture; depois RoomManager.update e Enemy.update reais, sem alterações de regras.

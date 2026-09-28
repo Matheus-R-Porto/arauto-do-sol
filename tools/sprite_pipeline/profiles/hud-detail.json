@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "hud-detail",
+  "max_frame": [
+    512,
+    192
+  ],
+  "canvas": [
+    512,
+    192
+  ],
+  "pivot": [
+    256,
+    176
+  ],
+  "visible_size": [
+    504,
+    184
+  ],
+  "margin": 4,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": null,
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 16,
+  "palette": "../palettes/world-hud.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 4,
+  "notes": "HUD 4x pixel density from immutable RAW; same screen size and anchors."
+}

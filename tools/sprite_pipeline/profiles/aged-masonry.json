@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "name": "aged-masonry",
+  "max_frame": [
+    512,
+    256
+  ],
+  "canvas": [
+    512,
+    256
+  ],
+  "pivot": [
+    256,
+    240
+  ],
+  "visible_size": [
+    128,
+    128
+  ],
+  "margin": 4,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": null,
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 32,
+  "palette": "../palettes/aged-stone.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "preserve",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 4,
+  "notes": "RAW imutavel; reducao Lanczos; bordas compartilhadas antes da quantizacao; paleta mestre de 32 cores; 128px correspondem a 32 unidades aprovadas.",
+  "texture": {
+    "size": [
+      128,
+      128
+    ],
+    "repeat_world": [
+      32,
+      32
+    ],
+    "edge_band": 8,
+    "crops": {
+      "a": [
+        0,
+        28,
+        1254,
+        1180
+      ],
+      "b": [
+        0,
+        58,
+        880,
+        762
+      ],
+      "c": [
+        0,
+        100,
+        1254,
+        1218
+      ]
+    },
+    "seed": 1977
+  }
+}

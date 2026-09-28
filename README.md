@@ -1,173 +1,104 @@
-# Arauto do Sol — protótipo
+# Arauto do Sol â€” demo v0.6.0 do CemitÃ©rio
 
-Metroidvania 2D em HTML5 + JavaScript puro (Canvas 2D, sem engine, sem build step).
-Nome provisório. O GDD conceitual está em `docs/GDD.md`.
+Vertical slice em **HTML5, JavaScript ES Modules e Canvas 2D**. Sem engine, build ou dependÃªncias externas no jogo. Arte integrada em todas as categorias, agora com animaÃ§Ãµes ampliadas e sincronizadas ao gameplay. GDD original preservado em `docs/GDD.md`.
 
-Esta primeira fatia implementa **movimento, a barra de energia única e o
-início do combate** — a base que define o *game feel* antes de qualquer
-conteúdo.
+## Pacote para enviar a outra pessoa
 
-## Rodando
+O ZIP **Arauto-do-Sol-v0.6.0-Windows.zip** fica na pasta acima do projeto. No Windows, basta extrair tudo e abrir **Jogar Arauto do Sol.exe**. Abre no navegador, funciona offline e dispensa Node.js. Mantenha a janela do iniciador aberta enquanto joga. [RelatÃ³rio do cenÃ¡rio v0.6.0](docs/RELATORIO_CENARIO.md) Â· [RelatÃ³rio das animaÃ§Ãµes v0.5](docs/RELATORIO_ANIMACOES_V2.md).
 
-```bash
+## Arte do protagonista
+
+ReferÃªncia preservada, RAW separados e processamento reproduzÃ­vel em Python/Pillow. Corpo de referÃªncia de 96 pixels no asset, renderizado em 24 unidades de mundo, canvas 128Ã—128, origem nos pÃ©s e paleta mestre de 16 cores. A fÃ­sica, hitboxes e lÃ³gica de combate permanecem iguais Ã  v0.2.0. [RelatÃ³rio da arte](docs/RELATORIO_ARTE_1.md) Â· [Uso da ferramenta](tools/sprite_pipeline/README.md).
+
+## Tela cheia
+
+Use o botÃ£o **Tela cheia** ou **F**. **Esc** sai do fullscreen. Base raster 960Ã—540, saÃ­da Full HD em 2Ã— sem smoothing, zoom de mundo 1,5 separado da resoluÃ§Ã£o. ProporÃ§Ã£o 16:9 com barras quando necessÃ¡rio. [ComparaÃ§Ã£o das trÃªs bases](docs/display/README.md).
+
+## Executar
+
+Ã‰ necessÃ¡rio Node.js. Dentro desta pasta:
+
+```sh
 npm run dev
 ```
 
-Abre em http://localhost:5173. Não há dependências para instalar: o `serve.js`
-é um servidor estático de ~60 linhas usando só o Node. Ele existe porque
-módulos ES não carregam abrindo o `index.html` direto pelo `file://`.
+Abra **http://localhost:5174**. NÃ£o Ã© preciso `npm install`. O `index.html` precisa do servidor, nÃ£o funciona por duplo clique. Se a porta estiver ocupada, no PowerShell: `$env:PORT='5175'; npm run dev`.
 
-```bash
-npm test
-```
-
-Roda os testes de física em Node (sem navegador): altura de pulo, pouso,
-travessia de vãos, wall jump, custos e regeneração de energia; os testes
-de áudio (fade do batimento cardíaco, com um stub mínimo de WebAudio); e
-os testes de combate (combo de M1 contra o zumbi de teste).
+Na tela inicial, pressione **EspaÃ§o / E / A do controle**. Ao terminar, os mesmos comandos reiniciam tudo. Para facilitar no Windows, tambÃ©m hÃ¡ `JOGAR.bat` (inicia o servidor e abre o navegador).
 
 ## Controles
 
-| Ação | Teclado/Mouse | Gamepad |
+| AÃ§Ã£o | Teclado / mouse | Controle padrÃ£o Xbox |
 |---|---|---|
-| Mover | `A`/`D` ou setas | analógico / d-pad |
-| Pular | `Espaço` ou `K` | A |
-| Dash | `Shift` (tocar) | B / RB |
-| Correr | `Shift` (segurar) | B / RB |
-| Descer plataforma | `↓` + `Espaço` | ↓ + A |
-| Double jump (2º pulo no ar) | `Espaço` de novo, no ar | A de novo, no ar |
-| Planar | `Espaço` segurado, depois do ápice | A segurado, depois do ápice |
-| M1 (combo básico) | Clique esquerdo do mouse | X |
-| M2 (combo básico, dobro de dano) | Clique direito do mouse | RT |
+| Mover | A/D, setas | AnalÃ³gico / d-pad |
+| Pular, altura variÃ¡vel | EspaÃ§o / K; solte para pulo curto | A |
+| Correr | Segurar Shift / L | Segurar B / RB |
+| Descer plataforma | â†“ / S + EspaÃ§o | â†“ + A |
+| Espada, golpe 1 | M1 / J | X |
+| Espada, golpe 2 | M2 / U | RT |
+| Interagir, repousar | E | LB |
+| Pausar | Esc | â€” |
+| Silenciar | M | â€” |
+| Retornar ao checkpoint | R | â€” |
 
-Teclas de debug: `F1` painel · `F2` hitbox · `R` reset · `C` levar dano ·
-`M` liga/desliga som · `6` spawna um zumbi de teste na frente do jogador ·
-`1`–`5` ligam/desligam habilidades (`5` = planar).
+Os ataques preservam o combo compartilhado de cinco golpes do protÃ³tipo. M2 mantÃ©m provisoriamente o dobro do dano, com o mesmo custo. A demo apresenta os dois como variaÃ§Ãµes de uma espada simples. Andar, correr, pular e atacar estÃ£o disponÃ­veis; **dash, parede, planar e pulo duplo comeÃ§am desligados**.
 
-## Estrutura
+A energia Ã© Ãºnica. ApÃ³s o playtest, todos os custos foram reduzidos pela metade e o retorno Ã  exploraÃ§Ã£o ocorre apÃ³s 10 segundos sem causar ou receber dano. M1/M2 custam 4,5 pontos em combate e 2,25 em exploraÃ§Ã£o; correr custa 3 ou 1,5 pontos por segundo, respectivamente. A regeneraÃ§Ã£o continua em 10 pontos por segundo, apÃ³s 1 segundo sem gastar energia, em ambos os modos. Energia insuficiente nÃ£o trava o personagem: ainda Ã© possÃ­vel andar e esperar.
 
+Caminhada e movimento horizontal do pulo comum tÃªm o mesmo teto: 92 px/s. Saltar a partir de uma corrida preserva o impulso de 158 px/s. Veja `docs/BALANCEAMENTO.md` para todos os valores alterados.
+
+## Fluxo e geografia
+
+Dez salas principais reconstruídas a partir dos 12 recortes Dungeon Scrawl. A cela contém o segredo inicial; a Sala 3 possui segredo ligado à alavanca da Sala 4; a Sala 5 tem dois percursos e retorno por parede quebrável. A arena da Sala 7 tem ondas de 2 e 3 inimigos. A Sala 8 apresenta o portão selado; a Sala 10 contém repouso, retorno ao Pátio, Guardião, chave e porta final.
+
+As portas de conexão são atravessadas caminhando pela abertura. E aciona alavanca, repousos, baú e porta final. Pilhas de ossos exigem quatro golpes e concedem moeda, sem aumentar vida. Estados de exploração e arena concluída persistem durante a run; recarregar a página inicia outra partida.
+
+Veja [o relatório completo do redesenho](docs/level-redesign/README.md).
+
+## Inimigos e boss
+
+- **Walker:** patrulha, aproximaÃ§Ã£o, golpe frontal anunciado e recuperaÃ§Ã£o.
+- **Lunger:** preparaÃ§Ã£o longa, investida em direÃ§Ã£o fixa, pausa para contra-atacar.
+- **Ranged:** recua quando hÃ¡ espaÃ§o, anuncia e dispara um projÃ©til lento.
+- **GuardiÃ£o do CemitÃ©rio:** nome provisÃ³rio, sem lore nova. Corte frontal, investida baixa que pode ser pulada e salto com local de queda marcado. Abaixo de 50% de vida, recuperaÃ§Ã£o um pouco menor. NÃ£o causa dano de contato permanente. SÃ³ o slam causa duas caveiras. DerrotÃ¡-lo abre a arena apÃ³s uma breve pausa; o final fica na cÃ¢mara seguinte.
+
+## Debug
+
+F1: painel de sala, checkpoint, estados, FPS, energia e habilidades. F2: corpos, ataques e projÃ©teis. **F3: mapa de debug, pausando o jogo.** R: checkpoint. M: Ã¡udio. Com **F1 aberto**, C causa dano, 6 cria o dummy original, 1â€“5 alternam dash, parede, intangibilidade, pulo duplo e planar. Nenhuma tecla de debug Ã© necessÃ¡ria para concluir.
+
+A sala original continua em `src/world/rooms/sala-de-teste.js`, usada pelos testes de regressÃ£o. O jogo inicia no CemitÃ©rio.
+
+## Testes
+
+```sh
+npm test
 ```
-config/tuning.js          TODOS os números do jogo (é aqui que se faz playtest)
-src/
-  main.js                 bootstrap: canvas, loop, debug
-  core/
-    loop.js               game loop de passo fixo (1/60)
-    input.js              input por AÇÃO (teclado + gamepad)
-    camera.js             follow com look-ahead e clamp na sala
-    math.js               clamp, lerp, approach, damp
-  world/
-    tilemap.js            grid de colisão + render de tiles
-    background.js         céu com parallax (estrelas + Lua de Fogo)
-    rooms/sala-de-teste.js
-  entities/
-    player.js             física, máquina de estados, colisão, combo de M1
-    zombie.js             inimigo de teste: vida, gravidade, knockback (sem IA)
-  systems/
-    energy.js             barra única, modos combate/exploração
-    health.js             caveiras e fragmentos
-  ui/hud.js               caveiras + barra de energia
-  audio/heartbeat.js      batimento cardíaco diegético (WebAudio)
-tests/fisica.test.mjs
-tests/audio.test.mjs
-tests/combate.test.mjs
-```
 
-### Regra do projeto
+A suÃ­te cobre: fÃ­sica, Ã¡udio, combate, salas, IA, boss, input, progressÃ£o e quatro percursos completos. O percurso anti-softlock inclui cinco mortes deliberadas em etapas diferentes. NÃ£o hÃ¡ teleporte, cura artificial ou desbloqueio de habilidades nos percursos. Os testes unitÃ¡rios isolados usam estados controlados para validar casos especÃ­ficos.
 
-**Nenhum número mágico fora de `config/tuning.js`.** Se você quer que o pulo
-seja mais alto, o dash mais longo ou a corrida mais cara, o valor está lá — e
-só lá. Isso é o que torna o playtest barato.
+Para observar o teste de integraÃ§Ã£o no navegador: **http://localhost:5174/tests/playthrough.html**. Ele Ã© separado da demo normal e oferece rota crÃ­tica, explorador, completionista e anti-softlock, reproduÃ§Ã£o a 4Ã—/1Ã— e pausa por sala.
 
-O pulo é definido por **altura + tempo até o ápice**, não por gravidade crua:
-é muito mais intuitivo dizer "quero pular 3 tiles em 0.36s" do que chutar
-px/s². A gravidade é derivada disso em `player.js`.
+## Arquitetura e ediÃ§Ã£o
 
-## O que já está implementado
+- `config/tuning.js`: fÃ­sica original, valores da demo, inimigos, boss e efeitos.
+- `src/world/rooms/cemetery.js`: dados das 17 salas; retÃ¢ngulos em tiles geram ASCII. Aqui se editam geometria, spawns, saÃ­das e encontros.
+- `src/world/validate.js`: valida grid, destinos, entradas, pickups, checkpoints, boss e conectividade.
+- `src/world/progression.js`: estado centralizado dos gates, chave e recompensas da run.
+- `src/ui/map-decor.js`: landmarks, antevisÃµes e mapa F3.
+- `src/world/room-manager.js`: sala ativa, persistÃªncia da sessÃ£o, transiÃ§Ã£o, morte, checkpoint e final.
+- `src/entities/enemies/`: IA simples e projÃ©teis; reaproveita fÃ­sica do Zombie.
+- `src/entities/boss/guardian.js`: estados e trÃªs ataques do boss.
+- `src/ui/demo-view.js`: cenÃ¡rio procedural, portas, prompts, barra do boss, inÃ­cio e fim.
+- `src/audio/effects.js`: sons sintetizados no contexto do heartbeat.
+- `src/main.js`: montagem, loop, pausa e debug.
 
-- Movimento de plataforma com aceleração, *coyote time* (0.10s) e *jump buffer* (0.12s)
-- Pulo de altura variável (soltar o botão corta o pulo)
-- Momentum preservado no ar — pulo correndo alcança mais que pulo parado
-- Velocidade dedicada para fora do chão (`airSpeed`), mais rápida que andar —
-  pular não pode ser mais lento que caminhar
-- Trocar de direção **no ar** é instantâneo — vai direto pra velocidade máxima
-  do ar na nova direção, sem frear até 0 pra só depois acelerar de novo (no
-  chão continua gradual, de propósito — feels diferentes por design)
-- Dash (com cooldown, dash aéreo, e intangibilidade como upgrade separado)
-- Correr segurando o mesmo botão do dash, como no GDD
-- Wall slide + wall jump (o wall jump devolve o dash aéreo). Empuxo horizontal
-  calibrado pra dar pra **escalar uma parede única**, sem precisar de uma parede
-  oposta — segure o pulo pra ganhar altura e aperte de volta em direção à parede
-  para regarrá-la mais alto (ver nota de tuning abaixo)
-- Plataformas de uma via, com descida por `↓ + Espaço`
-- Colisão por tilemap com encaixe exato na face do tile
-- Barra de energia única com modos combate (custo cheio) e exploração (metade)
-- Vida em caveiras + fragmentos
-- Tile de perigo (`^`) na sala de teste: não bloqueia, machuca ao encostar —
-  atravessa ileso apenas durante um dash com a habilidade `dashIntangible` ligada
-- Double jump provisório: apertar pulo 2x no ar (o double jump *de verdade* do
-  GDD é outra mecânica — o torso se ejeta das pernas; isso aqui é só o padrão
-  clássico de plataforma para validar movimento aéreo antes de desenhar aquilo)
-- Planar (`abilities.glide`, GDD seção 12): segurar o pulo depois do ápice
-  troca a queda normal por uma descida lenta e controlada, drenando energia
-  continuamente. Funciona igual depois do 1º ou do 2º pulo (double jump) —
-  só depende de "está caindo + segurando o botão". Soltar o pulo, tocar o
-  chão ou a energia acabar encerra o planar na hora.
-- Batimento cardíaco que acelera com a vida baixa e some em fade out (~1.4s)
-  ao sair de combate, em vez de cortar seco
-- Gating de habilidades (`player.abilities`) — a espinha do metroidvania
-- **Combate — primeiro corte (GDD 7.3)**: M1 (clique esquerdo) e M2 (clique
-  direito) alimentam **um único combo compartilhado** de até 5 hits — dá pra
-  intercalar as duas mãos livremente, e o 5º hit (o finisher, com o knockback
-  grande de verdade) é de quem quer que encerre a sequência, M1 ou M2. Cada
-  arma só tem seu próprio *cooldown* de swing (`attackLight.swingDuration`/
-  `attackM2.swingDuration`), então dá pra bater M1 e, antes do cooldown dele
-  acabar, já encaixar um M2 — é esse intercalar que dá o ganho de DPS descrito
-  no GDD. Hits que não fecham o combo dão só um empurrãozinho (hitstun); o
-  combo reinicia do 1º hit assim que o finisher acerta (não precisa esperar
-  pra encadear outro). M2 causa o dobro de dano do M1 (2 vs 1, por enquanto).
-  Cada hit custa energia (`ENERGY.costs.attackLight`/`attackM2`) e entra em
-  modo combate ao acertar.
-- Zumbi de teste (`entities/zombie.js`): alvo com vida (12 hits de M1, ou 6 de
-  M2, matam), gravidade, colisão e knockback — ainda **sem IA nem ataque
-  próprio**, serve só pra validar o combo antes de desenhar inimigo de
-  verdade. Tecla `6` spawna um na frente do jogador, virado pra ele.
+Somente a sala atual Ã© atualizada. FÃ­sica de 60 Hz, resoluÃ§Ã£o 480Ã—270, escala inteira, cÃ¢mera com look-ahead e smoothing preservados.
 
-## Decisões que precisam de playtest
+Veja `docs/DEMO_IMPLEMENTATION.md` para decisÃµes provisÃ³rias, mediÃ§Ãµes e limitaÃ§Ãµes de playtest.
 
-1. **Pular consome energia.** Está implementado como o GDD descreve (4 de custo),
-   mas é o item mais arriscado do design: ficar sem poder pular por falta de
-   barra costuma irritar em plataformer. O custo é baixo e a regeneração é
-   rápida, então na prática quase nunca bloqueia — mas vale sentir. Para testar
-   sem isso, zere `ENERGY.costs.jump` em `config/tuning.js`.
-2. **Velocidade de corrida vs. tamanho dos vãos.** Hoje um vão de 5 tiles exige
-   corrida ou dash, e um de 2 tiles se passa andando. Esse é o vocabulário de
-   level design; mudar `runSpeed` reescreve o mapa inteiro.
-3. **Wall slide consome energia por segundo.** Pode tornar poços altos cansativos.
-   Escalar uma parede única bem alta drena uma quantidade previsível por ciclo
-   (~2.5 de energia por wall jump + o dreno contínuo do slide) — dá pra escalar
-   umas boas dezenas de tiles com a barra cheia, mas não é de graça.
-4. **Intangibilidade do dash dura exatamente o tempo do dash, não um pouco a mais.**
-   Se você começa o dash longe do perigo, o momentum residual (não-intangível)
-   pode carregar você para dentro do retângulo depois que o dash já acabou —
-   e aí toma dano mesmo com a habilidade ligada. Dashando bem colado na borda
-   do perigo, atravessa ileso. É o comportamento clássico de i-frames de dash
-   (Hollow Knight tem o mesmo problema), mas decide se quer um pequeno buffer
-   extra de intangibilidade após o fim do dash para suavizar isso.
-5. ~~`airSpeed` não afeta a escalada de parede, só `wallJumpX` afeta~~ — isso
-   valia com a troca de direção gradual no ar. Desde que virou instantânea,
-   `wallJumpX` deixou de ser sensível: testado até 220 sem quebrar nem a
-   escalada de parede única nem a travessia do poço de duas paredes, e o
-   ganho de altura por ciclo só melhora com um empuxo maior. Ficou em 185,
-   calibrado pra pular da parede **sem segurar direção nenhuma** e ainda
-   assim se afastar uns 50px antes de parar (ex.: sair de x=21 e parar perto
-   de x=71).
 
-## Próximos passos sugeridos
 
-1. Combate: empunhadura dupla (M1 mão direita / M2 mão esquerda), ataque
-   pesado, bloqueio. O combo básico de M1 (1 arma) já existe — ver acima.
-2. IA e ataque próprio do zumbi (contato/dano no jogador), pra vida e energia
-   alternarem os modos combate/exploração de verdade num confronto real.
-3. Sistema de salas e transições (o metroidvania de fato).
-4. Spritesheet e animação — hoje o Arauto (e o zumbi) são desenhados com
-   retângulos.
+
+ResoluÃ§Ã£o dos personagens corrigida em v0.5.1, preservando o tamanho no mundo e o zoom: [detalhes e reproduÃ§Ã£o](docs/RESOLUCAO_SPRITES.md).
+
+Alinhamento local dos feixes M1/M2: [correÃ§Ã£o e testes](docs/attack-alignment/README.md). Escalas aprovadas preservadas.

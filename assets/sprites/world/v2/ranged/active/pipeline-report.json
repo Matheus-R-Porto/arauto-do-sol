@@ -1,0 +1,140 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 20,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#2c2339",
+        "#3d5342",
+        "#403c34",
+        "#482d28",
+        "#4b385b",
+        "#53646d",
+        "#5b5343",
+        "#705381",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a284b1",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        24,
+        45,
+        127,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\ranged\\active\\active-0.png",
+      "input_sha256": "2715a7c32fc7e3f4d77d04ce1ee0f9d61da450655edb0346f41c002984abfc0d",
+      "input_size": [
+        275,
+        200
+      ],
+      "input_bbox": [
+        2,
+        2,
+        273,
+        198
+      ],
+      "source_anchor": [
+        87.5,
+        198
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.38095238095238093,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        57,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\ranged\\active\\active-0.png",
+      "output_sha256": "d0f910c0ebc7e078840b338a93aa8326618011446432e9382bf982e36b1d9f4f"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 20,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#2c2339",
+        "#403c34",
+        "#482d28",
+        "#4b385b",
+        "#53646d",
+        "#5b5343",
+        "#705381",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a284b1",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#d6b9db",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        32,
+        98,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\ranged\\active\\active-1.png",
+      "input_sha256": "ade70c26f2a919b19401cffa4c086a422785fffeaa1ec8221b244d3e654093cc",
+      "input_size": [
+        191,
+        235
+      ],
+      "input_bbox": [
+        2,
+        2,
+        189,
+        233
+      ],
+      "source_anchor": [
+        99.0,
+        233
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.38095238095238093,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\ranged\\active\\active-1.png",
+      "output_sha256": "626580986c36f1c580f96e865f6e1126b3ca8ee86c7f48d1ac1e8356e59a6563"
+    }
+  ]
+}

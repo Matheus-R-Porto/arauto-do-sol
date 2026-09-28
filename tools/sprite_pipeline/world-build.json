@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "backgrounds": [
+    "crypt",
+    "exterior",
+    "ossuary",
+    "arena"
+  ],
+  "background_size": [
+    480,
+    270
+  ],
+  "background_panels": [
+    4,
+    3
+  ],
+  "profiles": {
+    "background": {
+      "max_colors": 64,
+      "canvas": [
+        122,
+        92
+      ],
+      "pivot": [
+        61,
+        91
+      ],
+      "palette": "palettes/world-background.json"
+    },
+    "terrain": {
+      "max_colors": 32,
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "palette": "palettes/world-stone.json"
+    },
+    "props": {
+      "max_colors": 32,
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        124
+      ],
+      "palette": "palettes/world-stone.json"
+    },
+    "enemy": {
+      "max_colors": 24,
+      "canvas": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        60
+      ],
+      "palette": "palettes/world-enemies.json"
+    },
+    "boss": {
+      "max_colors": 32,
+      "canvas": [
+        128,
+        96
+      ],
+      "pivot": [
+        40,
+        90
+      ],
+      "palette": "palettes/world-boss.json"
+    },
+    "hud": {
+      "max_colors": 16,
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "palette": "palettes/world-hud.json"
+    },
+    "effects": {
+      "max_colors": 24,
+      "canvas": [
+        128,
+        64
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "palette": "palettes/world-effects.json"
+    }
+  },
+  "sets": [
+    {
+      "raw": "terrain",
+      "grid": [
+        2,
+        2
+      ],
+      "profile": "terrain",
+      "frames": [
+        {
+          "name": "stone-a",
+          "target": [
+            32,
+            32
+          ],
+          "texture": true,
+          "box": [
+            0,
+            0,
+            730,
+            475
+          ]
+        },
+        {
+          "name": "ledge",
+          "target": [
+            64,
+            12
+          ],
+          "box": [
+            730,
+            0,
+            1671,
+            475
+          ]
+        },
+        {
+          "name": "spikes",
+          "texture": true,
+          "target": [
+            32,
+            16
+          ],
+          "box": [
+            0,
+            475,
+            975,
+            941
+          ]
+        },
+        {
+          "name": "stone-b",
+          "target": [
+            32,
+            32
+          ],
+          "texture": true,
+          "box": [
+            975,
+            475,
+            1671,
+            941
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "doors",
+      "grid": [
+        2,
+        2
+      ],
+      "profile": "props",
+      "frames": [
+        {
+          "name": "arch",
+          "target": [
+            38,
+            50
+          ]
+        },
+        {
+          "name": "sun-door",
+          "target": [
+            38,
+            50
+          ]
+        },
+        {
+          "name": "chain-gate",
+          "target": [
+            38,
+            50
+          ]
+        },
+        {
+          "name": "shortcut-gate",
+          "target": [
+            38,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "landmarks",
+      "profile": "props",
+      "grid": [
+        2,
+        2
+      ],
+      "components": true,
+      "frames": [
+        {
+          "name": "statue",
+          "target": [
+            64,
+            116
+          ]
+        },
+        {
+          "name": "mausoleum",
+          "target": [
+            108,
+            112
+          ]
+        },
+        {
+          "name": "window",
+          "target": [
+            62,
+            108
+          ]
+        },
+        {
+          "name": "bones",
+          "target": [
+            105,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "relics",
+      "profile": "props",
+      "grid": [
+        2,
+        2
+      ],
+      "components": true,
+      "frames": [
+        {
+          "name": "bell",
+          "target": [
+            60,
+            100
+          ]
+        },
+        {
+          "name": "dead-tree",
+          "target": [
+            120,
+            118
+          ]
+        },
+        {
+          "name": "urns",
+          "target": [
+            66,
+            64
+          ]
+        },
+        {
+          "name": "gravestones",
+          "target": [
+            60,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "interactions",
+      "profile": "props",
+      "grid": [
+        2,
+        2
+      ],
+      "components": true,
+      "frames": [
+        {
+          "name": "shrine",
+          "target": [
+            34,
+            42
+          ]
+        },
+        {
+          "name": "fountain",
+          "target": [
+            36,
+            42
+          ]
+        },
+        {
+          "name": "lever",
+          "target": [
+            28,
+            24
+          ]
+        },
+        {
+          "name": "sun-key",
+          "target": [
+            10,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "secrets",
+      "profile": "props",
+      "grid": [
+        2,
+        2
+      ],
+      "components": true,
+      "frames": [
+        {
+          "name": "fragment",
+          "target": [
+            9,
+            10
+          ]
+        },
+        {
+          "name": "secret-stone",
+          "target": [
+            24,
+            32
+          ]
+        },
+        {
+          "name": "end-arch",
+          "target": [
+            52,
+            62
+          ]
+        },
+        {
+          "name": "ladder",
+          "target": [
+            14,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "hud",
+      "profile": "hud",
+      "grid": [
+        2,
+        2
+      ],
+      "components": false,
+      "frames": [
+        {
+          "name": "medallion",
+          "target": [
+            28,
+            28
+          ]
+        },
+        {
+          "name": "energy-frame",
+          "target": [
+            98,
+            12
+          ]
+        },
+        {
+          "name": "health-skull",
+          "target": [
+            8,
+            8
+          ]
+        },
+        {
+          "name": "hud-fragment",
+          "target": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "effects",
+      "profile": "effects",
+      "grid": [
+        2,
+        2
+      ],
+      "components": false,
+      "frames": [
+        {
+          "name": "slash-light",
+          "target": [
+            30,
+            24
+          ]
+        },
+        {
+          "name": "slash-heavy",
+          "target": [
+            42,
+            30
+          ]
+        },
+        {
+          "name": "hit",
+          "target": [
+            16,
+            16
+          ]
+        },
+        {
+          "name": "projectile",
+          "target": [
+            10,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "effects-extra",
+      "profile": "effects",
+      "grid": [
+        2,
+        2
+      ],
+      "components": false,
+      "frames": [
+        {
+          "name": "shockwave",
+          "target": [
+            120,
+            16
+          ]
+        },
+        {
+          "name": "dust",
+          "target": [
+            32,
+            13
+          ]
+        },
+        {
+          "name": "flame",
+          "target": [
+            10,
+            14
+          ]
+        },
+        {
+          "name": "projectile-2",
+          "target": [
+            10,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "raw": "walker",
+      "profile": "enemy",
+      "grid": [
+        4,
+        2
+      ],
+      "components": true,
+      "body_height": 24,
+      "feet": true,
+      "frames": [
+        {
+          "name": "walker-idle"
+        },
+        {
+          "name": "walker-walk-1"
+        },
+        {
+          "name": "walker-walk-2"
+        },
+        {
+          "name": "walker-hurt"
+        },
+        {
+          "name": "walker-windup"
+        },
+        {
+          "name": "walker-active"
+        },
+        {
+          "name": "walker-recovery"
+        },
+        {
+          "name": "walker-death"
+        }
+      ]
+    },
+    {
+      "raw": "lunger",
+      "profile": "enemy",
+      "grid": [
+        4,
+        2
+      ],
+      "components": true,
+      "body_height": 18,
+      "feet": true,
+      "frames": [
+        {
+          "name": "lunger-idle"
+        },
+        {
+          "name": "lunger-walk-1"
+        },
+        {
+          "name": "lunger-walk-2"
+        },
+        {
+          "name": "lunger-hurt"
+        },
+        {
+          "name": "lunger-windup"
+        },
+        {
+          "name": "lunger-active"
+        },
+        {
+          "name": "lunger-recovery"
+        },
+        {
+          "name": "lunger-death"
+        }
+      ]
+    },
+    {
+      "raw": "ranged",
+      "profile": "enemy",
+      "grid": [
+        4,
+        2
+      ],
+      "components": true,
+      "body_height": 32,
+      "feet": true,
+      "frames": [
+        {
+          "name": "ranged-idle"
+        },
+        {
+          "name": "ranged-walk-1"
+        },
+        {
+          "name": "ranged-walk-2"
+        },
+        {
+          "name": "ranged-hurt"
+        },
+        {
+          "name": "ranged-windup"
+        },
+        {
+          "name": "ranged-active"
+        },
+        {
+          "name": "ranged-recovery"
+        },
+        {
+          "name": "ranged-death"
+        }
+      ]
+    },
+    {
+      "raw": "boss",
+      "profile": "boss",
+      "grid": [
+        4,
+        3
+      ],
+      "components": true,
+      "body_height": 65,
+      "feet": true,
+      "frames": [
+        {
+          "name": "boss-idle"
+        },
+        {
+          "name": "boss-walk-1"
+        },
+        {
+          "name": "boss-walk-2"
+        },
+        {
+          "name": "boss-hurt"
+        },
+        {
+          "name": "boss-slash-windup"
+        },
+        {
+          "name": "boss-slash-active"
+        },
+        {
+          "name": "boss-charge-windup"
+        },
+        {
+          "name": "boss-charge-active"
+        },
+        {
+          "name": "boss-slam-windup"
+        },
+        {
+          "name": "boss-slam-active"
+        },
+        {
+          "name": "boss-recovery"
+        },
+        {
+          "name": "boss-death"
+        }
+      ]
+    }
+  ]
+}

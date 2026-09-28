@@ -1,0 +1,35 @@
+0.0 awakening 5
+0.7 passage 5
+10.3 crossroads 5
+27.4 watch 5
+30.8 bridge 5
+48.6 awakening 5
+49.2 passage 5
+progress 57.3 passage 631 236 {"start":6,"end":7,"path":1,"p":[536.6000000000015,248]}
+58.9 crossroads 5
+76.0 watch 5
+79.4 bridge 5
+97.2 awakening 5
+97.8 passage 5
+107.5 crossroads 5
+progress 114.6 crossroads 589 247 {"start":6,"end":24,"path":7,"p":[538.4777777777803,296]}
+124.6 watch 5
+128.0 bridge 5
+145.8 awakening 5
+146.5 passage 5
+156.1 crossroads 5
+progress 172.3 crossroads 1343 322 {"start":25,"end":24,"path":1,"p":[1292.477777777774,368]}
+173.2 watch 5
+176.6 bridge 5
+194.4 awakening 5
+195.1 passage 5
+204.7 crossroads 5
+221.8 watch 5
+225.2 bridge 5
+progress 229.3 bridge 395 264 {"start":3,"end":5,"path":5,"p":[391.62222222222255,264]}
+243.0 awakening 5
+243.7 passage 5
+253.3 crossroads 5
+270.4 watch 5
+273.8 bridge 5
+progress 286.9 bridge 619 240 {"start":1,"end":5,"path":4,"p":[615.1166666666663,240]}

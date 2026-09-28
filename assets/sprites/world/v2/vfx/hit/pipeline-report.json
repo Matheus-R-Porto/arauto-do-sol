@@ -1,0 +1,161 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 3,
+      "colors": [
+        "#713c39",
+        "#956341",
+        "#ded3ae"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        62,
+        54,
+        66,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\hit\\hit-0.png",
+      "input_sha256": "e1c871cad7536d66d909fe67aee968495879ed99bf73cb81121f5577c63e49a3",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        75,
+        48,
+        203,
+        186
+      ],
+      "source_anchor": [
+        139.0,
+        186
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.058823529411764705,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\hit\\hit-0.png",
+      "output_sha256": "8a144377489f80594bbb1f0b9a8c9e68a063a04975af2c5d8b25f9b7edae474c"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 7,
+      "colors": [
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2f0d4",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        60,
+        50,
+        70,
+        59
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\hit\\hit-1.png",
+      "input_sha256": "b5281d23ef0c049cb5aa1ac69d2352bb4e80b52b8f97055b053b7650829f46e5",
+      "input_size": [
+        281,
+        224
+      ],
+      "input_bbox": [
+        55,
+        29,
+        235,
+        204
+      ],
+      "source_anchor": [
+        145.0,
+        204
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.058823529411764705,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\hit\\hit-1.png",
+      "output_sha256": "6e60990d41d16d60b177440da034f5979cf9a74a3015732b7f00aea9f8177c26"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 3,
+      "colors": [
+        "#564039",
+        "#713c39",
+        "#956341"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        60,
+        53,
+        62,
+        57
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\hit\\hit-2.png",
+      "input_sha256": "4f55c98ac36adf084fadb99848ab0cdffb8d4f9d54b8cb558ba03ec3ba67a2d4",
+      "input_size": [
+        280,
+        224
+      ],
+      "input_bbox": [
+        74,
+        48,
+        207,
+        194
+      ],
+      "source_anchor": [
+        140.5,
+        194
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.058823529411764705,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\hit\\hit-2.png",
+      "output_sha256": "e6bcd991b90c171968d5e28e7035dbdea724ed1740e46eb6e5ee9cd27423b4f6"
+    }
+  ]
+}

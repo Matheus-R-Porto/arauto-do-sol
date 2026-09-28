@@ -1,0 +1,109 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 4,
+      "colors": [
+        "#49345f",
+        "#80528f",
+        "#bb85cb",
+        "#e1bce9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        62,
+        56,
+        67,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\projectile\\projectile-0.png",
+      "input_sha256": "92146dc88306d52149aa25af0841d6d6f4e087e0067f22dd2750a6058df114df",
+      "input_size": [
+        275,
+        250
+      ],
+      "input_bbox": [
+        63,
+        83,
+        219,
+        158
+      ],
+      "source_anchor": [
+        141.0,
+        158
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.047619047619047616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\projectile\\projectile-0.png",
+      "output_sha256": "38b673419721a7ce134f3ec07a6e2cf2fe03eeac8a52ca94f440f463fa4d4a04"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 5,
+      "colors": [
+        "#49345f",
+        "#80528f",
+        "#bb85cb",
+        "#e1bce9",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        62,
+        55,
+        69,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\projectile\\projectile-1.png",
+      "input_sha256": "d84bd9c165299b3fcd0ef02220dcaa6245ddd9d03fb4c8a745876287c2eca8ae",
+      "input_size": [
+        275,
+        250
+      ],
+      "input_bbox": [
+        33,
+        72,
+        241,
+        171
+      ],
+      "source_anchor": [
+        137.0,
+        171
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.047619047619047616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\projectile\\projectile-1.png",
+      "output_sha256": "3541ec035a29e7e7f26a4f4441db606a089d7365b70966a86c84491101a9f4da"
+    }
+  ]
+}

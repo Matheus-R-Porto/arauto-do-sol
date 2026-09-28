@@ -1,0 +1,277 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-props",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      124
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 5.388888888888888,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "22e48fceaf97bdc6ac830fb29b4d89c2bfe13fc89a0cc5b75d00da1705635253",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 21,
+      "colors": [
+        "#0b1017",
+        "#121b24",
+        "#1b2731",
+        "#211d1b",
+        "#244449",
+        "#25333c",
+        "#303b2d",
+        "#33434a",
+        "#343027",
+        "#39717a",
+        "#45565b",
+        "#494135",
+        "#4b2925",
+        "#596b6c",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b4734c",
+        "#c3aa70",
+        "#e6ca85"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        40,
+        16,
+        88,
+        124
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\window.png",
+      "input_sha256": "d6baf3b2b5be6fb8e3301e3323a50b1e6dece93cbace600d7f21c172a4e6834c",
+      "input_size": [
+        260,
+        586
+      ],
+      "input_bbox": [
+        2,
+        2,
+        258,
+        584
+      ],
+      "source_anchor": [
+        130.0,
+        584
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.18556701030927836,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        124
+      ],
+      "baseline": 124,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\frames\\window.png",
+      "output_sha256": "2776963637a9c6d39bf0c8557f4b740359ccc3b19ea160b8f21d4187c67fe7db"
+    }
+  ]
+}

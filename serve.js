@@ -2,15 +2,16 @@
 // Existe porque módulos ES (import/export) não funcionam abrindo o
 // index.html direto pelo file:// — o navegador bloqueia por CORS.
 //
-//   npm run dev     ->  http://localhost:5173
+//   npm run dev     ->  http://localhost:5174
 
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawn } from 'node:child_process';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
-const PORT = Number(process.env.PORT) || 5173;
+const PORT = Number(process.env.PORT) || 5174;
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -58,4 +59,7 @@ const server = createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(`\n  Arauto do Sol  ->  http://localhost:${PORT}\n`);
+  if (process.env.OPEN_BROWSER === '1' && process.platform === 'win32') {
+    spawn('cmd.exe', ['/c', 'start', '', `http://localhost:${PORT}`], { windowsHide: true });
+  }
 });

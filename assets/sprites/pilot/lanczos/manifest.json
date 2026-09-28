@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "status": "idle-pilot", "canvas": [64, 40], "pivot": [32, 36], "animations": {"idle": {"loop": true, "frames": [{"file": "idle-0.png", "duration": 0.32}, {"file": "idle-1.png", "duration": 0.32}, {"file": "idle-2.png", "duration": 0.32}]}}}

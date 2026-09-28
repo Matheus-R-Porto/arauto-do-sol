@@ -1,0 +1,260 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        28,
+        25,
+        118,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-m2\\attack-m2-0.png",
+      "input_sha256": "09f104b708f95eb6a04a752b5ca0c592558ba7988b54258f12a2603e14e48188",
+      "input_size": [
+        347,
+        333
+      ],
+      "input_bbox": [
+        2,
+        2,
+        345,
+        331
+      ],
+      "source_anchor": [
+        139.0,
+        331
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-m2\\attack-m2-0.png",
+      "output_sha256": "7327744db1999c46a60c16825058e2c4ef04974e64db494709acf9de26e0086b"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        32,
+        19,
+        97,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-m2\\attack-m2-1.png",
+      "input_sha256": "aacd372036ead9600f4267a5c61d9f0ad3caa7d8c6aa6f29ab9247029b34fdc0",
+      "input_size": [
+        253,
+        356
+      ],
+      "input_bbox": [
+        2,
+        2,
+        251,
+        354
+      ],
+      "source_anchor": [
+        123.5,
+        354
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-m2\\attack-m2-1.png",
+      "output_sha256": "597ff676f2bbb1757f7613f7777f1b707ed40615dceca31d90e03601cfff9a9a"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        31,
+        8,
+        98,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-m2\\attack-m2-2.png",
+      "input_sha256": "3c7bbc8d973bfdaba73fdaf19ecd63f274ec63b6a3dddddba6c78861cf389975",
+      "input_size": [
+        258,
+        399
+      ],
+      "input_bbox": [
+        2,
+        2,
+        256,
+        397
+      ],
+      "source_anchor": [
+        129.0,
+        397
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-m2\\attack-m2-2.png",
+      "output_sha256": "18fec515a625d07c27047c5260f874d587ccfe6a09e9fc5f7a4256c32a1ae47f"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        44,
+        15,
+        92,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-m2\\attack-m2-3.png",
+      "input_sha256": "8abb6416409d4e1d21a6b6f761a6005e709e7e00921d8adf1c2a6af93b8fd2f4",
+      "input_size": [
+        186,
+        372
+      ],
+      "input_bbox": [
+        2,
+        2,
+        184,
+        370
+      ],
+      "source_anchor": [
+        76.5,
+        370
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-m2\\attack-m2-3.png",
+      "output_sha256": "fb447c8489b83bca7937d6eb46148804395f84676762a5e10979babdc2fe4826"
+    }
+  ]
+}

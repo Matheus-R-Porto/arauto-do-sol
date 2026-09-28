@@ -1,0 +1,197 @@
+
+> arauto-do-sol@0.1.0 test
+> node tests/fisica.test.mjs && node tests/audio.test.mjs && node tests/combate.test.mjs && node tests/demo.test.mjs && node tests/input.test.mjs && node tests/playthrough.test.mjs && node tests/respawn-playthrough.test.mjs
+
+PASSOU  cai e pousa no chao
+         y=304 onGround=true
+PASSOU  pousa na altura do chao (linha 19 => y=304)
+         y=304
+PASSOU  altura do pulo ~= jumpHeight
+         alcancou 49.6px, configurado 52px (erro 2.4)
+PASSOU  pulo curto < pulo longo
+         curto 31.7px vs longo 49.6px
+PASSOU  vence o vao de 5 tiles correndo
+         vel corrida 158px/s, x final 632, y 304
+PASSOU  custo em exploracao e metade do de combate
+         combate 6, exploracao 3
+PASSOU  regen so comeca apos 1s e rende ~10%/s
+         apos 1s: 0.17, apos 2s: 10.17
+PASSOU  wall jump sobe o poco ate a saida (linha 6 => y<=112)
+         subiu ate y=38 (chao era 304)
+PASSOU  sem doubleJump, 2o toque no ar nao impulsiona
+         vy antes=32.1, depois=52.8
+PASSOU  com doubleJump, 2o toque no ar impulsiona pra cima
+         vy antes=135.8, apos pulo=-223.5
+PASSOU  depois de usar, um 3o toque no ar nao impulsiona de novo
+         vy apos 2o pulo=-223.5, apos tentar 3o=-210.1
+PASSOU  double jump consome o unico pulo aereo disponivel (nao e infinito)
+         airJumpsLeft apos usar = 0
+PASSOU  dash SEM intangibilidade atravessa o hazard tomando dano
+         dano tomado=true, vida=4/5
+PASSOU  dash COM intangibilidade atravessa o hazard ileso
+         dano tomado=false, vida=5/5
+PASSOU  escala uma parede unica por varios ciclos sem pousar (>= 6 tiles)
+         pousou=false, altura maxima=570.0px (35.6 tiles)
+PASSOU  troca de direcao no ar e instantanea (direto no airSpeed, sem frear)
+         vx antes=18.3, vx logo apos trocar=-92.0 (esperado -92)
+PASSOU  no chao, trocar de direcao continua sendo gradual (nao instantanea)
+         vx antes=92.0, vx 1 frame apos trocar=68.7 (ainda positivo e decaindo, nao pulou direto pra -92)
+PASSOU  segurando o pulo apos o apice, entra em planar (estado e vy travado)
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  planar tambem ativa depois do 2o pulo (double jump), nao so do 1o
+         estado=glide, vy=45.0 (esperado ~45)
+PASSOU  soltar o pulo cancela o planar (volta a acelerar a queda)
+         vy ao soltar=45.0, vy 15 frames depois=356.0, estado=fall
+PASSOU  planar drena energia e para quando ela acaba
+         energia final=0.00, estado final=fall
+PASSOU  sem abilities.glide, segurar o pulo caindo nao trava a queda
+         estado=fall, vy=430.0 (bem acima do teto de planar, 45)
+
+22/22 testes ok
+PASSOU  em combate, fadeGain vai a 1 imediatamente
+         fadeGain=1
+PASSOU  fadeGain nao zera no primeiro frame fora de combate
+         fadeGain apos 1 frame fora de combate=0.988
+PASSOU  fadeGain chega a 0 apos fadeOutTime fora de combate
+         fadeGain apos 1.4s+ fora de combate=0
+PASSOU  voltar a combate no meio do fade restaura o volume cheio na hora
+         durante o fade=0.762, apos voltar a combate=1
+
+4/4 testes de audio ok
+PASSOU  M1: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M1: 1o hit tira 1 de vida e nao mata
+         vida=11/12, morto=false
+PASSOU  M1: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M1: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M1: depois de 5 hits em combo, vida = 7
+         vida=7, morto=false
+PASSOU  M1: ainda nao morreu com 11 hits
+         vida=1, morto=false
+PASSOU  M1: 12 hits matam o zumbi (12 de vida / 1 de dano)
+         vida=0, morto=true
+PASSOU  M1: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=11 (esperado 11, so 1 hit deveria ter valido)
+PASSOU  M1: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M1: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M1: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M1: golpe consome energia (attackLight)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  M2: 1o hit (nao-finisher) da so o empurraozinho pequeno
+         vx do zumbi logo apos o golpe=60
+PASSOU  M2: 1o hit tira 2 de vida e nao mata
+         vida=10/12, morto=false
+PASSOU  M2: 5o hit (finisher) usa o knockback grande, nao o pequeno
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  M2: combo reinicia do zero depois do finisher
+         combo.step apos o 5o hit=0
+PASSOU  M2: depois de 5 hits em combo, vida = 2
+         vida=2, morto=false
+PASSOU  M2: ainda nao morreu com 5 hits
+         vida=2, morto=false
+PASSOU  M2: 6 hits matam o zumbi (12 de vida / 2 de dano)
+         vida=0, morto=true
+PASSOU  M2: apertar de novo antes do cooldown acabar nao gera 2 hits
+         vida=10 (esperado 10, so 1 hit deveria ter valido)
+PASSOU  M2: combo reseta sozinho depois da janela expirar
+         combo.step apos esperar sem atacar=0
+PASSOU  M2: zumbi fora do alcance nao leva dano
+         vida=12/12 (deveria estar intacto)
+PASSOU  M2: golpe so acerta na direcao que o jogador esta olhando
+         vida=12/12 (zumbi estava atras do golpe)
+PASSOU  M2: golpe consome energia (attackM2)
+         gasto=2.25, custo esperado (modo exploracao)=2.25
+PASSOU  zumbi morto so "finished" depois do deathFadeTime
+         finished logo apos morrer=false, finished depois do fade=true
+PASSOU  M2 causa o dobro de dano do M1
+         M1=1, M2=2
+PASSOU  intercalando M1/M2, o 5o hit (M1 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  combo compartilhado reinicia do zero depois do finisher intercalado
+         combo.step apos o 5o hit=0
+PASSOU  intercalando M1/M2, o 5o hit (M2 nesse caso) e o finisher
+         vx do zumbi logo apos o 5o hit=260 (esperado 260)
+PASSOU  o finisher intercalado ainda causa o dano da arma que bateu (M2 = 2)
+         vida antes=6, depois=4
+PASSOU  M2 acerta no frame seguinte ao M1, mesmo com o cooldown do M1 ainda ativo
+         vida=9 (esperado 9, os 2 hits deveriam ter valido)
+PASSOU  os 2 hits intercalados avancaram o MESMO combo (2 hits = passo 2)
+         combo.step apos M1 seguido de M2=2
+PASSOU  2o hit durante i-frames nao aplica dano nem sobrescreve o knockback
+         1o hit=true, 2o hit=false, vida=11, vx=100
+
+33/33 testes de combate ok
+PASSOU  17 salas conectadas; todas as entradas, boss e checkpoints seguros
+PASSOU  validador rejeita duplicatas, destino ausente, entrada em parede e linha irregular
+PASSOU  habilidades futuras desligadas no início e no reinício
+PASSOU  transição mantém vida/energia, posiciona sem parede e não entra em loop
+PASSOU  checkpoint, morte, respawn e limpeza de estados transitórios
+PASSOU  inimigo morto persiste ao revisitar; morte restaura os inimigos
+PASSOU  walker: telegraph antes do dano, active e recovery finitos
+PASSOU  lunger mantém direção anunciada mesmo que jogador cruze
+PASSOU  ranged dispara projétil depois do windup; expira e colide
+PASSOU  projétil causa dano uma vez e i-frames impedem stunlock
+PASSOU  boss sela arena, passa por 3 ataques e segunda fase
+PASSOU  morte durante luta restaura boss inteiro e remove projéteis
+PASSOU  vitória pelo combo abre saída, persiste e permite Fim da Demo
+PASSOU  atalho só abre pelo lado do ossuário; segredo e fragmentos persistem
+PASSOU  morte tem prioridade sobre transição e câmera permanece nos limites
+15/15 testes da demo ok
+PASSOU  gamepad desconectado não deixa direção presa
+PASSOU  teclado continua pressionado quando gamepad desconecta
+PASSOU  soltar teclado não solta ação ainda segurada no gamepad
+PASSOU  M1, J e gamepad alimentam a mesma ação sem repetir bordas
+PASSOU  perda de foco solta teclado e mouse
+5/5 testes de input ok
+0 awakening hp 5 deaths 0
+4 passage hp 5 deaths 0
+10 watch hp 5 deaths 0
+16 crossroads hp 5 deaths 0
+20 chapel hp 5 deaths 0
+26 crossroads hp 5 deaths 0
+32 shaft hp 5 deaths 0
+40 bridge hp 5 deaths 0
+48 sentries hp 5 deaths 0
+56 crypt hp 4 deaths 0
+73 ossuary hp 4 deaths 0
+81 balcony hp 4 deaths 0
+89 ossuary hp 6 deaths 0
+103 ascent hp 3 deaths 0
+114 procession hp 3 deaths 0
+138 refuge hp 2 deaths 0
+141 antechamber hp 6 deaths 0
+145 guardian hp 6 deaths 0
+234 beyond hp 6 deaths 0
+FINISHED 238.26666666674842 deaths 0 visited 17 fragments 4
+0 awakening vida 5 mortes 0
+4 passage vida 5 mortes 0
+10 watch vida 5 mortes 0
+16 crossroads vida 5 mortes 0
+20 chapel vida 5 mortes 0
+26 crossroads vida 5 mortes 0
+32 shaft vida 5 mortes 0
+40 bridge vida 5 mortes 0
+48 sentries vida 5 mortes 0
+59 crossroads vida 5 mortes 1
+66 shaft vida 5 mortes 1
+74 bridge vida 5 mortes 1
+82 sentries vida 5 mortes 1
+89 crypt vida 4 mortes 1
+105 ossuary vida 5 mortes 1
+113 balcony vida 4 mortes 1
+121 ossuary vida 6 mortes 1
+135 ascent vida 3 mortes 1
+146 procession vida 3 mortes 1
+170 refuge vida 2 mortes 1
+173 antechamber vida 6 mortes 1
+177 guardian vida 6 mortes 1
+197 refuge vida 6 mortes 2
+198 antechamber vida 6 mortes 2
+202 guardian vida 6 mortes 2
+289 beyond vida 6 mortes 2
+PASSOU playthrough com ações normais: 293.0s, 2 mortes, 17 salas, boss resetado e derrotado.

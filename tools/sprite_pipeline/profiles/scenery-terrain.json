@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "scenery-terrain",
+  "max_frame": [
+    512,
+    256
+  ],
+  "canvas": [
+    512,
+    256
+  ],
+  "pivot": [
+    256,
+    240
+  ],
+  "visible_size": [
+    504,
+    248
+  ],
+  "margin": 4,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": null,
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 32,
+  "palette": "../palettes/damp-stone.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 4,
+  "notes": "Reprocessar RAW. Mesmas unidades de mundo; densidade somente de pixels. Paleta e posi\u00e7\u00e3o preservadas."
+}

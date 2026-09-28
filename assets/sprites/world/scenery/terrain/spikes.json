@@ -1,0 +1,278 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "scenery-terrain",
+    "max_frame": [
+      512,
+      256
+    ],
+    "canvas": [
+      512,
+      256
+    ],
+    "pivot": [
+      256,
+      240
+    ],
+    "visible_size": [
+      504,
+      248
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 1.0,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/damp-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "preserve",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "Reprocessar RAW. Mesmas unidades de mundo; densidade somente de pixels. Paleta e posição preservadas."
+  },
+  "palette_colors": [
+    [
+      8,
+      12,
+      17
+    ],
+    [
+      14,
+      21,
+      27
+    ],
+    [
+      21,
+      30,
+      37
+    ],
+    [
+      28,
+      39,
+      46
+    ],
+    [
+      39,
+      51,
+      56
+    ],
+    [
+      52,
+      65,
+      69
+    ],
+    [
+      68,
+      81,
+      82
+    ],
+    [
+      88,
+      101,
+      100
+    ],
+    [
+      112,
+      122,
+      117
+    ],
+    [
+      139,
+      142,
+      129
+    ],
+    [
+      166,
+      160,
+      141
+    ],
+    [
+      182,
+      174,
+      153
+    ],
+    [
+      25,
+      22,
+      21
+    ],
+    [
+      40,
+      36,
+      30
+    ],
+    [
+      55,
+      49,
+      40
+    ],
+    [
+      74,
+      64,
+      51
+    ],
+    [
+      97,
+      81,
+      60
+    ],
+    [
+      123,
+      105,
+      69
+    ],
+    [
+      148,
+      129,
+      85
+    ],
+    [
+      175,
+      154,
+      101
+    ],
+    [
+      36,
+      45,
+      34
+    ],
+    [
+      59,
+      69,
+      46
+    ],
+    [
+      86,
+      97,
+      68
+    ],
+    [
+      27,
+      52,
+      55
+    ],
+    [
+      43,
+      86,
+      93
+    ],
+    [
+      75,
+      128,
+      137
+    ],
+    [
+      125,
+      163,
+      159
+    ],
+    [
+      57,
+      31,
+      28
+    ],
+    [
+      98,
+      55,
+      44
+    ],
+    [
+      137,
+      87,
+      58
+    ],
+    [
+      58,
+      30,
+      38
+    ],
+    [
+      135,
+      57,
+      60
+    ]
+  ],
+  "profile_sha256": "7c954b7b31d84ac4b858bd9ee6be9097b7eb73f5b4d3a608976f5f54a861cadc",
+  "frames": [
+    {
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 20,
+      "colors": [
+        "#080c11",
+        "#191615",
+        "#242d22",
+        "#28241e",
+        "#373128",
+        "#391f1c",
+        "#3a1e26",
+        "#3b452e",
+        "#4a4033",
+        "#566144",
+        "#61513c",
+        "#62372c",
+        "#7b6945",
+        "#87393c",
+        "#89573a",
+        "#8b8e81",
+        "#948155",
+        "#a6a08d",
+        "#af9a65",
+        "#b6ae99"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        192,
+        177,
+        320,
+        240
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\scenery\\spikes.png",
+      "input_sha256": "232697bc6c5b4782c2a4c29a4ac8a91ede00feb3a6c63f7acde0b24876e3c74e",
+      "input_size": [
+        128,
+        64
+      ],
+      "input_bbox": [
+        0,
+        1,
+        128,
+        64
+      ],
+      "source_anchor": [
+        64.0,
+        64
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 1.0,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        256,
+        240
+      ],
+      "baseline": 240,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\scenery\\terrain\\spikes.png",
+      "output_sha256": "a9fe83b7eaf1a4c6aacec645a52c1e0cd0a3a288c1c971851d1d06c94e30edde"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "name": "boss",
+  "status": "resolution-correction",
+  "max_frame": [
+    256,
+    256
+  ],
+  "canvas": [
+    256,
+    256
+  ],
+  "pivot": [
+    128,
+    248
+  ],
+  "visible_size": [
+    254,
+    254
+  ],
+  "margin": 1,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": {
+    "source_pixels": 1,
+    "target_pixels": 144
+  },
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 32,
+  "palette": "../palettes/world-boss.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 20
+  },
+  "notes": "Escala anat\u00f4mica comum a todas as poses. Arma e membros em movimento podem estender os bounds do corpo em repouso.",
+  "fit_anchor": true,
+  "world_scale": 0.4513888888888889
+}

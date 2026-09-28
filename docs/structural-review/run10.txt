@@ -1,0 +1,38 @@
+0.0 awakening 5
+0.7 passage 5
+10.3 crossroads 5
+26.6 watch 5
+30.1 bridge 5
+progress 58.5 bridge 1050 256 {"start":2,"end":5,"path":2,"p":[1047.2111111111067,256]}
+62.3 ossuary 2
+76.0 sentries 5
+103.2 balcony 1
+111.7 ascent 1
+progress 117.0 ascent 565 496 {"start":14,"end":0,"path":12,"p":[567.3833333333366,496]}
+118.2 ossuary 5
+132.0 sentries 5
+134.1 balcony 5
+142.6 ascent 5
+progress 175.1 ascent 207 416 {"start":10,"end":0,"path":9,"p":[206.65555555555528,416]}
+progress 235.1 ascent 200 367 {"start":10,"end":0,"path":9,"p":[210.19999999999973,416]}
+progress 295.1 ascent 154 307 {"start":8,"end":0,"path":7,"p":[165.86111111111111,336]}
+progress 355.1 ascent 140 312 {"start":6,"end":0,"path":6,"p":[142.0166666666667,312]}
+progress 415.1 ascent 109 267 {"start":6,"end":0,"path":6,"p":[119.81666666666673,312]}
+progress 475.1 ascent 181 322 {"start":9,"end":0,"path":8,"p":[194.36666666666667,368]}
+progress 535.1 ascent 216 415 {"start":11,"end":0,"path":10,"p":[248.15555555555525,464]}
+progress 595.1 ascent 245 464 {"start":11,"end":0,"path":10,"p":[243.51111111111078,464]}
+progress 655.1 ascent 216 415 {"start":11,"end":0,"path":10,"p":[248.15555555555525,464]}
+progress 715.1 ascent 205 372 {"start":10,"end":0,"path":9,"p":[210.19999999999973,416]}
+progress 775.1 ascent 190 347 {"start":9,"end":0,"path":8,"p":[194.36666666666667,368]}
+progress 835.1 ascent 165 323 {"start":8,"end":0,"path":7,"p":[165.86111111111111,336]}
+progress 895.1 ascent 128 312 {"start":6,"end":0,"path":6,"p":[129.75000000000006,312]}
+progress 955.1 ascent 119 262 {"start":6,"end":0,"path":6,"p":[119.81666666666673,312]}
+progress 1015.1 ascent 154 312 {"start":6,"end":0,"path":6,"p":[119.81666666666673,312]}
+progress 1075.1 ascent 230 418 {"start":6,"end":0,"path":6,"p":[119.81666666666673,312]}
+progress 1135.1 ascent 245 464 {"start":11,"end":0,"path":10,"p":[243.51111111111078,464]}
+progress 1195.1 ascent 216 415 {"start":11,"end":0,"path":10,"p":[248.15555555555525,464]}
+progress 1255.1 ascent 205 372 {"start":10,"end":0,"path":9,"p":[210.19999999999973,416]}
+progress 1315.1 ascent 190 347 {"start":9,"end":0,"path":8,"p":[194.36666666666667,368]}
+progress 1375.1 ascent 165 323 {"start":8,"end":0,"path":7,"p":[165.86111111111111,336]}
+progress 1435.1 ascent 128 312 {"start":6,"end":0,"path":6,"p":[129.75000000000006,312]}
+progress 1495.1 ascent 119 262 {"start":6,"end":0,"path":6,"p":[119.81666666666673,312]}

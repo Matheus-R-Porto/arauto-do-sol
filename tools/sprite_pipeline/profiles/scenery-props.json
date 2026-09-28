@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "scenery-props",
+  "max_frame": [
+    512,
+    512
+  ],
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    256,
+    496
+  ],
+  "visible_size": [
+    504,
+    504
+  ],
+  "margin": 4,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": null,
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 32,
+  "palette": "../palettes/world-stone.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 4,
+  "notes": "Reprocessar RAW. Mesmas unidades de mundo; densidade somente de pixels. Paleta e posição preservadas."
+}

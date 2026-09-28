@@ -1,0 +1,6 @@
+Cell: intact barrier, real melee destruction, physical local crossing.
+10 -> 3 -> 10: real melee, aligned crossing, safe arrival and bidirectional transition.
+Shortcut remains open after room reload and respawn.
+Room 4: bottom -> all climbing stages -> room 3, normal jumps: 18
+Local map edit budget, unchanged elevations/topology, wall attachment, and forbidden-side melee verified.
+5 -> 4 -> 5: melee opening, safe arrivals, ordinary crossings, rest and respawn persistence.

@@ -1,0 +1,273 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "level-props",
+    "max_frame": [
+      512,
+      512
+    ],
+    "canvas": [
+      160,
+      128
+    ],
+    "pivot": [
+      80,
+      116
+    ],
+    "visible_size": [
+      152,
+      120
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 606,
+      "target_pixels": 128
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "preserve",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory."
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "c664ab9cc490c9db63c3a71043341f3121198f2e249444ab49f68f75232408be",
+  "frames": [
+    {
+      "size": [
+        160,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b4734c",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        14,
+        50,
+        146,
+        116
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-pile-1.png",
+      "input_sha256": "e027f6b7a40249410bf02de88d264f774f14ebeacc09ba5a6f6e4d2d77760ad1",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        51,
+        260,
+        678,
+        574
+      ],
+      "source_anchor": [
+        364.5,
+        574
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.21122112211221122,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        116
+      ],
+      "baseline": 116,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-pile-1.png",
+      "output_sha256": "f4d5100c2c6770419dfc53bc21e1ddd6e2369e738e66a46ec4fa49b02d192c46"
+    }
+  ]
+}

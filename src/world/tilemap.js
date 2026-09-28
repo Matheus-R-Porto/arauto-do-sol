@@ -125,13 +125,13 @@ export class TileMap {
           ctx.fillRect(x, y, ts, ts);
           // Aresta clara so onde ha ar em cima: da leitura de "chao".
           if (this.at(c, r - 1) !== TILE.SOLID) {
-            ctx.fillStyle = '#3b3352';
+            ctx.fillStyle = '#7b7e79';
             ctx.fillRect(x, y, ts, 2);
           }
         } else if (tile === TILE.ONEWAY) {
           ctx.fillStyle = '#4a3f63';
           ctx.fillRect(x, y, ts, 3);
-          ctx.fillStyle = '#6d5e8c';
+          ctx.fillStyle = '#bcac88';
           ctx.fillRect(x, y, ts, 1);
         } else if (tile === TILE.HAZARD) {
           this._drawHazard(ctx, x, y, ts);

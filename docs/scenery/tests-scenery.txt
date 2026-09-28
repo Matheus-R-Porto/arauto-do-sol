@@ -1,0 +1,6 @@
+Scenery: stone-a, ledge, spikes, stone-b, arch, sun-door, chain-gate, shortcut-gate, statue, mausoleum, window, bones, bell, dead-tree, urns, gravestones, shrine, fountain, lever, sun-key, fragment, secret-stone, end-arch, ladder, background/crypt, background/exterior, background/ossuary, background/arena
+...
+----------------------------------------------------------------------
+Ran 3 tests in 21.542s
+
+OK

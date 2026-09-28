@@ -1,0 +1,617 @@
+[
+  {
+    "name": "wall-intact",
+    "raw": "wall.png",
+    "rawSHA256": "6556f30614708e2dc83636353cf10264dee5c22c3a4f3bfeef90e6b99f4b5743",
+    "crop": [
+      0,
+      0,
+      724,
+      724
+    ],
+    "anchor": [
+      397.5,
+      687
+    ],
+    "result": {
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 32,
+      "colors": [
+        "#111311",
+        "#161917",
+        "#191c1a",
+        "#1b1e1d",
+        "#1b201f",
+        "#1e201e",
+        "#1e2321",
+        "#202422",
+        "#202525",
+        "#212625",
+        "#212827",
+        "#232624",
+        "#242825",
+        "#242928",
+        "#252a28",
+        "#252b2b",
+        "#262c2b",
+        "#272d2c",
+        "#272f2e",
+        "#292e2c",
+        "#2a2f2c",
+        "#2a302f",
+        "#2a3230",
+        "#2d3230",
+        "#2d3433",
+        "#2e3634",
+        "#313533",
+        "#323836",
+        "#333b39",
+        "#363c3a",
+        "#3a413e",
+        "#434a47"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        23,
+        58,
+        169,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\wall-intact.png",
+      "input_sha256": "c1a2846b0de3511f0a3eb36d285dcd72ec3299d5473ff8342c917cde694e36e3",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        149,
+        39,
+        646,
+        687
+      ],
+      "source_anchor": [
+        397.5,
+        687
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.29357798165137616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        96,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\polish\\wall-intact.png",
+      "output_sha256": "8bcebf403e4db313e7f85c2d86c7c47ebfb11cf8561f2cac31e5ef602ffb8646"
+    }
+  },
+  {
+    "name": "wall-cracked",
+    "raw": "wall.png",
+    "rawSHA256": "6556f30614708e2dc83636353cf10264dee5c22c3a4f3bfeef90e6b99f4b5743",
+    "crop": [
+      724,
+      0,
+      1448,
+      724
+    ],
+    "anchor": [
+      356.0,
+      687
+    ],
+    "result": {
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 32,
+      "colors": [
+        "#111311",
+        "#161917",
+        "#191c1a",
+        "#1b1e1d",
+        "#1b201f",
+        "#1e201e",
+        "#1e2321",
+        "#202422",
+        "#202525",
+        "#212625",
+        "#212827",
+        "#232624",
+        "#242825",
+        "#242928",
+        "#252a28",
+        "#252b2b",
+        "#262c2b",
+        "#272d2c",
+        "#272f2e",
+        "#292e2c",
+        "#2a2f2c",
+        "#2a302f",
+        "#2a3230",
+        "#2d3230",
+        "#2d3433",
+        "#2e3634",
+        "#313533",
+        "#323836",
+        "#333b39",
+        "#363c3a",
+        "#3a413e",
+        "#434a47"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        18,
+        58,
+        175,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\wall-cracked.png",
+      "input_sha256": "6218c7874a0e2f2b5b221a368066cd4d750440f8bf4adcd40d9d87636f4accfe",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        89,
+        39,
+        623,
+        687
+      ],
+      "source_anchor": [
+        356.0,
+        687
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.29357798165137616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        96,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\polish\\wall-cracked.png",
+      "output_sha256": "b4e372bc869b280fda32665e374e75021107c1ea6a85b7cfa48b49ca9eb64e1b"
+    }
+  },
+  {
+    "name": "wall-broken",
+    "raw": "wall.png",
+    "rawSHA256": "6556f30614708e2dc83636353cf10264dee5c22c3a4f3bfeef90e6b99f4b5743",
+    "crop": [
+      1448,
+      0,
+      2172,
+      724
+    ],
+    "anchor": [
+      311.5,
+      687
+    ],
+    "result": {
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 32,
+      "colors": [
+        "#111311",
+        "#161917",
+        "#191c1a",
+        "#1b1e1d",
+        "#1b201f",
+        "#1e201e",
+        "#1e2321",
+        "#202422",
+        "#202525",
+        "#212625",
+        "#212827",
+        "#232624",
+        "#242825",
+        "#242928",
+        "#252a28",
+        "#252b2b",
+        "#262c2b",
+        "#272d2c",
+        "#272f2e",
+        "#292e2c",
+        "#2a2f2c",
+        "#2a302f",
+        "#2a3230",
+        "#2d3230",
+        "#2d3433",
+        "#2e3634",
+        "#313533",
+        "#323836",
+        "#333b39",
+        "#363c3a",
+        "#3a413e",
+        "#434a47"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        9,
+        58,
+        184,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\wall-broken.png",
+      "input_sha256": "348a05d7acc7745105d7106d078c15bc8c7ca6740057fc76dd707594440a0cf5",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        14,
+        39,
+        609,
+        687
+      ],
+      "source_anchor": [
+        311.5,
+        687
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.29357798165137616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        96,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\polish\\wall-broken.png",
+      "output_sha256": "d4d6b5c993fc99ed0c9aedf46d3786550ff5bca6875463485415083333458b14"
+    }
+  },
+  {
+    "name": "wall-rubble",
+    "raw": "wall.png",
+    "rawSHA256": "6556f30614708e2dc83636353cf10264dee5c22c3a4f3bfeef90e6b99f4b5743",
+    "crop": [
+      1448,
+      0,
+      2172,
+      724
+    ],
+    "anchor": [
+      311.5,
+      87
+    ],
+    "result": {
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "visible_colors": 32,
+      "colors": [
+        "#111311",
+        "#161917",
+        "#191c1a",
+        "#1b1e1d",
+        "#1b201f",
+        "#1e201e",
+        "#1e2321",
+        "#202422",
+        "#202525",
+        "#212625",
+        "#212827",
+        "#232624",
+        "#242825",
+        "#242928",
+        "#252a28",
+        "#252b2b",
+        "#262c2b",
+        "#272d2c",
+        "#272f2e",
+        "#292e2c",
+        "#2a2f2c",
+        "#2a302f",
+        "#2a3230",
+        "#2d3230",
+        "#2d3433",
+        "#2e3634",
+        "#313533",
+        "#323836",
+        "#333b39",
+        "#363c3a",
+        "#3a413e",
+        "#434a47"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        9,
+        222,
+        184,
+        248
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\wall-rubble.png",
+      "input_sha256": "f30065356db4b4db21a69109d41c95ef7b5e31cc1fac67148f8d4b97e716ae92",
+      "input_size": [
+        724,
+        124
+      ],
+      "input_bbox": [
+        14,
+        0,
+        609,
+        87
+      ],
+      "source_anchor": [
+        311.5,
+        87
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.29357798165137616,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        96,
+        248
+      ],
+      "baseline": 248,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\polish\\wall-rubble.png",
+      "output_sha256": "e16c5b659a0a75e1f94442d1c5e95f8a72b0de4b3238b4440ccb9e4812db29f3"
+    }
+  },
+  {
+    "name": "land-0",
+    "raw": "land.png",
+    "rawSHA256": "1d87bc0b10943ee42cf1593631a2cec96402242c4ffe74bf271077ea9cd468a4",
+    "crop": [
+      0,
+      0,
+      591,
+      887
+    ],
+    "anchor": [
+      340,
+      812
+    ],
+    "result": {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        28,
+        46,
+        97,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\land-0.png",
+      "input_sha256": "5441af583b5e98856c9d4478fc0de8a594166393a1352f36f1c6c2b153f9c9e9",
+      "input_size": [
+        591,
+        887
+      ],
+      "input_bbox": [
+        69,
+        321,
+        580,
+        812
+      ],
+      "source_anchor": [
+        340,
+        812
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.13445378151260504,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\polish\\land-0.png",
+      "output_sha256": "735e8bddd6d8efcb5bf14d68ca351023d7eaf2c82ad74863fa0c6693bce8d226"
+    }
+  },
+  {
+    "name": "land-1",
+    "raw": "land.png",
+    "rawSHA256": "1d87bc0b10943ee42cf1593631a2cec96402242c4ffe74bf271077ea9cd468a4",
+    "crop": [
+      591,
+      0,
+      1183,
+      887
+    ],
+    "anchor": [
+      345,
+      812
+    ],
+    "result": {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        29,
+        28,
+        94,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\land-1.png",
+      "input_sha256": "0fac2f3f1fa93709b430d41c474f3c59b0c0f7f42367b9216bcf61bfb1810e5e",
+      "input_size": [
+        592,
+        887
+      ],
+      "input_bbox": [
+        87,
+        187,
+        573,
+        812
+      ],
+      "source_anchor": [
+        345,
+        812
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.13445378151260504,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\polish\\land-1.png",
+      "output_sha256": "038d32b3aae3d6fda89c384f9530a50fdcb71fb313139db21b621e4cb9b0875b"
+    }
+  },
+  {
+    "name": "land-2",
+    "raw": "land.png",
+    "rawSHA256": "1d87bc0b10943ee42cf1593631a2cec96402242c4ffe74bf271077ea9cd468a4",
+    "crop": [
+      1183,
+      0,
+      1774,
+      887
+    ],
+    "anchor": [
+      325,
+      812
+    ],
+    "result": {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        41,
+        16,
+        95,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\polish\\land-2.png",
+      "input_sha256": "10d976c8340bed69e0749fd429e73648c12e5fe56523f48c86ee090d46bbc35d",
+      "input_size": [
+        591,
+        887
+      ],
+      "input_bbox": [
+        153,
+        100,
+        552,
+        812
+      ],
+      "source_anchor": [
+        325,
+        812
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.13445378151260504,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\polish\\land-2.png",
+      "output_sha256": "dab59a14b5604859a851873ea96f8c1cd31aad4397a05784ae15d7096e51ce2e"
+    }
+  }
+]

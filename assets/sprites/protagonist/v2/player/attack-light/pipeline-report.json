@@ -1,0 +1,259 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        19,
+        17,
+        127,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-light\\attack-light-0.png",
+      "input_sha256": "1aa6991c0218a9bf521150286b7fe08c18a59d96791508d9e7ff645c09ed7cf2",
+      "input_size": [
+        415,
+        367
+      ],
+      "input_bbox": [
+        2,
+        2,
+        413,
+        365
+      ],
+      "source_anchor": [
+        118.5,
+        365
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        50,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-light\\attack-light-0.png",
+      "output_sha256": "595a473f649708463c94319d13d78a8413a714a6a49a982bbd7bac50d565beb6"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        18,
+        17,
+        127,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-light\\attack-light-1.png",
+      "input_sha256": "a056ce06437564853202f7b9a01d4115b7ef8f5016a7e31808255aaa6f6400eb",
+      "input_size": [
+        419,
+        364
+      ],
+      "input_bbox": [
+        2,
+        2,
+        417,
+        362
+      ],
+      "source_anchor": [
+        121.5,
+        362
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        49,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-light\\attack-light-1.png",
+      "output_sha256": "e179f4b490cd841140c5b20f2ca392f0ac3cde73d9d136db53c56074c6a76432"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        38,
+        17,
+        102,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-light\\attack-light-2.png",
+      "input_sha256": "64991debf274da3865de618c50bf8169585e473d7b0cc7c2241cc22e22f1834d",
+      "input_size": [
+        246,
+        367
+      ],
+      "input_bbox": [
+        2,
+        2,
+        244,
+        365
+      ],
+      "source_anchor": [
+        99.0,
+        365
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-light\\attack-light-2.png",
+      "output_sha256": "7d748529e415ab913bdcc43499ef9c48c2fe4d6eb7f77dfbeb760708a183e468"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        44,
+        16,
+        92,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\player\\attack-light\\attack-light-3.png",
+      "input_sha256": "b0f510e42f04c5d461bc4ab2e617106af932bf7e49098be1d733a5e480c2f6c0",
+      "input_size": [
+        186,
+        369
+      ],
+      "input_bbox": [
+        2,
+        2,
+        184,
+        367
+      ],
+      "source_anchor": [
+        76.5,
+        367
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.26301369863013696,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\v2\\player\\attack-light\\attack-light-3.png",
+      "output_sha256": "fc303355e5c7c637fa01b97dfe573ca32f0e407595500f04b0e3f527d448b27b"
+    }
+  ]
+}

@@ -11,21 +11,22 @@ export const RENDER = {
   background: '#0a0913',
 };
 
+const WALK_SPEED = 92; // Caminhada e movimento aéreo comum compartilham o teto.
+
 export const PLAYER = {
   width: 10,         // hitbox, nao o sprite
   height: 22,
 
   // --- chao ---
-  walkSpeed: 92,
+  walkSpeed: WALK_SPEED,
   runSpeed: 158,
   groundAccel: 900,
   groundDecel: 1400,
 
   // --- ar ---
-  // airSpeed e o teto horizontal so pra quando NAO esta no chao (pulando ou
-  // caindo) — deliberadamente mais rapido que o walkSpeed, senao pular fica
-  // mais lento que andar, o que e estranho.
-  airSpeed: 130,
+  // Pular sem correr nao aumenta a velocidade horizontal. O impulso de uma
+  // corrida iniciada no chao continua preservado durante o salto.
+  airSpeed: WALK_SPEED,
   // airAccel: taxa pra ACELERAR ate o airSpeed (saindo do zero ou mantendo
   // a mesma direcao). Trocar de direcao no ar NAO usa isso — e instantaneo
   // (ver player.js _updateHorizontal), pra dar retorno rapido a parede ao
@@ -87,27 +88,56 @@ export const ENERGY = {
   regenPerSecond: 10,          // GDD: ~10% por segundo
   regenDelay: 1.0,             // comeca 1s apos a ultima acao
   explorationMultiplier: 0.5,  // fora de combate custa metade
-  combatTimeout: 20,           // 20s sem trocar dano -> volta para exploracao
+  combatTimeout: 10,          // 10s sem causar/receber dano -> exploracao
 
   // Custos por acao. Valores "por segundo" estao marcados.
   costs: {
-    jump: 4,
-    dash: 12,
-    wallJump: 5,
-    run: 6,          // por segundo
-    wallSlide: 2,    // por segundo
-    glide: 6,        // por segundo
-    attackLight: 9,  // combo de 5 hits ~= 45 (bate com o GDD)
-    attackM2: 9,     // mesmo custo do M1 por enquanto — so o dano que dobra
-    attackHeavy: 22,
+    jump: 2,
+    dash: 6,
+    wallJump: 2.5,
+    run: 3,            // por segundo
+    wallSlide: 1,      // por segundo
+    glide: 3,          // por segundo
+    attackLight: 4.5,  // combo de 5 hits = 22.5 em combate
+    attackM2: 4.5,     // mesmo custo do M1 por enquanto — so o dano que dobra
+    attackHeavy: 11,
   },
 };
 
 export const HEALTH = {
+  invulnerability: 1.0,
   maxSkulls: 5,          // caveiras iniciais
   absoluteMaxSkulls: 10, // teto explorando tudo
   fragmentsPerSkull: 4,
   totalFragmentsInGame: 20,
+};
+
+// Vertical slice: gameplay values, kept separate from the established physics.
+export const DEMO = {
+  fade: 0.18, deathDelay: 0.85, arrivalGrace: 0.45, portalRadius: 22,
+  checkpointRadius: 25, pickupRadius: 18, notificationTime: 3.5,
+  damage: 1, hurtVx: 105, hurtVy: -95, hurtLock: 0.14,
+  bossIntro: 1.8, bossSilence: 2.4, endFade: 1.2,
+  hitFlash: 0.12, hitstop: 0.035, bossHitstop: 0.09,
+  enemyStun: 0.18, patrolRadius: 64, verticalDetect: 45,
+  safeEdgePadding: 8, safeFloorProbe: 4,
+  projectile: { speed: 95, size: 6, life: 4.5, damage: 1 },
+};
+export const ENEMIES = {
+  walker: { hp: 5, width: 14, height: 24, speed: 29, detect: 145, range: 27, reach: 30, windup: 0.65, active: 0.16, recovery: 1.25, damage: 1, color: '#91a68a' },
+  lunger: { hp: 7, width: 22, height: 18, speed: 16, detect: 155, range: 135, reach: 8, windup: 0.85, active: 0.48, recovery: 1.8, chargeSpeed: 185, damage: 1, color: '#b88b72' },
+  ranged: { hp: 4, width: 12, height: 32, speed: 22, detect: 210, range: 190, retreat: 70, reach: 0, windup: 0.9, active: 0.12, recovery: 2.3, damage: 1, color: '#afa0c7' },
+};
+export const BOSS = {
+  hp: 100, width: 42, height: 65, speed: 38, approachTime: 2.3,
+  range: 58, reach: 67, phaseRatio: 0.5, phaseRecovery: 0.85,
+  slash: { windup: 0.95, active: 0.2, recovery: 2.1, hitHeight: 30, damage: 1 },
+  charge: { windup: 1.15, active: 0.95, recovery: 2.4, speed: 180, hitHeight: 24, damage: 1 },
+  slam: { windup: 1.2, active: 0.6, recovery: 2.6, radius: 60, height: 88, hitHeight: 12, damage: 2 },
+};
+export const EFFECTS = {
+  volume: 0.16,
+  tones: { hit:[170,0.07], hurt:[85,0.16], checkpoint:[520,0.3], death:[48,0.4], victory:[220,0.7] },
 };
 
 export const CAMERA = {

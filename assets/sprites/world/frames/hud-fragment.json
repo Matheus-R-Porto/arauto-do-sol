@@ -1,0 +1,182 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-hud",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      48
+    ],
+    "pivot": [
+      64,
+      44
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 50.16666666666667,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-hud.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      11,
+      13,
+      19
+    ],
+    [
+      31,
+      32,
+      38
+    ],
+    [
+      52,
+      50,
+      56
+    ],
+    [
+      77,
+      72,
+      66
+    ],
+    [
+      109,
+      97,
+      77
+    ],
+    [
+      146,
+      122,
+      83
+    ],
+    [
+      185,
+      155,
+      99
+    ],
+    [
+      223,
+      199,
+      141
+    ],
+    [
+      242,
+      230,
+      200
+    ],
+    [
+      185,
+      182,
+      167
+    ],
+    [
+      138,
+      147,
+      143
+    ],
+    [
+      65,
+      103,
+      117
+    ],
+    [
+      125,
+      182,
+      196
+    ],
+    [
+      202,
+      231,
+      223
+    ],
+    [
+      186,
+      100,
+      71
+    ],
+    [
+      241,
+      173,
+      104
+    ]
+  ],
+  "profile_sha256": "b91ddea87ea11a3d35f1b13549062c08f346fe9bfc1efc63a39e29c6b9e5b14e",
+  "frames": [
+    {
+      "size": [
+        128,
+        48
+      ],
+      "mode": "RGBA",
+      "visible_colors": 6,
+      "colors": [
+        "#1f2026",
+        "#4d4842",
+        "#6d614d",
+        "#8a938f",
+        "#927a53",
+        "#b9b6a7"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        62,
+        38,
+        66,
+        44
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\hud-fragment.png",
+      "input_sha256": "31cafe3a516d0f65058b889f814c96d06004f9cdd949bd13d27a22da235a8daf",
+      "input_size": [
+        768,
+        512
+      ],
+      "input_bbox": [
+        301,
+        95,
+        480,
+        396
+      ],
+      "source_anchor": [
+        390.5,
+        396
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.019933554817275746,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        44
+      ],
+      "baseline": 44,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\frames\\hud-fragment.png",
+      "output_sha256": "30db168b20a979516f7add5d89fc081714134b3df7dc13c38d31b8826643be45"
+    }
+  ]
+}

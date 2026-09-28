@@ -1,0 +1,239 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "ranged",
+    "status": "resolution-correction",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      120
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 2.625,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 24,
+    "palette": "../palettes/world-enemies.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Escala anatômica comum a todas as poses. Arma e membros em movimento podem estender os bounds do corpo em repouso.",
+    "fit_anchor": true,
+    "world_scale": 0.36363636363636365
+  },
+  "palette_colors": [
+    [
+      19,
+      20,
+      22
+    ],
+    [
+      40,
+      40,
+      42
+    ],
+    [
+      64,
+      60,
+      52
+    ],
+    [
+      91,
+      83,
+      67
+    ],
+    [
+      120,
+      107,
+      82
+    ],
+    [
+      154,
+      138,
+      104
+    ],
+    [
+      187,
+      174,
+      134
+    ],
+    [
+      222,
+      210,
+      169
+    ],
+    [
+      239,
+      227,
+      190
+    ],
+    [
+      35,
+      49,
+      42
+    ],
+    [
+      61,
+      83,
+      66
+    ],
+    [
+      95,
+      121,
+      87
+    ],
+    [
+      138,
+      155,
+      110
+    ],
+    [
+      72,
+      45,
+      40
+    ],
+    [
+      116,
+      65,
+      57
+    ],
+    [
+      163,
+      103,
+      80
+    ],
+    [
+      204,
+      150,
+      112
+    ],
+    [
+      44,
+      35,
+      57
+    ],
+    [
+      75,
+      56,
+      91
+    ],
+    [
+      112,
+      83,
+      129
+    ],
+    [
+      162,
+      132,
+      177
+    ],
+    [
+      214,
+      185,
+      219
+    ],
+    [
+      240,
+      200,
+      135
+    ],
+    [
+      83,
+      100,
+      109
+    ]
+  ],
+  "profile_sha256": "76650e0d3299d2fcc2c5e700155b8f21fcc6a947183940b024623921fe1a837b",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 19,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#2c2339",
+        "#403c34",
+        "#482d28",
+        "#4b385b",
+        "#53646d",
+        "#5b5343",
+        "#705381",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a284b1",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#d6b9db",
+        "#ded2a9",
+        "#efe3be"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        30,
+        55,
+        97,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\ranged\\death\\death-1.png",
+      "input_sha256": "d13e4dbb7affdd34db040850b0e5cac23a622ba6ee5fc4c6911e894b7d8134d8",
+      "input_size": [
+        181,
+        175
+      ],
+      "input_bbox": [
+        2,
+        2,
+        179,
+        173
+      ],
+      "source_anchor": [
+        90.5,
+        173
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.38095238095238093,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\ranged\\death\\death-1.png",
+      "output_sha256": "a9e7e21213db9691164d9bc2e89a497f2609bf8b3e8f62d5e5bc6dee78f8be92"
+    }
+  ]
+}

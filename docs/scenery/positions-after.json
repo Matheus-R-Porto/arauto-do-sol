@@ -1,0 +1,5887 @@
+[
+  {
+    "id": "awakening",
+    "name": "Câmara do despertar",
+    "landmark": "tomb",
+    "theme": "crypt",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "mausoleum",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/mausoleum.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          309,
+          240,
+          395,
+          352
+        ],
+        "visibleSize": [
+          86,
+          112
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "passage",
+    "name": "Passagem das lápides",
+    "landmark": "tree",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          297.75,
+          236,
+          406.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "crossroads",
+    "name": "Pátio da estátua",
+    "landmark": "statue",
+    "theme": "open",
+    "size": [
+      480,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "statue",
+        "layer": "decor",
+        "x": 350,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/statue.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          326.25,
+          236,
+          373.5,
+          352
+        ],
+        "visibleSize": [
+          47.25,
+          116
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "sun-door",
+        "layer": "objects",
+        "x": 448,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/sun-door.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          429,
+          313.25,
+          467,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 224,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          205,
+          313.25,
+          243,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 224,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          217,
+          316.25,
+          231,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shrine",
+        "layer": "objects",
+        "x": 128,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/shrine.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          111.25,
+          310,
+          144.5,
+          352
+        ],
+        "visibleSize": [
+          33.25,
+          42
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "flame",
+        "layer": "objects",
+        "x": 128,
+        "y": 329,
+        "flip": 1,
+        "opacity": 0.189,
+        "file": "frames/flame.png",
+        "canvas": [
+          128,
+          64
+        ],
+        "pivot": [
+          64,
+          60
+        ],
+        "worldScale": 1,
+        "bounds": [
+          126,
+          317,
+          131,
+          328
+        ],
+        "visibleSize": [
+          5,
+          11
+        ],
+        "baseGap": 1,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "fragment",
+        "layer": "objects",
+        "x": 416,
+        "y": 248,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/fragment.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          411.5,
+          238.5,
+          420.5,
+          248
+        ],
+        "visibleSize": [
+          9,
+          9.5
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "watch",
+    "name": "Vigília da corrente",
+    "landmark": "chain",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "chain-gate",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/chain-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          333,
+          314.25,
+          371,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "sun-door",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/sun-door.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          25.25,
+          163,
+          63.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          28.25,
+          151,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "chain-gate",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/chain-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          314.25,
+          627,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "shaft",
+    "name": "Poço dos sinos",
+    "landmark": "bell",
+    "theme": "crypt",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "bell",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/bell.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          322,
+          253.25,
+          382,
+          352
+        ],
+        "visibleSize": [
+          60,
+          98.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          313.25,
+          163,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          316.25,
+          151,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "name": "Ponte do contrapeso",
+    "landmark": "bridge",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          322,
+          305.25,
+          382,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 3,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "window",
+        "layer": "decor",
+        "x": 430,
+        "y": 267,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/window.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          406.25,
+          159,
+          453.75,
+          267
+        ],
+        "visibleSize": [
+          47.5,
+          108
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "bones",
+        "layer": "decor",
+        "x": 430,
+        "y": 265,
+        "flip": 1,
+        "opacity": 0.315,
+        "file": "scenery/landmarks/bones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          380.25,
+          207,
+          479.75,
+          265
+        ],
+        "visibleSize": [
+          99.5,
+          58
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "chain-gate",
+        "layer": "objects",
+        "x": 448,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/chain-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          429,
+          314.25,
+          467,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 448,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          441,
+          316.25,
+          455,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "lever",
+        "layer": "objects",
+        "x": 256,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/lever.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          242,
+          336.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          28,
+          15.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "crypt",
+    "name": "Cripta das raízes",
+    "landmark": "roots",
+    "theme": "crypt",
+    "size": [
+      1120,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 690,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          657,
+          290.75,
+          723,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 841,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          811,
+          305.25,
+          871,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 992,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          962,
+          305.25,
+          1022,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 440,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          385.75,
+          236,
+          494.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 720,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          665.75,
+          236,
+          774.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "window",
+        "layer": "decor",
+        "x": 270,
+        "y": 267,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/window.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          246.25,
+          159,
+          293.75,
+          267
+        ],
+        "visibleSize": [
+          47.5,
+          108
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "decor",
+        "x": 270,
+        "y": 265,
+        "flip": 1,
+        "opacity": 0.315,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          251,
+          227.25,
+          289,
+          265
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 224,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          205,
+          25.25,
+          243,
+          63.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 224,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          217,
+          28.25,
+          231,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 1088,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1069,
+          314.25,
+          1107,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          314.25,
+          163,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          316.25,
+          151,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "sun-key",
+        "layer": "objects",
+        "x": 880,
+        "y": 248,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/sun-key.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          875,
+          229.75,
+          885,
+          248
+        ],
+        "visibleSize": [
+          10,
+          18.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "fragment",
+        "layer": "objects",
+        "x": 1008,
+        "y": 344,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/fragment.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1003.5,
+          334.5,
+          1012.5,
+          344
+        ],
+        "visibleSize": [
+          9,
+          9.5
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "chapel",
+    "name": "Capela sem teto",
+    "landmark": "window",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "window",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/window.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          328.25,
+          244,
+          375.75,
+          352
+        ],
+        "visibleSize": [
+          47.5,
+          108
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "secret-stone",
+        "layer": "objects",
+        "x": 352,
+        "y": 256,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/secret-stone.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          340,
+          224.25,
+          364,
+          256
+        ],
+        "visibleSize": [
+          24,
+          31.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "ossuary",
+    "name": "Grande ossuário",
+    "landmark": "bones",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "bones",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/bones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          302.25,
+          294,
+          401.75,
+          352
+        ],
+        "visibleSize": [
+          99.5,
+          58
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "chain-gate",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/chain-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          314.25,
+          51,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          313.25,
+          163,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          316.25,
+          151,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          314.25,
+          627,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shrine",
+        "layer": "objects",
+        "x": 224,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/shrine.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          207.25,
+          310,
+          240.5,
+          352
+        ],
+        "visibleSize": [
+          33.25,
+          42
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "flame",
+        "layer": "objects",
+        "x": 224,
+        "y": 329,
+        "flip": 1,
+        "opacity": 0.189,
+        "file": "frames/flame.png",
+        "canvas": [
+          128,
+          64
+        ],
+        "pivot": [
+          64,
+          60
+        ],
+        "worldScale": 1,
+        "bounds": [
+          222,
+          317,
+          227,
+          328
+        ],
+        "visibleSize": [
+          5,
+          11
+        ],
+        "baseGap": 1,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "ascent",
+    "name": "Escadaria das urnas",
+    "landmark": "urns",
+    "theme": "crypt",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          319,
+          290.75,
+          385,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          25.25,
+          163,
+          63.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          28.25,
+          151,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          314.25,
+          51,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "sentries",
+    "name": "Galeria das sentinelas",
+    "landmark": "window",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "window",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/window.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          328.25,
+          244,
+          375.75,
+          352
+        ],
+        "visibleSize": [
+          47.5,
+          108
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          314.25,
+          51,
+          352
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          313.25,
+          163,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          316.25,
+          151,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "balcony",
+    "name": "Jardim das cinzas",
+    "landmark": "fountain",
+    "theme": "open",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "fountain",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/fountain.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          338.25,
+          310,
+          365.75,
+          352
+        ],
+        "visibleSize": [
+          27.5,
+          42
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          25.25,
+          163,
+          63.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          28.25,
+          151,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "fountain",
+        "layer": "objects",
+        "x": 448,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/fountain.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          434.25,
+          310,
+          461.75,
+          352
+        ],
+        "visibleSize": [
+          27.5,
+          42
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "fragment",
+        "layer": "objects",
+        "x": 528,
+        "y": 344,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/fragment.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          523.5,
+          334.5,
+          532.5,
+          344
+        ],
+        "visibleSize": [
+          9,
+          9.5
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "refuge",
+    "name": "Repouso do guardião",
+    "landmark": "tomb",
+    "theme": "crypt",
+    "size": [
+      640,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "mausoleum",
+        "layer": "decor",
+        "x": 352,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/mausoleum.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          309,
+          240,
+          395,
+          352
+        ],
+        "visibleSize": [
+          86,
+          112
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "window",
+        "layer": "decor",
+        "x": 450,
+        "y": 267,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/window.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          426.25,
+          159,
+          473.75,
+          267
+        ],
+        "visibleSize": [
+          47.5,
+          108
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "boss-idle-0",
+        "layer": "decor",
+        "x": 450,
+        "y": 265,
+        "flip": 1,
+        "opacity": 0.315,
+        "file": "v2/boss/idle/idle-0.png",
+        "canvas": [
+          256,
+          256
+        ],
+        "pivot": [
+          128,
+          248
+        ],
+        "worldScale": 0.4513888888888889,
+        "bounds": [
+          427.88194444444446,
+          200.90277777777777,
+          468.05555555555554,
+          265
+        ],
+        "visibleSize": [
+          40.173611111111114,
+          64.09722222222223
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 0,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          313.25,
+          51,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          313.25,
+          163,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          316.25,
+          151,
+          352
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 608,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          313.25,
+          627,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shrine",
+        "layer": "objects",
+        "x": 448,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/interactions/shrine.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          431.25,
+          310,
+          464.5,
+          352
+        ],
+        "visibleSize": [
+          33.25,
+          42
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "flame",
+        "layer": "objects",
+        "x": 448,
+        "y": 329,
+        "flip": 1,
+        "opacity": 0.189,
+        "file": "frames/flame.png",
+        "canvas": [
+          128,
+          64
+        ],
+        "pivot": [
+          64,
+          60
+        ],
+        "worldScale": 1,
+        "bounds": [
+          446,
+          317,
+          451,
+          328
+        ],
+        "visibleSize": [
+          5,
+          11
+        ],
+        "baseGap": 1,
+        "tileAtAnchor": 0,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "antechamber",
+    "name": "Escada do retorno",
+    "landmark": "chain",
+    "theme": "crypt",
+    "size": [
+      640,
+      768
+    ],
+    "floor": 736,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          689.25,
+          116,
+          736
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          674.75,
+          270,
+          736
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          689.25,
+          418,
+          736
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          689.25,
+          569,
+          736
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "chain-gate",
+        "layer": "decor",
+        "x": 352,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/chain-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          333,
+          698.25,
+          371,
+          736
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          25.25,
+          163,
+          63.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          28.25,
+          151,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 736,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          697.25,
+          51,
+          735.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "procession",
+    "name": "Alameda sob as raízes",
+    "landmark": "roots",
+    "theme": "crypt",
+    "size": [
+      2400,
+      384
+    ],
+    "floor": 352,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          305.25,
+          116,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          290.75,
+          270,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          305.25,
+          418,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          305.25,
+          569,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 690,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          657,
+          290.75,
+          723,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 841,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          811,
+          305.25,
+          871,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 992,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          962,
+          305.25,
+          1022,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 1143,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1110,
+          290.75,
+          1176,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 1294,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1264,
+          305.25,
+          1324,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 1445,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1415,
+          305.25,
+          1475,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 1596,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1563,
+          290.75,
+          1629,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 1747,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1717,
+          305.25,
+          1777,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 1898,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1868,
+          305.25,
+          1928,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 2049,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          2016,
+          290.75,
+          2082,
+          352
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 2200,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          2170,
+          305.25,
+          2230,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 2351,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          2321,
+          305.25,
+          2381,
+          352
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 440,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          385.75,
+          236,
+          494.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 720,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          665.75,
+          236,
+          774.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 1230,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1175.75,
+          236,
+          1284.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 1740,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          1685.75,
+          236,
+          1794.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 2250,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          2195.75,
+          236,
+          2304.5,
+          354
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 2368,
+        "y": 352,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          2349,
+          313.25,
+          2387,
+          351.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          125,
+          26.25,
+          163,
+          64
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "ladder",
+        "layer": "objects",
+        "x": 144,
+        "y": 64,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/ladder.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          137,
+          28.25,
+          151,
+          64
+        ],
+        "visibleSize": [
+          14,
+          35.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "guardian",
+    "name": "Sepulcro do guardião",
+    "landmark": "tomb",
+    "theme": "arena",
+    "size": [
+      640,
+      320
+    ],
+    "floor": 288,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          241.25,
+          116,
+          288
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          226.75,
+          270,
+          288
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          241.25,
+          418,
+          288
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          241.25,
+          569,
+          288
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "mausoleum",
+        "layer": "decor",
+        "x": 352,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/landmarks/mausoleum.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          309,
+          176,
+          395,
+          288
+        ],
+        "visibleSize": [
+          86,
+          112
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 32,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          250.25,
+          51,
+          288
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "shortcut-gate",
+        "layer": "objects",
+        "x": 608,
+        "y": 288,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/shortcut-gate.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          589,
+          250.25,
+          627,
+          288
+        ],
+        "visibleSize": [
+          38,
+          37.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  },
+  {
+    "id": "beyond",
+    "name": "Além do sepulcro",
+    "landmark": "tree",
+    "theme": "open",
+    "size": [
+      768,
+      336
+    ],
+    "floor": 304,
+    "placements": [
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 86,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          56,
+          257.25,
+          116,
+          304
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 237,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          204,
+          242.75,
+          270,
+          304
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 388,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          358,
+          257.25,
+          418,
+          304
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "gravestones",
+        "layer": "decor",
+        "x": 539,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/gravestones.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          509,
+          257.25,
+          569,
+          304
+        ],
+        "visibleSize": [
+          60,
+          46.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "urns",
+        "layer": "decor",
+        "x": 690,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/urns.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          657,
+          242.75,
+          723,
+          304
+        ],
+        "visibleSize": [
+          66,
+          61.25
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "dead-tree",
+        "layer": "decor",
+        "x": 422.40000000000003,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/relics/dead-tree.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          368.15000000000003,
+          188,
+          476.90000000000003,
+          306
+        ],
+        "visibleSize": [
+          108.75,
+          118
+        ],
+        "baseGap": -2,
+        "tileAtAnchor": 1,
+        "interactive": false,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "arch",
+        "layer": "objects",
+        "x": 32,
+        "y": 304,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/doors/arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          13,
+          265.25,
+          51,
+          303.5
+        ],
+        "visibleSize": [
+          38,
+          38.25
+        ],
+        "baseGap": 0.5,
+        "tileAtAnchor": 1,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      },
+      {
+        "name": "end-arch",
+        "layer": "objects",
+        "x": 688,
+        "y": 208,
+        "flip": 1,
+        "opacity": 0.63,
+        "file": "scenery/secrets/end-arch.png",
+        "canvas": [
+          512,
+          512
+        ],
+        "pivot": [
+          256,
+          496
+        ],
+        "worldScale": 0.25,
+        "bounds": [
+          662,
+          155.25,
+          714,
+          208
+        ],
+        "visibleSize": [
+          52,
+          52.75
+        ],
+        "baseGap": 0,
+        "tileAtAnchor": 2,
+        "interactive": true,
+        "collision": "independent room/tile data; never derived from sprite"
+      }
+    ]
+  }
+]

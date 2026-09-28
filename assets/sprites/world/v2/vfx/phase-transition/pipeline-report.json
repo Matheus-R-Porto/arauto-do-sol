@@ -1,0 +1,288 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 7,
+      "colors": [
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        57,
+        45,
+        71,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\phase-transition\\phase-transition-0.png",
+      "input_sha256": "9d984397ad42bdbf1a97583eded0e87fcf72df5ec7ff776f0e6d2485d0b054a7",
+      "input_size": [
+        275,
+        330
+      ],
+      "input_bbox": [
+        55,
+        90,
+        218,
+        258
+      ],
+      "source_anchor": [
+        136.5,
+        258
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.1,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\phase-transition\\phase-transition-0.png",
+      "output_sha256": "45b60ebcd108a01a4c7af3436e20e919839083f642f3f2af0ce8bffd5dd80148"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 9,
+      "colors": [
+        "#23232d",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        55,
+        39,
+        74,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\phase-transition\\phase-transition-1.png",
+      "input_sha256": "a9d643e32055d46abc53d45b10ad0e4f7d8f5af0a31d03e6e546390b1469a6d9",
+      "input_size": [
+        275,
+        330
+      ],
+      "input_bbox": [
+        20,
+        60,
+        246,
+        287
+      ],
+      "source_anchor": [
+        133.0,
+        287
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.1,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\phase-transition\\phase-transition-1.png",
+      "output_sha256": "65786cd71e6170e51a119869d6492edbc0dfef02c7f6d3704cb2d70b50182154"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 11,
+      "colors": [
+        "#23232d",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#b65240",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        51,
+        33,
+        76,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\phase-transition\\phase-transition-2.png",
+      "input_sha256": "769e80380dbc6b56068927c38848302b441936a28f9179bceefdce43cd6b5096",
+      "input_size": [
+        300,
+        330
+      ],
+      "input_bbox": [
+        15,
+        24,
+        288,
+        317
+      ],
+      "source_anchor": [
+        151.5,
+        317
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.1,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\phase-transition\\phase-transition-2.png",
+      "output_sha256": "6ba4b67f9ebe41915dde0d2a251506875b77db9f2f4c9c71ea27d12a1e36ef73"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 10,
+      "colors": [
+        "#23232d",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477",
+        "#f2f0d4",
+        "#ffdf9a",
+        "#ffffff"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        52,
+        38,
+        76,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\phase-transition\\phase-transition-3.png",
+      "input_sha256": "87abc6d633bef8cac2459a8cc75040802892774babb6fdb7b3a8d0524c816494",
+      "input_size": [
+        295,
+        330
+      ],
+      "input_bbox": [
+        37,
+        53,
+        272,
+        295
+      ],
+      "source_anchor": [
+        154.5,
+        295
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.1,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\phase-transition\\phase-transition-3.png",
+      "output_sha256": "3e8b46537f64b53c28e66a6e118873d8305555b93cbde591ba3c6cef1c71fee4"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 7,
+      "colors": [
+        "#23232d",
+        "#564039",
+        "#713c39",
+        "#956341",
+        "#cf9454",
+        "#ded3ae",
+        "#f2c477"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        55,
+        40,
+        72,
+        58
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\phase-transition\\phase-transition-4.png",
+      "input_sha256": "e82b30e015a99ab1d04a6288609165935dfc0051051fcd9ee5e1e7d2d6bdc408",
+      "input_size": [
+        257,
+        330
+      ],
+      "input_bbox": [
+        43,
+        74,
+        218,
+        284
+      ],
+      "source_anchor": [
+        130.5,
+        284
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.1,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\phase-transition\\phase-transition-4.png",
+      "output_sha256": "08d0ffe0110d50fee887b593b8c29e6ba27a8fcc45183021846c0effad932076"
+    }
+  ]
+}

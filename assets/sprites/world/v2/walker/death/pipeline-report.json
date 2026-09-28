@@ -1,0 +1,259 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#131416",
+        "#23312a",
+        "#28282a",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#744139",
+        "#786b52",
+        "#9a8a68",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        16,
+        66,
+        112,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\walker\\death\\death-0.png",
+      "input_sha256": "9511c17295ee90dd43c4b483befbc125e70857db32cacc648d18db0ceaad97ef",
+      "input_size": [
+        264,
+        150
+      ],
+      "input_bbox": [
+        2,
+        2,
+        262,
+        148
+      ],
+      "source_anchor": [
+        132.0,
+        148
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3697478991596639,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\walker\\death\\death-0.png",
+      "output_sha256": "373902dc5000cd774bf5d630d5639c618a245aab257501862ec839c46c9a0703"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 17,
+      "colors": [
+        "#131416",
+        "#23312a",
+        "#28282a",
+        "#3d5342",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#744139",
+        "#786b52",
+        "#8a9b6e",
+        "#9a8a68",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        15,
+        72,
+        113,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\walker\\death\\death-1.png",
+      "input_sha256": "fc6f28cecc4336e86f205bb6ada09ce05ba596d97d3c9c8ceee9b4cd83c05ad1",
+      "input_size": [
+        269,
+        135
+      ],
+      "input_bbox": [
+        2,
+        2,
+        267,
+        133
+      ],
+      "source_anchor": [
+        134.5,
+        133
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3697478991596639,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\walker\\death\\death-1.png",
+      "output_sha256": "9594902f3e1c6b2f4ff42bb643af4e7c4d26f4b253aaf056cee438fcf6bd716e"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#131416",
+        "#23312a",
+        "#28282a",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#744139",
+        "#786b52",
+        "#8a9b6e",
+        "#9a8a68",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        8,
+        75,
+        120,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\walker\\death\\death-2.png",
+      "input_sha256": "087e57dd7d36f0b231dac89e630e6692e6aa1260624c134dba0c46f98a7a44ca",
+      "input_size": [
+        308,
+        126
+      ],
+      "input_bbox": [
+        2,
+        2,
+        306,
+        124
+      ],
+      "source_anchor": [
+        154.0,
+        124
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3697478991596639,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\walker\\death\\death-2.png",
+      "output_sha256": "15447637740787069c10b25115d7cc78457f255d04fb3feafac2db81b91b5d3f"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#744139",
+        "#786b52",
+        "#8a9b6e",
+        "#9a8a68",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        1,
+        89,
+        127,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\walker\\death\\death-3.png",
+      "input_sha256": "df2a2417458881091c3d5640d93931c28d991616bba397b3bbc82582fd43f57b",
+      "input_size": [
+        344,
+        88
+      ],
+      "input_bbox": [
+        2,
+        2,
+        342,
+        86
+      ],
+      "source_anchor": [
+        172.0,
+        86
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3697478991596639,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\walker\\death\\death-3.png",
+      "output_sha256": "61ba73f1d90be0f8c77eb39ea23cc067c3a59fd09867ba1e1bb10f5def8a10e2"
+    }
+  ]
+}

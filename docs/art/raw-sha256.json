@@ -1,0 +1,11 @@
+{
+  "air-strip.png": "fd46eb630a308993664d20c293e7b99bf3712cd98e33905cb8d5b3c4fbe1563d",
+  "attack-light-strip.png": "846d2b5cc1cd4ce60d0d85a2b4340ceb3c90916eea74f7add279a3dd042880d1",
+  "attack-m2-strip.png": "cda437b886df832c00dd638a1e485459101d0ae7f7b33a22f48feee7fb06be5f",
+  "death-strip.png": "f11767f60e6e1765d9c71681c542ce7ebe36f82945005b45bfdd7ddee38e590c",
+  "hurt-strip.png": "7147409a1294dd32e69da20fe1ae51f6f1cd9e81d1496c2715b3ef5dc025663d",
+  "idle-strip.png": "07a67ca32a4b03eac9678c2e61902ac9eda79ebf22f5513a12923cc075d9f7c4",
+  "reference.png": "1f5cf878166c30e4fd99b0e7d2ef50571483ba6a0bc0ed21a458624e1fc390c3",
+  "run-strip.png": "5742c8bc08c08c9ea615daf9c1a002120b68aabce0c871c42aacf7e1f5da2420",
+  "walk-strip.png": "82d1024165cc3dc295be961f84b2ac6e6cae18c201cd003c3b8551603cc1f42b"
+}

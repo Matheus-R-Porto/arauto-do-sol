@@ -1,0 +1,25 @@
+{
+  "raw_pngs_unchanged": 9,
+  "reprocessed_pngs_identical": 27,
+  "palette_used_union": [
+    "#1a120b",
+    "#242329",
+    "#2e251e",
+    "#42392f",
+    "#515459",
+    "#544a3b",
+    "#695f4f",
+    "#7b705b",
+    "#8f8572",
+    "#a49981",
+    "#b5ac96",
+    "#c7bea6",
+    "#dbd3ba"
+  ],
+  "zip_files": 58,
+  "zip_bytes": 79866,
+  "unpacked_bytes": 153687,
+  "zip_sha256": "6cfcce317fe4891145b9e15c679d35ead2b9a4f76935aff3c6ec053a3ff5436d",
+  "zip_runtime_matches_workspace": true,
+  "raw_work_pilot_excluded": true
+}

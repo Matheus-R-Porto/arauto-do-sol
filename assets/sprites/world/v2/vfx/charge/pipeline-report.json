@@ -1,0 +1,157 @@
+{
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 2,
+      "colors": [
+        "#49345f",
+        "#bb85cb"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        60,
+        53,
+        68,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\charge\\charge-0.png",
+      "input_sha256": "87641ba5fabada343121233b4a333d55dbd008060b47fff0b907f990a5fdded0",
+      "input_size": [
+        275,
+        282
+      ],
+      "input_bbox": [
+        83,
+        85,
+        206,
+        189
+      ],
+      "source_anchor": [
+        144.5,
+        189
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\charge\\charge-0.png",
+      "output_sha256": "02318f6aed7b9fd51c0eacf178d6cb22188cab3fb9378fe1083a4c3ac77414c2"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 3,
+      "colors": [
+        "#49345f",
+        "#80528f",
+        "#bb85cb"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        59,
+        50,
+        69,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\charge\\charge-1.png",
+      "input_sha256": "c87e25a348a15dcbd90917c71bb5dd586284436bd9b7236b7d804b5db947066d",
+      "input_size": [
+        275,
+        282
+      ],
+      "input_bbox": [
+        63,
+        60,
+        219,
+        208
+      ],
+      "source_anchor": [
+        141.0,
+        208
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\charge\\charge-1.png",
+      "output_sha256": "20af697b7d8da0472820cf9b2c3a6aa2692b5cc2d9291be9d804e6d6ba60037d"
+    },
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 4,
+      "colors": [
+        "#49345f",
+        "#7b999d",
+        "#80528f",
+        "#bb85cb"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        59,
+        47,
+        70,
+        59
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\charge\\charge-2.png",
+      "input_sha256": "96ac842d4ef68996e09ead2bff7a52480512c2b6c940f0a5951d466d19e25b5e",
+      "input_size": [
+        300,
+        282
+      ],
+      "input_bbox": [
+        42,
+        33,
+        261,
+        238
+      ],
+      "source_anchor": [
+        151.5,
+        238
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.06666666666666667,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\charge\\charge-2.png",
+      "output_sha256": "3669f17ace297062f5cf1bd8ff85bd370c1c9ef5e2c1319a5d14f60ac84b7f45"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "world-effects",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      64
+    ],
+    "pivot": [
+      64,
+      60
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 16.0,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 24,
+    "palette": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-effects.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    }
+  },
+  "palette_colors": [
+    [
+      35,
+      35,
+      45
+    ],
+    [
+      69,
+      86,
+      96
+    ],
+    [
+      123,
+      153,
+      157
+    ],
+    [
+      195,
+      220,
+      206
+    ],
+    [
+      242,
+      240,
+      212
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      86,
+      64,
+      57
+    ],
+    [
+      149,
+      99,
+      65
+    ],
+    [
+      207,
+      148,
+      84
+    ],
+    [
+      242,
+      196,
+      119
+    ],
+    [
+      255,
+      223,
+      154
+    ],
+    [
+      113,
+      60,
+      57
+    ],
+    [
+      182,
+      82,
+      64
+    ],
+    [
+      237,
+      142,
+      94
+    ],
+    [
+      39,
+      35,
+      62
+    ],
+    [
+      73,
+      52,
+      95
+    ],
+    [
+      128,
+      82,
+      143
+    ],
+    [
+      187,
+      133,
+      203
+    ],
+    [
+      225,
+      188,
+      233
+    ],
+    [
+      36,
+      71,
+      66
+    ],
+    [
+      64,
+      132,
+      120
+    ],
+    [
+      118,
+      192,
+      164
+    ],
+    [
+      185,
+      232,
+      202
+    ],
+    [
+      222,
+      211,
+      174
+    ]
+  ],
+  "profile_sha256": "c98a25949b9546db539a04fb2f8dd159659fd82774d253f0c53878ca2020cb64",
+  "frames": [
+    {
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_colors": 7,
+      "colors": [
+        "#23232d",
+        "#244742",
+        "#408478",
+        "#76c0a4",
+        "#b9e8ca",
+        "#c3dcce",
+        "#f2f0d4"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        61,
+        52,
+        68,
+        60
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\vfx\\flame\\flame-0.png",
+      "input_sha256": "617f088c46967ec7cb98a73d49b2c57363d033f8946b5a548b7a5a2c3b8daf18",
+      "input_size": [
+        275,
+        260
+      ],
+      "input_bbox": [
+        88,
+        59,
+        192,
+        235
+      ],
+      "source_anchor": [
+        140.0,
+        235
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.0625,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        60
+      ],
+      "baseline": 60,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\vfx\\flame\\flame-0.png",
+      "output_sha256": "6f134ec588e9287650c99a8264a47406ef7204e13753a5a751e6784d90813956"
+    }
+  ]
+}

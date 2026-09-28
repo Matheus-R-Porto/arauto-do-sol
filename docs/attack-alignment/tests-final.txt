@@ -1,0 +1,7 @@
+PASSOU M1 acompanha a lâmina alta, em vez do centro vertical da hitbox
+PASSOU retração da espada move o efeito junto com o quadro real de M1 e M2
+PASSOU espelhamento e salto preservam ligação local à lâmina em todos os quadros
+PASSOU alternância não deixa feixe anterior sobre a nova pose; hurt e recovery não deixam resíduos
+PASSOU efeito respeita recorte do alcance e não escala a arte nem altera estado
+PASSOU sprites, perfis de escala, gameplay e resolução aprovados permanecem byte a byte iguais
+6/6 testes de alinhamento ok

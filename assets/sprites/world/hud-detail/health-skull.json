@@ -1,0 +1,189 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "hud-detail",
+    "max_frame": [
+      512,
+      192
+    ],
+    "canvas": [
+      512,
+      192
+    ],
+    "pivot": [
+      256,
+      176
+    ],
+    "visible_size": [
+      504,
+      184
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 9.71875,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/world-hud.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "HUD 4x pixel density from immutable RAW; same screen size and anchors."
+  },
+  "palette_colors": [
+    [
+      11,
+      13,
+      19
+    ],
+    [
+      31,
+      32,
+      38
+    ],
+    [
+      52,
+      50,
+      56
+    ],
+    [
+      77,
+      72,
+      66
+    ],
+    [
+      109,
+      97,
+      77
+    ],
+    [
+      146,
+      122,
+      83
+    ],
+    [
+      185,
+      155,
+      99
+    ],
+    [
+      223,
+      199,
+      141
+    ],
+    [
+      242,
+      230,
+      200
+    ],
+    [
+      185,
+      182,
+      167
+    ],
+    [
+      138,
+      147,
+      143
+    ],
+    [
+      65,
+      103,
+      117
+    ],
+    [
+      125,
+      182,
+      196
+    ],
+    [
+      202,
+      231,
+      223
+    ],
+    [
+      186,
+      100,
+      71
+    ],
+    [
+      241,
+      173,
+      104
+    ]
+  ],
+  "profile_sha256": "8e35436d513d7ecfe8253fcecc6cbc00e52bf8b87cb0c8d4de3686f05d0f6978",
+  "frames": [
+    {
+      "size": [
+        512,
+        192
+      ],
+      "mode": "RGBA",
+      "visible_colors": 11,
+      "colors": [
+        "#0b0d13",
+        "#1f2026",
+        "#343238",
+        "#4d4842",
+        "#6d614d",
+        "#8a938f",
+        "#927a53",
+        "#b99b63",
+        "#b9b6a7",
+        "#dfc78d",
+        "#f2e6c8"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        243,
+        144,
+        269,
+        176
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\hud-detail\\health-skull.png",
+      "input_sha256": "aa372ec9252877a8754b57cd3ed8a2f4249cd84308c4eaf27db2dda6158ac8d7",
+      "input_size": [
+        768,
+        512
+      ],
+      "input_bbox": [
+        258,
+        99,
+        510,
+        410
+      ],
+      "source_anchor": [
+        384.0,
+        410
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.10289389067524116,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        256,
+        176
+      ],
+      "baseline": 176,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\hud-detail\\health-skull.png",
+      "output_sha256": "481e89b257a9dd2eb2a5d2552f9b45d7190071c8aa0a5f129ad8a6956c6a3084"
+    }
+  ]
+}

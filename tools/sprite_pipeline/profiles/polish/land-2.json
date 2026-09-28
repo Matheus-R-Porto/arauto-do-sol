@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "name": "protagonist",
+  "status": "resolution-correction",
+  "max_frame": [
+    128,
+    128
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "visible_size": [
+    126,
+    126
+  ],
+  "margin": 1,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": {
+    "source_pixels": 714,
+    "target_pixels": 96
+  },
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 16,
+  "palette": "../../palettes/protagonist.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "preserve",
+    "tolerance": 18,
+    "color": null
+  },
+  "notes": "Corpo de refer\u00eancia 96 px; canvas 128; mundo mant\u00e9m altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar \u00e2ncora anat\u00f4mica.",
+  "fit_anchor": true,
+  "world_scale": 0.25
+}

@@ -1,0 +1,21 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Comparação de resolução</title>
+<style>body{margin:0;background:#080b10;color:#d6c9af;font:14px monospace}button,select{font:inherit;margin:4px;padding:8px}canvas{image-rendering:pixelated;display:block}#stage{overflow:auto}#stage:fullscreen{display:grid;place-items:center;background:#000;width:100vw;height:100vh}pre{white-space:pre-wrap;margin:8px}</style>
+<label>Resolução <select id="base"><option>480×270</option><option>640×360</option><option selected>960×540</option></select></label>
+<button id="scene">Cena parada</button><button id="run">Percorrer demo</button><button id="pause">Pausar / continuar</button><button id="fullscreen">Tela cheia · F</button><span id="error"></span><pre id="status">Carregando</pre><div id="stage"><canvas id="screen"></canvas></div>
+<script type="module">
+import {PixelDisplay,BASE_RESOLUTIONS,installFullscreen} from '../src/ui/display.js';
+import {RoomManager} from '../src/world/room-manager.js';import {Camera} from '../src/core/camera.js';import {Background} from '../src/world/background.js';import {DemoView,WORLD_ZOOM} from '../src/ui/demo-view.js';import {loadPlayerSprites,PlayerSpriteView} from '../src/ui/player-sprites.js';import {loadWorldArt} from '../src/ui/world-art.js';import {PlaythroughDriver} from './playthrough-driver.js';
+const $=id=>document.getElementById(id),sprites=await loadPlayerSprites(),art=await loadWorldArt();
+const displays=BASE_RESOLUTIONS.map(base=>new PixelDisplay(document.createElement('canvas'),base));for(const d of displays)d.resize(1920,1080);
+let w,view,bot,running=false,last=0,acc=0,frames=0,costs=[0,0,0];
+function setup(){w=new RoomManager(new Camera(480/WORLD_ZOOM,270/WORLD_ZOOM));view=new DemoView(new Background(480,270),new PlayerSpriteView(sprites),art);bot=new PlaythroughDriver({mode:'completionist',exerciseDeaths:true});frames=0;costs=[0,0,0];acc=0;}
+function scene(){setup();running=false;w.load('crossroads',{x:350,y:352});w.phase='playing';w.transition=null;w.camera.snapTo(w.player,{width:w.map.width,height:w.map.height});view.update(0,w);}
+function select(){const c=displays[$('base').selectedIndex].canvas;c.id='screen';$('stage').replaceChildren(c);}
+$('base').onchange=select;$('scene').onclick=scene;$('run').onclick=()=>{setup();running=true;};$('pause').onclick=()=>running=!running;
+installFullscreen($('stage'),$('fullscreen'),()=>{},$('error'));scene();select();
+function frame(t){const dt=Math.min(.1,(t-last)/1000);last=t;if(running){acc+=dt*16;while(acc>=1/60&&w.phase!=='finished'){w.update(1/60,bot.next(w));view.update(1/60,w);acc-=1/60;}if(w.phase==='finished')running=false;}
+for(let i=0;i<3;i++){const start=performance.now();view.draw(displays[i].context,w,w.elapsed,{hitboxes:false,map:false});displays[i].present();costs[i]+=performance.now()-start;}frames++;
+$('status').textContent=`${w.phase} · ${w.room.id} · ${w.visited.size}/17 salas · ${w.collected.size}/4 fragmentos · ${w.deaths} mortes · ${w.elapsed.toFixed(1)}s\nSaída: 1920×1080 · zoom ${WORLD_ZOOM} · câmera ${w.camera.w}×${w.camera.h} · smoothing OFF nos 6 contextos\nTempo médio draw+apresentação: ${costs.map((c,i)=>BASE_RESOLUTIONS[i].join('×')+': '+(c/frames).toFixed(2)+'ms').join(' | ')}`;requestAnimationFrame(frame);}
+requestAnimationFrame(frame);
+</script></html>
+

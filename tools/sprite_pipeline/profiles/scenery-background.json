@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "scenery-background",
+  "max_frame": [
+    244,
+    184
+  ],
+  "canvas": [
+    244,
+    184
+  ],
+  "pivot": [
+    122,
+    182
+  ],
+  "visible_size": [
+    240,
+    180
+  ],
+  "margin": 2,
+  "source_kind": "high_res",
+  "downsample_method": "lanczos",
+  "scale_reference": null,
+  "source_pivot": null,
+  "pixel_scale": 1,
+  "max_colors": 64,
+  "palette": "../palettes/world-background.json",
+  "require_fixed_palette": true,
+  "alpha_threshold": 128,
+  "dither": false,
+  "background": {
+    "mode": "auto",
+    "color": null,
+    "tolerance": 18
+  },
+  "density": 2,
+  "notes": "Reprocessar RAW. Mesmas unidades de mundo; densidade somente de pixels. Paleta e posição preservadas."
+}

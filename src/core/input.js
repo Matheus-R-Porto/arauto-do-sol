@@ -9,8 +9,8 @@ export const BINDINGS = {
   down:        ['ArrowDown', 'KeyS'],
   jump:        ['Space', 'KeyK'],
   dash:        ['ShiftLeft', 'ShiftRight', 'KeyL'],   // tocar = dash, segurar = correr
-  attackLight: [],       // M1 vem do mouse (ver MOUSE_BUTTONS), nao do teclado
-  attackM2:    [],       // M2 idem, botao direito
+  attackLight: ['KeyJ'], // Alternativas de teclado; mouse continua funcionando.
+  attackM2:    ['KeyU'],
   attackHeavy: ['KeyI'],
   interact:    ['KeyE'],
 };
@@ -56,6 +56,7 @@ export class Input {
     this._downQueue = new Set();
     this._upQueue = new Set();
     this._keysDown = new Set();
+    this._mouseHeld = new Set();
     this._padHeld = Object.fromEntries(ACTIONS.map((a) => [a, false]));
     this._padPrev = Object.fromEntries(ACTIONS.map((a) => [a, false]));
 
@@ -99,6 +100,8 @@ export class Input {
     const action = MOUSE_BUTTONS[e.button];
     if (!action) return;
     e.preventDefault();
+    if (isDown) this._mouseHeld.add(action);
+    else this._mouseHeld.delete(action);
 
     if (isDown) this._downQueue.add(action);
     else this._upQueue.add(action);
@@ -111,6 +114,7 @@ export class Input {
 
   _releaseAll() {
     this._keysDown.clear();
+    this._mouseHeld.clear();
     for (const a of ACTIONS) {
       if (this.held[a]) this._upQueue.add(a);
     }
@@ -143,13 +147,11 @@ export class Input {
       this._padPrev[a] = this._padHeld[a];
       this._padHeld[a] = false;
     }
-    if (!pad) return;
-
     for (const [action, indices] of Object.entries(PAD_BUTTONS)) {
-      this._padHeld[action] = indices.some((i) => pad.buttons[i]?.pressed);
+      this._padHeld[action] = indices.some((i) => pad?.buttons[i]?.pressed);
     }
-    const ax = pad.axes[0] ?? 0;
-    const ay = pad.axes[1] ?? 0;
+    const ax = pad?.axes[0] ?? 0;
+    const ay = pad?.axes[1] ?? 0;
     if (ax < -AXIS_DEADZONE) this._padHeld.left = true;
     if (ax > AXIS_DEADZONE) this._padHeld.right = true;
     if (ay < -AXIS_DEADZONE) this._padHeld.up = true;
@@ -164,12 +166,14 @@ export class Input {
           this.onFirstInput?.();
         }
       } else if (!this._padHeld[a] && this._padPrev[a]) {
-        const keyStillDown = BINDINGS[a].some((c) => this._keysDown.has(c));
+        const keyStillDown = BINDINGS[a].some((c) => this._keysDown.has(c)) || this._mouseHeld.has(a);
         if (!keyStillDown && this.held[a]) {
           this.released[a] = true;
           this.held[a] = false;
         }
       }
+      this.held[a] = this._padHeld[a] || this._mouseHeld.has(a) || BINDINGS[a].some((c) => this._keysDown.has(c));
+      if (this.held[a]) this.released[a] = false;
     }
   }
 

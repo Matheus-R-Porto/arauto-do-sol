@@ -1,0 +1,1 @@
+OK: 210 sprites, 48 painéis sem emendas, paletas/alpha/margens/hashes válidos; RAW preservados.

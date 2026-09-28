@@ -1,0 +1,289 @@
+{
+  "tool_version": "1.1.1",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "scenery-props",
+    "max_frame": [
+      512,
+      512
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "pivot": [
+      256,
+      496
+    ],
+    "visible_size": [
+      504,
+      504
+    ],
+    "margin": 4,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 1.347222222222222,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 32,
+    "palette": "../palettes/world-stone.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 18
+    },
+    "density": 4,
+    "notes": "Reprocessar RAW. Mesmas unidades de mundo; densidade somente de pixels. Paleta e posição preservadas."
+  },
+  "palette_colors": [
+    [
+      11,
+      16,
+      23
+    ],
+    [
+      18,
+      27,
+      36
+    ],
+    [
+      27,
+      39,
+      49
+    ],
+    [
+      37,
+      51,
+      60
+    ],
+    [
+      51,
+      67,
+      74
+    ],
+    [
+      69,
+      86,
+      91
+    ],
+    [
+      89,
+      107,
+      108
+    ],
+    [
+      116,
+      133,
+      131
+    ],
+    [
+      148,
+      160,
+      154
+    ],
+    [
+      183,
+      187,
+      170
+    ],
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      240,
+      229,
+      201
+    ],
+    [
+      33,
+      29,
+      27
+    ],
+    [
+      52,
+      48,
+      39
+    ],
+    [
+      73,
+      65,
+      53
+    ],
+    [
+      97,
+      84,
+      67
+    ],
+    [
+      127,
+      107,
+      79
+    ],
+    [
+      162,
+      138,
+      91
+    ],
+    [
+      195,
+      170,
+      112
+    ],
+    [
+      230,
+      202,
+      133
+    ],
+    [
+      48,
+      59,
+      45
+    ],
+    [
+      77,
+      91,
+      61
+    ],
+    [
+      113,
+      128,
+      90
+    ],
+    [
+      36,
+      68,
+      73
+    ],
+    [
+      57,
+      113,
+      122
+    ],
+    [
+      99,
+      169,
+      180
+    ],
+    [
+      165,
+      215,
+      209
+    ],
+    [
+      75,
+      41,
+      37
+    ],
+    [
+      129,
+      73,
+      58
+    ],
+    [
+      180,
+      115,
+      76
+    ],
+    [
+      76,
+      39,
+      50
+    ],
+    [
+      177,
+      75,
+      79
+    ]
+  ],
+  "profile_sha256": "68ecae4683ddae5868ffb7a62688f7c6d7df8df95564526fed579e68d0e8e308",
+  "frames": [
+    {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "visible_colors": 31,
+      "colors": [
+        "#0b1017",
+        "#121b24",
+        "#1b2731",
+        "#211d1b",
+        "#244449",
+        "#25333c",
+        "#303b2d",
+        "#33434a",
+        "#343027",
+        "#39717a",
+        "#45565b",
+        "#494135",
+        "#4b2925",
+        "#4c2732",
+        "#4d5b3d",
+        "#596b6c",
+        "#615443",
+        "#63a9b4",
+        "#71805a",
+        "#748583",
+        "#7f6b4f",
+        "#81493a",
+        "#94a09a",
+        "#a28a5b",
+        "#a5d7d1",
+        "#b4734c",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        161,
+        64,
+        351,
+        496
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\world\\scenery\\window.png",
+      "input_sha256": "d6baf3b2b5be6fb8e3301e3323a50b1e6dece93cbace600d7f21c172a4e6834c",
+      "input_size": [
+        260,
+        586
+      ],
+      "input_bbox": [
+        2,
+        2,
+        258,
+        584
+      ],
+      "source_anchor": [
+        130.0,
+        584
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.7422680412371134,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        256,
+        496
+      ],
+      "baseline": 496,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\scenery\\landmarks\\window.png",
+      "output_sha256": "7dc77838fa8587aed6860c8be39d88a4fd001f2e486f9be48668d9c01ef861d2"
+    }
+  ]
+}

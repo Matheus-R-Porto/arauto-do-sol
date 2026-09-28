@@ -1,0 +1,235 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "walker",
+    "status": "resolution-correction",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      120
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 2.7045454545454546,
+      "target_pixels": 1
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 24,
+    "palette": "../palettes/world-enemies.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Escala anatômica comum a todas as poses. Arma e membros em movimento podem estender os bounds do corpo em repouso.",
+    "fit_anchor": true,
+    "world_scale": 0.2727272727272727
+  },
+  "palette_colors": [
+    [
+      19,
+      20,
+      22
+    ],
+    [
+      40,
+      40,
+      42
+    ],
+    [
+      64,
+      60,
+      52
+    ],
+    [
+      91,
+      83,
+      67
+    ],
+    [
+      120,
+      107,
+      82
+    ],
+    [
+      154,
+      138,
+      104
+    ],
+    [
+      187,
+      174,
+      134
+    ],
+    [
+      222,
+      210,
+      169
+    ],
+    [
+      239,
+      227,
+      190
+    ],
+    [
+      35,
+      49,
+      42
+    ],
+    [
+      61,
+      83,
+      66
+    ],
+    [
+      95,
+      121,
+      87
+    ],
+    [
+      138,
+      155,
+      110
+    ],
+    [
+      72,
+      45,
+      40
+    ],
+    [
+      116,
+      65,
+      57
+    ],
+    [
+      163,
+      103,
+      80
+    ],
+    [
+      204,
+      150,
+      112
+    ],
+    [
+      44,
+      35,
+      57
+    ],
+    [
+      75,
+      56,
+      91
+    ],
+    [
+      112,
+      83,
+      129
+    ],
+    [
+      162,
+      132,
+      177
+    ],
+    [
+      214,
+      185,
+      219
+    ],
+    [
+      240,
+      200,
+      135
+    ],
+    [
+      83,
+      100,
+      109
+    ]
+  ],
+  "profile_sha256": "351c4f674d7dd17d1be7f410183c4bcdcae36d75bcc76a6de840e6a8ffbb3742",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#131416",
+        "#28282a",
+        "#403c34",
+        "#482d28",
+        "#5b5343",
+        "#744139",
+        "#786b52",
+        "#8a9b6e",
+        "#9a8a68",
+        "#a36750",
+        "#bbae86",
+        "#cc9670",
+        "#ded2a9",
+        "#efe3be",
+        "#f0c887"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        30,
+        33,
+        115,
+        120
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\animations-v2\\walker\\walk\\walk-2.png",
+      "input_sha256": "db031c070d8eb55f092a3d5a8602aa7a1a50bf64b961964fc83a04251361096b",
+      "input_size": [
+        233,
+        238
+      ],
+      "input_bbox": [
+        2,
+        2,
+        231,
+        236
+      ],
+      "source_anchor": [
+        93.0,
+        236
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.3697478991596639,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        120
+      ],
+      "baseline": 120,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\v2\\walker\\walk\\walk-2.png",
+      "output_sha256": "25b0352f75ca21630c62b1b2f458d29bc1345da28063562bcd21de6216be4d17"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+........................................
+----------------------------------------------------------------------
+Ran 40 tests in 37.587s
+
+OK
+Exported ['player/idle', 'player/walk', 'player/run', 'player/attack-light', 'player/attack-m2', 'walker/idle', 'walker/walk', 'walker/windup', 'walker/active', 'walker/recovery', 'walker/hurt', 'walker/death', 'lunger/idle', 'lunger/walk', 'lunger/windup', 'lunger/active', 'lunger/recovery', 'lunger/hurt', 'lunger/death', 'ranged/idle', 'ranged/walk', 'ranged/windup', 'ranged/active', 'ranged/recovery', 'ranged/hurt', 'ranged/death', 'boss/idle', 'boss/walk', 'boss/intro', 'boss/hurt', 'boss/death', 'boss/slash-windup', 'boss/slash-active', 'boss/slash-recovery', 'boss/charge-windup', 'boss/charge-active', 'boss/charge-recovery', 'boss/slam-windup', 'boss/slam-active', 'boss/slam-recovery', 'vfx/phase-transition', 'vfx/projectile', 'vfx/projectile-impact', 'vfx/flame', 'vfx/charge', 'vfx/slash-light', 'vfx/slash-heavy', 'vfx/boss-slash', 'vfx/hit', 'vfx/dust', 'vfx/shockwave']
+27 frames; 9 anima��es; pipeline validado.
+Exported ['player/idle', 'player/walk', 'player/run', 'player/attack-light', 'player/attack-m2']

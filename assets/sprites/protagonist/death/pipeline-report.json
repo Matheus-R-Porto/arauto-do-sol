@@ -1,0 +1,388 @@
+{
+  "tool_version": "1.1.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "protagonist",
+    "status": "resolution-correction",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      128,
+      128
+    ],
+    "pivot": [
+      64,
+      112
+    ],
+    "visible_size": [
+      126,
+      126
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "lanczos",
+    "scale_reference": {
+      "source_pixels": 490,
+      "target_pixels": 96
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/protagonist.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Corpo de referência 96 px; canvas 128; mundo mantém altura 24. Pivot exportado por frame ajusta somente margem transparente, sem alterar âncora anatômica.",
+    "fit_anchor": true,
+    "world_scale": 0.25
+  },
+  "palette_colors": [
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      181,
+      172,
+      150
+    ],
+    [
+      143,
+      133,
+      114
+    ],
+    [
+      105,
+      95,
+      79
+    ],
+    [
+      66,
+      57,
+      47
+    ],
+    [
+      46,
+      37,
+      30
+    ],
+    [
+      26,
+      18,
+      11
+    ],
+    [
+      238,
+      231,
+      207
+    ],
+    [
+      199,
+      190,
+      166
+    ],
+    [
+      164,
+      153,
+      129
+    ],
+    [
+      123,
+      112,
+      91
+    ],
+    [
+      84,
+      74,
+      59
+    ],
+    [
+      36,
+      35,
+      41
+    ],
+    [
+      81,
+      84,
+      89
+    ],
+    [
+      140,
+      142,
+      140
+    ],
+    [
+      195,
+      197,
+      185
+    ]
+  ],
+  "profile_sha256": "5fa5ef400ccbc9b4772736c352b28d419865abd6d2420e3069df0653d163fb1d",
+  "frames": [
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        50,
+        28,
+        93,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-0.png",
+      "input_sha256": "1180f33ae8cc137395488975d058645e53cab880f9a7402ed2252f3a3868c0cb",
+      "input_size": [
+        627,
+        627
+      ],
+      "input_bbox": [
+        236,
+        179,
+        458,
+        608
+      ],
+      "source_anchor": [
+        305,
+        608
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.19591836734693877,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-0.png",
+      "output_sha256": "79dd03bd9dceaa89f2ba39ff9e4e492b9a0cf9de4386c22d2dc630e0d5eed74e"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        36,
+        51,
+        92,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-1.png",
+      "input_sha256": "8944360c03e09dfe2833e0380e34f4e974716fb2c388f3d75488cd5e461f65a3",
+      "input_size": [
+        627,
+        627
+      ],
+      "input_bbox": [
+        162,
+        299,
+        446,
+        608
+      ],
+      "source_anchor": [
+        304,
+        608
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.19591836734693877,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-1.png",
+      "output_sha256": "bab20967612253cadf2538613c278eb073d4962d258f7a422847e4af4d228da4"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        29,
+        72,
+        112,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-2.png",
+      "input_sha256": "89bf65c27a66ad2f06903f919bd00294dbbc6b42a698fd5b10cbdaf9af2161f1",
+      "input_size": [
+        627,
+        627
+      ],
+      "input_bbox": [
+        124,
+        319,
+        550,
+        521
+      ],
+      "source_anchor": [
+        304,
+        521
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.19591836734693877,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-2.png",
+      "output_sha256": "f748be8160bb22a3c9e66a77b2f27fcb7d7237fd4c6bf5e4ef6efe4b011445cd"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 16,
+      "colors": [
+        "#1a120b",
+        "#242329",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8c8e8c",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96",
+        "#c3c5b9",
+        "#c7bea6",
+        "#dbd3ba",
+        "#eee7cf"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        28,
+        88,
+        111,
+        112
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\death\\death-3.png",
+      "input_sha256": "15e8f69daed1afc9dedc64e2d7702f9c54502291fc8533c59b5364ffc25ee0a8",
+      "input_size": [
+        627,
+        627
+      ],
+      "input_bbox": [
+        122,
+        392,
+        544,
+        516
+      ],
+      "source_anchor": [
+        304,
+        516
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.19591836734693877,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        64,
+        112
+      ],
+      "baseline": 112,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\protagonist\\death\\death-3.png",
+      "output_sha256": "97bfc353dea8b2ae39083e959109b935cc749e6e7c2b2bdad70b8dacc6031cde"
+    }
+  ]
+}

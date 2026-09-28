@@ -1,0 +1,1440 @@
+{
+  "sets": [
+    {
+      "actor": "player",
+      "name": "idle",
+      "raw": "player/idle.png",
+      "count": 4,
+      "rows": 1,
+      "source_body_height": 594,
+      "durations": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "loop": true,
+      "prompt": "Use case: identity-preserve. Game sprite animation sheet. Reference is the existing protagonist idle strip, preserve exactly this slender ivory skeleton, narrow skull, brown torn scarf and loincloth, dark steel short sword in same hand, facing RIGHT, side view. Generate FOUR evenly spaced idle animation poses in a single horizontal row, transparent background, no text, no ground/shadow/effects. Same anatomy, outfit, weapon length, light from upper left, pixel art painterly high-res source. All four stand on exactly the same baseline and same scale, only tiny scarf/rag motion and subtle skeletal posture shifts; no chest inflation. Feet stationary, arms sword resting down forward. Generous empty margin, complete silhouette without clipping. This is the next idle cycle for the SAME character, not a redesign."
+    },
+    {
+      "actor": "player",
+      "name": "walk",
+      "raw": "player/walk.png",
+      "count": 6,
+      "rows": 2,
+      "source_body_height": 440,
+      "durations": [
+        0.08666666666666667,
+        0.08666666666666667,
+        0.08666666666666667,
+        0.08666666666666667,
+        0.08666666666666667,
+        0.08666666666666667
+      ],
+      "loop": true,
+      "roots": [
+        [
+          275,
+          490
+        ],
+        [
+          780,
+          490
+        ],
+        [
+          1290,
+          490
+        ],
+        [
+          275,
+          980
+        ],
+        [
+          780,
+          980
+        ],
+        [
+          1290,
+          980
+        ]
+      ],
+      "prompt": "Use case: identity-preserve. Make a SIX FRAME WALK cycle sprite sheet for exactly this skeletal protagonist. Reference: identity and clothes and short steel sword, not poses. 3 columns by 2 rows, ordered left-to-right then next row. Full figure facing RIGHT in every cell, transparent background no ground shadow/text. Same narrow skull, thin ivory bones, brown rag scarf/loincloth, one short sword in same hand held down forward, light upper left. Complete walking cycle: right foot contact, right passing, right push-off, left contact, left passing, left push-off. Distinct articulated legs and weight transfer; small natural rag follow-through, torso nearly upright, no running. Keep identical anatomical lengths and uniform scale in all 6 cells; feet at same relative cell baseline, root centered. Each cell 512x512 with ample empty margins, no clipping, no VFX. Do not change weapon or outfit. Detailed restrained pixel sprite style matching reference."
+    },
+    {
+      "actor": "player",
+      "name": "run",
+      "raw": "player/run.png",
+      "count": 6,
+      "rows": 2,
+      "source_body_height": 445,
+      "durations": [
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "loop": true,
+      "roots": [
+        [
+          275,
+          485
+        ],
+        [
+          780,
+          485
+        ],
+        [
+          1290,
+          485
+        ],
+        [
+          275,
+          968
+        ],
+        [
+          780,
+          968
+        ],
+        [
+          1290,
+          968
+        ]
+      ],
+      "prompt": "Use case: identity-preserve. SIX FRAME RUN cycle for precisely the reference skeletal protagonist, not redesign. 3 columns 2 rows, left-to-right timeline. Uniform anatomical size, all facing RIGHT sideview. Very thin ivory skeleton, narrow skull, ragged brown scarf loincloth, same short straight dark steel sword in same hand. Aggressive forward torso lean, long powerful strides, alternating leg contacts and tuck/passing/extension: right contact, flight right leg behind, left passing, left contact, flight left behind, right passing. Distinct six poses making smooth looping RUN clearly faster than upright WALK. No dust or effects. Same root and relative ground baseline in cells; keep consistent skull and bone lengths even during tuck. Transparent RGBA background no glow no shadow no text, generous blank gutters, entire character and sword visible. Pixel art style same as reference, muted bone/brown/steel, upper left light."
+    },
+    {
+      "actor": "player",
+      "name": "attack-light",
+      "raw": "player/attacks.png",
+      "count": 4,
+      "sheet_count": 8,
+      "rows": 2,
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_body_height": 365,
+      "durations": [
+        0.05,
+        0.05,
+        0.07,
+        0.08
+      ],
+      "loop": false,
+      "markers": [
+        {
+          "time": 0,
+          "name": "contact"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. TWO distinct 4-frame sword attacks for reference skeleton hero. Transparent 4 columns x2 rows sprite sheet. SAME thin ivory skeleton narrow skull, brown torn scarf/loincloth, same short straight steel sword held in same hand throughout, facing RIGHT all frames, fixed anatomical scale/root/ground baseline, upper-left light, no text no shadows no VFX. Top row M1 THRUST timeline: frame1 immediate fully extended horizontal thrust sword right at chest level, frame2 follow-through extended, frame3 elbow retracts blade horizontal, frame4 returns to low ready. Bottom row M2 DIAGONAL CUT timeline: frame1 immediate powerful diagonal downward slash sword forward and down (NO arc effect), frame2 low follow-through across body, frame3 wrist/arm recover blade, frame4 return ready. No startup delay since gameplay hits immediately. Clearly linear thrust vs diagonal slash. Full figures and sword inside cells, generous spacing, no overlap. Pixel art same identity/outfit/weapon length as reference. Never enlarge sword. Four distinct phases each row."
+    },
+    {
+      "actor": "player",
+      "name": "attack-m2",
+      "raw": "player/attacks.png",
+      "count": 4,
+      "sheet_count": 8,
+      "rows": 2,
+      "indices": [
+        5,
+        6,
+        4,
+        7
+      ],
+      "source_body_height": 365,
+      "durations": [
+        0.05,
+        0.05,
+        0.07,
+        0.08
+      ],
+      "loop": false,
+      "markers": [
+        {
+          "time": 0,
+          "name": "contact"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. TWO distinct 4-frame sword attacks for reference skeleton hero. Transparent 4 columns x2 rows sprite sheet. SAME thin ivory skeleton narrow skull, brown torn scarf/loincloth, same short straight steel sword held in same hand throughout, facing RIGHT all frames, fixed anatomical scale/root/ground baseline, upper-left light, no text no shadows no VFX. Top row M1 THRUST timeline: frame1 immediate fully extended horizontal thrust sword right at chest level, frame2 follow-through extended, frame3 elbow retracts blade horizontal, frame4 returns to low ready. Bottom row M2 DIAGONAL CUT timeline: frame1 immediate powerful diagonal downward slash sword forward and down (NO arc effect), frame2 low follow-through across body, frame3 wrist/arm recover blade, frame4 return ready. No startup delay since gameplay hits immediately. Clearly linear thrust vs diagonal slash. Full figures and sword inside cells, generous spacing, no overlap. Pixel art same identity/outfit/weapon length as reference. Never enlarge sword. Four distinct phases each row."
+    },
+    {
+      "actor": "walker",
+      "name": "idle",
+      "raw": "walker/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        0,
+        1
+      ],
+      "durations": [
+        0.3,
+        0.3
+      ],
+      "loop": true,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "walk",
+      "raw": "walker/sheet.png",
+      "count": 4,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "durations": [
+        0.16,
+        0.16,
+        0.16,
+        0.16
+      ],
+      "loop": true,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "windup",
+      "raw": "walker/sheet.png",
+      "count": 3,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        6,
+        7,
+        8
+      ],
+      "durations": [
+        0.3,
+        0.22,
+        0.13
+      ],
+      "loop": false,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "active",
+      "raw": "walker/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        9,
+        10
+      ],
+      "durations": [
+        0.08,
+        0.08
+      ],
+      "loop": false,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "recovery",
+      "raw": "walker/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        11,
+        12
+      ],
+      "durations": [
+        0.25,
+        1
+      ],
+      "loop": false,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "hurt",
+      "raw": "walker/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        13,
+        14
+      ],
+      "durations": [
+        0.08,
+        0.12
+      ],
+      "loop": false,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting."
+    },
+    {
+      "actor": "walker",
+      "name": "death",
+      "raw": "walker/sheet.png",
+      "count": 4,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "durations": [
+        0.08,
+        0.09,
+        0.1,
+        0.13
+      ],
+      "loop": false,
+      "source_body_height": 238,
+      "prompt": "Use case: identity-preserve. Animation production sheet for EXACT existing WALKER from reference: thin hunched ivory skeleton in tattered olive green gravekeeper tunic, rusty hooked shovel held two-handed, RIGHT facing sideview, upper-left light. Preserve skull, clothing, weapon size and anatomy. 20 equally spaced cells, FOUR columns FIVE rows, transparent background, no text no floor/shadow/glow no effects. Uniform anatomical scale and common relative root/baseline per cell, generous gutters full weapons. Row1: idle subtle pose A, idle subtle pose B, walk right leg forward contact, walk passing. Row2: walk left leg contact, walk opposite passing, windup first raising shovel to chest, windup shovel rising above shoulder. Row3: windup final shovel high ABOVE HEAD strong anticipation, active shovel descending forward diagonal, active shovel low in front contact, recovery hunched braced low shovel. Row4: recovery exhausted hold, hurt recoils backward, hurt settles forward, death losing balance kneeling. Row5: death collapsing on knees, death falling sideways, death fully collapsed horizontal bones and cloth with shovel on floor, then LAST CELL EMPTY (19 figures total). This is sprite animation, not concept variants. Keep body skeletal and same olive clothing all frames, no detached extra pieces. Pixel art restrained detail matching reference. Each frame isolated for deterministic cutting.",
+      "anchor_mode": "center"
+    },
+    {
+      "actor": "lunger",
+      "name": "idle",
+      "raw": "lunger/sheet.png",
+      "count": 2,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        0,
+        1
+      ],
+      "durations": [
+        0.3,
+        0.3
+      ],
+      "loop": true,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          192,
+          207
+        ],
+        [
+          576,
+          207
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "walk",
+      "raw": "lunger/sheet.png",
+      "count": 4,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "durations": [
+        0.16,
+        0.16,
+        0.16,
+        0.16
+      ],
+      "loop": true,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          960,
+          207
+        ],
+        [
+          1344,
+          207
+        ],
+        [
+          192,
+          415
+        ],
+        [
+          576,
+          415
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "windup",
+      "raw": "lunger/sheet.png",
+      "count": 3,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        6,
+        7,
+        8
+      ],
+      "durations": [
+        0.35,
+        0.3,
+        0.2
+      ],
+      "loop": false,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          960,
+          415
+        ],
+        [
+          1344,
+          415
+        ],
+        [
+          192,
+          620
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "active",
+      "raw": "lunger/sheet.png",
+      "count": 3,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        9,
+        10,
+        11
+      ],
+      "durations": [
+        0.16,
+        0.16,
+        0.16
+      ],
+      "loop": true,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          576,
+          620
+        ],
+        [
+          960,
+          620
+        ],
+        [
+          1344,
+          620
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "recovery",
+      "raw": "lunger/sheet.png",
+      "count": 2,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        12,
+        13
+      ],
+      "durations": [
+        0.3,
+        1.5
+      ],
+      "loop": false,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          192,
+          810
+        ],
+        [
+          576,
+          810
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "hurt",
+      "raw": "lunger/sheet.png",
+      "count": 2,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        14,
+        15
+      ],
+      "durations": [
+        0.08,
+        0.12
+      ],
+      "loop": false,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          960,
+          810
+        ],
+        [
+          1344,
+          810
+        ]
+      ]
+    },
+    {
+      "actor": "lunger",
+      "name": "death",
+      "raw": "lunger/sheet.png",
+      "count": 4,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "durations": [
+        0.08,
+        0.09,
+        0.1,
+        0.13
+      ],
+      "loop": false,
+      "source_body_height": 168,
+      "prompt": "Use case: identity-preserve. Animation sheet for EXACT reference LUNGER skeletal gravehound: quadruped dog skeleton, long canine skull, exposed ivory ribs/spine, rusty red torn hide, long thin bone tail. RIGHT facing sideview all frames, no redesign. 4 columns x5 rows =20 distinct isolated poses. Uniform anatomical scale, root fixed relative to cell, feet baseline common, upper-left lighting pixel art same as reference. TRUE transparent background no halo/shadow/text/particles/dust. Row1: idle A, subtle idle B, walk right foreleg forward contact, walk passing. Row2: walk left contact, walk opposite passing, windup crouch slight, windup lower crouch coiling rearlegs. Row3: final compressed spring crouch, active gallop extended horizontal, active gallop legs tucked, active gallop alternate extended landing. Row4: recovery braking exhausted low head, recovery low exhausted HOLD (not ready), hurt short recoil, hurt settles. Row5: death stumbling forelegs collapse, death knees down, death rolling side, death fully horizontal collapsed corpse. Anatomical lengths and skull size must stay same despite crouching or falling. No humanoid poses. Each cell generous empty gutter, complete silhouette and tail contained. Crisp distinct leg positions for walk and gallop.",
+      "roots": [
+        [
+          192,
+          982
+        ],
+        [
+          576,
+          982
+        ],
+        [
+          960,
+          982
+        ],
+        [
+          1344,
+          982
+        ]
+      ],
+      "anchor_mode": "center"
+    },
+    {
+      "actor": "ranged",
+      "name": "idle",
+      "raw": "ranged/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        0,
+        1
+      ],
+      "durations": [
+        0.3,
+        0.3
+      ],
+      "loop": true,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "walk",
+      "raw": "ranged/sheet.png",
+      "count": 4,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "durations": [
+        0.16,
+        0.16,
+        0.16,
+        0.16
+      ],
+      "loop": true,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "windup",
+      "raw": "ranged/sheet.png",
+      "count": 3,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        6,
+        7,
+        8
+      ],
+      "durations": [
+        0.35,
+        0.3,
+        0.25
+      ],
+      "loop": false,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "active",
+      "raw": "ranged/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        9,
+        10
+      ],
+      "durations": [
+        0.06,
+        0.06
+      ],
+      "loop": false,
+      "source_body_height": 231,
+      "markers": [
+        {
+          "time": 0,
+          "name": "fire"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "recovery",
+      "raw": "ranged/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        11,
+        12
+      ],
+      "durations": [
+        0.3,
+        2
+      ],
+      "loop": false,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "hurt",
+      "raw": "ranged/sheet.png",
+      "count": 2,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        13,
+        14
+      ],
+      "durations": [
+        0.08,
+        0.12
+      ],
+      "loop": false,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference."
+    },
+    {
+      "actor": "ranged",
+      "name": "death",
+      "raw": "ranged/sheet.png",
+      "count": 4,
+      "sheet_count": 19,
+      "rows": 5,
+      "indices": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "durations": [
+        0.08,
+        0.09,
+        0.1,
+        0.13
+      ],
+      "loop": false,
+      "source_body_height": 231,
+      "markers": [],
+      "prompt": "Use case: identity-preserve. Sprite animation sheet, SAME reference RANGED skeleton acolyte in ragged dark violet hooded robe, small exposed ivory skull, thin bone hands/feet, same ornate brown staff with small purple crystal. All face RIGHT, no redesign, no added accessories. Uniform anatomical scale and relative root/baseline, upper-left light, generous blank margin and gutters, entirely transparent RGBA background no glow/shadow/text. 4 columns FIVE rows. Row1 idle A, idle B, walk right contact, walk passing. Row2 walk left contact, walk opposite passing, windup1 staff chest-height, windup2 staff raised. Row3 windup3 staff HIGH above head, active1 staff horizontal forward at chest height FIRE pose, active2 recoil from fire, recovery1 staff lowered slumped. Row4 recovery2 exhausted bowed head hold, hurt1 backward flinch, hurt2 settling, death1 knees buckle. Row5 death2 kneel, death3 falling forward, death4 collapsed horizontal body/robe/staff, LAST CELL EMPTY. Total19 complete figures. Projectile/charge energy NOT included in character: NO energy orb, NO magic trails. Crystal itself stays small and unlit. Preserve identical robe silhouette details, hood/skull shape, staff length in all poses. Clear frame-to-frame gestures, pixel art matching reference.",
+      "anchor_mode": "center"
+    },
+    {
+      "actor": "boss",
+      "name": "idle",
+      "raw": "boss/base.png",
+      "count": 3,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "durations": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "loop": true,
+      "source_body_height": 287,
+      "prompt": "Use case: identity-preserve. 20-frame sprite sheet EXACT reference CEMETERY GUARDIAN boss: ivory skeleton knight, massive gray stone pauldrons/greaves, ragged black cloak, broken bronze sun halo behind head, broad rectangular gravestone cleaver sword etched gold sun. Preserve identical body/armor/halo/sword sizes throughout. RIGHT facing 3/4 sideview all frames, upper-left light, detailed restrained pixel art. Transparent background NO glow no shadow no text no VFX. FOUR columns FIVE rows, generous gutters and full silhouette, uniform anatomical scale/root and relative ground baseline. Row1 idle A, subtle idle B, subtle idle C, walk right foot contact. Row2 walk passing, walk left contact, walk opposite passing, intro1 bowed dormant kneeling sword grounded. Row3 intro2 skull slowly rising, intro3 bracing weight on sword, intro4 pushing up from kneel, intro5 fully standing awakened. Row4 hurt1 short upperbody flinch feet fixed, hurt2 settles feet fixed, death1 staggers loses support, death2 bends knees. Row5 death3 kneeling, death4 falling sideways, death5 nearly down, death6 completely collapsed horizontal armor bones cloak sword on floor. No changes of equipment between poses. Physical mass and convincing collapse, not 20 alternative designs."
+    },
+    {
+      "actor": "boss",
+      "name": "walk",
+      "raw": "boss/base.png",
+      "count": 4,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "durations": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "loop": true,
+      "source_body_height": 287,
+      "prompt": "Use case: identity-preserve. 20-frame sprite sheet EXACT reference CEMETERY GUARDIAN boss: ivory skeleton knight, massive gray stone pauldrons/greaves, ragged black cloak, broken bronze sun halo behind head, broad rectangular gravestone cleaver sword etched gold sun. Preserve identical body/armor/halo/sword sizes throughout. RIGHT facing 3/4 sideview all frames, upper-left light, detailed restrained pixel art. Transparent background NO glow no shadow no text no VFX. FOUR columns FIVE rows, generous gutters and full silhouette, uniform anatomical scale/root and relative ground baseline. Row1 idle A, subtle idle B, subtle idle C, walk right foot contact. Row2 walk passing, walk left contact, walk opposite passing, intro1 bowed dormant kneeling sword grounded. Row3 intro2 skull slowly rising, intro3 bracing weight on sword, intro4 pushing up from kneel, intro5 fully standing awakened. Row4 hurt1 short upperbody flinch feet fixed, hurt2 settles feet fixed, death1 staggers loses support, death2 bends knees. Row5 death3 kneeling, death4 falling sideways, death5 nearly down, death6 completely collapsed horizontal armor bones cloak sword on floor. No changes of equipment between poses. Physical mass and convincing collapse, not 20 alternative designs."
+    },
+    {
+      "actor": "boss",
+      "name": "intro",
+      "raw": "boss/base.png",
+      "count": 5,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "durations": [
+        0.4,
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "loop": false,
+      "source_body_height": 287,
+      "prompt": "Use case: identity-preserve. 20-frame sprite sheet EXACT reference CEMETERY GUARDIAN boss: ivory skeleton knight, massive gray stone pauldrons/greaves, ragged black cloak, broken bronze sun halo behind head, broad rectangular gravestone cleaver sword etched gold sun. Preserve identical body/armor/halo/sword sizes throughout. RIGHT facing 3/4 sideview all frames, upper-left light, detailed restrained pixel art. Transparent background NO glow no shadow no text no VFX. FOUR columns FIVE rows, generous gutters and full silhouette, uniform anatomical scale/root and relative ground baseline. Row1 idle A, subtle idle B, subtle idle C, walk right foot contact. Row2 walk passing, walk left contact, walk opposite passing, intro1 bowed dormant kneeling sword grounded. Row3 intro2 skull slowly rising, intro3 bracing weight on sword, intro4 pushing up from kneel, intro5 fully standing awakened. Row4 hurt1 short upperbody flinch feet fixed, hurt2 settles feet fixed, death1 staggers loses support, death2 bends knees. Row5 death3 kneeling, death4 falling sideways, death5 nearly down, death6 completely collapsed horizontal armor bones cloak sword on floor. No changes of equipment between poses. Physical mass and convincing collapse, not 20 alternative designs."
+    },
+    {
+      "actor": "boss",
+      "name": "hurt",
+      "raw": "boss/base.png",
+      "count": 2,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        12,
+        13
+      ],
+      "durations": [
+        0.07,
+        0.08
+      ],
+      "loop": false,
+      "source_body_height": 287,
+      "prompt": "Use case: identity-preserve. 20-frame sprite sheet EXACT reference CEMETERY GUARDIAN boss: ivory skeleton knight, massive gray stone pauldrons/greaves, ragged black cloak, broken bronze sun halo behind head, broad rectangular gravestone cleaver sword etched gold sun. Preserve identical body/armor/halo/sword sizes throughout. RIGHT facing 3/4 sideview all frames, upper-left light, detailed restrained pixel art. Transparent background NO glow no shadow no text no VFX. FOUR columns FIVE rows, generous gutters and full silhouette, uniform anatomical scale/root and relative ground baseline. Row1 idle A, subtle idle B, subtle idle C, walk right foot contact. Row2 walk passing, walk left contact, walk opposite passing, intro1 bowed dormant kneeling sword grounded. Row3 intro2 skull slowly rising, intro3 bracing weight on sword, intro4 pushing up from kneel, intro5 fully standing awakened. Row4 hurt1 short upperbody flinch feet fixed, hurt2 settles feet fixed, death1 staggers loses support, death2 bends knees. Row5 death3 kneeling, death4 falling sideways, death5 nearly down, death6 completely collapsed horizontal armor bones cloak sword on floor. No changes of equipment between poses. Physical mass and convincing collapse, not 20 alternative designs."
+    },
+    {
+      "actor": "boss",
+      "name": "death",
+      "raw": "boss/base.png",
+      "count": 6,
+      "sheet_count": 20,
+      "rows": 5,
+      "indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "durations": [
+        0.05,
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09
+      ],
+      "loop": false,
+      "source_body_height": 287,
+      "prompt": "Use case: identity-preserve. 20-frame sprite sheet EXACT reference CEMETERY GUARDIAN boss: ivory skeleton knight, massive gray stone pauldrons/greaves, ragged black cloak, broken bronze sun halo behind head, broad rectangular gravestone cleaver sword etched gold sun. Preserve identical body/armor/halo/sword sizes throughout. RIGHT facing 3/4 sideview all frames, upper-left light, detailed restrained pixel art. Transparent background NO glow no shadow no text no VFX. FOUR columns FIVE rows, generous gutters and full silhouette, uniform anatomical scale/root and relative ground baseline. Row1 idle A, subtle idle B, subtle idle C, walk right foot contact. Row2 walk passing, walk left contact, walk opposite passing, intro1 bowed dormant kneeling sword grounded. Row3 intro2 skull slowly rising, intro3 bracing weight on sword, intro4 pushing up from kneel, intro5 fully standing awakened. Row4 hurt1 short upperbody flinch feet fixed, hurt2 settles feet fixed, death1 staggers loses support, death2 bends knees. Row5 death3 kneeling, death4 falling sideways, death5 nearly down, death6 completely collapsed horizontal armor bones cloak sword on floor. No changes of equipment between poses. Physical mass and convincing collapse, not 20 alternative designs.",
+      "anchor_mode": "center"
+    },
+    {
+      "actor": "boss",
+      "name": "slash-windup",
+      "raw": "boss/slash.png",
+      "count": 4,
+      "sheet_count": 8,
+      "rows": 2,
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durations": [
+        0.3,
+        0.25,
+        0.23,
+        0.17
+      ],
+      "loop": false,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. EIGHT-frame slash attack sprite sheet for exactly reference Cemetery Guardian. Same ivory skeleton knight, gray stone pauldrons and greaves, ragged black cloak, broken bronze sun halo, broad rectangular gravestone sword gold sun etching. Right-facing all poses, fixed anatomical scale and root/baseline. 4 columns 2 rows transparent RGBA no text/glow/shadow/effects. TOP ROW four progressive windup poses: sword low ready, rotate torso draw sword back, lift broad sword above shoulder, sword high above head poised to swing. BOTTOM ROW active1 sword crossing forward diagonally down, active2 maximum forward extension slash; recovery1 follow-through body leaning blade low; recovery2 exhausted bowed hold blade low. Preserve weapon length, skull size, outfit, light upper left across all8. Entire sword inside every cell, wide blank gutters and margins. Do not generate alternate costumes. Movement communicates HEAVY sword momentum. No dust/arcs, those are separate VFX. Pixel art matching reference exactly."
+    },
+    {
+      "actor": "boss",
+      "name": "slash-active",
+      "raw": "boss/slash.png",
+      "count": 2,
+      "sheet_count": 8,
+      "rows": 2,
+      "indices": [
+        4,
+        5
+      ],
+      "durations": [
+        0.08,
+        0.12
+      ],
+      "loop": false,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. EIGHT-frame slash attack sprite sheet for exactly reference Cemetery Guardian. Same ivory skeleton knight, gray stone pauldrons and greaves, ragged black cloak, broken bronze sun halo, broad rectangular gravestone sword gold sun etching. Right-facing all poses, fixed anatomical scale and root/baseline. 4 columns 2 rows transparent RGBA no text/glow/shadow/effects. TOP ROW four progressive windup poses: sword low ready, rotate torso draw sword back, lift broad sword above shoulder, sword high above head poised to swing. BOTTOM ROW active1 sword crossing forward diagonally down, active2 maximum forward extension slash; recovery1 follow-through body leaning blade low; recovery2 exhausted bowed hold blade low. Preserve weapon length, skull size, outfit, light upper left across all8. Entire sword inside every cell, wide blank gutters and margins. Do not generate alternate costumes. Movement communicates HEAVY sword momentum. No dust/arcs, those are separate VFX. Pixel art matching reference exactly."
+    },
+    {
+      "actor": "boss",
+      "name": "slash-recovery",
+      "raw": "boss/slash.png",
+      "count": 2,
+      "sheet_count": 8,
+      "rows": 2,
+      "indices": [
+        6,
+        7
+      ],
+      "durations": [
+        0.3,
+        1.8
+      ],
+      "loop": false,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. EIGHT-frame slash attack sprite sheet for exactly reference Cemetery Guardian. Same ivory skeleton knight, gray stone pauldrons and greaves, ragged black cloak, broken bronze sun halo, broad rectangular gravestone sword gold sun etching. Right-facing all poses, fixed anatomical scale and root/baseline. 4 columns 2 rows transparent RGBA no text/glow/shadow/effects. TOP ROW four progressive windup poses: sword low ready, rotate torso draw sword back, lift broad sword above shoulder, sword high above head poised to swing. BOTTOM ROW active1 sword crossing forward diagonally down, active2 maximum forward extension slash; recovery1 follow-through body leaning blade low; recovery2 exhausted bowed hold blade low. Preserve weapon length, skull size, outfit, light upper left across all8. Entire sword inside every cell, wide blank gutters and margins. Do not generate alternate costumes. Movement communicates HEAVY sword momentum. No dust/arcs, those are separate VFX. Pixel art matching reference exactly."
+    },
+    {
+      "actor": "boss",
+      "name": "charge-windup",
+      "raw": "boss/charge.png",
+      "count": 4,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durations": [
+        0.4,
+        0.3,
+        0.25,
+        0.2
+      ],
+      "loop": false,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. TEN sequential CHARGE attack animation frames of EXACT reference Cemetery Guardian: ivory skeleton, gray stone pauldrons/greaves, black torn cloak, broken bronze sun halo, broad etched gravestone sword. Right facing sideview, fixed anatomy and uniform scale, light upper left, transparent no text no dust/shadows/glows/VFX. FIVE columns TWO rows, full body weapon contained generous gutters. Top row frames1-4 windup increasingly crouched braced forward, sword carried low trailing, cloak gathering; frame5 first active heavy running stride extended. Bottom row frame6 active running legs passing; frame7 opposite stride extended; frame8 opposite passing (4 active frames form running loop with torso leaning and cloak trailing, same root); frame9 recovery braking bent knees sword low; frame10 recovery exhausted hold. No root motion inside frames, actual game moves entity. Skull/halo size and sword length identical throughout. Distinct galloping heavy knight leg poses. Pixel art style precisely matching reference.",
+      "roots": [
+        [
+          260,
+          403
+        ],
+        [
+          656,
+          403
+        ],
+        [
+          1052,
+          403
+        ],
+        [
+          1448,
+          403
+        ]
+      ]
+    },
+    {
+      "actor": "boss",
+      "name": "charge-active",
+      "raw": "boss/charge.png",
+      "count": 4,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "durations": [
+        0.2375,
+        0.2375,
+        0.2375,
+        0.2375
+      ],
+      "loop": true,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. TEN sequential CHARGE attack animation frames of EXACT reference Cemetery Guardian: ivory skeleton, gray stone pauldrons/greaves, black torn cloak, broken bronze sun halo, broad etched gravestone sword. Right facing sideview, fixed anatomy and uniform scale, light upper left, transparent no text no dust/shadows/glows/VFX. FIVE columns TWO rows, full body weapon contained generous gutters. Top row frames1-4 windup increasingly crouched braced forward, sword carried low trailing, cloak gathering; frame5 first active heavy running stride extended. Bottom row frame6 active running legs passing; frame7 opposite stride extended; frame8 opposite passing (4 active frames form running loop with torso leaning and cloak trailing, same root); frame9 recovery braking bent knees sword low; frame10 recovery exhausted hold. No root motion inside frames, actual game moves entity. Skull/halo size and sword length identical throughout. Distinct galloping heavy knight leg poses. Pixel art style precisely matching reference.",
+      "roots": [
+        [
+          1844,
+          403
+        ],
+        [
+          260,
+          773
+        ],
+        [
+          656,
+          773
+        ],
+        [
+          1052,
+          773
+        ]
+      ]
+    },
+    {
+      "actor": "boss",
+      "name": "charge-recovery",
+      "raw": "boss/charge.png",
+      "count": 2,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        8,
+        9
+      ],
+      "durations": [
+        0.35,
+        2.05
+      ],
+      "loop": false,
+      "source_body_height": 350,
+      "prompt": "Use case: identity-preserve. TEN sequential CHARGE attack animation frames of EXACT reference Cemetery Guardian: ivory skeleton, gray stone pauldrons/greaves, black torn cloak, broken bronze sun halo, broad etched gravestone sword. Right facing sideview, fixed anatomy and uniform scale, light upper left, transparent no text no dust/shadows/glows/VFX. FIVE columns TWO rows, full body weapon contained generous gutters. Top row frames1-4 windup increasingly crouched braced forward, sword carried low trailing, cloak gathering; frame5 first active heavy running stride extended. Bottom row frame6 active running legs passing; frame7 opposite stride extended; frame8 opposite passing (4 active frames form running loop with torso leaning and cloak trailing, same root); frame9 recovery braking bent knees sword low; frame10 recovery exhausted hold. No root motion inside frames, actual game moves entity. Skull/halo size and sword length identical throughout. Distinct galloping heavy knight leg poses. Pixel art style precisely matching reference.",
+      "roots": [
+        [
+          1448,
+          773
+        ],
+        [
+          1844,
+          773
+        ]
+      ]
+    },
+    {
+      "actor": "boss",
+      "name": "slam-windup",
+      "raw": "boss/slam.png",
+      "count": 4,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durations": [
+        0.4,
+        0.3,
+        0.3,
+        0.2
+      ],
+      "loop": false,
+      "source_body_height": 300,
+      "prompt": "Use case: identity-preserve. TEN frame HEAVY JUMP SLAM sprite sheet for exactly reference Cemetery Guardian skeleton knight with gray stone pauldrons/greaves, broken bronze solar halo, black rag cloak, broad rectangular gold-etched gravestone sword. Right-facing, uniform anatomy/scale/root, same weapon length skull armor, light upper-left, same pixel art style. 5 columns 2 rows, transparent background, GENEROUS EMPTY OUTER MARGINS and gutters keep every extremity inside, NO clipping. No text no shadow/glow/dust/VFX. Row1 frames1-4 preparation: braced standing, hands lifting sword, weapon high shoulder, final overhead lift; frame5 airborne ascent knees tucked sword raised. Row2 frame6 descending legs opening sword pointed DOWN, frame7 ground CONTACT heavy crouch sword downward touching ground, frame8 recovery bent knees leaning on sword, frame9 recovery slowly standing still exhausted, frame10 final vulnerable bowed hold blade down. Character doesn't translate up or sideways inside cell; root consistent and feet baseline for ground poses. Crouch/death proportions not resized. Jump displacement supplied by game; poses only. This is ordered animation, not design variations."
+    },
+    {
+      "actor": "boss",
+      "name": "slam-active",
+      "raw": "boss/slam.png",
+      "count": 3,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "durations": [
+        0.3,
+        0.28,
+        0.02
+      ],
+      "loop": false,
+      "source_body_height": 300,
+      "prompt": "Use case: identity-preserve. TEN frame HEAVY JUMP SLAM sprite sheet for exactly reference Cemetery Guardian skeleton knight with gray stone pauldrons/greaves, broken bronze solar halo, black rag cloak, broad rectangular gold-etched gravestone sword. Right-facing, uniform anatomy/scale/root, same weapon length skull armor, light upper-left, same pixel art style. 5 columns 2 rows, transparent background, GENEROUS EMPTY OUTER MARGINS and gutters keep every extremity inside, NO clipping. No text no shadow/glow/dust/VFX. Row1 frames1-4 preparation: braced standing, hands lifting sword, weapon high shoulder, final overhead lift; frame5 airborne ascent knees tucked sword raised. Row2 frame6 descending legs opening sword pointed DOWN, frame7 ground CONTACT heavy crouch sword downward touching ground, frame8 recovery bent knees leaning on sword, frame9 recovery slowly standing still exhausted, frame10 final vulnerable bowed hold blade down. Character doesn't translate up or sideways inside cell; root consistent and feet baseline for ground poses. Crouch/death proportions not resized. Jump displacement supplied by game; poses only. This is ordered animation, not design variations."
+    },
+    {
+      "actor": "boss",
+      "name": "slam-recovery",
+      "raw": "boss/slam.png",
+      "count": 3,
+      "sheet_count": 10,
+      "rows": 2,
+      "indices": [
+        7,
+        8,
+        9
+      ],
+      "durations": [
+        0.25,
+        0.4,
+        1.95
+      ],
+      "loop": false,
+      "source_body_height": 300,
+      "prompt": "Use case: identity-preserve. TEN frame HEAVY JUMP SLAM sprite sheet for exactly reference Cemetery Guardian skeleton knight with gray stone pauldrons/greaves, broken bronze solar halo, black rag cloak, broad rectangular gold-etched gravestone sword. Right-facing, uniform anatomy/scale/root, same weapon length skull armor, light upper-left, same pixel art style. 5 columns 2 rows, transparent background, GENEROUS EMPTY OUTER MARGINS and gutters keep every extremity inside, NO clipping. No text no shadow/glow/dust/VFX. Row1 frames1-4 preparation: braced standing, hands lifting sword, weapon high shoulder, final overhead lift; frame5 airborne ascent knees tucked sword raised. Row2 frame6 descending legs opening sword pointed DOWN, frame7 ground CONTACT heavy crouch sword downward touching ground, frame8 recovery bent knees leaning on sword, frame9 recovery slowly standing still exhausted, frame10 final vulnerable bowed hold blade down. Character doesn't translate up or sideways inside cell; root consistent and feet baseline for ground poses. Crouch/death proportions not resized. Jump displacement supplied by game; poses only. This is ordered animation, not design variations."
+    },
+    {
+      "actor": "vfx",
+      "name": "phase-transition",
+      "raw": "vfx/magic.png",
+      "count": 5,
+      "sheet_count": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "rows": 4,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "durations": [
+        0.12,
+        0.14,
+        0.18,
+        0.2,
+        0.21
+      ],
+      "loop": false,
+      "source_body_height": 10,
+      "x_edges": [
+        0,
+        275,
+        550,
+        850,
+        1145,
+        1402
+      ],
+      "y_edges": [
+        0,
+        330,
+        580,
+        840,
+        1122
+      ],
+      "anchor_mode": "center",
+      "prompt": "Game pixel art VFX animation sprite sheet only, NO CHARACTERS. Transparent RGBA background, no labels no grid lines no glow/background wash. 5 equal columns x4 equal rows, each cell isolated centered with ample transparent padding. Row1 FIVE frames of a broken bronze-gold solar halo flaring: small ring ignition, widening jagged ring, strongest fractured sun rays, sparks breaking away, fading fragments. This signals a skeleton boss phase change without hiding its body; ring center transparent. Row2: first TWO cells a small purple-white magic projectile orb loop A/B with short trail pointing LEFT (travels right); last THREE cells projectile impact expanding purple burst then scattered motes then fade. Row3 first FOUR cells teal ghost FLAME gentle looping flicker A B C D anchored same base, last cell empty. Row4 first THREE cells purple magic CHARGE tiny clustered rune sparks gradually concentrating at same center, fourth/fifth cells empty. Pixel art, hard edges with discrete colored clusters, no soft bloom, ivory highlight, muted gold/ochre, purple/violet, pale cyan. EXACT positions counts rows, don't add assets in empty cells. All shapes completely within their cell; retain fixed center even as effects expand."
+    },
+    {
+      "actor": "vfx",
+      "name": "projectile",
+      "raw": "vfx/magic.png",
+      "count": 2,
+      "sheet_count": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "rows": 4,
+      "indices": [
+        5,
+        6
+      ],
+      "durations": [
+        0.08,
+        0.08
+      ],
+      "loop": true,
+      "source_body_height": 21,
+      "x_edges": [
+        0,
+        275,
+        550,
+        850,
+        1145,
+        1402
+      ],
+      "y_edges": [
+        0,
+        330,
+        580,
+        840,
+        1122
+      ],
+      "anchor_mode": "center",
+      "prompt": "Game pixel art VFX animation sprite sheet only, NO CHARACTERS. Transparent RGBA background, no labels no grid lines no glow/background wash. 5 equal columns x4 equal rows, each cell isolated centered with ample transparent padding. Row1 FIVE frames of a broken bronze-gold solar halo flaring: small ring ignition, widening jagged ring, strongest fractured sun rays, sparks breaking away, fading fragments. This signals a skeleton boss phase change without hiding its body; ring center transparent. Row2: first TWO cells a small purple-white magic projectile orb loop A/B with short trail pointing LEFT (travels right); last THREE cells projectile impact expanding purple burst then scattered motes then fade. Row3 first FOUR cells teal ghost FLAME gentle looping flicker A B C D anchored same base, last cell empty. Row4 first THREE cells purple magic CHARGE tiny clustered rune sparks gradually concentrating at same center, fourth/fifth cells empty. Pixel art, hard edges with discrete colored clusters, no soft bloom, ivory highlight, muted gold/ochre, purple/violet, pale cyan. EXACT positions counts rows, don't add assets in empty cells. All shapes completely within their cell; retain fixed center even as effects expand."
+    },
+    {
+      "actor": "vfx",
+      "name": "projectile-impact",
+      "raw": "vfx/magic.png",
+      "count": 3,
+      "sheet_count": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "rows": 4,
+      "indices": [
+        7,
+        8,
+        9
+      ],
+      "durations": [
+        0.05,
+        0.07,
+        0.1
+      ],
+      "loop": false,
+      "source_body_height": 12,
+      "x_edges": [
+        0,
+        275,
+        550,
+        850,
+        1145,
+        1402
+      ],
+      "y_edges": [
+        0,
+        330,
+        580,
+        840,
+        1122
+      ],
+      "anchor_mode": "center",
+      "prompt": "Game pixel art VFX animation sprite sheet only, NO CHARACTERS. Transparent RGBA background, no labels no grid lines no glow/background wash. 5 equal columns x4 equal rows, each cell isolated centered with ample transparent padding. Row1 FIVE frames of a broken bronze-gold solar halo flaring: small ring ignition, widening jagged ring, strongest fractured sun rays, sparks breaking away, fading fragments. This signals a skeleton boss phase change without hiding its body; ring center transparent. Row2: first TWO cells a small purple-white magic projectile orb loop A/B with short trail pointing LEFT (travels right); last THREE cells projectile impact expanding purple burst then scattered motes then fade. Row3 first FOUR cells teal ghost FLAME gentle looping flicker A B C D anchored same base, last cell empty. Row4 first THREE cells purple magic CHARGE tiny clustered rune sparks gradually concentrating at same center, fourth/fifth cells empty. Pixel art, hard edges with discrete colored clusters, no soft bloom, ivory highlight, muted gold/ochre, purple/violet, pale cyan. EXACT positions counts rows, don't add assets in empty cells. All shapes completely within their cell; retain fixed center even as effects expand."
+    },
+    {
+      "actor": "vfx",
+      "name": "flame",
+      "raw": "vfx/magic.png",
+      "count": 4,
+      "sheet_count": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "rows": 4,
+      "indices": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "durations": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "loop": true,
+      "source_body_height": 16,
+      "x_edges": [
+        0,
+        275,
+        550,
+        850,
+        1145,
+        1402
+      ],
+      "y_edges": [
+        0,
+        330,
+        580,
+        840,
+        1122
+      ],
+      "anchor_mode": "center",
+      "prompt": "Game pixel art VFX animation sprite sheet only, NO CHARACTERS. Transparent RGBA background, no labels no grid lines no glow/background wash. 5 equal columns x4 equal rows, each cell isolated centered with ample transparent padding. Row1 FIVE frames of a broken bronze-gold solar halo flaring: small ring ignition, widening jagged ring, strongest fractured sun rays, sparks breaking away, fading fragments. This signals a skeleton boss phase change without hiding its body; ring center transparent. Row2: first TWO cells a small purple-white magic projectile orb loop A/B with short trail pointing LEFT (travels right); last THREE cells projectile impact expanding purple burst then scattered motes then fade. Row3 first FOUR cells teal ghost FLAME gentle looping flicker A B C D anchored same base, last cell empty. Row4 first THREE cells purple magic CHARGE tiny clustered rune sparks gradually concentrating at same center, fourth/fifth cells empty. Pixel art, hard edges with discrete colored clusters, no soft bloom, ivory highlight, muted gold/ochre, purple/violet, pale cyan. EXACT positions counts rows, don't add assets in empty cells. All shapes completely within their cell; retain fixed center even as effects expand."
+    },
+    {
+      "actor": "vfx",
+      "name": "charge",
+      "raw": "vfx/magic.png",
+      "count": 3,
+      "sheet_count": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "rows": 4,
+      "indices": [
+        15,
+        16,
+        17
+      ],
+      "durations": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "loop": false,
+      "source_body_height": 15,
+      "x_edges": [
+        0,
+        275,
+        550,
+        850,
+        1145,
+        1402
+      ],
+      "y_edges": [
+        0,
+        330,
+        580,
+        840,
+        1122
+      ],
+      "anchor_mode": "center",
+      "prompt": "Game pixel art VFX animation sprite sheet only, NO CHARACTERS. Transparent RGBA background, no labels no grid lines no glow/background wash. 5 equal columns x4 equal rows, each cell isolated centered with ample transparent padding. Row1 FIVE frames of a broken bronze-gold solar halo flaring: small ring ignition, widening jagged ring, strongest fractured sun rays, sparks breaking away, fading fragments. This signals a skeleton boss phase change without hiding its body; ring center transparent. Row2: first TWO cells a small purple-white magic projectile orb loop A/B with short trail pointing LEFT (travels right); last THREE cells projectile impact expanding purple burst then scattered motes then fade. Row3 first FOUR cells teal ghost FLAME gentle looping flicker A B C D anchored same base, last cell empty. Row4 first THREE cells purple magic CHARGE tiny clustered rune sparks gradually concentrating at same center, fourth/fifth cells empty. Pixel art, hard edges with discrete colored clusters, no soft bloom, ivory highlight, muted gold/ochre, purple/violet, pale cyan. EXACT positions counts rows, don't add assets in empty cells. All shapes completely within their cell; retain fixed center even as effects expand."
+    },
+    {
+      "actor": "vfx",
+      "name": "slash-light",
+      "raw": "vfx/combat.png",
+      "count": 3,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "durations": [
+        0.03,
+        0.04,
+        0.05
+      ],
+      "loop": false,
+      "source_body_height": 15,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    },
+    {
+      "actor": "vfx",
+      "name": "slash-heavy",
+      "raw": "vfx/combat.png",
+      "count": 4,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "durations": [
+        0.025,
+        0.025,
+        0.035,
+        0.035
+      ],
+      "loop": false,
+      "source_body_height": 12,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    },
+    {
+      "actor": "vfx",
+      "name": "boss-slash",
+      "raw": "vfx/combat.png",
+      "count": 4,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "durations": [
+        0.04,
+        0.04,
+        0.06,
+        0.06
+      ],
+      "loop": false,
+      "source_body_height": 4,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    },
+    {
+      "actor": "vfx",
+      "name": "hit",
+      "raw": "vfx/combat.png",
+      "count": 3,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        10,
+        11,
+        12
+      ],
+      "durations": [
+        0.035,
+        0.045,
+        0.07
+      ],
+      "loop": false,
+      "source_body_height": 17,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    },
+    {
+      "actor": "vfx",
+      "name": "dust",
+      "raw": "vfx/combat.png",
+      "count": 4,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "durations": [
+        0.05,
+        0.05,
+        0.06,
+        0.08
+      ],
+      "loop": false,
+      "source_body_height": 11,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    },
+    {
+      "actor": "vfx",
+      "name": "shockwave",
+      "raw": "vfx/combat.png",
+      "count": 5,
+      "sheet_count": 25,
+      "grid": [
+        5,
+        5
+      ],
+      "rows": 5,
+      "indices": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "durations": [
+        0.04,
+        0.05,
+        0.06,
+        0.07,
+        0.1
+      ],
+      "loop": false,
+      "source_body_height": 3,
+      "anchor_mode": "center",
+      "prompt": "Pixel art game VFX sprite animation sheet, NO characters, transparent background no text no grid no broad glow. FIVE columns FIVE rows equally spaced cells generous margins no overlap. Row1 first THREE cells a LINEAR horizontal sword THRUST streak pointing RIGHT: sharp ivory narrow streak emerging, longer contact streak with gold tip, broken fading small streak. Last2 blank. Row2 first FOUR cells a DIAGONAL sword slash arc sequence from upper left to lower right: starting thin ivory-gold arc, fuller crescent, trailing broken arc, fading fragments. Last1 blank. Row3 first THREE cells gold-white HIT SPARK: small star contact, radiating sharp sparks, sparse fading points. Last2 blank. Row4 first FOUR cells muted ochre-gray DUST ground puff animation expanding then dissipating; common ground baseline, blank last cell. Row5 FIVE cells a LOW WIDE ground SHOCKWAVE: central impact peak, expanding curved wave, wider ripple, low broken ripple, sparse fading fragments. Shapes each fully confined to own cell, clear separation. Hard discrete pixel clusters no soft bloom. Bone-white, pale gold, dusty brown, desaturated teal highlights, dark outlines. Source for tiny native gameplay sprites; prioritize clear silhouette over fine noise."
+    }
+  ],
+  "profiles": {
+    "boss": "profiles/boss-animation.json",
+    "walker": "profiles/walker-animation.json",
+    "ranged": "profiles/ranged-animation.json",
+    "lunger": "profiles/lunger-animation.json"
+  }
+}

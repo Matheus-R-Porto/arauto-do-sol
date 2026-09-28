@@ -1,0 +1,5 @@
+{
+  "name":"Osso, tecido gasto e aço — mestre v1",
+  "notes":"As sete primeiras cores são as sete cores visíveis da referência fornecida. As demais estendem os meios-tons e o aço do idle gerado. Transparência não entra nesta lista.",
+  "colors":["#dbd3ba","#b5ac96","#8f8572","#695f4f","#42392f","#2e251e","#1a120b","#eee7cf","#c7bea6","#a49981","#7b705b","#544a3b","#242329","#515459","#8c8e8c","#c3c5b9"]
+}

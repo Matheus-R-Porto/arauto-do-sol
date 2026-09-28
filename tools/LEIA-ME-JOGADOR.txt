@@ -1,0 +1,53 @@
+ARAUTO DO SOL — DEMO v0.6.0
+Windows 10/11 · teclado/mouse ou controle Xbox
+
+COMO JOGAR
+1. Extraia o ZIP inteiro (clique direito > Extrair tudo).
+2. Abra a pasta extraída.
+3. Dê dois cliques em "Jogar Arauto do Sol.exe".
+4. O jogo abre no navegador. Pressione Espaço ou E para começar.
+
+Mantenha a pequena janela do iniciador aberta enquanto joga.
+Ao terminar, feche a aba do jogo e clique em Encerrar no iniciador.
+Se a aba não abrir, use o botão "Abrir o jogo" na janela.
+Não abra o EXE de dentro do ZIP e não separe os arquivos da pasta.
+
+Não precisa instalar Node.js, usar comandos, criar conta ou ter internet.
+O iniciador usa recursos do Windows para servir o jogo somente no seu computador.
+É uma demo local sem assinatura digital e sem instalação.
+
+CONTROLES
+A/D ou setas: andar
+Espaço: pular (solte antes para salto curto)
+Shift: correr
+Seta para baixo + Espaço: descer de plataforma
+J / clique esquerdo: espada, golpe 1
+U / clique direito: espada, golpe 2
+E: alavanca, baú, porta final ou repouso
+Portas entre salas: atravesse caminhando
+F: tela cheia
+Esc: pausa
+M: ligar/desligar som
+R: voltar ao checkpoint
+F3: mapa de debug (inclui caminhos ainda não descobertos; use se quiser)
+Controle Xbox: analógico/d-pad move, A pula, B/RB corre, X/RT ataca, LB interage.
+
+SOBRE O TESTE
+Chave, portas abertas, alavanca, atalhos e fragmentos permanecem após morrer.
+Fechar ou recarregar a aba inicia uma partida nova. Não há save em disco.
+O mapa de debug revela a região inteira; para testar descoberta, jogue sem ele.
+Animações ampliadas do protagonista, inimigos, Guardião e efeitos.
+Os sinais dos ataques acompanham os mesmos tempos de combate da versão anterior.
+Esta versão testa exploração, combate, navegação e leitura das animações.
+
+O QUE CONTAR AO AUTOR
+- Quanto tempo levou a primeira partida?
+- Onde ficou perdido ou sem saber como prosseguir?
+- Reconheceu o lugar ao abrir um atalho?
+- Conseguiu relacionar a chave à porta final e a alavanca à plataforma do Pátio?
+- A energia e o retorno ao modo de exploração ficaram melhores?
+- Ficou claro quando o protagonista anda, corre, golpeia, recebe dano ou morre?
+- Ficou claro quando cada inimigo preparava o golpe e quando estava se recuperando?
+- Encontrou algum travamento? Diga a sala e o que fez antes.
+
+

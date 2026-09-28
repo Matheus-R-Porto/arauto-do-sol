@@ -1,0 +1,286 @@
+{
+  "medallion": {
+    "before": {
+      "file": "frames/medallion.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        50,
+        25,
+        69,
+        43
+      ],
+      "colors": 10,
+      "sha256": "404cea8543d7ebf7714197541586d711201c092c4767c991636b14b703ca4fa5",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "scale": 0.04713804713804714,
+      "sourceAnchor": [
+        471.0,
+        468
+      ]
+    },
+    "after": {
+      "file": "hud-detail/medallion.png",
+      "canvas": [
+        512,
+        192
+      ],
+      "pivot": [
+        256,
+        176
+      ],
+      "bounds": [
+        200,
+        97,
+        279,
+        176
+      ],
+      "colors": 12,
+      "sha256": "f6aeaed8d5faf61b4e28a18bf29e688dd242ce2657a31cb14cb4520d60efa4a2",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "sourceAnchor": [
+        471.0,
+        468
+      ],
+      "scale": 0.18855218855218855,
+      "worldScale": 0.25,
+      "profile": "profiles/hud-detail.json",
+      "screenSize": [
+        19,
+        18
+      ]
+    },
+    "raw_sha256": "1555f145749aef5bcfc07bf8a0ef9a65814f7506e2b16f92fbdd0def433264e5"
+  },
+  "health-skull": {
+    "before": {
+      "file": "frames/health-skull.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        61,
+        36,
+        67,
+        44
+      ],
+      "colors": 9,
+      "sha256": "43dd882b8584ce55b01971766e90bc5733c8e981d2571adb4e359eb438b50242",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "scale": 0.02572347266881029,
+      "sourceAnchor": [
+        384.0,
+        410
+      ]
+    },
+    "after": {
+      "file": "hud-detail/health-skull.png",
+      "canvas": [
+        512,
+        192
+      ],
+      "pivot": [
+        256,
+        176
+      ],
+      "bounds": [
+        243,
+        144,
+        269,
+        176
+      ],
+      "colors": 11,
+      "sha256": "481e89b257a9dd2eb2a5d2552f9b45d7190071c8aa0a5f129ad8a6956c6a3084",
+      "raw": "hud",
+      "rawBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "sourceAnchor": [
+        384.0,
+        410
+      ],
+      "scale": 0.10289389067524116,
+      "worldScale": 0.25,
+      "profile": "profiles/hud-detail.json",
+      "screenSize": [
+        6,
+        8
+      ]
+    },
+    "raw_sha256": "1555f145749aef5bcfc07bf8a0ef9a65814f7506e2b16f92fbdd0def433264e5"
+  },
+  "energy-frame": {
+    "before": {
+      "file": "frames/energy-frame.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        29,
+        32,
+        98,
+        44
+      ],
+      "colors": 6,
+      "sha256": "846279f3a68c0e90533ff8c93474645d99ab1330d1e5e3df7568d81a840d0d5e",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "scale": 0.09302325581395349,
+      "sourceAnchor": [
+        371.0,
+        321
+      ]
+    },
+    "after": {
+      "file": "hud-detail/energy-frame.png",
+      "canvas": [
+        512,
+        192
+      ],
+      "pivot": [
+        256,
+        176
+      ],
+      "bounds": [
+        118,
+        128,
+        394,
+        176
+      ],
+      "colors": 11,
+      "sha256": "d64d47b9a092be709e15f334778624621ae991436bebe3d124b7777b0296cdbe",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "sourceAnchor": [
+        371.0,
+        321
+      ],
+      "scale": 0.37209302325581395,
+      "worldScale": 0.25,
+      "profile": "profiles/hud-detail.json",
+      "screenSize": [
+        69,
+        12
+      ]
+    },
+    "raw_sha256": "1555f145749aef5bcfc07bf8a0ef9a65814f7506e2b16f92fbdd0def433264e5"
+  },
+  "hud-fragment": {
+    "before": {
+      "file": "frames/hud-fragment.png",
+      "canvas": [
+        128,
+        48
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "bounds": [
+        62,
+        38,
+        66,
+        44
+      ],
+      "colors": 6,
+      "sha256": "30db168b20a979516f7add5d89fc081714134b3df7dc13c38d31b8826643be45",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 0.019933554817275746,
+      "sourceAnchor": [
+        390.5,
+        396
+      ]
+    },
+    "after": {
+      "file": "hud-detail/hud-fragment.png",
+      "canvas": [
+        512,
+        192
+      ],
+      "pivot": [
+        256,
+        176
+      ],
+      "bounds": [
+        249,
+        152,
+        263,
+        176
+      ],
+      "colors": 13,
+      "sha256": "bedc5fc1116deb2bd02dc69c996aed790a6ccc16a4333dd81f71489a894896c6",
+      "raw": "hud",
+      "rawBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "sourceAnchor": [
+        390.5,
+        396
+      ],
+      "scale": 0.07973421926910298,
+      "worldScale": 0.25,
+      "profile": "profiles/hud-detail.json",
+      "screenSize": [
+        4,
+        6
+      ]
+    },
+    "raw_sha256": "1555f145749aef5bcfc07bf8a0ef9a65814f7506e2b16f92fbdd0def433264e5"
+  }
+}

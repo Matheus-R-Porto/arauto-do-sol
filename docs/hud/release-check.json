@@ -1,0 +1,9 @@
+{
+  "zip": "Arauto-do-Sol-v0.5.4-Windows.zip",
+  "bytes": 4551839,
+  "sha256": "ff378aa89c85bd77588c1e798536612335dbb41306083ba6032145836dc02e02",
+  "files": 327,
+  "runtimeFiles": 325,
+  "runtimePNGs": 292,
+  "result": "All ZIP runtime bytes match the tested source; every manifest reference is present; no unreferenced PNGs."
+}

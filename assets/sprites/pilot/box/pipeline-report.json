@@ -1,0 +1,304 @@
+{
+  "tool_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "profile": {
+    "schema_version": 1,
+    "name": "protagonist",
+    "status": "idle_pilot_comparison",
+    "max_frame": [
+      128,
+      128
+    ],
+    "canvas": [
+      64,
+      40
+    ],
+    "pivot": [
+      32,
+      36
+    ],
+    "visible_size": [
+      48,
+      24
+    ],
+    "margin": 1,
+    "source_kind": "high_res",
+    "downsample_method": "box",
+    "scale_reference": {
+      "source_pixels": 609,
+      "target_pixels": 24
+    },
+    "source_pivot": null,
+    "pixel_scale": 1,
+    "max_colors": 16,
+    "palette": "../palettes/protagonist.json",
+    "require_fixed_palette": true,
+    "alpha_threshold": 128,
+    "dither": false,
+    "background": {
+      "mode": "auto",
+      "color": null,
+      "tolerance": 20
+    },
+    "notes": "Rascunho técnico. Método, escala e paleta só serão aprovados após referência e idle no jogo."
+  },
+  "palette_colors": [
+    [
+      219,
+      211,
+      186
+    ],
+    [
+      181,
+      172,
+      150
+    ],
+    [
+      143,
+      133,
+      114
+    ],
+    [
+      105,
+      95,
+      79
+    ],
+    [
+      66,
+      57,
+      47
+    ],
+    [
+      46,
+      37,
+      30
+    ],
+    [
+      26,
+      18,
+      11
+    ],
+    [
+      238,
+      231,
+      207
+    ],
+    [
+      199,
+      190,
+      166
+    ],
+    [
+      164,
+      153,
+      129
+    ],
+    [
+      123,
+      112,
+      91
+    ],
+    [
+      84,
+      74,
+      59
+    ],
+    [
+      36,
+      35,
+      41
+    ],
+    [
+      81,
+      84,
+      89
+    ],
+    [
+      140,
+      142,
+      140
+    ],
+    [
+      195,
+      197,
+      185
+    ]
+  ],
+  "profile_sha256": "4544a66e50f3c6b7d5a751215d6850b15d85d39da3269735726ff23f5d86387d",
+  "frames": [
+    {
+      "size": [
+        64,
+        40
+      ],
+      "mode": "RGBA",
+      "visible_colors": 10,
+      "colors": [
+        "#1a120b",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8f8572",
+        "#a49981",
+        "#c7bea6"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        12,
+        37,
+        36
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-0.png",
+      "input_sha256": "39ab7e4c70ab3408844e691647cb3dd43bdf2c910711ae2d6d9260f56890f9da",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        332,
+        70,
+        598,
+        679
+      ],
+      "source_anchor": [
+        448,
+        679
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.03940886699507389,
+      "downsample_method": "box",
+      "post_scale_method": "nearest",
+      "pivot": [
+        32,
+        36
+      ],
+      "baseline": 36,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\pilot\\box\\idle-0.png",
+      "output_sha256": "f68f659a30125dd394e86b03be7b4f28bfe1648517fe8c0835894bc18386ace7"
+    },
+    {
+      "size": [
+        64,
+        40
+      ],
+      "mode": "RGBA",
+      "visible_colors": 10,
+      "colors": [
+        "#1a120b",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8f8572",
+        "#a49981",
+        "#b5ac96"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        12,
+        38,
+        36
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-1.png",
+      "input_sha256": "240083c3e490d199b408d5cb3e09cc1492507d91f5439bce0fb379478b315aca",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        218,
+        70,
+        499,
+        679
+      ],
+      "source_anchor": [
+        347,
+        679
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.03940886699507389,
+      "downsample_method": "box",
+      "post_scale_method": "nearest",
+      "pivot": [
+        32,
+        36
+      ],
+      "baseline": 36,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\pilot\\box\\idle-1.png",
+      "output_sha256": "fa01212fa129704cffa1b65cb474300be6e1f7d5c3c12dafa2b5e0dc9976ccf5"
+    },
+    {
+      "size": [
+        64,
+        40
+      ],
+      "mode": "RGBA",
+      "visible_colors": 10,
+      "colors": [
+        "#1a120b",
+        "#2e251e",
+        "#42392f",
+        "#515459",
+        "#544a3b",
+        "#695f4f",
+        "#7b705b",
+        "#8f8572",
+        "#a49981",
+        "#c7bea6"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        27,
+        12,
+        38,
+        36
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\protagonist\\idle\\idle-2.png",
+      "input_sha256": "af56c7a3f25c863ec4eb436a6fc93b847886603ed888adf794866c86337eb7e2",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        128,
+        70,
+        399,
+        679
+      ],
+      "source_anchor": [
+        249,
+        679
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.03940886699507389,
+      "downsample_method": "box",
+      "post_scale_method": "nearest",
+      "pivot": [
+        32,
+        36
+      ],
+      "baseline": 36,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\pilot\\box\\idle-2.png",
+      "output_sha256": "87a6a30e27aa316bf1328a91392af1f97e13b3bc7694e860617dfbe6e423a65c"
+    }
+  ]
+}

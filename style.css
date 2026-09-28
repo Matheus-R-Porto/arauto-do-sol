@@ -9,7 +9,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -32,9 +32,9 @@ body {
   display: block;
   /* pixel art: nada de interpolação ao escalar */
   image-rendering: pixelated;
-  image-rendering: crisp-edges;
+
   background: #0a0913;
-  border: 1px solid #1c1830;
+  border: 0;
 }
 
 #debug {
@@ -60,3 +60,9 @@ body {
 }
 
 #controles b { color: #a79ec6; font-weight: 600; }
+
+#stage:fullscreen { width:100vw; height:100vh; display:grid; place-items:center; background:#000; }
+#controls { text-align:center; max-width:calc(100vw - 16px); }
+#fullscreen { background:#171b22; color:#dfd1b5; border:1px solid #73664f; padding:6px 12px; margin-bottom:6px; cursor:pointer; font:inherit; }
+#fullscreen:focus-visible { outline:2px solid #dfd1b5; }
+#display-status { display:block; }

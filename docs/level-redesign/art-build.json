@@ -1,0 +1,1915 @@
+[
+  {
+    "asset": "sealed-gate",
+    "rawHash": "521789bd24724a3ef6e8ab39db424b2f06e967dc8f8db1ebf2b74b74d39fa25f",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "pivot": [
+        128,
+        376
+      ],
+      "visible_size": [
+        248,
+        376
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 1515,
+        "target_pixels": 352
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        256,
+        384
+      ],
+      "mode": "RGBA",
+      "visible_colors": 29,
+      "colors": [
+        "#0b1017",
+        "#121b24",
+        "#1b2731",
+        "#211d1b",
+        "#244449",
+        "#25333c",
+        "#303b2d",
+        "#33434a",
+        "#343027",
+        "#39717a",
+        "#45565b",
+        "#494135",
+        "#4b2925",
+        "#4d5b3d",
+        "#596b6c",
+        "#615443",
+        "#63a9b4",
+        "#71805a",
+        "#748583",
+        "#7f6b4f",
+        "#81493a",
+        "#94a09a",
+        "#a28a5b",
+        "#a5d7d1",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        15,
+        24,
+        242,
+        376
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\sealed-gate.png",
+      "input_sha256": "eca561f0c5f5552e4f084dfb43b5aed5cf0dbbf872814f6c38c146fa319a998b",
+      "input_size": [
+        1024,
+        1536
+      ],
+      "input_bbox": [
+        24,
+        6,
+        1000,
+        1521
+      ],
+      "source_anchor": [
+        512.0,
+        1521
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.23234323432343235,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        128,
+        376
+      ],
+      "baseline": 376,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\sealed-gate.png",
+      "output_sha256": "a699a5ad5374de9de5702c6ae458de674be27ad655e3cb3f9a859ca420eb7642"
+    }
+  },
+  {
+    "asset": "bone-pile-0",
+    "rawHash": "2c4895bf2bcc6b0b2c541bde1de5b658029fd595162fbd6c207570a60a2bcd56",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        160,
+        128
+      ],
+      "pivot": [
+        80,
+        116
+      ],
+      "visible_size": [
+        152,
+        120
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 606,
+        "target_pixels": 128
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        160,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        13,
+        34,
+        148,
+        116
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-pile-0.png",
+      "input_sha256": "7af0f4484a9e9463a1a6e827e57fc1bb47be4b319af3db5619de0761f32b8e2b",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        44,
+        189,
+        681,
+        579
+      ],
+      "source_anchor": [
+        362.5,
+        579
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.21122112211221122,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        116
+      ],
+      "baseline": 116,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-pile-0.png",
+      "output_sha256": "ee7e1a5e563d5abffdb68aca7d8a52f255aacf9654c527d8811fb840f5637450"
+    }
+  },
+  {
+    "asset": "bone-pile-1",
+    "rawHash": "2c4895bf2bcc6b0b2c541bde1de5b658029fd595162fbd6c207570a60a2bcd56",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        160,
+        128
+      ],
+      "pivot": [
+        80,
+        116
+      ],
+      "visible_size": [
+        152,
+        120
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 606,
+        "target_pixels": 128
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        160,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 15,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b4734c",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        14,
+        50,
+        146,
+        116
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-pile-1.png",
+      "input_sha256": "e027f6b7a40249410bf02de88d264f774f14ebeacc09ba5a6f6e4d2d77760ad1",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        51,
+        260,
+        678,
+        574
+      ],
+      "source_anchor": [
+        364.5,
+        574
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.21122112211221122,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        116
+      ],
+      "baseline": 116,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-pile-1.png",
+      "output_sha256": "f4d5100c2c6770419dfc53bc21e1ddd6e2369e738e66a46ec4fa49b02d192c46"
+    }
+  },
+  {
+    "asset": "bone-pile-2",
+    "rawHash": "2c4895bf2bcc6b0b2c541bde1de5b658029fd595162fbd6c207570a60a2bcd56",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        160,
+        128
+      ],
+      "pivot": [
+        80,
+        116
+      ],
+      "visible_size": [
+        152,
+        120
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 606,
+        "target_pixels": 128
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        160,
+        128
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        13,
+        75,
+        148,
+        116
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-pile-2.png",
+      "input_sha256": "18f1499966be72a287b879fff64d76a370c7afb5fb61f4327a23102786b87b43",
+      "input_size": [
+        724,
+        724
+      ],
+      "input_bbox": [
+        42,
+        385,
+        679,
+        579
+      ],
+      "source_anchor": [
+        360.5,
+        579
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.21122112211221122,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        116
+      ],
+      "baseline": 116,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-pile-2.png",
+      "output_sha256": "1ec5ed848983881648b04979bc3e9e74dbcc61287eb766a58181b23afb27400e"
+    }
+  },
+  {
+    "asset": "chest-closed",
+    "rawHash": "ea75bd101d8bab67225b7d005183d5e6bf0ec7ac22db4786432118572ee48691",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        152
+      ],
+      "visible_size": [
+        152,
+        152
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 776,
+        "target_pixels": 128
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b4734c",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        16,
+        78,
+        144,
+        152
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\chest-closed.png",
+      "input_sha256": "f7d7c9330071c3bdf3a8280f5aac48ad05a77b6ca85035ac2396878808287cd0",
+      "input_size": [
+        887,
+        887
+      ],
+      "input_bbox": [
+        64,
+        315,
+        843,
+        766
+      ],
+      "source_anchor": [
+        453.5,
+        766
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.16494845360824742,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        152
+      ],
+      "baseline": 152,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\chest-closed.png",
+      "output_sha256": "2706f4a77fc1df7d0983cd4830b943e86b7ef0b6b4c35610906b881d5b6718bb"
+    }
+  },
+  {
+    "asset": "chest-open",
+    "rawHash": "ea75bd101d8bab67225b7d005183d5e6bf0ec7ac22db4786432118572ee48691",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        152
+      ],
+      "visible_size": [
+        152,
+        152
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 776,
+        "target_pixels": 128
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b4734c",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        17,
+        49,
+        143,
+        152
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\chest-open.png",
+      "input_sha256": "745ceaa6018d174ac2bf33f17cd4f0b1cac26cd0a872977f97b941d19b06c9de",
+      "input_size": [
+        887,
+        887
+      ],
+      "input_bbox": [
+        63,
+        139,
+        829,
+        766
+      ],
+      "source_anchor": [
+        446.0,
+        766
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.16494845360824742,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        80,
+        152
+      ],
+      "baseline": 152,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\chest-open.png",
+      "output_sha256": "f691c36e422f52c0b5f559973304f3c5e490a6a155806753b8b9642a70991f92"
+    }
+  },
+  {
+    "asset": "bone-currency",
+    "rawHash": "2c4895bf2bcc6b0b2c541bde1de5b658029fd595162fbd6c207570a60a2bcd56",
+    "profile": {
+      "schema_version": 1,
+      "name": "level-props",
+      "max_frame": [
+        512,
+        512
+      ],
+      "canvas": [
+        40,
+        48
+      ],
+      "pivot": [
+        20,
+        44
+      ],
+      "visible_size": [
+        32,
+        40
+      ],
+      "margin": 4,
+      "source_kind": "high_res",
+      "downsample_method": "lanczos",
+      "scale_reference": {
+        "source_pixels": 125,
+        "target_pixels": 24
+      },
+      "source_pivot": null,
+      "pixel_scale": 1,
+      "max_colors": 32,
+      "palette": "../palettes/world-stone.json",
+      "require_fixed_palette": true,
+      "alpha_threshold": 128,
+      "dither": false,
+      "background": {
+        "mode": "preserve",
+        "color": null,
+        "tolerance": 18
+      },
+      "density": 4,
+      "notes": "New cemetery event props; shared existing world-stone palette; RAW cropped only into work directory.",
+      "_profile_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\profiles\\level-props.json",
+      "_palette_path": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\tools\\sprite_pipeline\\palettes\\world-stone.json",
+      "_colors": [
+        [
+          11,
+          16,
+          23
+        ],
+        [
+          18,
+          27,
+          36
+        ],
+        [
+          27,
+          39,
+          49
+        ],
+        [
+          37,
+          51,
+          60
+        ],
+        [
+          51,
+          67,
+          74
+        ],
+        [
+          69,
+          86,
+          91
+        ],
+        [
+          89,
+          107,
+          108
+        ],
+        [
+          116,
+          133,
+          131
+        ],
+        [
+          148,
+          160,
+          154
+        ],
+        [
+          183,
+          187,
+          170
+        ],
+        [
+          219,
+          211,
+          186
+        ],
+        [
+          240,
+          229,
+          201
+        ],
+        [
+          33,
+          29,
+          27
+        ],
+        [
+          52,
+          48,
+          39
+        ],
+        [
+          73,
+          65,
+          53
+        ],
+        [
+          97,
+          84,
+          67
+        ],
+        [
+          127,
+          107,
+          79
+        ],
+        [
+          162,
+          138,
+          91
+        ],
+        [
+          195,
+          170,
+          112
+        ],
+        [
+          230,
+          202,
+          133
+        ],
+        [
+          48,
+          59,
+          45
+        ],
+        [
+          77,
+          91,
+          61
+        ],
+        [
+          113,
+          128,
+          90
+        ],
+        [
+          36,
+          68,
+          73
+        ],
+        [
+          57,
+          113,
+          122
+        ],
+        [
+          99,
+          169,
+          180
+        ],
+        [
+          165,
+          215,
+          209
+        ],
+        [
+          75,
+          41,
+          37
+        ],
+        [
+          129,
+          73,
+          58
+        ],
+        [
+          180,
+          115,
+          76
+        ],
+        [
+          76,
+          39,
+          50
+        ],
+        [
+          177,
+          75,
+          79
+        ]
+      ]
+    },
+    "output": {
+      "size": [
+        40,
+        48
+      ],
+      "mode": "RGBA",
+      "visible_colors": 14,
+      "colors": [
+        "#0b1017",
+        "#211d1b",
+        "#343027",
+        "#494135",
+        "#4b2925",
+        "#615443",
+        "#7f6b4f",
+        "#81493a",
+        "#a28a5b",
+        "#b7bbaa",
+        "#c3aa70",
+        "#dbd3ba",
+        "#e6ca85",
+        "#f0e5c9"
+      ],
+      "alpha": "binary",
+      "transparent": true,
+      "visible_bbox": [
+        8,
+        14,
+        32,
+        44
+      ],
+      "input": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\work\\level-redesign\\bone-currency.png",
+      "input_sha256": "530f32a691d83e912c5f87c3cd2532970f7e7f800de903b568b911611fb14235",
+      "input_size": [
+        125,
+        165
+      ],
+      "input_bbox": [
+        0,
+        3,
+        125,
+        165
+      ],
+      "source_anchor": [
+        62.5,
+        165
+      ],
+      "background": {
+        "action": "preserved_alpha",
+        "removed_pixels": 0
+      },
+      "common_scale": 0.192,
+      "downsample_method": "lanczos",
+      "post_scale_method": "nearest",
+      "pivot": [
+        20,
+        44
+      ],
+      "baseline": 44,
+      "output": "C:\\Users\\theuz\\.codex\\.chatgpt-projects\\g-p-6aabd2099e4c8191abbea50685eb5b37\\arauto-do-sol\\assets\\sprites\\world\\level\\bone-currency.png",
+      "output_sha256": "a4b79f72a8b32f1c80b135e9ba7bba9e2e7c7ca9133eb8cebeed139eef413085"
+    }
+  }
+]

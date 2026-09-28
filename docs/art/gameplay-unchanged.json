@@ -1,0 +1,86 @@
+[
+  {
+    "file": "config/tuning.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/audio/effects.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/audio/heartbeat.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/core/camera.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/core/input.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/core/loop.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/core/math.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/entities/player.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/entities/zombie.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/entities/boss/guardian.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/entities/enemies/enemy.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/entities/enemies/projectile.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/systems/energy.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/systems/health.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/background.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/progression.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/room-manager.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/tilemap.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/validate.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/rooms/cemetery.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/world/rooms/sala-de-teste.js",
+    "unchanged": true
+  }
+]

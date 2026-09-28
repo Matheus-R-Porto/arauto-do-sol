@@ -1,0 +1,9 @@
+{
+  "source_size": [2172,724],
+  "source_body_height": 609,
+  "frames": [
+    {"name":"idle-0.png","box":[0,0,724,724],"anchor":[448,679]},
+    {"name":"idle-1.png","box":[724,0,1448,724],"anchor":[347,679]},
+    {"name":"idle-2.png","box":[1448,0,2172,724],"anchor":[249,679]}
+  ]
+}

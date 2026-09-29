@@ -46,7 +46,6 @@ On the title screen, press **Space / E / controller A**. The same inputs restart
 | Move | A/D, arrow keys | Stick / d-pad |
 | Jump, variable height | Space / K; release for a short hop | A |
 | Run | Hold Shift / L | Hold B / RB |
-| Drop through platform | ↓ / S + Space | ↓ + A |
 | Sword, hit 1 | M1 / J | X |
 | Sword, hit 2 | M2 / U | RT |
 | Interact, rest | E | LB |
